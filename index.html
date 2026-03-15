@@ -449,6 +449,16 @@ a.nav-cta{font-size:.85rem;font-weight:700;color:#fff !important;background:#15c
   .hero-macbook{max-width:85%}
   .reveal-cols{padding:0 6%}
 }
+/* ===== CHAT BUBBLES ===== */
+.chat-reaction{max-width:600px;margin:0 auto;padding:20px 24px}
+.chat-row{display:flex;align-items:flex-start;gap:10px;margin-bottom:12px}
+.chat-row.right{flex-direction:row-reverse}
+.chat-avatar{width:36px;height:36px;border-radius:50%;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:.75rem;font-weight:700;color:#fff}
+.chat-bubble{max-width:320px;padding:10px 16px;border-radius:18px;font-size:.85rem;line-height:1.55;position:relative}
+.chat-row:not(.right) .chat-bubble{background:#f0f0f5;color:#1d1d1f;border-bottom-left-radius:4px}
+.chat-row.right .chat-bubble{background:#15cf78;color:#fff;border-bottom-right-radius:4px}
+.chat-name{font-size:.7rem;font-weight:600;color:#999;margin-bottom:2px;margin-left:4px}
+.chat-row.right .chat-name{margin-right:4px;margin-left:0;text-align:right}
 </style>
 </head>
 <body>
@@ -544,6 +554,18 @@ a.nav-cta{font-size:.85rem;font-weight:700;color:#fff !important;background:#15c
   </div>
 </section>
 
+<!-- Chat: Dashboard reaction -->
+<div class="chat-reaction anim">
+  <div class="chat-row">
+    <div class="chat-avatar" style="background:#f59e0b">佐</div>
+    <div><div class="chat-name">佐藤（デザイナー）</div><div class="chat-bubble">え、開いた瞬間に今日やることわかるの？ 朝のSlack確認作業なくなるじゃん…</div></div>
+  </div>
+  <div class="chat-row right">
+    <div class="chat-avatar" style="background:#3b82f6">西</div>
+    <div><div class="chat-name">西宮</div><div class="chat-bubble">そう。タスク漏れで焦ることなくなった 🙌</div></div>
+  </div>
+</div>
+
 <!-- LINE NOTIFY -->
 <section class="section">
   <div class="section-inner">
@@ -591,6 +613,18 @@ a.nav-cta{font-size:.85rem;font-weight:700;color:#fff !important;background:#15c
   </div>
 </section>
 
+<!-- Chat: LINE reaction -->
+<div class="chat-reaction anim">
+  <div class="chat-row">
+    <div class="chat-avatar" style="background:#ec4899">山</div>
+    <div><div class="chat-name">山田萌子（PM）</div><div class="chat-bubble">朝LINEで通知来るの地味にありがたい。アプリ開く前に把握できる</div></div>
+  </div>
+  <div class="chat-row right">
+    <div class="chat-avatar" style="background:#3b82f6">西</div>
+    <div><div class="chat-name">西宮</div><div class="chat-bubble">通勤中にチェックできるのがいいよね</div></div>
+  </div>
+</div>
+
 <!-- FEATURE 1: AI Structuring -->
 <section class="section section-gray" id="feat-ai">
   <div class="section-inner">
@@ -612,6 +646,22 @@ a.nav-cta{font-size:.85rem;font-weight:700;color:#fff !important;background:#15c
   </div>
 </section>
 
+<!-- Chat: AI Structuring reaction -->
+<div class="chat-reaction anim">
+  <div class="chat-row">
+    <div class="chat-avatar" style="background:#8b5cf6">T</div>
+    <div><div class="chat-name">Tommy（エンジニア）</div><div class="chat-bubble">クライアントのチャット貼っただけでタスク全部出てきたんだけど…これ本物？😳</div></div>
+  </div>
+  <div class="chat-row right">
+    <div class="chat-avatar" style="background:#3b82f6">西</div>
+    <div><div class="chat-name">西宮</div><div class="chat-bubble">本物。要件定義書レベルで出てくるから、もう手動でタスク分解しなくていい</div></div>
+  </div>
+  <div class="chat-row">
+    <div class="chat-avatar" style="background:#8b5cf6">T</div>
+    <div><div class="chat-bubble">マジか…今まで30分かけてたのが一瞬で終わる</div></div>
+  </div>
+</div>
+
 <!-- EXPANDING BG: AI Memory -->
 <section class="expand-section" id="feat-memory">
   <div class="expand-bg" id="expandBg"></div>
@@ -621,6 +671,18 @@ a.nav-cta{font-size:.85rem;font-weight:700;color:#fff !important;background:#15c
     <p class="headline-desc anim anim-d2">追加依頼や仕様変更があっても安心。案件の背景を記憶したAIが、変更点を自動検出。タスクや要件も最新の状態に更新します。</p>
   </div>
 </section>
+
+<!-- Chat: AI Memory reaction -->
+<div class="chat-reaction anim">
+  <div class="chat-row">
+    <div class="chat-avatar" style="background:#f59e0b">佐</div>
+    <div><div class="chat-name">佐藤（デザイナー）</div><div class="chat-bubble">クライアントから追加依頼来たんだけど、AIに伝えたらタスクも見積もりも自動で更新された…</div></div>
+  </div>
+  <div class="chat-row right">
+    <div class="chat-avatar" style="background:#3b82f6">西</div>
+    <div><div class="chat-name">西宮</div><div class="chat-bubble">仕様変更の度にスプレッドシート直してた時代が懐かしい😂</div></div>
+  </div>
+</div>
 
 <!-- FEATURE 2: Estimate / AI見積書 -->
 <section class="section">
@@ -643,6 +705,18 @@ a.nav-cta{font-size:.85rem;font-weight:700;color:#fff !important;background:#15c
   </div>
 </section>
 
+<!-- Chat: Estimate reaction -->
+<div class="chat-reaction anim">
+  <div class="chat-row">
+    <div class="chat-avatar" style="background:#ec4899">山</div>
+    <div><div class="chat-name">山田萌子（PM）</div><div class="chat-bubble">見積書作るのにいつも1時間かかってたのに、AIに「見積もり作って」って言ったら30秒で出てきた</div></div>
+  </div>
+  <div class="chat-row right">
+    <div class="chat-avatar" style="background:#3b82f6">西</div>
+    <div><div class="chat-name">西宮</div><div class="chat-bubble">項目も単価も的確だからそのまま出せるレベルだよね</div></div>
+  </div>
+</div>
+
 <!-- FEATURE 3: Invoice / 請求書 -->
 <section class="section section-gray">
   <div class="section-inner">
@@ -663,6 +737,14 @@ a.nav-cta{font-size:.85rem;font-weight:700;color:#fff !important;background:#15c
     </div>
   </div>
 </section>
+
+<!-- Chat: Invoice reaction -->
+<div class="chat-reaction anim">
+  <div class="chat-row">
+    <div class="chat-avatar" style="background:#8b5cf6">T</div>
+    <div><div class="chat-name">Tommy（エンジニア）</div><div class="chat-bubble">納品終わったらワンタップで請求書できるの楽すぎる。もうExcelで請求書作る生活には戻れない</div></div>
+  </div>
+</div>
 
 <!-- FEATURE 4: Partner (2-block showcase) -->
 <section class="section partner-showcase">
@@ -706,6 +788,22 @@ a.nav-cta{font-size:.85rem;font-weight:700;color:#fff !important;background:#15c
     </div>
   </div>
 </section>
+
+<!-- Chat: Partner reaction -->
+<div class="chat-reaction anim">
+  <div class="chat-row">
+    <div class="chat-avatar" style="background:#f59e0b">佐</div>
+    <div><div class="chat-name">佐藤（デザイナー）</div><div class="chat-bubble">パートナー管理すごくない？前に一緒に仕事した人の連絡先とスキルが全部残ってる</div></div>
+  </div>
+  <div class="chat-row right">
+    <div class="chat-avatar" style="background:#3b82f6">西</div>
+    <div><div class="chat-name">西宮</div><div class="chat-bubble">AIがチーム分析してくれるから「次の案件、誰にお願いしよう？」がすぐ決まる</div></div>
+  </div>
+  <div class="chat-row">
+    <div class="chat-avatar" style="background:#ec4899">山</div>
+    <div><div class="chat-bubble">あと1人エンジニア入れたら月30万増やせるって提案されて驚いた 😮</div></div>
+  </div>
+</div>
 
 <!-- FULL WIDTH STATEMENT -->
 <section class="section section-dark">
