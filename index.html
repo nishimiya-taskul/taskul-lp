@@ -449,16 +449,23 @@ a.nav-cta{font-size:.85rem;font-weight:700;color:#fff !important;background:#15c
   .hero-macbook{max-width:85%}
   .reveal-cols{padding:0 6%}
 }
-/* ===== CHAT BUBBLES ===== */
-.chat-reaction{max-width:600px;margin:0 auto;padding:20px 24px}
-.chat-row{display:flex;align-items:flex-start;gap:10px;margin-bottom:12px}
-.chat-row.right{flex-direction:row-reverse}
-.chat-avatar{width:36px;height:36px;border-radius:50%;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:.75rem;font-weight:700;color:#fff}
-.chat-bubble{max-width:320px;padding:10px 16px;border-radius:18px;font-size:.85rem;line-height:1.55;position:relative}
-.chat-row:not(.right) .chat-bubble{background:#f0f0f5;color:#1d1d1f;border-bottom-left-radius:4px}
-.chat-row.right .chat-bubble{background:#15cf78;color:#fff;border-bottom-right-radius:4px}
-.chat-name{font-size:.7rem;font-weight:600;color:#999;margin-bottom:2px;margin-left:4px}
-.chat-row.right .chat-name{margin-right:4px;margin-left:0;text-align:right}
+/* ===== CHAT CONVERSATION ===== */
+.chat-section{padding:48px 0}
+.chat-panel{max-width:640px;margin:0 auto;padding:0 20px;position:relative}
+.chat-line{display:flex;align-items:flex-start;gap:12px;margin-bottom:18px;opacity:0;transform:translateY(20px);transition:opacity .4s,transform .4s cubic-bezier(.16,1,.3,1)}
+.chat-line.visible{opacity:1;transform:translateY(0)}
+.chat-line.right{flex-direction:row-reverse}
+.chat-avatar{width:44px;height:44px;border-radius:50%;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:.85rem;font-weight:800;color:#fff;box-shadow:0 2px 8px rgba(0,0,0,.1)}
+.chat-body{max-width:80%;display:flex;flex-direction:column;gap:3px}
+.chat-line.right .chat-body{align-items:flex-end}
+.chat-name{font-size:.65rem;font-weight:700;padding:0 4px}
+.chat-name.yui{color:#10b981}
+.chat-name.kenta{color:#3b82f6}
+.chat-bubble{padding:12px 16px;border-radius:18px;font-size:.88rem;font-weight:500;line-height:1.75;color:#1f2937;min-height:1.75em;position:relative}
+.chat-line:not(.right) .chat-bubble{background:#fff;border:1px solid rgba(0,0,0,.05);border-top-left-radius:4px;box-shadow:0 1px 4px rgba(0,0,0,.04)}
+.chat-line.right .chat-bubble{background:#f0fdf4;border:1px solid rgba(34,197,94,.1);border-top-right-radius:4px}
+.chat-cursor{display:inline-block;width:2px;height:1em;background:#22c55e;vertical-align:text-bottom;animation:blink .7s step-end infinite;margin-left:1px}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
 </style>
 </head>
 <body>
@@ -555,14 +562,22 @@ a.nav-cta{font-size:.85rem;font-weight:700;color:#fff !important;background:#15c
 </section>
 
 <!-- Chat: Dashboard reaction -->
-<div class="chat-reaction anim">
-  <div class="chat-row">
-    <div class="chat-avatar" style="background:#f59e0b">佐</div>
-    <div><div class="chat-name">佐藤（デザイナー）</div><div class="chat-bubble">え、開いた瞬間に今日やることわかるの？ 朝のSlack確認作業なくなるじゃん…</div></div>
-  </div>
-  <div class="chat-row right">
-    <div class="chat-avatar" style="background:#3b82f6">西</div>
-    <div><div class="chat-name">西宮</div><div class="chat-bubble">そう。タスク漏れで焦ることなくなった 🙌</div></div>
+<div class="chat-section" data-chat-scene>
+  <div class="chat-panel">
+    <div class="chat-line" data-seq="0">
+      <div class="chat-avatar" style="background:#f59e0b">ゆ</div>
+      <div class="chat-body">
+        <span class="chat-name yui">ゆい / Webデザイナー</span>
+        <div class="chat-bubble" data-typewrite="え、開いた瞬間に今日やること全部わかるの？ 朝のSlack確認いらないじゃん…"></div>
+      </div>
+    </div>
+    <div class="chat-line right" data-seq="1">
+      <div class="chat-avatar" style="background:#3b82f6">け</div>
+      <div class="chat-body">
+        <span class="chat-name kenta">けんた / エンジニア</span>
+        <div class="chat-bubble" data-typewrite="そう。タスク漏れで焦ることなくなった 🙌"></div>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -614,14 +629,22 @@ a.nav-cta{font-size:.85rem;font-weight:700;color:#fff !important;background:#15c
 </section>
 
 <!-- Chat: LINE reaction -->
-<div class="chat-reaction anim">
-  <div class="chat-row">
-    <div class="chat-avatar" style="background:#ec4899">山</div>
-    <div><div class="chat-name">山田萌子（PM）</div><div class="chat-bubble">朝LINEで通知来るの地味にありがたい。アプリ開く前に把握できる</div></div>
-  </div>
-  <div class="chat-row right">
-    <div class="chat-avatar" style="background:#3b82f6">西</div>
-    <div><div class="chat-name">西宮</div><div class="chat-bubble">通勤中にチェックできるのがいいよね</div></div>
+<div class="chat-section" data-chat-scene>
+  <div class="chat-panel">
+    <div class="chat-line" data-seq="0">
+      <div class="chat-avatar" style="background:#f59e0b">ゆ</div>
+      <div class="chat-body">
+        <span class="chat-name yui">ゆい</span>
+        <div class="chat-bubble" data-typewrite="朝LINEで通知来るの地味にありがたい。アプリ開く前に把握できる"></div>
+      </div>
+    </div>
+    <div class="chat-line right" data-seq="1">
+      <div class="chat-avatar" style="background:#3b82f6">け</div>
+      <div class="chat-body">
+        <span class="chat-name kenta">けんた</span>
+        <div class="chat-bubble" data-typewrite="通勤中にチェックできるのがいいよね 👍"></div>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -647,18 +670,29 @@ a.nav-cta{font-size:.85rem;font-weight:700;color:#fff !important;background:#15c
 </section>
 
 <!-- Chat: AI Structuring reaction -->
-<div class="chat-reaction anim">
-  <div class="chat-row">
-    <div class="chat-avatar" style="background:#8b5cf6">T</div>
-    <div><div class="chat-name">Tommy（エンジニア）</div><div class="chat-bubble">クライアントのチャット貼っただけでタスク全部出てきたんだけど…これ本物？😳</div></div>
-  </div>
-  <div class="chat-row right">
-    <div class="chat-avatar" style="background:#3b82f6">西</div>
-    <div><div class="chat-name">西宮</div><div class="chat-bubble">本物。要件定義書レベルで出てくるから、もう手動でタスク分解しなくていい</div></div>
-  </div>
-  <div class="chat-row">
-    <div class="chat-avatar" style="background:#8b5cf6">T</div>
-    <div><div class="chat-bubble">マジか…今まで30分かけてたのが一瞬で終わる</div></div>
+<div class="chat-section" data-chat-scene>
+  <div class="chat-panel">
+    <div class="chat-line right" data-seq="0">
+      <div class="chat-avatar" style="background:#3b82f6">け</div>
+      <div class="chat-body">
+        <span class="chat-name kenta">けんた</span>
+        <div class="chat-bubble" data-typewrite="クライアントのチャット貼っただけでタスク全部出てきたんだけど…これ本物？"></div>
+      </div>
+    </div>
+    <div class="chat-line" data-seq="1">
+      <div class="chat-avatar" style="background:#f59e0b">ゆ</div>
+      <div class="chat-body">
+        <span class="chat-name yui">ゆい</span>
+        <div class="chat-bubble" data-typewrite="...え、待って。これ全部自動で？ 😳"></div>
+      </div>
+    </div>
+    <div class="chat-line right" data-seq="2">
+      <div class="chat-avatar" style="background:#3b82f6">け</div>
+      <div class="chat-body">
+        <span class="chat-name kenta">けんた</span>
+        <div class="chat-bubble" data-typewrite="そう。今まで30分かけてたのが一瞬で終わる"></div>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -673,14 +707,22 @@ a.nav-cta{font-size:.85rem;font-weight:700;color:#fff !important;background:#15c
 </section>
 
 <!-- Chat: AI Memory reaction -->
-<div class="chat-reaction anim">
-  <div class="chat-row">
-    <div class="chat-avatar" style="background:#f59e0b">佐</div>
-    <div><div class="chat-name">佐藤（デザイナー）</div><div class="chat-bubble">クライアントから追加依頼来たんだけど、AIに伝えたらタスクも見積もりも自動で更新された…</div></div>
-  </div>
-  <div class="chat-row right">
-    <div class="chat-avatar" style="background:#3b82f6">西</div>
-    <div><div class="chat-name">西宮</div><div class="chat-bubble">仕様変更の度にスプレッドシート直してた時代が懐かしい😂</div></div>
+<div class="chat-section" data-chat-scene>
+  <div class="chat-panel">
+    <div class="chat-line" data-seq="0">
+      <div class="chat-avatar" style="background:#f59e0b">ゆ</div>
+      <div class="chat-body">
+        <span class="chat-name yui">ゆい</span>
+        <div class="chat-bubble" data-typewrite="追加依頼来たんだけど、AIに伝えたらタスクも見積もりも自動更新された…"></div>
+      </div>
+    </div>
+    <div class="chat-line right" data-seq="1">
+      <div class="chat-avatar" style="background:#3b82f6">け</div>
+      <div class="chat-body">
+        <span class="chat-name kenta">けんた</span>
+        <div class="chat-bubble" data-typewrite="仕様変更の度にスプレッドシート直してた時代が懐かしい 😂"></div>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -706,14 +748,22 @@ a.nav-cta{font-size:.85rem;font-weight:700;color:#fff !important;background:#15c
 </section>
 
 <!-- Chat: Estimate reaction -->
-<div class="chat-reaction anim">
-  <div class="chat-row">
-    <div class="chat-avatar" style="background:#ec4899">山</div>
-    <div><div class="chat-name">山田萌子（PM）</div><div class="chat-bubble">見積書作るのにいつも1時間かかってたのに、AIに「見積もり作って」って言ったら30秒で出てきた</div></div>
-  </div>
-  <div class="chat-row right">
-    <div class="chat-avatar" style="background:#3b82f6">西</div>
-    <div><div class="chat-name">西宮</div><div class="chat-bubble">項目も単価も的確だからそのまま出せるレベルだよね</div></div>
+<div class="chat-section" data-chat-scene>
+  <div class="chat-panel">
+    <div class="chat-line" data-seq="0">
+      <div class="chat-avatar" style="background:#f59e0b">ゆ</div>
+      <div class="chat-body">
+        <span class="chat-name yui">ゆい</span>
+        <div class="chat-bubble" data-typewrite="見積書作るのにいつも1時間かかってたのに、AIに頼んだら30秒で出てきた"></div>
+      </div>
+    </div>
+    <div class="chat-line right" data-seq="1">
+      <div class="chat-avatar" style="background:#3b82f6">け</div>
+      <div class="chat-body">
+        <span class="chat-name kenta">けんた</span>
+        <div class="chat-bubble" data-typewrite="項目も単価も的確だからそのまま出せるレベル 💯"></div>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -739,10 +789,15 @@ a.nav-cta{font-size:.85rem;font-weight:700;color:#fff !important;background:#15c
 </section>
 
 <!-- Chat: Invoice reaction -->
-<div class="chat-reaction anim">
-  <div class="chat-row">
-    <div class="chat-avatar" style="background:#8b5cf6">T</div>
-    <div><div class="chat-name">Tommy（エンジニア）</div><div class="chat-bubble">納品終わったらワンタップで請求書できるの楽すぎる。もうExcelで請求書作る生活には戻れない</div></div>
+<div class="chat-section" data-chat-scene>
+  <div class="chat-panel">
+    <div class="chat-line right" data-seq="0">
+      <div class="chat-avatar" style="background:#3b82f6">け</div>
+      <div class="chat-body">
+        <span class="chat-name kenta">けんた</span>
+        <div class="chat-bubble" data-typewrite="納品終わったらワンタップで請求書。もうExcelには戻れない"></div>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -790,18 +845,22 @@ a.nav-cta{font-size:.85rem;font-weight:700;color:#fff !important;background:#15c
 </section>
 
 <!-- Chat: Partner reaction -->
-<div class="chat-reaction anim">
-  <div class="chat-row">
-    <div class="chat-avatar" style="background:#f59e0b">佐</div>
-    <div><div class="chat-name">佐藤（デザイナー）</div><div class="chat-bubble">パートナー管理すごくない？前に一緒に仕事した人の連絡先とスキルが全部残ってる</div></div>
-  </div>
-  <div class="chat-row right">
-    <div class="chat-avatar" style="background:#3b82f6">西</div>
-    <div><div class="chat-name">西宮</div><div class="chat-bubble">AIがチーム分析してくれるから「次の案件、誰にお願いしよう？」がすぐ決まる</div></div>
-  </div>
-  <div class="chat-row">
-    <div class="chat-avatar" style="background:#ec4899">山</div>
-    <div><div class="chat-bubble">あと1人エンジニア入れたら月30万増やせるって提案されて驚いた 😮</div></div>
+<div class="chat-section" data-chat-scene>
+  <div class="chat-panel">
+    <div class="chat-line" data-seq="0">
+      <div class="chat-avatar" style="background:#f59e0b">ゆ</div>
+      <div class="chat-body">
+        <span class="chat-name yui">ゆい</span>
+        <div class="chat-bubble" data-typewrite="前に一緒に仕事した人の連絡先もスキルも全部残ってる。これは助かる…"></div>
+      </div>
+    </div>
+    <div class="chat-line right" data-seq="1">
+      <div class="chat-avatar" style="background:#3b82f6">け</div>
+      <div class="chat-body">
+        <span class="chat-name kenta">けんた</span>
+        <div class="chat-bubble" data-typewrite="AIが「あと1人エンジニア入れたら月30万増やせる」って提案してきた 😮"></div>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -1266,5 +1325,54 @@ if (expandBg) {
 document.querySelectorAll('.anim:not(.vis), .anim-scale:not(.vis)').forEach(el => io.observe(el));
 </script>
 
+</body>
+</html>
+<script>
+// Chat typewriter animation
+function typewriteScene(sceneEl){
+  if(sceneEl.dataset.started)return;
+  sceneEl.dataset.started='1';
+  var items=Array.from(sceneEl.querySelectorAll('[data-seq]'));
+  items.sort(function(a,b){return +a.dataset.seq - +b.dataset.seq});
+  var idx=0;
+  function showNext(){
+    if(idx>=items.length)return;
+    var item=items[idx];
+    item.classList.add('visible');
+    var bubble=item.querySelector('[data-typewrite]');
+    if(!bubble){idx++;setTimeout(showNext,200);return;}
+    var text=bubble.getAttribute('data-typewrite');
+    bubble.innerHTML='<span class="chat-cursor"></span>';
+    var i=0;
+    function type(){
+      if(i<text.length){
+        bubble.innerHTML=text.substring(0,i+1)+'<span class="chat-cursor"></span>';
+        i++;
+        var ch=text[i-1];
+        var delay=14;
+        if('、。！？…'.indexOf(ch)>=0)delay=80;
+        else if(ch===' ')delay=25;
+        else delay=10+Math.random()*10;
+        setTimeout(type,delay);
+      }else{
+        bubble.innerHTML=text;
+        idx++;
+        setTimeout(showNext,text.length<15?200:300);
+      }
+    }
+    setTimeout(type,100);
+  }
+  setTimeout(showNext,150);
+}
+var sceneObs=new IntersectionObserver(function(entries){
+  entries.forEach(function(entry){
+    if(entry.isIntersecting){
+      typewriteScene(entry.target);
+      sceneObs.unobserve(entry.target);
+    }
+  });
+},{threshold:0.1,rootMargin:'0px 0px -35% 0px'});
+document.querySelectorAll('[data-chat-scene]').forEach(function(s){sceneObs.observe(s)});
+</script>
 </body>
 </html>
