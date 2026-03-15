@@ -449,23 +449,6 @@ a.nav-cta{font-size:.85rem;font-weight:700;color:#fff !important;background:#15c
   .hero-macbook{max-width:85%}
   .reveal-cols{padding:0 6%}
 }
-/* ===== CHAT CONVERSATION ===== */
-.chat-section{padding:48px 0}
-.chat-panel{max-width:640px;margin:0 auto;padding:0 20px;position:relative}
-.chat-line{display:flex;align-items:flex-start;gap:12px;margin-bottom:18px;opacity:0;transform:translateY(20px);transition:opacity .4s,transform .4s cubic-bezier(.16,1,.3,1)}
-.chat-line.visible{opacity:1;transform:translateY(0)}
-.chat-line.right{flex-direction:row-reverse}
-.chat-avatar{width:44px;height:44px;border-radius:50%;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:.85rem;font-weight:800;color:#fff;box-shadow:0 2px 8px rgba(0,0,0,.1)}
-.chat-body{max-width:80%;display:flex;flex-direction:column;gap:3px}
-.chat-line.right .chat-body{align-items:flex-end}
-.chat-name{font-size:.65rem;font-weight:700;padding:0 4px}
-.chat-name.yui{color:#10b981}
-.chat-name.kenta{color:#3b82f6}
-.chat-bubble{padding:12px 16px;border-radius:18px;font-size:.88rem;font-weight:500;line-height:1.75;color:#1f2937;min-height:1.75em;position:relative}
-.chat-line:not(.right) .chat-bubble{background:#fff;border:1px solid rgba(0,0,0,.05);border-top-left-radius:4px;box-shadow:0 1px 4px rgba(0,0,0,.04)}
-.chat-line.right .chat-bubble{background:#f0fdf4;border:1px solid rgba(34,197,94,.1);border-top-right-radius:4px}
-.chat-cursor{display:inline-block;width:2px;height:1em;background:#22c55e;vertical-align:text-bottom;animation:blink .7s step-end infinite;margin-left:1px}
-@keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
 </style>
 </head>
 <body>
@@ -1327,52 +1310,5 @@ document.querySelectorAll('.anim:not(.vis), .anim-scale:not(.vis)').forEach(el =
 
 </body>
 </html>
-<script>
-// Chat typewriter animation
-function typewriteScene(sceneEl){
-  if(sceneEl.dataset.started)return;
-  sceneEl.dataset.started='1';
-  var items=Array.from(sceneEl.querySelectorAll('[data-seq]'));
-  items.sort(function(a,b){return +a.dataset.seq - +b.dataset.seq});
-  var idx=0;
-  function showNext(){
-    if(idx>=items.length)return;
-    var item=items[idx];
-    item.classList.add('visible');
-    var bubble=item.querySelector('[data-typewrite]');
-    if(!bubble){idx++;setTimeout(showNext,200);return;}
-    var text=bubble.getAttribute('data-typewrite');
-    bubble.innerHTML='<span class="chat-cursor"></span>';
-    var i=0;
-    function type(){
-      if(i<text.length){
-        bubble.innerHTML=text.substring(0,i+1)+'<span class="chat-cursor"></span>';
-        i++;
-        var ch=text[i-1];
-        var delay=14;
-        if('、。！？…'.indexOf(ch)>=0)delay=80;
-        else if(ch===' ')delay=25;
-        else delay=10+Math.random()*10;
-        setTimeout(type,delay);
-      }else{
-        bubble.innerHTML=text;
-        idx++;
-        setTimeout(showNext,text.length<15?200:300);
-      }
-    }
-    setTimeout(type,100);
-  }
-  setTimeout(showNext,150);
-}
-var sceneObs=new IntersectionObserver(function(entries){
-  entries.forEach(function(entry){
-    if(entry.isIntersecting){
-      typewriteScene(entry.target);
-      sceneObs.unobserve(entry.target);
-    }
-  });
-},{threshold:0.1,rootMargin:'0px 0px -35% 0px'});
-document.querySelectorAll('[data-chat-scene]').forEach(function(s){sceneObs.observe(s)});
-</script>
 </body>
 </html>
