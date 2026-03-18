@@ -292,6 +292,19 @@ a.nav-cta{font-size:.85rem;font-weight:700;color:#fff !important;background:#15c
 .line-task-item strong{font-weight:700}
 .line-badge{display:inline-flex;font-size:.65rem;font-weight:700;color:#06c755;background:rgba(6,199,85,.08);padding:3px 10px;border-radius:100px;margin-top:8px}
 
+/* ===== SLACK TILT VISUAL ===== */
+.slack-tilt-wrap{perspective:1200px;position:relative}
+.slack-tilt{border-radius:16px;overflow:hidden;box-shadow:0 30px 80px -20px rgba(0,0,0,.3),0 0 0 1px rgba(255,255,255,.06);transform:rotateY(-8deg) rotateX(4deg);transition:transform .6s cubic-bezier(.16,1,.3,1),box-shadow .6s}
+.slack-tilt:hover{transform:rotateY(-2deg) rotateX(1deg);box-shadow:0 40px 100px -20px rgba(0,0,0,.35)}
+.slack-tilt img{width:100%;display:block}
+.slack-flow{display:flex;align-items:center;gap:48px;margin-top:48px}
+.slack-flow-step{flex:1;text-align:center}
+.slack-flow-icon{width:56px;height:56px;border-radius:16px;display:flex;align-items:center;justify-content:center;margin:0 auto 12px;font-size:1.5rem}
+.slack-flow-label{font-size:.82rem;font-weight:700;color:rgba(0,0,0,.7)}
+.slack-flow-arrow{flex-shrink:0;color:rgba(0,0,0,.15);font-size:1.4rem}
+.section-dark .slack-flow-label{color:rgba(255,255,255,.7)}
+.section-dark .slack-flow-arrow{color:rgba(255,255,255,.15)}
+
 /* ===== PARTNER SHOWCASE (2-block) ===== */
 .partner-showcase{position:relative;overflow:hidden}
 .partner-block{display:grid;grid-template-columns:1.2fr 1fr;gap:60px;align-items:center}
@@ -645,23 +658,48 @@ a.nav-cta{font-size:.85rem;font-weight:700;color:#fff !important;background:#15c
   </div>
 </section>
 
-<!-- Slack Integration -->
-<section class="section section-gray">
+<!-- Slack Integration: Copy & Paste -->
+<section class="section section-dark">
   <div class="section-inner">
     <div class="split anim">
       <div class="split-text">
-        <p class="headline-eyebrow">Slack</p>
-        <h2 class="headline-large">Slackの会話から、<br>案件が生まれる。</h2>
-        <p class="headline-desc" style="margin:0">クライアントとのSlackのやり取りをTASKULに貼り付けるだけ。AIが依頼内容を読み解き、プロジェクト・タスク・見積書を自動構造化。「あのSlackどこだっけ？」がなくなります。</p>
+        <p class="headline-eyebrow" style="color:rgba(255,255,255,.4)">Slack Integration</p>
+        <h2 class="headline-large" style="color:#fff">Slackの会話を、<br>コピペするだけ。</h2>
+        <p class="headline-desc" style="margin:0;color:rgba(255,255,255,.5)">クライアントや社内のSlackのやり取りを、TASKULにそのまま貼り付ける。たったそれだけで、案件が動き出します。</p>
+        <div class="feat-points" style="margin-top:28px">
+          <div class="feat-point"><span class="feat-point-icon" style="background:rgba(96,165,250,.12)"><svg viewBox="0 0 24 24" style="stroke:#4ade80"><polyline points="20 6 9 17 4 12"/></svg></span><span style="color:rgba(255,255,255,.7)">Slackの長文チャットをそのまま貼るだけ</span></div>
+          <div class="feat-point"><span class="feat-point-icon" style="background:rgba(96,165,250,.12)"><svg viewBox="0 0 24 24" style="stroke:#4ade80"><polyline points="20 6 9 17 4 12"/></svg></span><span style="color:rgba(255,255,255,.7)">複数チャンネルの情報もまとめてOK</span></div>
+          <div class="feat-point"><span class="feat-point-icon" style="background:rgba(96,165,250,.12)"><svg viewBox="0 0 24 24" style="stroke:#4ade80"><polyline points="20 6 9 17 4 12"/></svg></span><span style="color:rgba(255,255,255,.7)">「あのSlackどこだっけ？」がゼロに</span></div>
+          <div class="feat-point"><span class="feat-point-icon" style="background:rgba(96,165,250,.12)"><svg viewBox="0 0 24 24" style="stroke:#4ade80"><polyline points="20 6 9 17 4 12"/></svg></span><span style="color:rgba(255,255,255,.7)">Standard プラン以上で利用可能</span></div>
+        </div>
       </div>
-      <div class="split-visual">
-        <div style="background:#1a1d21;border-radius:16px;padding:32px;text-align:center;color:rgba(255,255,255,.5);font-size:14px;min-height:240px;display:flex;align-items:center;justify-content:center">
-          <div>
-            <svg width="60" height="60" viewBox="0 0 24 24" fill="none" style="margin:0 auto 16px"><path d="M5.042 15.165a2.528 2.528 0 0 1-2.52 2.523A2.528 2.528 0 0 1 0 15.165a2.527 2.527 0 0 1 2.522-2.52h2.52v2.52zM6.313 15.165a2.527 2.527 0 0 1 2.521-2.52 2.527 2.527 0 0 1 2.521 2.52v6.313A2.528 2.528 0 0 1 8.834 24a2.528 2.528 0 0 1-2.521-2.522v-6.313zM8.834 5.042a2.528 2.528 0 0 1-2.521-2.52A2.528 2.528 0 0 1 8.834 0a2.528 2.528 0 0 1 2.521 2.522v2.52H8.834zM8.834 6.313a2.528 2.528 0 0 1 2.521 2.521 2.528 2.528 0 0 1-2.521 2.521H2.522A2.528 2.528 0 0 1 0 8.834a2.528 2.528 0 0 1 2.522-2.521h6.312zM18.956 8.834a2.528 2.528 0 0 1 2.522-2.521A2.528 2.528 0 0 1 24 8.834a2.528 2.528 0 0 1-2.522 2.521h-2.522V8.834zM17.688 8.834a2.528 2.528 0 0 1-2.523 2.521 2.527 2.527 0 0 1-2.52-2.521V2.522A2.527 2.527 0 0 1 15.165 0a2.528 2.528 0 0 1 2.523 2.522v6.312zM15.165 18.956a2.528 2.528 0 0 1 2.523 2.522A2.528 2.528 0 0 1 15.165 24a2.527 2.527 0 0 1-2.52-2.522v-2.522h2.52zM15.165 17.688a2.527 2.527 0 0 1-2.52-2.523 2.526 2.526 0 0 1 2.52-2.52h6.313A2.527 2.527 0 0 1 24 15.165a2.528 2.528 0 0 1-2.522 2.523h-6.313z" fill="#E01E5A"/></svg>
-            <p style="font-size:16px;font-weight:700;color:rgba(255,255,255,.8);margin-bottom:8px">Slack → TASKUL</p>
-            <p>やり取りを貼るだけで<br>案件が自動構造化</p>
+      <div class="split-visual anim anim-d2">
+        <div class="slack-tilt-wrap">
+          <div class="slack-tilt">
+            <img src="/images/slack-mock.png" alt="Slackの会話画面" loading="lazy">
           </div>
         </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Slack → AI Structuring -->
+<section class="section section-gray">
+  <div class="section-inner">
+    <div class="split split-reverse anim">
+      <div class="split-text">
+        <p class="headline-eyebrow">AI Structuring</p>
+        <h2 class="headline-large">AIが会話を読み解き、<br>案件を自動構造化。</h2>
+        <p class="headline-desc" style="margin:0">貼り付けたSlackの会話から、AIがプロジェクト名・タスク・納期・要件・注意点を自動抽出。見積書の項目まで提案します。</p>
+        <div class="feat-points" style="margin-top:28px">
+          <div class="feat-point"><span class="feat-point-icon"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></span>会話からタスク・要件・注意点を自動分類</div>
+          <div class="feat-point"><span class="feat-point-icon"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></span>納期・予算・担当者も自動検出</div>
+          <div class="feat-point"><span class="feat-point-icon"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></span>見積書の項目・工数までAIが提案</div>
+        </div>
+      </div>
+      <div class="split-visual anim anim-d2">
+        <div class="macbook-frame"><div class="macbook-screen"><img src="/images/real-project-detail.png" alt="AI構造化されたプロジェクト" loading="lazy"></div><div class="macbook-base"></div></div>
       </div>
     </div>
   </div>
@@ -996,6 +1034,7 @@ a.nav-cta{font-size:.85rem;font-weight:700;color:#fff !important;background:#15c
           <li>AIクレジット 3,000/月</li>
           <li>Freeの全機能</li>
           <li>LINE通知（本日・今週のタスク）</li>
+          <li>Slack連携（会話からプロジェクト自動作成）</li>
           <li>ファイル保存 無期限</li>
         </ul>
         <div class="pricing-credit-guide">
