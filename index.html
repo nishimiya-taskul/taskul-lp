@@ -285,7 +285,14 @@ a.nav-cta{font-size:.85rem;font-weight:700;color:#fff !important;background:#15c
 .line-avatar svg{width:22px;height:22px;fill:#fff}
 .line-row{display:flex;align-items:flex-start;gap:10px}
 .line-name{font-size:.7rem;font-weight:600;color:rgba(0,0,0,.4);margin-bottom:4px}
-.line-chat-bg{background:#8bc5e0;border-radius:20px;padding:28px 24px;position:relative;overflow:hidden}
+/* iPhone Mock */
+.iphone-mock{position:relative;width:280px;margin:0 auto;background:#1d1d1f;border-radius:44px;padding:14px;box-shadow:0 20px 60px -12px rgba(0,0,0,.25),inset 0 0 0 2px rgba(255,255,255,.1)}
+.iphone-mock::before{content:'';position:absolute;top:14px;left:50%;transform:translateX(-50%);width:90px;height:24px;background:#1d1d1f;border-radius:0 0 16px 16px;z-index:10}
+.iphone-screen{border-radius:32px;overflow:hidden;position:relative}
+.iphone-status{height:48px;display:flex;align-items:flex-end;justify-content:space-between;padding:0 24px 6px;font-size:11px;font-weight:600;color:#fff;position:relative;z-index:5;background:linear-gradient(180deg,#8bc5e0 0%,#8bc5e0 100%)}
+.iphone-status .time{font-size:14px;font-weight:700}
+.iphone-status .icons{display:flex;gap:4px;align-items:center;font-size:11px}
+.line-chat-bg{background:#8bc5e0;border-radius:0;padding:20px 18px 24px;position:relative;overflow:hidden}
 .line-chat-bg::before{content:'';position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.07'%3E%3Cpath d='M0 0h8v8H0zm16 16h8v8h-8z'/%3E%3C/g%3E%3C/svg%3E");pointer-events:none}
 .line-header{display:flex;align-items:center;gap:8px;margin-bottom:16px;position:relative;z-index:1}
 .line-header-icon{width:32px;height:32px;border-radius:50%;background:#06c755;display:flex;align-items:center;justify-content:center}
@@ -401,13 +408,12 @@ a.nav-cta{font-size:.85rem;font-weight:700;color:#fff !important;background:#15c
   .macbook-base::before{height:3px;border-radius:0 0 3px 3px}
   .feat-points{gap:12px;margin-top:20px}
   .feat-point{font-size:.82rem}
-  /* FV Reveal: 2列表示（外側2列非表示）、FV全体に敷き詰め */
+  /* FV Reveal: 全4列タイルモザイク、FV全体に敷き詰め */
   .reveal-screen-wrap{perspective:none}
-  .reveal-cols{inset:-20% -4% -20%;gap:10px;padding:0 4%;transform:none}
-  .reveal-col:nth-child(1),.reveal-col:nth-child(4){display:none}
-  .reveal-col{gap:10px}
-  .reveal-col img{border-radius:8px;box-shadow:0 2px 12px rgba(0,0,0,.06)}
-  .reveal-edge-mask{background:linear-gradient(180deg,#f5f5f7 0%,transparent 15%,transparent 85%,#f5f5f7 100%)}
+  .reveal-cols{inset:-40% -1% -40%;gap:6px;padding:0 1%;transform:none}
+  .reveal-col{gap:6px}
+  .reveal-col img{border-radius:6px;box-shadow:0 1px 8px rgba(0,0,0,.05)}
+  .reveal-edge-mask{background:linear-gradient(180deg,#f5f5f7 0%,transparent 18%,transparent 82%,#f5f5f7 100%)}
   /* Soft glow: 縦伸び防止 */
   .soft-glow{background:radial-gradient(circle at center,rgba(255,255,255,.8) 0%,rgba(220,230,255,.4) 30%,transparent 60%)}
   .reveal-title{font-size:clamp(2.8rem,16vw,5rem)!important}
@@ -446,7 +452,14 @@ a.nav-cta{font-size:.85rem;font-weight:700;color:#fff !important;background:#15c
   .skip{bottom:16px;right:16px;font-size:.6rem;padding:4px 10px}
   .fv-scroll-down span{font-size:.5rem}
   /* LINE */
-  .line-chat-bg{padding:20px 16px}
+  .iphone-mock{width:240px;border-radius:36px;padding:10px}
+  .iphone-mock::before{width:72px;height:20px;top:10px;border-radius:0 0 12px 12px}
+  .iphone-screen{border-radius:26px}
+  .iphone-status{height:40px;padding:0 18px 4px;font-size:10px}
+  .iphone-status .time{font-size:12px}
+  .line-chat-bg{padding:16px 14px}
+  .line-bubble{font-size:.72rem;padding:10px 12px}
+  .line-task-item{font-size:.72rem}
   .line-bubble{font-size:.78rem;padding:12px 14px}
   /* Partner */
   .partner-block,.partner-block.rev{grid-template-columns:1fr;gap:24px}
@@ -664,6 +677,9 @@ a.nav-cta{font-size:.85rem;font-weight:700;color:#fff !important;background:#15c
         </div>
       </div>
       <div class="split-visual anim anim-d2">
+        <div class="iphone-mock">
+          <div class="iphone-screen">
+            <div class="iphone-status"><span class="time">7:00</span><span class="icons">5G ■■■ 🔋</span></div>
         <div class="line-chat-bg">
           <div class="line-header">
             <div class="line-header-icon"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19.365 9.863c.349 0 .63.285.63.631 0 .345-.281.63-.63.63H17.61v1.125h1.755c.349 0 .63.283.63.63 0 .344-.281.629-.63.629h-2.386c-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.627-.63h2.386c.349 0 .63.285.63.63 0 .349-.281.63-.63.63H17.61v1.125h1.755zm-3.855 3.016c0 .27-.174.51-.432.596-.064.021-.133.031-.199.031-.211 0-.391-.09-.51-.25l-2.443-3.317v2.94c0 .344-.279.629-.631.629-.346 0-.626-.285-.626-.629V8.108c0-.27.173-.51.43-.595.06-.023.136-.033.194-.033.195 0 .375.104.495.254l2.462 3.33V8.108c0-.345.282-.63.63-.63.345 0 .63.285.63.63v4.771zm-5.741 0c0 .344-.282.629-.631.629-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.627-.63.349 0 .631.285.631.63v4.771zm-2.466.629H4.917c-.345 0-.63-.285-.63-.629V8.108c0-.345.285-.63.63-.63.348 0 .63.285.63.63v4.141h1.756c.348 0 .629.283.629.63 0 .344-.281.629-.629.629M24 10.314C24 4.943 18.615.572 12 .572S0 4.943 0 10.314c0 4.811 4.27 8.842 10.035 9.608.391.082.923.258 1.058.59.12.301.079.766.038 1.08l-.164 1.02c-.045.301-.24 1.186 1.049.645 1.291-.539 6.916-4.078 9.436-6.975C23.176 14.393 24 12.458 24 10.314"/></svg></div>
@@ -691,6 +707,8 @@ a.nav-cta{font-size:.85rem;font-weight:700;color:#fff !important;background:#15c
             </div>
           </div>
         </div>
+          </div><!-- /iphone-screen -->
+        </div><!-- /iphone-mock -->
       </div>
     </div>
   </div>
@@ -1249,6 +1267,19 @@ function initTitleChars(){
   });
 }
 initTitleChars();
+
+// SP: 画像を複製してタイルを隙間なく埋める
+(function fillRevealCols(){
+  if(window.innerWidth>=735)return;
+  document.querySelectorAll('.reveal-col').forEach(col=>{
+    const imgs=Array.from(col.querySelectorAll('img'));
+    for(let i=0;i<2;i++) imgs.forEach(img=>{
+      const clone=img.cloneNode(true);
+      clone.loading='lazy';
+      col.appendChild(clone);
+    });
+  });
+})();
 
 function startScreenScroll(){
   const cols=document.querySelectorAll('.reveal-col');
