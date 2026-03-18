@@ -382,12 +382,14 @@ a.nav-cta{font-size:.85rem;font-weight:700;color:#fff !important;background:#15c
 
 /* ===== RESPONSIVE ===== */
 @media(max-width:734px){
-  .nav-links a:not(.nav-cta){display:none}
+  /* Nav: CTA非表示、ロゴのみ */
+  .nav-links{display:none}
+  .nav-inner{justify-content:center}
   .section{padding:80px 0}
   .section-inner{padding:0 16px}
   .headline-large{font-size:clamp(1.6rem,7vw,2.2rem)!important;line-height:1.2!important}
-  .headline-desc{font-size:.92rem!important;line-height:1.6}
-  .split{grid-template-columns:1fr;gap:32px}
+  .headline-desc{font-size:.88rem!important;line-height:1.7}
+  .split{grid-template-columns:1fr;gap:28px}
   .split-reverse{direction:ltr}
   .split-text{max-width:100%}
   .split .headline-large{font-size:clamp(1.5rem,6vw,1.8rem)!important}
@@ -397,49 +399,70 @@ a.nav-cta{font-size:.85rem;font-weight:700;color:#fff !important;background:#15c
   .macbook-screen img{border-radius:3px}
   .macbook-base{height:8px;border-radius:0 0 4px 4px}
   .macbook-base::before{height:3px;border-radius:0 0 3px 3px}
-  .feat-points{gap:12px;margin-top:24px}
+  .feat-points{gap:12px;margin-top:20px}
   .feat-point{font-size:.82rem}
-  .reveal-cols{gap:10px;padding:0 8%}
-  .reveal-col img{border-radius:8px}
+  /* FV Reveal: 2列表示（外側2列非表示）、perspective解除 */
+  .reveal-screen-wrap{perspective:none}
+  .reveal-cols{gap:10px;padding:0 6%;transform:none}
+  .reveal-col:nth-child(1),.reveal-col:nth-child(4){display:none}
+  .reveal-col{gap:10px}
+  .reveal-col img{border-radius:8px;box-shadow:0 2px 12px rgba(0,0,0,.06)}
+  .reveal-edge-mask{background:linear-gradient(180deg,#f5f5f7 0%,transparent 12%,transparent 88%,#f5f5f7 100%)}
+  .reveal-title{font-size:clamp(2.8rem,16vw,5rem)!important}
+  .reveal-subtitle{font-size:clamp(.65rem,2.5vw,.85rem)!important;letter-spacing:.08em!important;margin-top:10px!important}
+  /* Slack tilt: SP版はフラット */
+  .slack-tilt{transform:none!important;border-radius:12px}
+  .slack-tilt:hover{transform:none!important}
+  .slack-tilt-wrap{perspective:none}
+  /* Hero MacBook */
   .hero-macbook{max-width:100%}
   .hero-macbook-screen{border-radius:10px 10px 0 0;padding:6px 6px 0}
   .hero-macbook-screen::before{width:5px;height:5px;top:4px}
   .hero-macbook-screen img{border-radius:4px 4px 0 0}
   .hero-macbook-base{height:12px;border-radius:0 0 6px 6px;margin:0 -2%}
   .hero-macbook-notch{height:4px;border-radius:0 0 4px 4px}
+  /* Gallery */
   .gallery-scroll{gap:12px;padding:0 16px 16px;margin-top:40px}
   .gallery-card{width:min(340px,85vw)}
+  /* Pricing */
   .pricing-grid{grid-template-columns:1fr!important;max-width:400px;margin-left:auto;margin-right:auto}
+  /* Expand */
   .expand-section{padding:120px 0}
   .expand-bg{margin:0 16px;border-radius:24px}
   .expand-content .headline-large{font-size:clamp(1.5rem,6vw,2rem)!important}
+  /* Compare */
   .compare-table{font-size:.72rem}
   .compare-table th,.compare-table td{padding:10px 8px}
+  /* FAQ */
   .faq-list details summary{font-size:.92rem;padding:16px 0}
   .faq-list details p{font-size:.82rem}
   .cta-bottom{padding:80px 0!important}
+  /* FV Slack animation */
   .slack-sidebar{display:none}
   .slack-main{left:0}
   .intro-text{font-size:clamp(1.2rem,5vw,1.6rem)!important;line-height:1.5!important;letter-spacing:.03em!important;padding:0 16px}
-  .reveal-title{font-size:clamp(2.5rem,14vw,5rem)!important}
-  .reveal-subtitle{font-size:clamp(.65rem,2.2vw,.85rem)!important;letter-spacing:.08em!important;margin-top:10px!important}
   .skip{bottom:16px;right:16px;font-size:.6rem;padding:4px 10px}
   .fv-scroll-down span{font-size:.5rem}
-  /* New sections SP */
+  /* LINE */
   .line-chat-bg{padding:20px 16px}
   .line-bubble{font-size:.78rem;padding:12px 14px}
+  /* Partner */
   .partner-block,.partner-block.rev{grid-template-columns:1fr;gap:24px}
   .partner-block.rev .partner-img{order:1}
   .partner-block.rev .partner-txt{order:2}
+  /* All Features */
   .af-grid{grid-template-columns:repeat(2,1fr)!important;gap:12px}
+  /* Bonus */
   .bonus-cards-grid{grid-template-columns:1fr!important}
   .bonus-bottom-box{padding:32px 20px}
+  .bb-resolve{font-size:clamp(1rem,4vw,1.2rem)!important}
+  /* Story */
   .story-grid{grid-template-columns:1fr!important;gap:32px}
   .story-stats{flex-direction:row;flex-wrap:wrap;gap:12px}
   .sv2-card{flex:1;min-width:140px}
   .voices-section{padding:80px 0}
   .campaign-section{padding:60px 0}
-  /* Slack SP */
+  /* Slack FV messages */
   .slack-msg .av{width:26px;height:26px;font-size:.6rem;border-radius:5px}
   .slack-msg{gap:7px;padding:4px 6px}
   .slack-msg .msg-name{font-size:.7rem}
@@ -452,10 +475,7 @@ a.nav-cta{font-size:.85rem;font-weight:700;color:#fff !important;background:#15c
   .slack-msg.urgent::before{width:2px}
   /* Blackhole SP */
   @keyframes hole-grow{0%{width:0;height:0;opacity:0}15%{width:24px;height:24px;opacity:1}35%{width:80px;height:80px;opacity:1}60%{width:180px;height:180px;opacity:1}100%{width:2400px;height:2400px;opacity:1;box-shadow:none;background:#000}}
-  /* Reveal 2col SP */
-  .reveal-cols{gap:8px;padding:0 4%}
-  .reveal-col{gap:8px}
-  .reveal-col img{border-radius:6px}
+  /* Sticky */
   .sticky-section{display:block}
   .sticky-text{position:relative;height:auto;padding:80px 24px 40px}
   .sticky-screens{display:none}
