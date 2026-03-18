@@ -154,7 +154,7 @@ a.nav-cta{font-size:.85rem;font-weight:700;color:#fff !important;background:#15c
 .headline-large{font-family:'Inter','Noto Sans JP',sans-serif;font-size:clamp(2.2rem,5vw,3.5rem);font-weight:800;line-height:1.15;letter-spacing:-.04em;margin-bottom:16px}
 .split .headline-large{font-size:clamp(1.8rem,3.6vw,2.6rem);line-height:1.25}
 .section-dark .headline-large{color:#fff}
-.headline-desc{font-size:clamp(1rem,1.8vw,1.3rem);font-weight:400;color:rgba(0,0,0,.5);line-height:1.6;max-width:600px}
+.headline-desc{font-size:clamp(1rem,1.8vw,1.3rem);font-weight:400;color:rgba(0,0,0,.5);line-height:1.6;max-width:600px;margin-left:auto;margin-right:auto}
 .section-dark .headline-desc{color:rgba(255,255,255,.5)}
 
 /* ===== SPLIT LAYOUT (text + mockup) ===== */
@@ -162,6 +162,7 @@ a.nav-cta{font-size:.85rem;font-weight:700;color:#fff !important;background:#15c
 .split-reverse{direction:rtl}
 .split-reverse>*{direction:ltr}
 .split-text{max-width:400px}
+.split-text .headline-desc{margin-left:0;margin-right:0}
 .split-visual{position:relative}
 /* MacBook frame */
 .macbook-frame{position:relative;box-shadow:0 30px 80px -15px rgba(0,0,0,.25)}
@@ -469,7 +470,7 @@ a.nav-cta{font-size:.85rem;font-weight:700;color:#fff !important;background:#15c
 
 <!-- FV -->
 <section class="fv" id="fv">
-  <div class="intro" id="intro"><p class="intro-text" id="introText">仕事が増えても、<br>頭は散らからない。</p></div>
+  <div class="intro" id="intro"><p class="intro-text" id="introText">今日の納品案件、<br>どうなってますか？</p></div>
   <div class="slack-layer" id="slackLayer">
     <div class="slack-sidebar" id="slackSidebar">
       <div class="slack-sidebar-head"><div class="ws-name">Web制作チーム ▾</div></div>
@@ -534,7 +535,7 @@ a.nav-cta{font-size:.85rem;font-weight:700;color:#fff !important;background:#15c
     <div class="anim anim-d2" style="margin-top:64px">
       <div class="hero-macbook">
         <div class="hero-macbook-screen">
-          <img src="/images/real-dashboard.png" alt="TASKULダッシュボード">
+          <img src="/images/real-dashboard.png" alt="TASKULダッシュボード" loading="lazy">
         </div>
         <div class="hero-macbook-base">
           <div class="hero-macbook-notch"></div>
@@ -606,7 +607,7 @@ a.nav-cta{font-size:.85rem;font-weight:700;color:#fff !important;background:#15c
         </div>
       </div>
       <div class="split-visual anim anim-d2">
-        <div class="macbook-frame"><div class="macbook-screen"><img src="/images/real-project-detail.png" alt="プロジェクト詳細画面"></div><div class="macbook-base"></div></div>
+        <div class="macbook-frame"><div class="macbook-screen"><img src="/images/real-project-detail.png" alt="プロジェクト詳細画面" loading="lazy"></div><div class="macbook-base"></div></div>
       </div>
     </div>
   </div>
@@ -637,7 +638,7 @@ a.nav-cta{font-size:.85rem;font-weight:700;color:#fff !important;background:#15c
         </div>
       </div>
       <div class="split-visual anim anim-d2">
-        <div class="macbook-frame"><div class="macbook-screen"><img src="/images/real-estimates.png" alt="AI見積書作成"></div><div class="macbook-base"></div></div>
+        <div class="macbook-frame"><div class="macbook-screen"><img src="/images/real-estimates.png" alt="AI見積書作成" loading="lazy"></div><div class="macbook-base"></div></div>
       </div>
     </div>
   </div>
@@ -658,7 +659,7 @@ a.nav-cta{font-size:.85rem;font-weight:700;color:#fff !important;background:#15c
         </div>
       </div>
       <div class="split-visual anim anim-d2">
-        <div class="macbook-frame"><div class="macbook-screen"><img src="/images/real-invoices.png" alt="請求書一覧"></div><div class="macbook-base"></div></div>
+        <div class="macbook-frame"><div class="macbook-screen"><img src="/images/real-invoices.png" alt="請求書一覧" loading="lazy"></div><div class="macbook-base"></div></div>
       </div>
     </div>
   </div>
@@ -688,14 +689,14 @@ a.nav-cta{font-size:.85rem;font-weight:700;color:#fff !important;background:#15c
         </div>
       </div>
       <div class="partner-img">
-        <img src="/images/real-partners.png" alt="パートナー管理 - スキル・費用感・連絡先を一覧管理">
+        <img src="/images/real-partners.png" alt="パートナー管理 - スキル・費用感・連絡先を一覧管理" loading="lazy">
       </div>
     </div>
 
     <!-- Block 2: Team Analysis -->
     <div class="partner-block anim">
       <div class="partner-img">
-        <img src="/images/real-team-analysis.png" alt="チーム力分析 AI - スキルバランスとAI提案">
+        <img src="/images/real-team-analysis.png" alt="チーム力分析 AI - スキルバランスとAI提案" loading="lazy">
       </div>
       <div class="partner-txt split-text">
         <h3 class="headline-large" style="font-size:clamp(1.4rem,2.4vw,1.8rem)">パートナー情報を、<br>AIが「チーム力」に変換。</h3>
@@ -724,7 +725,7 @@ a.nav-cta{font-size:.85rem;font-weight:700;color:#fff !important;background:#15c
         </div>
       </div>
       <div class="split-visual anim anim-d2">
-        <div class="macbook-frame"><div class="macbook-screen"><img src="/images/real-member-add.png" alt="メンバー追加"></div><div class="macbook-base"></div></div>
+        <div class="macbook-frame"><div class="macbook-screen"><img src="/images/real-member-add.png" alt="メンバー追加" loading="lazy"></div><div class="macbook-base"></div></div>
       </div>
     </div>
   </div>
@@ -754,7 +755,7 @@ a.nav-cta{font-size:.85rem;font-weight:700;color:#fff !important;background:#15c
         </div>
       </div>
       <div class="split-visual anim anim-d2">
-        <div class="macbook-frame"><div class="macbook-screen"><img src="/images/real-calendar.png" alt="タスクカレンダー"></div><div class="macbook-base"></div></div>
+        <div class="macbook-frame"><div class="macbook-screen"><img src="/images/real-calendar.png" alt="タスクカレンダー" loading="lazy"></div><div class="macbook-base"></div></div>
       </div>
     </div>
   </div>
@@ -775,7 +776,7 @@ a.nav-cta{font-size:.85rem;font-weight:700;color:#fff !important;background:#15c
         </div>
       </div>
       <div class="split-visual anim anim-d2">
-        <div class="macbook-frame"><div class="macbook-screen"><img src="/images/real-finance.png" alt="収支管理画面"></div><div class="macbook-base"></div></div>
+        <div class="macbook-frame"><div class="macbook-screen"><img src="/images/real-finance.png" alt="収支管理画面" loading="lazy"></div><div class="macbook-base"></div></div>
       </div>
     </div>
   </div>
@@ -789,13 +790,13 @@ a.nav-cta{font-size:.85rem;font-weight:700;color:#fff !important;background:#15c
       <h2 class="headline-large anim anim-d1">必要な情報が、<br>必要な形で。</h2>
     </div>
     <div class="gallery-scroll">
-      <div class="gallery-card anim"><img src="/images/real-dashboard.png" alt="ダッシュボード"><span class="gallery-card-label">ダッシュボード</span></div>
-      <div class="gallery-card anim"><img src="/images/real-projects.png" alt="プロジェクト一覧"><span class="gallery-card-label">プロジェクト一覧</span></div>
-      <div class="gallery-card anim"><img src="/images/real-tasks.png" alt="全タスク一覧"><span class="gallery-card-label">全タスク一覧</span></div>
-      <div class="gallery-card anim"><img src="/images/real-calendar.png" alt="カレンダー"><span class="gallery-card-label">カレンダー</span></div>
-      <div class="gallery-card anim"><img src="/images/real-finance.png" alt="収支管理"><span class="gallery-card-label">収支管理</span></div>
-      <div class="gallery-card anim"><img src="/images/real-team-analysis.png" alt="チーム力分析"><span class="gallery-card-label">チーム力分析</span></div>
-      <div class="gallery-card anim"><img src="/images/real-partners.png" alt="パートナー管理"><span class="gallery-card-label">パートナー管理</span></div>
+      <div class="gallery-card anim"><img src="/images/real-dashboard.png" alt="ダッシュボード" loading="lazy"><span class="gallery-card-label">ダッシュボード</span></div>
+      <div class="gallery-card anim"><img src="/images/real-projects.png" alt="プロジェクト一覧" loading="lazy"><span class="gallery-card-label">プロジェクト一覧</span></div>
+      <div class="gallery-card anim"><img src="/images/real-tasks.png" alt="全タスク一覧" loading="lazy"><span class="gallery-card-label">全タスク一覧</span></div>
+      <div class="gallery-card anim"><img src="/images/real-calendar.png" alt="カレンダー" loading="lazy"><span class="gallery-card-label">カレンダー</span></div>
+      <div class="gallery-card anim"><img src="/images/real-finance.png" alt="収支管理" loading="lazy"><span class="gallery-card-label">収支管理</span></div>
+      <div class="gallery-card anim"><img src="/images/real-team-analysis.png" alt="チーム力分析" loading="lazy"><span class="gallery-card-label">チーム力分析</span></div>
+      <div class="gallery-card anim"><img src="/images/real-partners.png" alt="パートナー管理" loading="lazy"><span class="gallery-card-label">パートナー管理</span></div>
     </div>
   </div>
 </section>
