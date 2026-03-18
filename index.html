@@ -408,11 +408,12 @@ a.nav-cta{font-size:.85rem;font-weight:700;color:#fff !important;background:#15c
   .macbook-base::before{height:3px;border-radius:0 0 3px 3px}
   .feat-points{gap:12px;margin-top:20px}
   .feat-point{font-size:.82rem}
-  /* FV Reveal: 全4列タイルモザイク、FV全体に敷き詰め */
+  /* FV Reveal: 2列斜め配置 */
   .reveal-screen-wrap{perspective:none}
-  .reveal-cols{inset:0 0 0 0;gap:6px;padding:0;transform:none;height:100%}
-  .reveal-col{gap:6px;min-height:200vh}
-  .reveal-col img{border-radius:6px;box-shadow:0 1px 8px rgba(0,0,0,.05);flex:1;object-fit:cover;min-height:0}
+  .reveal-cols{inset:-30% -20% -30%;gap:10px;padding:0;transform:rotate(-12deg);transform-origin:center center}
+  .reveal-col:nth-child(3),.reveal-col:nth-child(4){display:none}
+  .reveal-col{gap:10px}
+  .reveal-col img{border-radius:10px;box-shadow:0 2px 12px rgba(0,0,0,.08);width:100%;height:auto}
   .reveal-edge-mask{background:linear-gradient(180deg,#f5f5f7 0%,transparent 18%,transparent 82%,#f5f5f7 100%)}
   /* Soft glow: 縦伸び防止 */
   .soft-glow{background:radial-gradient(circle at center,rgba(255,255,255,.8) 0%,rgba(220,230,255,.4) 30%,transparent 60%)}
@@ -1268,24 +1269,18 @@ function initTitleChars(){
 }
 initTitleChars();
 
-// SP: 画像を複製してタイルを隙間なく埋める
-(function fillRevealCols(){
-  if(window.innerWidth>=735)return;
-  document.querySelectorAll('.reveal-col').forEach(col=>{
-    const imgs=Array.from(col.querySelectorAll('img'));
-    for(let i=0;i<2;i++) imgs.forEach(img=>{
-      const clone=img.cloneNode(true);
-      clone.loading='lazy';
-      col.appendChild(clone);
-    });
-  });
-})();
 
 function startScreenScroll(){
   const cols=document.querySelectorAll('.reveal-col');
   const vh=window.innerHeight;
   const isSP=window.innerWidth<735;
-  const scrollDuration=isSP?1800:2200;
+  if(isSP){
+    // SP: スクロールなし、即表示→すぐオーバーレイ
+    cols.forEach(col=>{col.style.opacity='1'});
+    d(showOverlay,800);
+    return;
+  }
+  const scrollDuration=2200;
   cols.forEach((col,i)=>{col.style.opacity='0';d(()=>{col.style.opacity='1'},i*60)});
   let scrollStart=null;
   function scrollAnim(ts){
