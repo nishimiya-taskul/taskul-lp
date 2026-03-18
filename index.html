@@ -401,13 +401,15 @@ a.nav-cta{font-size:.85rem;font-weight:700;color:#fff !important;background:#15c
   .macbook-base::before{height:3px;border-radius:0 0 3px 3px}
   .feat-points{gap:12px;margin-top:20px}
   .feat-point{font-size:.82rem}
-  /* FV Reveal: 2列表示（外側2列非表示）、perspective解除 */
+  /* FV Reveal: 2列表示（外側2列非表示）、FV全体に敷き詰め */
   .reveal-screen-wrap{perspective:none}
-  .reveal-cols{gap:10px;padding:0 6%;transform:none}
+  .reveal-cols{inset:-20% -4% -20%;gap:10px;padding:0 4%;transform:none}
   .reveal-col:nth-child(1),.reveal-col:nth-child(4){display:none}
   .reveal-col{gap:10px}
   .reveal-col img{border-radius:8px;box-shadow:0 2px 12px rgba(0,0,0,.06)}
-  .reveal-edge-mask{background:linear-gradient(180deg,#f5f5f7 0%,transparent 12%,transparent 88%,#f5f5f7 100%)}
+  .reveal-edge-mask{background:linear-gradient(180deg,#f5f5f7 0%,transparent 15%,transparent 85%,#f5f5f7 100%)}
+  /* Soft glow: 縦伸び防止 */
+  .soft-glow{background:radial-gradient(circle at center,rgba(255,255,255,.8) 0%,rgba(220,230,255,.4) 30%,transparent 60%)}
   .reveal-title{font-size:clamp(2.8rem,16vw,5rem)!important}
   .reveal-subtitle{font-size:clamp(.65rem,2.5vw,.85rem)!important;letter-spacing:.08em!important;margin-top:10px!important}
   /* Slack tilt: SP版はフラット */
