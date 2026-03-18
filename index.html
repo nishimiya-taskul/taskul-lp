@@ -1232,8 +1232,8 @@ function startScreenScroll(){
   const cols=document.querySelectorAll('.reveal-col');
   const vh=window.innerHeight;
   const isSP=window.innerWidth<735;
-  const scrollDuration=isSP?3500:4500;
-  cols.forEach((col,i)=>{col.style.opacity='0';d(()=>{col.style.opacity='1'},i*120)});
+  const scrollDuration=isSP?1800:2200;
+  cols.forEach((col,i)=>{col.style.opacity='0';d(()=>{col.style.opacity='1'},i*60)});
   let scrollStart=null;
   function scrollAnim(ts){
     if(!scrollStart)scrollStart=ts;
@@ -1246,9 +1246,9 @@ function startScreenScroll(){
       col.style.transform='translateY('+(dir*scrollDist*ease*speed)+'px)';
     });
     if(progress<1)requestAnimationFrame(scrollAnim);
-    else d(showOverlay,200);
+    else d(showOverlay,100);
   }
-  d(()=>requestAnimationFrame(scrollAnim),500);
+  d(()=>requestAnimationFrame(scrollAnim),200);
 }
 
 function showOverlay(){
