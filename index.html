@@ -408,12 +408,12 @@ a.nav-cta{font-size:.85rem;font-weight:700;color:#fff !important;background:#15c
   .macbook-base::before{height:3px;border-radius:0 0 3px 3px}
   .feat-points{gap:12px;margin-top:20px}
   .feat-point{font-size:.82rem}
-  /* FV Reveal: 2列斜め配置 */
+  /* FV Reveal: 2列斜め、ポートレートカードで画面を埋め尽くす */
   .reveal-screen-wrap{perspective:none}
-  .reveal-cols{inset:-30% -20% -30%;gap:10px;padding:0;transform:rotate(-12deg);transform-origin:center center}
+  .reveal-cols{inset:-50% -30% -50%;gap:8px;padding:0;transform:rotate(-12deg);transform-origin:center center}
   .reveal-col:nth-child(3),.reveal-col:nth-child(4){display:none}
-  .reveal-col{gap:10px}
-  .reveal-col img{border-radius:10px;box-shadow:0 2px 12px rgba(0,0,0,.08);width:100%;height:auto}
+  .reveal-col{gap:8px}
+  .reveal-col img{border-radius:10px;box-shadow:0 2px 16px rgba(0,0,0,.1);width:100%;aspect-ratio:3/4;object-fit:cover;object-position:top left;height:auto}
   .reveal-edge-mask{background:linear-gradient(180deg,#f5f5f7 0%,transparent 18%,transparent 82%,#f5f5f7 100%)}
   /* Soft glow: 縦伸び防止 */
   .soft-glow{background:radial-gradient(circle at center,rgba(255,255,255,.8) 0%,rgba(220,230,255,.4) 30%,transparent 60%)}
@@ -1275,9 +1275,9 @@ function startScreenScroll(){
   const vh=window.innerHeight;
   const isSP=window.innerWidth<735;
   if(isSP){
-    // SP: スクロールなし、即表示→すぐオーバーレイ
+    // SP: スクロールなし、即表示→2秒後にオーバーレイ
     cols.forEach(col=>{col.style.opacity='1'});
-    d(showOverlay,800);
+    d(showOverlay,2000);
     return;
   }
   const scrollDuration=2200;
