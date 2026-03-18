@@ -124,6 +124,8 @@ a.nav-cta{font-size:.85rem;font-weight:700;color:#fff !important;background:#15c
 .reveal-title.glint::after{animation:glint .9s ease-in-out forwards}
 @keyframes glint{0%{left:-120%;opacity:1}100%{left:160%;opacity:1}}
 .reveal-subtitle{font-size:clamp(.8rem,1.8vw,1.1rem);font-weight:500;color:rgba(29,29,31,.4);letter-spacing:.14em;margin-top:20px;opacity:0;transform:translateY(8px)}
+/* SP Hero: 2画面ドン見せ（デスクトップ非表示） */
+.reveal-sp-hero{display:none}
 .skip{position:absolute;bottom:28px;right:28px;z-index:110;font-size:.68rem;color:rgba(255,255,255,.4);background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);padding:5px 14px;border-radius:100px;cursor:pointer;transition:all .2s;backdrop-filter:blur(8px)}
 .skip:hover{color:rgba(255,255,255,.7);background:rgba(255,255,255,.1)}
 .skip.hidden{opacity:0;pointer-events:none;transition:opacity .3s}
@@ -408,12 +410,12 @@ a.nav-cta{font-size:.85rem;font-weight:700;color:#fff !important;background:#15c
   .macbook-base::before{height:3px;border-radius:0 0 3px 3px}
   .feat-points{gap:12px;margin-top:20px}
   .feat-point{font-size:.82rem}
-  /* FV Reveal: 2列斜め、ポートレートカードで画面を埋め尽くす */
-  .reveal-screen-wrap{perspective:none}
-  .reveal-cols{inset:-50% -30% -50%;gap:8px;padding:0;transform:rotate(-12deg);transform-origin:center center}
-  .reveal-col:nth-child(3),.reveal-col:nth-child(4){display:none}
-  .reveal-col{gap:8px}
-  .reveal-col img{border-radius:10px;box-shadow:0 2px 16px rgba(0,0,0,.1);width:100%;aspect-ratio:3/4;object-fit:cover;object-position:top left;height:auto}
+  /* FV Reveal SP: colsグリッド非表示、2画面ヒーロー表示 */
+  .reveal-screen-wrap{display:none}
+  .reveal-sp-hero{display:block;position:absolute;inset:0;z-index:1;overflow:hidden}
+  .reveal-sp-img{position:absolute;width:75%;border-radius:16px;box-shadow:0 8px 40px rgba(0,0,0,.12)}
+  .reveal-sp-img1{top:8%;left:-8%;transform:rotate(-6deg)}
+  .reveal-sp-img2{bottom:8%;right:-8%;transform:rotate(4deg)}
   .reveal-edge-mask{background:linear-gradient(180deg,#f5f5f7 0%,transparent 18%,transparent 82%,#f5f5f7 100%)}
   /* Soft glow: 縦伸び防止 */
   .soft-glow{background:radial-gradient(circle at center,rgba(255,255,255,.8) 0%,rgba(220,230,255,.4) 30%,transparent 60%)}
@@ -578,6 +580,10 @@ a.nav-cta{font-size:.85rem;font-weight:700;color:#fff !important;background:#15c
         </div>
       </div>
       <div class="reveal-edge-mask"></div>
+    </div>
+    <div class="reveal-sp-hero">
+      <img class="reveal-sp-img reveal-sp-img1" src="/images/real-dashboard.png" alt="">
+      <img class="reveal-sp-img reveal-sp-img2" src="/images/real-team-analysis.png" alt="">
     </div>
     <div class="reveal-overlay" id="revealOverlay"></div>
     <div class="reveal-center" id="revealCenter">
