@@ -1080,85 +1080,75 @@ a.nav-cta{font-size:.85rem;font-weight:700;color:#fff !important;background:#15c
         <button class="pricing-toggle-btn" data-plan="yearly">年額<span class="pricing-toggle-disc">20% OFF</span></button>
       </div>
     </div>
-    <div class="pricing-grid" style="grid-template-columns:repeat(4,1fr)">
-      <div class="pricing-card anim">
-        <div class="pricing-name">FREE</div>
-        <div style="font-size:.72rem;color:rgba(0,0,0,.4);margin-top:4px;font-weight:500">まずは試してみたい方に</div>
-        <div class="pricing-price">¥0</div>
-        <div class="pricing-unit">ずっと無料</div>
-        <ul class="pricing-features">
-          <li>プロジェクト10件まで<sup>※</sup></li>
-          <li>AIクレジット 200/月</li>
-          <li>タスク管理・カレンダー</li>
-          <li>見積書・請求書作成</li>
-          <li>パートナー登録・チーム招待</li>
-          <li>ファイル保存 30日間</li>
-        </ul>
-        <p style="font-size:.62rem;color:rgba(0,0,0,.35);margin-top:8px;line-height:1.5">※有料ユーザーから招待されたプロジェクトは上限に含まれません</p>
-        <a href="https://app.taskul-ai.com/signup" class="pricing-btn pricing-btn-outline">無料で始める</a>
+    <!-- Plan Cards -->
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:48px" class="anim">
+      <div style="background:#fff;border:1px solid rgba(0,0,0,.06);border-radius:20px;padding:32px 20px;text-align:center">
+        <h3 style="font-size:1.3rem;font-weight:900;color:#1d1d1f">Free</h3>
+        <p style="font-size:.7rem;color:rgba(0,0,0,.4);margin-top:4px;min-height:28px">まずは試してみたい方に</p>
+        <div style="margin-top:16px;display:flex;align-items:baseline;justify-content:center"><span style="font-size:1rem;font-weight:700;color:#1d1d1f">¥</span><span style="font-size:2.5rem;font-weight:900;color:#1d1d1f;letter-spacing:-1.5px;line-height:1" class="pricing-price">0</span></div>
+        <div style="min-height:32px"></div>
+        <a href="https://app.taskul-ai.com/signup" class="pricing-btn pricing-btn-outline" style="margin-top:20px">無料で始める</a>
       </div>
-      <div class="pricing-card anim anim-d1">
-        <div class="pricing-name">STANDARD</div>
-        <div style="font-size:.72rem;color:rgba(0,0,0,.4);margin-top:4px;font-weight:500">フリーランス・個人事業主に</div>
-        <div class="pricing-price" data-m="980" data-y="784">¥980</div>
-        <div class="pricing-unit pricing-unit-period">月額</div>
-        <div class="pricing-annual" style="display:none">年払い ¥9,408/年（月あたり ¥784）</div>
-        <div class="pricing-savings" style="display:none;margin:8px 0"><span style="display:inline-block;background:#22c55e;color:#fff;font-size:.7rem;font-weight:700;padding:4px 12px;border-radius:20px">年間 ¥2,352 お得</span></div>
-        <ul class="pricing-features">
-          <li>プロジェクト無制限</li>
-          <li>AIクレジット 2,400/月</li>
-          <li>Freeの全機能</li>
-          <li>LINE通知（本日・今週のタスク）</li>
-          <li>Slack連携（会話からプロジェクト自動作成）</li>
-          <li>ファイル保存 無期限</li>
-        </ul>
-        <div class="pricing-credit-guide">
-          <div class="pricing-credit-title">クレジット目安</div>
-          <div class="pricing-credit-items">プロジェクト作成 約16回 / タスク分解 約24回 / 見積書作成 約16枚 / チャット 約48回</div>
-        </div>
-        <a href="https://app.taskul-ai.com/signup" class="pricing-btn pricing-btn-fill">1ヶ月無料トライアル</a>
+      <div style="background:#fff;border:1px solid rgba(0,0,0,.06);border-radius:20px;padding:32px 20px;text-align:center">
+        <h3 style="font-size:1.3rem;font-weight:900;color:#1d1d1f">Standard</h3>
+        <p style="font-size:.7rem;color:rgba(0,0,0,.4);margin-top:4px;min-height:28px">フリーランス・個人事業主に</p>
+        <div style="margin-top:16px;display:flex;align-items:baseline;justify-content:center"><span style="font-size:1rem;font-weight:700;color:#1d1d1f">¥</span><span style="font-size:2.5rem;font-weight:900;color:#1d1d1f;letter-spacing:-1.5px;line-height:1" class="pricing-price" data-m="980" data-y="784">980</span><span style="font-size:.75rem;color:rgba(0,0,0,.4);margin-left:4px">/月</span></div>
+        <div class="pricing-annual" style="display:none;min-height:32px"><p style="font-size:.65rem;color:rgba(0,0,0,.4)">年払い ¥9,408/年</p><span style="display:inline-block;background:#22c55e;color:#fff;font-size:.6rem;font-weight:700;padding:2px 8px;border-radius:20px;margin-top:2px">年間 ¥2,352 お得</span></div>
+        <div class="pricing-monthly-spacer" style="min-height:32px"></div>
+        <a href="https://app.taskul-ai.com/signup" class="pricing-btn pricing-btn-fill" style="margin-top:20px">1ヶ月無料トライアル</a>
       </div>
-      <div class="pricing-card anim anim-d2">
-        <div class="pricing-name">PRO</div>
-        <div style="font-size:.72rem;color:rgba(0,0,0,.4);margin-top:4px;font-weight:500">案件が重なるディレクター・マルチワーカーに</div>
-        <div class="pricing-price" data-m="2,980" data-y="2,384">¥2,980</div>
-        <div class="pricing-unit pricing-unit-period">月額</div>
-        <div class="pricing-annual" style="display:none">年払い ¥28,608/年（月あたり ¥2,384）</div>
-        <div class="pricing-savings" style="display:none;margin:8px 0"><span style="display:inline-block;background:#22c55e;color:#fff;font-size:.7rem;font-weight:700;padding:4px 12px;border-radius:20px">年間 ¥7,152 お得</span></div>
-        <ul class="pricing-features">
-          <li>プロジェクト無制限</li>
-          <li>AIクレジット 10,000/月</li>
-          <li>Standardの全機能</li>
-          <li>徹底分析（市場・競合・戦略）</li>
-          <li>納品前チェック</li>
-          <li>ファイル保存 無期限</li>
-        </ul>
-        <div class="pricing-credit-guide">
-          <div class="pricing-credit-title">クレジット目安</div>
-          <div class="pricing-credit-items">プロジェクト作成 約66回 / タスク分解 約100回 / 見積書作成 約66枚 / チャット 約200回</div>
-        </div>
-        <a href="https://app.taskul-ai.com/signup" class="pricing-btn pricing-btn-fill">1ヶ月無料トライアル</a>
+      <div style="background:#fff;border:2px solid #22c55e;border-radius:20px;padding:32px 20px;text-align:center;position:relative;box-shadow:0 4px 24px rgba(34,197,94,.15)">
+        <div style="position:absolute;top:-12px;left:50%;transform:translateX(-50%);background:#22c55e;color:#fff;font-size:.68rem;font-weight:700;padding:4px 16px;border-radius:20px;white-space:nowrap">おすすめ</div>
+        <h3 style="font-size:1.3rem;font-weight:900;color:#1d1d1f">Pro</h3>
+        <p style="font-size:.7rem;color:rgba(0,0,0,.4);margin-top:4px;min-height:28px">案件が重なるディレクター・マルチワーカーに</p>
+        <div style="margin-top:16px;display:flex;align-items:baseline;justify-content:center"><span style="font-size:1rem;font-weight:700;color:#1d1d1f">¥</span><span style="font-size:2.5rem;font-weight:900;color:#1d1d1f;letter-spacing:-1.5px;line-height:1" class="pricing-price" data-m="2,980" data-y="2,384">2,980</span><span style="font-size:.75rem;color:rgba(0,0,0,.4);margin-left:4px">/月</span></div>
+        <div class="pricing-annual" style="display:none;min-height:32px"><p style="font-size:.65rem;color:rgba(0,0,0,.4)">年払い ¥28,608/年</p><span style="display:inline-block;background:#22c55e;color:#fff;font-size:.6rem;font-weight:700;padding:2px 8px;border-radius:20px;margin-top:2px">年間 ¥7,152 お得</span></div>
+        <div class="pricing-monthly-spacer" style="min-height:32px"></div>
+        <a href="https://app.taskul-ai.com/signup" class="pricing-btn pricing-btn-fill" style="margin-top:20px">1ヶ月無料トライアル</a>
       </div>
-      <div class="pricing-card anim anim-d2">
-        <div class="pricing-name">FULL</div>
-        <div style="font-size:.72rem;color:rgba(0,0,0,.4);margin-top:4px;font-weight:500">100案件以上を束ねるPM・制作会社に</div>
-        <div class="pricing-price" data-m="7,980" data-y="6,384">¥7,980</div>
-        <div class="pricing-unit pricing-unit-period">月額</div>
-        <div class="pricing-annual" style="display:none">年払い ¥76,608/年（月あたり ¥6,384）</div>
-        <div class="pricing-savings" style="display:none;margin:8px 0"><span style="display:inline-block;background:#22c55e;color:#fff;font-size:.7rem;font-weight:700;padding:4px 12px;border-radius:20px">年間 ¥19,152 お得</span></div>
-        <ul class="pricing-features">
-          <li>プロジェクト無制限</li>
-          <li>AIクレジット 30,000/月</li>
-          <li>Proの全機能</li>
-          <li>徹底分析・納品前チェック</li>
-          <li>AI優先処理</li>
-          <li>ファイル保存 無期限</li>
-        </ul>
-        <div class="pricing-credit-guide">
-          <div class="pricing-credit-title">クレジット目安</div>
-          <div class="pricing-credit-items">プロジェクト作成 約200回 / タスク分解 約300回 / 見積書作成 約200枚 / チャット 約600回</div>
-        </div>
-        <a href="https://app.taskul-ai.com/signup" class="pricing-btn pricing-btn-fill">1ヶ月無料トライアル</a>
+      <div style="background:#fff;border:1px solid rgba(0,0,0,.06);border-radius:20px;padding:32px 20px;text-align:center">
+        <h3 style="font-size:1.3rem;font-weight:900;color:#1d1d1f">Full</h3>
+        <p style="font-size:.7rem;color:rgba(0,0,0,.4);margin-top:4px;min-height:28px">100案件以上を束ねるPM・制作会社に</p>
+        <div style="margin-top:16px;display:flex;align-items:baseline;justify-content:center"><span style="font-size:1rem;font-weight:700;color:#1d1d1f">¥</span><span style="font-size:2.5rem;font-weight:900;color:#1d1d1f;letter-spacing:-1.5px;line-height:1" class="pricing-price" data-m="7,980" data-y="6,384">7,980</span><span style="font-size:.75rem;color:rgba(0,0,0,.4);margin-left:4px">/月</span></div>
+        <div class="pricing-annual" style="display:none;min-height:32px"><p style="font-size:.65rem;color:rgba(0,0,0,.4)">年払い ¥76,608/年</p><span style="display:inline-block;background:#22c55e;color:#fff;font-size:.6rem;font-weight:700;padding:2px 8px;border-radius:20px;margin-top:2px">年間 ¥19,152 お得</span></div>
+        <div class="pricing-monthly-spacer" style="min-height:32px"></div>
+        <a href="https://app.taskul-ai.com/signup" class="pricing-btn pricing-btn-fill" style="margin-top:20px">1ヶ月無料トライアル</a>
+      </div>
+    </div>
+
+    <!-- Comparison Table -->
+    <div class="anim" style="margin-top:48px;border:1px solid rgba(0,0,0,.06);border-radius:16px;overflow:hidden">
+      <table style="width:100%;border-collapse:collapse;font-size:.82rem">
+        <thead><tr style="border-bottom:2px solid #ebeef5"><th style="width:20%;text-align:left;padding:12px 20px;font-size:.75rem;color:rgba(0,0,0,.35);font-weight:700">機能</th><th style="width:20%;text-align:center;padding:12px;font-weight:800;color:#1d1d1f">Free</th><th style="width:20%;text-align:center;padding:12px;font-weight:800;color:#1d1d1f">Standard</th><th style="width:20%;text-align:center;padding:12px;font-weight:800;color:#1d1d1f">Pro</th><th style="width:20%;text-align:center;padding:12px;font-weight:800;color:#1d1d1f">Full</th></tr></thead>
+        <tbody>
+          <tr style="border-bottom:1px solid #f3f4f6"><td style="padding:12px 20px;color:#374151;font-weight:500">プロジェクト数</td><td style="text-align:center;padding:12px;font-weight:600">10件まで ※</td><td style="text-align:center;padding:12px;font-weight:600">無制限</td><td style="text-align:center;padding:12px;font-weight:600">無制限</td><td style="text-align:center;padding:12px;font-weight:600">無制限</td></tr>
+          <tr style="border-bottom:1px solid #f3f4f6"><td style="padding:12px 20px;color:#374151;font-weight:500">タスク管理</td><td style="text-align:center;padding:12px"><svg width="20" height="20" viewBox="0 0 20 20"><rect x="2" y="2" width="16" height="16" rx="3" fill="#22c55e"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td><td style="text-align:center;padding:12px"><svg width="20" height="20" viewBox="0 0 20 20"><rect x="2" y="2" width="16" height="16" rx="3" fill="#22c55e"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td><td style="text-align:center;padding:12px"><svg width="20" height="20" viewBox="0 0 20 20"><rect x="2" y="2" width="16" height="16" rx="3" fill="#22c55e"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td><td style="text-align:center;padding:12px"><svg width="20" height="20" viewBox="0 0 20 20"><rect x="2" y="2" width="16" height="16" rx="3" fill="#22c55e"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td></tr>
+          <tr style="border-bottom:1px solid #f3f4f6"><td style="padding:12px 20px;color:#374151;font-weight:500">カレンダー</td><td style="text-align:center;padding:12px"><svg width="20" height="20" viewBox="0 0 20 20"><rect x="2" y="2" width="16" height="16" rx="3" fill="#22c55e"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td><td style="text-align:center;padding:12px"><svg width="20" height="20" viewBox="0 0 20 20"><rect x="2" y="2" width="16" height="16" rx="3" fill="#22c55e"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td><td style="text-align:center;padding:12px"><svg width="20" height="20" viewBox="0 0 20 20"><rect x="2" y="2" width="16" height="16" rx="3" fill="#22c55e"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td><td style="text-align:center;padding:12px"><svg width="20" height="20" viewBox="0 0 20 20"><rect x="2" y="2" width="16" height="16" rx="3" fill="#22c55e"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td></tr>
+          <tr style="border-bottom:1px solid #f3f4f6"><td style="padding:12px 20px;color:#374151;font-weight:500">見積書・請求書</td><td style="text-align:center;padding:12px"><svg width="20" height="20" viewBox="0 0 20 20"><rect x="2" y="2" width="16" height="16" rx="3" fill="#22c55e"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td><td style="text-align:center;padding:12px"><svg width="20" height="20" viewBox="0 0 20 20"><rect x="2" y="2" width="16" height="16" rx="3" fill="#22c55e"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td><td style="text-align:center;padding:12px"><svg width="20" height="20" viewBox="0 0 20 20"><rect x="2" y="2" width="16" height="16" rx="3" fill="#22c55e"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td><td style="text-align:center;padding:12px"><svg width="20" height="20" viewBox="0 0 20 20"><rect x="2" y="2" width="16" height="16" rx="3" fill="#22c55e"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td></tr>
+          <tr style="border-bottom:1px solid #f3f4f6"><td style="padding:12px 20px;color:#374151;font-weight:500">パートナー管理</td><td style="text-align:center;padding:12px"><svg width="20" height="20" viewBox="0 0 20 20"><rect x="2" y="2" width="16" height="16" rx="3" fill="#22c55e"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td><td style="text-align:center;padding:12px"><svg width="20" height="20" viewBox="0 0 20 20"><rect x="2" y="2" width="16" height="16" rx="3" fill="#22c55e"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td><td style="text-align:center;padding:12px"><svg width="20" height="20" viewBox="0 0 20 20"><rect x="2" y="2" width="16" height="16" rx="3" fill="#22c55e"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td><td style="text-align:center;padding:12px"><svg width="20" height="20" viewBox="0 0 20 20"><rect x="2" y="2" width="16" height="16" rx="3" fill="#22c55e"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td></tr>
+          <tr style="border-bottom:1px solid #f3f4f6"><td style="padding:12px 20px;color:#374151;font-weight:500">チーム招待</td><td style="text-align:center;padding:12px"><svg width="20" height="20" viewBox="0 0 20 20"><rect x="2" y="2" width="16" height="16" rx="3" fill="#22c55e"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td><td style="text-align:center;padding:12px"><svg width="20" height="20" viewBox="0 0 20 20"><rect x="2" y="2" width="16" height="16" rx="3" fill="#22c55e"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td><td style="text-align:center;padding:12px"><svg width="20" height="20" viewBox="0 0 20 20"><rect x="2" y="2" width="16" height="16" rx="3" fill="#22c55e"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td><td style="text-align:center;padding:12px"><svg width="20" height="20" viewBox="0 0 20 20"><rect x="2" y="2" width="16" height="16" rx="3" fill="#22c55e"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td></tr>
+          <tr style="border-bottom:1px solid #f3f4f6"><td style="padding:12px 20px;color:#374151;font-weight:500">AIクレジット</td><td style="text-align:center;padding:12px;font-weight:600">200/月</td><td style="text-align:center;padding:12px;font-weight:600">2,400/月</td><td style="text-align:center;padding:12px;font-weight:600">10,000/月</td><td style="text-align:center;padding:12px;font-weight:600">30,000/月</td></tr>
+          <tr style="border-bottom:1px solid #f3f4f6"><td style="padding:12px 20px;color:#374151;font-weight:500">ファイル保存</td><td style="text-align:center;padding:12px;font-weight:600">30日間</td><td style="text-align:center;padding:12px;font-weight:600">無期限</td><td style="text-align:center;padding:12px;font-weight:600">無期限</td><td style="text-align:center;padding:12px;font-weight:600">無期限</td></tr>
+          <!-- Standard以上 -->
+          <tr><td colspan="5" style="background:#ecfdf5;padding:10px 20px;font-size:.78rem;font-weight:800;color:#1d1d1f"><svg width="16" height="16" viewBox="0 0 20 20" style="vertical-align:middle;margin-right:6px"><rect x="2" y="2" width="16" height="16" rx="3" fill="#22c55e"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Standard 以上の機能</td></tr>
+          <tr style="border-bottom:1px solid #f3f4f6"><td style="padding:12px 20px;color:#374151;font-weight:500">LINE通知</td><td style="text-align:center;padding:12px"><svg width="20" height="20" viewBox="0 0 20 20"><rect x="2" y="2" width="16" height="16" rx="3" fill="#f3f4f6"/><path d="M7 10H13" stroke="#d1d5db" stroke-width="2" stroke-linecap="round"/></svg></td><td style="text-align:center;padding:12px"><svg width="20" height="20" viewBox="0 0 20 20"><rect x="2" y="2" width="16" height="16" rx="3" fill="#22c55e"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td><td style="text-align:center;padding:12px"><svg width="20" height="20" viewBox="0 0 20 20"><rect x="2" y="2" width="16" height="16" rx="3" fill="#22c55e"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td><td style="text-align:center;padding:12px"><svg width="20" height="20" viewBox="0 0 20 20"><rect x="2" y="2" width="16" height="16" rx="3" fill="#22c55e"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td></tr>
+          <tr style="border-bottom:1px solid #f3f4f6"><td style="padding:12px 20px;color:#374151;font-weight:500">Slack連携</td><td style="text-align:center;padding:12px"><svg width="20" height="20" viewBox="0 0 20 20"><rect x="2" y="2" width="16" height="16" rx="3" fill="#f3f4f6"/><path d="M7 10H13" stroke="#d1d5db" stroke-width="2" stroke-linecap="round"/></svg></td><td style="text-align:center;padding:12px"><svg width="20" height="20" viewBox="0 0 20 20"><rect x="2" y="2" width="16" height="16" rx="3" fill="#22c55e"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td><td style="text-align:center;padding:12px"><svg width="20" height="20" viewBox="0 0 20 20"><rect x="2" y="2" width="16" height="16" rx="3" fill="#22c55e"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td><td style="text-align:center;padding:12px"><svg width="20" height="20" viewBox="0 0 20 20"><rect x="2" y="2" width="16" height="16" rx="3" fill="#22c55e"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td></tr>
+          <!-- Pro以上 -->
+          <tr><td colspan="5" style="background:#f0f0ff;padding:10px 20px;font-size:.78rem;font-weight:800;color:#1d1d1f"><svg width="16" height="16" viewBox="0 0 20 20" style="vertical-align:middle;margin-right:6px"><rect x="2" y="2" width="16" height="16" rx="3" fill="#22c55e"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Pro 以上の機能</td></tr>
+          <tr style="border-bottom:1px solid #f3f4f6"><td style="padding:12px 20px;color:#374151;font-weight:500">徹底分析（市場・競合・戦略）</td><td style="text-align:center;padding:12px"><svg width="20" height="20" viewBox="0 0 20 20"><rect x="2" y="2" width="16" height="16" rx="3" fill="#f3f4f6"/><path d="M7 10H13" stroke="#d1d5db" stroke-width="2" stroke-linecap="round"/></svg></td><td style="text-align:center;padding:12px"><svg width="20" height="20" viewBox="0 0 20 20"><rect x="2" y="2" width="16" height="16" rx="3" fill="#f3f4f6"/><path d="M7 10H13" stroke="#d1d5db" stroke-width="2" stroke-linecap="round"/></svg></td><td style="text-align:center;padding:12px"><svg width="20" height="20" viewBox="0 0 20 20"><rect x="2" y="2" width="16" height="16" rx="3" fill="#22c55e"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td><td style="text-align:center;padding:12px"><svg width="20" height="20" viewBox="0 0 20 20"><rect x="2" y="2" width="16" height="16" rx="3" fill="#22c55e"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td></tr>
+          <tr style="border-bottom:1px solid #f3f4f6"><td style="padding:12px 20px;color:#374151;font-weight:500">LP納品前チェック</td><td style="text-align:center;padding:12px"><svg width="20" height="20" viewBox="0 0 20 20"><rect x="2" y="2" width="16" height="16" rx="3" fill="#f3f4f6"/><path d="M7 10H13" stroke="#d1d5db" stroke-width="2" stroke-linecap="round"/></svg></td><td style="text-align:center;padding:12px"><svg width="20" height="20" viewBox="0 0 20 20"><rect x="2" y="2" width="16" height="16" rx="3" fill="#f3f4f6"/><path d="M7 10H13" stroke="#d1d5db" stroke-width="2" stroke-linecap="round"/></svg></td><td style="text-align:center;padding:12px"><svg width="20" height="20" viewBox="0 0 20 20"><rect x="2" y="2" width="16" height="16" rx="3" fill="#22c55e"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td><td style="text-align:center;padding:12px"><svg width="20" height="20" viewBox="0 0 20 20"><rect x="2" y="2" width="16" height="16" rx="3" fill="#22c55e"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td></tr>
+          <tr style="border-bottom:1px solid #f3f4f6"><td style="padding:12px 20px;color:#374151;font-weight:500">AI優先処理</td><td style="text-align:center;padding:12px"><svg width="20" height="20" viewBox="0 0 20 20"><rect x="2" y="2" width="16" height="16" rx="3" fill="#f3f4f6"/><path d="M7 10H13" stroke="#d1d5db" stroke-width="2" stroke-linecap="round"/></svg></td><td style="text-align:center;padding:12px"><svg width="20" height="20" viewBox="0 0 20 20"><rect x="2" y="2" width="16" height="16" rx="3" fill="#f3f4f6"/><path d="M7 10H13" stroke="#d1d5db" stroke-width="2" stroke-linecap="round"/></svg></td><td style="text-align:center;padding:12px"><svg width="20" height="20" viewBox="0 0 20 20"><rect x="2" y="2" width="16" height="16" rx="3" fill="#f3f4f6"/><path d="M7 10H13" stroke="#d1d5db" stroke-width="2" stroke-linecap="round"/></svg></td><td style="text-align:center;padding:12px"><svg width="20" height="20" viewBox="0 0 20 20"><rect x="2" y="2" width="16" height="16" rx="3" fill="#22c55e"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td></tr>
+          <!-- クレジット目安 -->
+          <tr><td colspan="5" style="background:#f9fafb;padding:10px 20px;font-size:.78rem;font-weight:800;color:#374151">クレジット目安（単独利用時）</td></tr>
+          <tr style="border-bottom:1px solid #f3f4f6"><td style="padding:10px 20px;color:#6b7280">プロジェクト作成</td><td style="text-align:center;padding:10px;font-weight:500">約1回</td><td style="text-align:center;padding:10px;font-weight:500">約16回</td><td style="text-align:center;padding:10px;font-weight:500">約66回</td><td style="text-align:center;padding:10px;font-weight:500">約200回</td></tr>
+          <tr style="border-bottom:1px solid #f3f4f6"><td style="padding:10px 20px;color:#6b7280">タスク分解</td><td style="text-align:center;padding:10px;font-weight:500">約2回</td><td style="text-align:center;padding:10px;font-weight:500">約24回</td><td style="text-align:center;padding:10px;font-weight:500">約100回</td><td style="text-align:center;padding:10px;font-weight:500">約300回</td></tr>
+          <tr style="border-bottom:1px solid #f3f4f6"><td style="padding:10px 20px;color:#6b7280">見積書作成</td><td style="text-align:center;padding:10px;font-weight:500">約1枚</td><td style="text-align:center;padding:10px;font-weight:500">約16枚</td><td style="text-align:center;padding:10px;font-weight:500">約66枚</td><td style="text-align:center;padding:10px;font-weight:500">約200枚</td></tr>
+          <tr><td style="padding:10px 20px;color:#6b7280">徹底分析</td><td style="text-align:center;padding:10px;color:#d1d5db">-</td><td style="text-align:center;padding:10px;color:#d1d5db">-</td><td style="text-align:center;padding:10px;font-weight:500">約25回</td><td style="text-align:center;padding:10px;font-weight:500">約75回</td></tr>
+        </tbody>
+      </table>
+      <div style="padding:12px 20px;border-top:1px solid #f3f4f6">
+        <p style="font-size:.68rem;color:rgba(0,0,0,.35)">※ 有料ユーザーから招待されたプロジェクトは上限に含まれません</p>
+        <p style="font-size:.68rem;color:rgba(0,0,0,.35)">クレジット目安は各機能を単独で利用した場合の参考値です</p>
       </div>
     </div>
   </div>
