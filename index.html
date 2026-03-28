@@ -397,6 +397,11 @@ a.nav-cta{font-size:.85rem;font-weight:700;color:#fff !important;background:#15c
 .campaign-highlight{background:linear-gradient(135deg,#4ade80,#93c5fd);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
 .campaign-sub{font-size:.82rem;opacity:.45;margin-bottom:28px}
 
+/* ===== FLOATING CTA (mobile only) ===== */
+.floating-cta{display:none;position:fixed;bottom:0;left:0;right:0;z-index:9999;padding:12px 16px;background:rgba(255,255,255,.95);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-top:1px solid rgba(0,0,0,.06);box-shadow:0 -4px 20px rgba(0,0,0,.06)}
+.floating-cta a{display:block;width:100%;text-align:center;padding:14px;border-radius:12px;background:#22c55e;color:#fff;font-size:.95rem;font-weight:700;text-decoration:none;letter-spacing:.02em}
+.floating-cta a:active{background:#16a34a;transform:scale(.98)}
+
 /* ===== RESPONSIVE ===== */
 @media(max-width:734px){
   /* Nav: CTA非表示、ロゴのみ */
@@ -409,6 +414,9 @@ a.nav-cta{font-size:.85rem;font-weight:700;color:#fff !important;background:#15c
   .split{grid-template-columns:1fr;gap:28px}
   .split-reverse{direction:ltr}
   .section-gray [style*="grid-template-columns:repeat(3"]{grid-template-columns:1fr !important}
+  .section [style*="grid-template-columns:repeat(3"]{grid-template-columns:1fr !important}
+  .floating-cta{display:flex}
+  footer{padding-bottom:80px!important}
   .split-text{max-width:100%}
   .split .headline-large{font-size:clamp(1.5rem,6vw,1.8rem)!important}
   .macbook-frame{box-shadow:0 16px 40px -10px rgba(0,0,0,.2)}
@@ -1480,6 +1488,11 @@ document.querySelectorAll('.gallery-scroll').forEach(g => {
   });
 })();
 </script>
+
+<!-- Floating CTA (mobile only) -->
+<div class="floating-cta">
+  <a href="https://app.taskul-ai.com/login?from=lp">14日間無料トライアル</a>
+</div>
 
 </body>
 </html>
