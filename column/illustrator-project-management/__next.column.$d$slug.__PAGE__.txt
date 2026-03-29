@@ -1,0 +1,180 @@
+1:"$Sreact.fragment"
+2:I[22016,["/column/_next/static/chunks/01xlw8hd842-c.js","/column/_next/static/chunks/0d3shmwh5_nmn.js","/column/_next/static/chunks/0wyj0to5_e~xe.js"],""]
+11:I[22432,["/column/_next/static/chunks/01xlw8hd842-c.js","/column/_next/static/chunks/0d3shmwh5_nmn.js","/column/_next/static/chunks/0wyj0to5_e~xe.js"],"default"]
+13:I[71207,["/column/_next/static/chunks/01xlw8hd842-c.js","/column/_next/static/chunks/0d3shmwh5_nmn.js","/column/_next/static/chunks/0wyj0to5_e~xe.js"],"default"]
+19:I[97367,["/column/_next/static/chunks/01xlw8hd842-c.js","/column/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+1a:"$Sreact.suspense"
+:HL["/images/sidebar-banner.png","image"]
+:HL["/column/_next/static/chunks/014bfu869tfwg.css","style"]
+0:{"rsc":["$","$1","c",{"children":[[["$","header",null,{"className":"fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-10 py-2.5 bg-white/96 backdrop-blur-[7px] shadow-[10px_10px_24px_rgba(0,0,0,0.05)]","children":[["$","$L2",null,{"href":"/","className":"flex items-center gap-1.5","children":[["$","div",null,{"className":"border-[3px] border-green rounded-[3px] w-[18px] h-[18px]"}],["$","span",null,{"className":"font-black text-[22px] tracking-[1px] text-black font-['DM_Sans']","children":"TASKUL"}],["$","span",null,{"className":"text-sub-gray text-[10px] font-medium tracking-[0.5px] ml-1","children":"タスクをシンプルに"}]]}],["$","nav",null,{"className":"flex items-center gap-12","children":[["$","$L2",null,{"href":"/","className":"text-main-black text-base font-semibold font-['DM_Sans']","children":"TOP"}],["$","$L2",null,{"href":"/#service","className":"text-main-black text-base font-semibold","children":"サービス"}],["$","$L2",null,{"href":"/column","className":"text-main-black text-base font-semibold","children":"コラム"}],["$","$L2",null,{"href":"/#contact","className":"text-main-black text-base font-semibold","children":"お問い合わせ"}],["$","$L2",null,{"href":"/#register","className":"flex items-center gap-2.5 bg-green text-white text-[15px] font-semibold px-8 py-4 rounded-full","children":[["$","span",null,{"className":"w-1.5 h-1.5 bg-white rounded-full"}],"今すぐ先行登録"]}]]}]]}],["$","main",null,{"className":"pt-[155px] pb-32 bg-bg min-h-screen","children":[["$","div",null,{"className":"max-w-[1210px] mx-auto px-4 mb-10","children":["$","div",null,{"className":"flex items-center gap-[11px] text-base text-gray","children":[["$","$L2",null,{"href":"/","className":"font-['DM_Sans'] hover:text-green","children":"TOP"}],["$","svg",null,{"width":"4","height":"8","viewBox":"0 0 4 8","fill":"none","children":["$","path",null,{"d":"M0.5 0.5L3.5 4L0.5 7.5","stroke":"currentColor"}]}],["$","$L2",null,{"href":"/column","className":"hover:text-green","children":"コラム"}],["$","svg",null,{"width":"4","height":"8","viewBox":"0 0 4 8","fill":"none","children":["$","path",null,{"d":"M0.5 0.5L3.5 4L0.5 7.5","stroke":"currentColor"}]}],["$","span",null,{"children":"フリーランス"}]]}]}],["$","div",null,{"className":"max-w-[1210px] mx-auto px-4 flex gap-[70px] items-start","children":[["$","article",null,{"className":"w-[800px] shrink-0 flex flex-col gap-[86px]","children":[["$","div",null,{"className":"flex flex-col gap-[30px]","children":[["$","div",null,{"className":"bg-white rounded-[10px] h-[450px] w-full flex items-center justify-center","children":["$","div",null,{"className":"flex items-center gap-2","children":[["$","div",null,{"className":"border-[6px] border-green rounded-[6px] w-9 h-9"}],["$","span",null,{"className":"font-black text-[44px] tracking-[2px] text-black font-['DM_Sans']","children":"TASKUL"}]]}]}],["$","div",null,{"className":"flex flex-col gap-4","children":[["$","h1",null,{"className":"text-[38px] font-bold leading-[1.5] text-main-black","children":"イラストレーターの案件管理術｜複数案件の納期・リテイク・請求を一元管理する方法"}],["$","div",null,{"className":"flex items-center gap-[26px]","children":[["$","time",null,{"className":"text-base text-gray font-['DM_Sans']","children":"2026/03/27"}],["$","div",null,{"className":"flex gap-3","children":[["$","span","案件管理",{"className":"bg-white rounded-[5px] shadow-[2px_2px_8px_rgba(0,0,0,0.08)] px-[13px] py-[3px] h-7 flex items-center gap-[7px] text-sm text-[#161616]","children":[["$","span",null,{"className":"w-[5px] h-[5px] bg-green rounded-full"}],"案件管理"]}],["$","span","フリーランス",{"className":"bg-white rounded-[5px] shadow-[2px_2px_8px_rgba(0,0,0,0.08)] px-[13px] py-[3px] h-7 flex items-center gap-[7px] text-sm text-[#161616]","children":[["$","span",null,{"className":"w-[5px] h-[5px] bg-green rounded-full"}],"フリーランス"]}]]}]]}]]}],["$","div",null,{"className":"bg-white rounded-[5px] p-3 flex items-start gap-4","children":[["$","div",null,{"className":"w-[84px] h-[84px] rounded-full border border-light-gray flex items-center justify-center shrink-0","children":["$","div",null,{"className":"border-[8px] border-green rounded-[8px] w-12 h-12"}]}],["$","div",null,{"className":"flex flex-col gap-2 flex-1","children":[["$","p",null,{"className":"text-sm font-bold text-main-black","children":"ライター"}],"$L3","$L4","$L5"]}]]}],"$L6","$L7","$L8"]}],"$L9","$La","$Lb"]}],"$Lc"]}]]}],"$Ld"],["$Le","$Lf"],"$L10"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"bMa67T6a0aJqxf1Am6ze5"}
+3:["$","p",null,{"className":"text-xl font-bold text-main-black","children":"TASKUL編集部"}]
+4:["$","p",null,{"className":"text-sm text-gray","children":"フリーランス・クリエイター向けのタスク管理・業務効率化に関する情報を発信しています。現役のWebディレクター・デザイナーが実体験をもとに執筆。"}]
+5:["$","div",null,{"className":"flex items-center justify-between","children":[["$","$L2",null,{"href":"/#register","className":"text-sm font-bold text-main-black","children":"ツールを試してみる"}],["$","svg",null,{"width":"5","height":"10","viewBox":"0 0 5 10","fill":"none","children":["$","path",null,{"d":"M0.5 0.5L4.5 5L0.5 9.5","stroke":"currentColor"}]}]]}]
+6:["$","div",null,{"className":"h-px bg-slightly-gray w-full"}]
+12:T2f41,<p><img src="/images/articles/illustrator-project-management/01.png" alt="イラストレーターの案件管理を解説するイメージ"></p>
+<!-- 画像未設定: イラストレーターがデジタルで作業している様子、または複数の案件が並んだイメージ -->
+<h2 id="イラストレーターの案件管理が難しい理由">イラストレーターの案件管理が難しい理由</h2>
+<p>イラストレーターの仕事は、他のフリーランスと比べて<strong>案件管理の難易度が高い</strong>という特徴があります。</p>
+<p>なぜか。それは1つの案件の中に<strong>複数の工程</strong>があり、しかも<strong>クライアントの確認待ち</strong>が頻繁に発生するからです。</p>
+<h3 id="一般的なイラスト案件の工程">一般的なイラスト案件の工程</h3>
+<p><img src="/images/articles/illustrator-project-management/02.png" alt="イラスト案件の工程フロー"></p>
+<!-- 画像未設定: ヒアリング→ラフ→確認待ち→線画→着色→納品→請求の工程フロー図 -->
+<ol>
+<li>ヒアリング・要件確認</li>
+<li>ラフ案作成（複数案の場合も）</li>
+<li><strong>クライアント確認待ち</strong></li>
+<li>ラフ修正</li>
+<li>線画作成</li>
+<li><strong>クライアント確認待ち</strong></li>
+<li>着色</li>
+<li><strong>クライアント確認待ち</strong></li>
+<li>最終修正・納品</li>
+<li>請求書発行</li>
+</ol>
+<p>1案件でこれだけの工程があるのに、フリーランスのイラストレーターは<strong>常時3〜5案件を並行</strong>して進めています。</p>
+<p>つまり、頭の中で管理しなければならないのは:</p>
+<ul>
+<li>案件A：ラフ修正中（明日締切）</li>
+<li>案件B：クライアント確認待ち（3日前に送った）</li>
+<li>案件C：線画作成中（来週月曜締切）</li>
+<li>案件D：ヒアリング前（木曜打ち合わせ）</li>
+<li>案件E：請求書まだ送ってない</li>
+</ul>
+<p><strong>これを頭の中だけで管理するのは、いつか必ず破綻します。</strong></p>
+<h2 id="イラストレーターが案件管理で失敗する3つのパターン">イラストレーターが案件管理で失敗する3つのパターン</h2>
+<h3 id="パターン1-確認待ちの案件を忘れる">パターン1：確認待ちの案件を忘れる</h3>
+<p>「先週ラフを送ったけど、返事が来ない。催促すべき？ いつ送ったっけ…」</p>
+<p>クライアントからの返信待ちは、<strong>自分のタスクリストから消えがち</strong>です。でも、返事が来ないまま放置すると、納期が押して最終的に自分が徹夜する羽目になります。</p>
+<h3 id="パターン2-リテイク回数を把握していない">パターン2：リテイク回数を把握していない</h3>
+<p>「このイラスト、もう何回修正したっけ…？」</p>
+<p>契約時に「修正2回まで」と決めていても、回数を記録していないと、ずるずると無限修正に巻き込まれます。3回目以降は追加料金を請求すべきなのに、回数が曖昧だと言い出せません。</p>
+<h3 id="パターン3-請求漏れ">パターン3：請求漏れ</h3>
+<p>納品したのに請求書を送り忘れる。これは笑い事ではなく、<strong>フリーランスの収入を直接的に減らす致命的なミス</strong>です。</p>
+<p>特に月末に複数の納品が重なると、「あの案件、請求書送ったっけ？」が頻発します。</p>
+<h2 id="イラストレーターに必要な案件管理の仕組み">イラストレーターに必要な案件管理の仕組み</h2>
+<p><img src="/images/articles/illustrator-project-management/03.png" alt="案件管理に必要な3要素の図解"></p>
+<!-- 画像未設定: 「工程ステータス管理」「リテイク回数記録」「納品→請求チェック」の3要素図 -->
+<p>上記の失敗を防ぐために、イラストレーターの案件管理には<strong>最低限3つの要素</strong>が必要です。</p>
+<h3 id="要素1-工程ごとのステータス管理">要素1：工程ごとのステータス管理</h3>
+<p>「この案件は今どの段階にあるか」が一目でわかる必要があります。</p>
+<ul>
+<li>ヒアリング中</li>
+<li>ラフ作成中</li>
+<li><strong>確認待ち</strong>（ここが重要！）</li>
+<li>線画作成中</li>
+<li>着色中</li>
+<li>納品済み</li>
+<li>請求済み</li>
+</ul>
+<p>特に**「確認待ち」を独立したステータスにする**ことが重要です。自分のタスクではないけれど、放置してはいけない状態を可視化できます。</p>
+<h3 id="要素2-リテイク回数の記録">要素2：リテイク回数の記録</h3>
+<p>案件ごとに「何回修正したか」を記録する欄があれば、追加料金の請求判断が明確になります。</p>
+<ul>
+<li>ラフ修正：2回（契約内）</li>
+<li>線画修正：1回（契約内）</li>
+<li>着色修正：3回目 → <strong>追加料金対象</strong></li>
+</ul>
+<h3 id="要素3-納品-請求のチェックリスト">要素3：納品→請求のチェックリスト</h3>
+<p>納品したら自動的に「請求書を送る」というタスクが発生する仕組みがあれば、請求漏れを防げます。</p>
+<h2 id="案件管理ツールの選び方-イラストレーター視点">案件管理ツールの選び方：イラストレーター視点</h2>
+<p>世の中に案件管理ツールはたくさんありますが、イラストレーターが選ぶ際のポイントは以下の3つです。</p>
+<h3 id="ポイント1-工程管理ができるか">ポイント1：工程管理ができるか</h3>
+<p>BacklogやJiraは高機能ですが、チーム開発向けに設計されています。イラストレーターが1人で使うには重すぎます。</p>
+<p>必要なのは「ラフ→線画→着色→納品→請求」という<strong>自分の工程だけ</strong>を管理できるシンプルさです。</p>
+<h3 id="ポイント2-確認待ちを管理できるか">ポイント2：確認待ちを管理できるか</h3>
+<p>多くのタスク管理ツールは「自分がやるタスク」の管理には強いですが、<strong>「相手待ちの状態」を管理する機能</strong>は弱い。</p>
+<p>カンバンボードで「確認待ち」のレーンを作れるツール、もしくは自動リマインド機能があるツールを選びましょう。</p>
+<h3 id="ポイント3-見積書・請求書との連動">ポイント3：見積書・請求書との連動</h3>
+<p>案件管理と請求管理が別々のツールだと、どうしても「納品したけど請求を忘れた」が発生します。</p>
+<p>理想は、案件のステータスを「納品済み」にしたら<strong>自動で請求タスクが立つ</strong>仕組みです。</p>
+<h2 id="おすすめの管理方法">おすすめの管理方法</h2>
+<h3 id="方法1-googleスプレッドシート-無料で始めたい人向け">方法1：Googleスプレッドシート（無料で始めたい人向け）</h3>
+<p>最もシンプルな方法は、Googleスプレッドシートで案件管理表を作ることです。</p>
+<p>列の構成例:</p>
+<ul>
+<li>案件名</li>
+<li>クライアント名</li>
+<li>受注日</li>
+<li>納期</li>
+<li>現在のステータス</li>
+<li>リテイク回数（ラフ/線画/着色）</li>
+<li>請求ステータス</li>
+<li>備考</li>
+</ul>
+<p><strong>メリット</strong>: 無料、カスタマイズ自由、スマホからも見れる</p>
+<p><strong>デメリット</strong>: リマインド機能がない、入力が手動、見た目が地味でモチベーションに繋がりにくい</p>
+<h3 id="方法2-trello-視覚的に管理したい人向け">方法2：Trello（視覚的に管理したい人向け）</h3>
+<p>Trelloのカンバンボードを使って、案件の進捗を視覚的に管理する方法です。</p>
+<p>レーンの構成例:</p>
+<ul>
+<li>ヒアリング中</li>
+<li>ラフ作成中</li>
+<li>確認待ち</li>
+<li>線画〜着色中</li>
+<li>納品済み</li>
+<li>請求済み</li>
+</ul>
+<p>カードを移動するだけで進捗が更新されるので、直感的に使えます。</p>
+<p><strong>メリット</strong>: 視覚的で分かりやすい、無料で十分使える</p>
+<p><strong>デメリット</strong>: リテイク回数の管理が面倒、案件が増えるとカードが溢れる</p>
+<h3 id="方法3-taskul-aiで自動化したい人向け">方法3：TASKUL（AIで自動化したい人向け）</h3>
+<p><img src="/images/articles/illustrator-project-management/04.png" alt="TASKULでイラスト案件を管理している画面"></p>
+<!-- 画像未設定: TASKULの画面キャプチャ（イラスト案件のタスクが並んでいる状態） -->
+<p>TASKULはフリーランス・クリエイター専用のAIタスク管理ツールです。</p>
+<p>クライアントからの依頼メッセージを<strong>そのままコピペするだけ</strong>で、AIが自動的に:</p>
+<ul>
+<li>案件名を抽出</li>
+<li>期日を特定</li>
+<li>タスクに分解</li>
+</ul>
+<p>してくれます。</p>
+<p><strong>メリット</strong>: 入力の手間がほぼゼロ、毎朝LINEで今日のタスクが届く、請求書もワンタップ</p>
+<p><strong>デメリット</strong>: チーム利用には非対応</p>
+<h2 id="案件管理を始めるための3ステップ">案件管理を始めるための3ステップ</h2>
+<p>「ツールは決まった。でも何から始めればいい？」という方のために、今日からできる3ステップを紹介します。</p>
+<h3 id="ステップ1-今抱えている案件を全部書き出す">ステップ1：今抱えている案件を全部書き出す</h3>
+<p>まず、今進行中の案件を全てリストアップします。頭の中にあるものを全部外に出してください。</p>
+<ul>
+<li>案件名</li>
+<li>納期</li>
+<li>今どの工程にあるか</li>
+</ul>
+<p>これだけでOKです。完璧に書く必要はありません。</p>
+<h3 id="ステップ2-確認待ち-の案件にフラグを立てる">ステップ2：「確認待ち」の案件にフラグを立てる</h3>
+<p>リストの中から、<strong>クライアントの返答待ちになっている案件</strong>を特定します。そして「いつ送ったか」「いつまでに返事がなければ催促するか」を決めます。</p>
+<p>この1つのアクションだけで、「確認待ちの案件を忘れる」というミスがなくなります。</p>
+<h3 id="ステップ3-週に1回15分の振り返りをする">ステップ3：週に1回15分の振り返りをする</h3>
+<p>毎週金曜日の夕方に15分だけ:</p>
+<ul>
+<li>各案件のステータス更新</li>
+<li>来週の納期確認</li>
+<li>請求漏れがないかチェック</li>
+</ul>
+<p>これを習慣にするだけで、案件管理は回り始めます。</p>
+<h2 id="まとめ-イラストレーターの案件管理は-確認待ち-がカギ">まとめ：イラストレーターの案件管理は「確認待ち」がカギ</h2>
+<p>イラストレーターの案件管理で最も重要なのは、<strong>「確認待ち」という自分のタスクではない状態を可視化すること</strong>です。</p>
+<ul>
+<li>工程ごとのステータスを明確にする</li>
+<li>リテイク回数を記録して追加料金の判断根拠にする</li>
+<li>納品→請求の流れを仕組み化する</li>
+</ul>
+<p>複数案件を安定して回せるようになると、<strong>受注できる案件数が増え、結果的に収入アップ</strong>につながります。</p>
+<p>まだ案件管理の仕組みがないなら、今日から始めてください。ツール選びで迷うなら、設定不要でコピペだけで始められるTASKULがおすすめです。</p>
+7:["$","$L11",null,{"contentHtml":"$12"}]
+8:["$","$L13",null,{}]
+9:["$","div",null,{"className":"flex flex-col gap-[23px]","children":[["$","p",null,{"className":"text-base font-medium text-sub-gray text-center","children":"＼ 今なら7,980円の最上プランが1.5ヶ月無料！ ／"}],["$","div",null,{"className":"relative bg-white border-4 border-green rounded-[10px] h-[300px] shadow-[0_4px_24px_rgba(0,0,0,0.1)] overflow-hidden","children":["$","div",null,{"className":"absolute top-1/2 -translate-y-1/2 left-[44px] flex flex-col gap-4","children":[["$","h3",null,{"className":"text-[34px] font-bold text-main-black leading-[1.3] tracking-[0.68px]","children":"タスクをシンプルに。"}],["$","p",null,{"className":"text-base text-[#161616] w-[432px] leading-[1.6]","children":"フリーランスのためのAIタスク管理。開いて2秒で操れる、依頼貼るだけで自動タスク化。"}],["$","$L2",null,{"href":"/#register","className":"bg-green text-white text-[17px] font-bold px-8 py-3 rounded-full w-[272px] h-[50px] flex items-center justify-center tracking-[0.68px]","children":"今すぐ試してみる"}]]}]}]]}]
+a:["$","div",null,{"className":"flex flex-col gap-9","children":[["$","div",null,{"className":"flex flex-col gap-4","children":[["$","div",null,{"className":"flex items-center gap-[13px]","children":[["$","span",null,{"className":"w-[7px] h-[7px] bg-green rounded-[1px]"}],["$","span",null,{"className":"text-lg font-medium text-sub-gray font-['DM_Sans']","children":"Column"}]]}],["$","h2",null,{"className":"text-[54px] font-bold text-main-black leading-[1.28]","children":"関連記事"}]]}],["$","div",null,{"className":"flex flex-wrap gap-5","children":[["$","$L2","freelance-task-management",{"href":"/column/freelance-task-management","className":"w-[253px] flex flex-col gap-[14px]","children":[["$","div",null,{"className":"bg-white rounded-[7px] h-[142px] w-full flex items-center justify-center","children":["$","div",null,{"className":"flex items-center gap-1","children":[["$","div",null,{"className":"border-[3px] border-green rounded-[3px] w-[18px] h-[18px]"}],["$","span",null,{"className":"font-black text-[22px] tracking-[1px] text-black font-['DM_Sans']","children":"TASKUL"}]]}]}],["$","div",null,{"className":"flex flex-col gap-1 leading-[1.6]","children":[["$","p",null,{"className":"text-lg font-bold text-main-black","children":"フリーランスのタスク管理が「続かない」本当の理由と、今日から使える解決策"}],["$","p",null,{"className":"text-sm font-medium text-sub-gray","children":"フリーランスのタスク管理が続かない原因は、ツールが「チーム向け」に作られているから。個人で案件を回すフリーランスに本当に必要なタスク管理の考え方と、具体的な運用方法を現役フリーランスが解説します。"}]]}]]}],["$","$L2","notion-task-management-alternative",{"href":"/column/notion-task-management-alternative","className":"w-[253px] flex flex-col gap-[14px]","children":[["$","div",null,{"className":"bg-white rounded-[7px] h-[142px] w-full flex items-center justify-center","children":["$","div",null,{"className":"flex items-center gap-1","children":[["$","div",null,{"className":"border-[3px] border-green rounded-[3px] w-[18px] h-[18px]"}],["$","span",null,{"className":"font-black text-[22px] tracking-[1px] text-black font-['DM_Sans']","children":"TASKUL"}]]}]}],["$","div",null,{"className":"flex flex-col gap-1 leading-[1.6]","children":[["$","p",null,{"className":"text-lg font-bold text-main-black","children":"Notionのタスク管理が「めんどくさい」と感じたら読む記事｜もっとシンプルな選択肢"}],["$","p",null,{"className":"text-sm font-medium text-sub-gray","children":"Notionのタスク管理が続かない・めんどくさいと感じるのは、あなたのせいじゃない。自由度が高すぎるツールが合わない人のために、設定ゼロで今日から使えるシンプルな代替ツールを紹介します。"}]]}]]}],["$","$L2","multiple-projects-management",{"href":"/column/multiple-projects-management","className":"w-[253px] flex flex-col gap-[14px]","children":[["$","div",null,{"className":"bg-white rounded-[7px] h-[142px] w-full flex items-center justify-center","children":["$","div",null,{"className":"flex items-center gap-1","children":[["$","div",null,{"className":"border-[3px] border-green rounded-[3px] w-[18px] h-[18px]"}],["$","span",null,{"className":"font-black text-[22px] tracking-[1px] text-black font-['DM_Sans']","children":"TASKUL"}]]}]}],["$","div",null,{"className":"flex flex-col gap-1 leading-[1.6]","children":[["$","p",null,{"className":"text-lg font-bold text-main-black","children":"複数案件を同時に回すフリーランスの案件管理術｜抱えすぎてパンクする前に"}],["$","p",null,{"className":"text-sm font-medium text-sub-gray","children":"フリーランスが複数案件を同時進行で回すための案件管理方法を解説。案件の優先順位づけ、スケジュール管理、クライアント対応の効率化まで、パンクを防ぐ具体的なノウハウを紹介します。"}]]}]]}]]}]]}]
+b:["$","div",null,{"className":"flex justify-center gap-[18px]","children":[["$","$L2",null,{"href":"/column","className":"bg-white rounded-full px-8 py-4 flex items-center gap-2.5","children":[["$","svg",null,{"width":"14","height":"8","viewBox":"0 0 14 8","fill":"none","className":"rotate-180","children":["$","path",null,{"d":"M0.5 0.5L7 7L13.5 0.5","stroke":"currentColor","strokeLinecap":"round"}]}],["$","span",null,{"className":"text-[15px] font-semibold text-main-black","children":"一覧へ戻る"}]]}],["$","$L2",null,{"href":"/","className":"bg-white rounded-full px-8 py-4 flex items-center gap-2.5","children":[["$","svg",null,{"width":"14","height":"8","viewBox":"0 0 14 8","fill":"none","className":"rotate-180","children":["$","path",null,{"d":"M0.5 0.5L7 7L13.5 0.5","stroke":"currentColor","strokeLinecap":"round"}]}],["$","span",null,{"className":"text-[15px] font-semibold text-main-black","children":"TOPへ戻る"}]]}]]}]
+c:["$","aside",null,{"className":"w-[340px] shrink-0 flex flex-col gap-14","children":[["$","$L2",null,{"href":"/#register","className":"block w-[340px] shrink-0","children":["$","img",null,{"src":"/images/sidebar-banner.png","alt":"TASKUL - 今、先行登録した人限定！7,980円の最上プランを1.5ヶ月間無料解放","width":340,"height":340,"className":"w-full h-auto rounded-[10px]"}]}],["$","div",null,{"className":"flex flex-col gap-[22px]","children":[["$","h3",null,{"className":"text-xl font-bold text-main-black","children":"人気記事"}],["$","div",null,{"className":"flex flex-col gap-[23px]","children":[["$","$L2","freelance-task-management",{"href":"/column/freelance-task-management","className":"flex flex-col gap-[18px]","children":[["$","div",null,{"className":"relative bg-white rounded-[10px] h-[191px] w-full flex items-center justify-center","children":[["$","div",null,{"className":"flex items-center gap-1","children":[["$","div",null,{"className":"border-[4px] border-green rounded-[4px] w-6 h-6"}],["$","span",null,{"className":"font-black text-[30px] tracking-[1.5px] text-black font-['DM_Sans']","children":"TASKUL"}]]}],["$","div",null,{"className":"absolute top-0 left-0 bg-[#cb9d20] rounded-tl-[5px] rounded-br-[5px] w-[46px] h-[46px] flex items-center justify-center","children":["$","span",null,{"className":"text-white text-xl font-bold font-['DM_Sans']","children":1}]}]]}],["$","p",null,{"className":"text-xl font-bold text-main-black leading-[1.5]","children":"フリーランスのタスク管理が「続かない」本当の理由と、今日から使える解決策"}]]}],["$","$L2","notion-task-management-alternative",{"href":"/column/notion-task-management-alternative","className":"flex gap-2.5","children":[["$","div",null,{"className":"relative bg-white rounded-[5px] w-[180px] h-[101px] shrink-0 flex items-center justify-center","children":[["$","div",null,{"className":"flex items-center gap-1","children":[["$","div",null,{"className":"border-[2.7px] border-green rounded-[2.7px] w-4 h-4"}],["$","span",null,{"className":"font-black text-[20px] tracking-[1px] text-black font-['DM_Sans']","children":"TASKUL"}]]}],["$","div",null,{"className":"absolute top-0 left-0 bg-[#8f8f8f] rounded-tl-[2.6px] rounded-br-[2.6px] w-6 h-6 flex items-center justify-center","children":["$","span",null,{"className":"text-white text-[11px] font-bold font-['DM_Sans']","children":2}]}]]}],["$","p",null,{"className":"text-base font-bold text-main-black leading-[1.5]","children":"Notionのタスク管理が「めんどくさい」と感じたら読む記事｜もっとシンプルな選択肢"}]]}],["$","$L2","illustrator-project-management",{"href":"/column/illustrator-project-management","className":"flex gap-2.5","children":[["$","div",null,{"className":"relative bg-white rounded-[5px] w-[180px] h-[101px] shrink-0 flex items-center justify-center","children":[["$","div",null,{"className":"flex items-center gap-1","children":[["$","div",null,{"className":"border-[2.7px] border-green rounded-[2.7px] w-4 h-4"}],["$","span",null,{"className":"font-black text-[20px] tracking-[1px] text-black font-['DM_Sans']","children":"TASKUL"}]]}],["$","div",null,{"className":"absolute top-0 left-0 bg-[#ad5a1b] rounded-tl-[2.6px] rounded-br-[2.6px] w-6 h-6 flex items-center justify-center","children":["$","span",null,{"className":"text-white text-[11px] font-bold font-['DM_Sans']","children":3}]}]]}],["$","p",null,{"className":"text-base font-bold text-main-black leading-[1.5]","children":"イラストレーターの案件管理術｜複数案件の納期・リテイク・請求を一元管理する方法"}]]}],["$","$L2","multiple-projects-management",{"href":"/column/multiple-projects-management","className":"flex gap-2.5","children":[["$","div",null,{"className":"relative bg-white rounded-[5px] w-[180px] h-[101px] shrink-0 flex items-center justify-center","children":[["$","div",null,{"className":"flex items-center gap-1","children":[["$","div",null,{"className":"border-[2.7px] border-green rounded-[2.7px] w-4 h-4"}],["$","span",null,{"className":"font-black text-[20px] tracking-[1px] text-black font-['DM_Sans']","children":"TASKUL"}]]}],["$","div",null,{"className":"absolute top-0 left-0 bg-[#161616] rounded-tl-[2.6px] rounded-br-[2.6px] w-6 h-6 flex items-center justify-center","children":"$L14"}]]}],"$L15"]}]]}]]}],"$L16","$L17","$L18"]}]
+d:["$","footer",null,{"className":"relative bg-white w-full","children":[["$","div",null,{"className":"max-w-[1440px] mx-auto px-[115px] pt-[107px] pb-[66px]","children":[["$","div",null,{"className":"flex justify-between","children":[["$","div",null,{"className":"flex flex-col items-start","children":[["$","div",null,{"className":"flex items-center gap-1.5","children":[["$","div",null,{"className":"border-[7px] border-green rounded-[7px] w-10 h-10"}],["$","span",null,{"className":"font-black text-[50px] tracking-[2.5px] text-black font-['DM_Sans']","children":"TASKUL"}]]}],["$","p",null,{"className":"text-sub-gray text-[22px] font-medium tracking-[1px] text-center","children":"タスクをシンプルに"}],["$","$L2",null,{"href":"/#register","className":"flex items-center gap-2.5 bg-green text-white text-[15px] font-semibold px-[52px] py-4 rounded-full mt-6","children":[["$","span",null,{"className":"w-1.5 h-1.5 bg-white rounded-full"}],"今すぐ先行登録"]}]]}],["$","div",null,{"className":"flex gap-[200px]","children":[["$","div",null,{"className":"flex flex-col gap-[18px] text-base font-semibold text-main-black","children":[["$","$L2",null,{"href":"/","className":"font-['DM_Sans']","children":"TOP"}],["$","$L2",null,{"href":"/#service","children":"サービス"}],["$","$L2",null,{"href":"/column","children":"コラム"}]]}],["$","div",null,{"className":"flex flex-col gap-[18px] text-base font-semibold text-main-black","children":[["$","span",null,{"className":"font-['DM_Sans']","children":"FREECOMPANY"}],["$","$L2",null,{"href":"#","children":"運営会社"}],["$","$L2",null,{"href":"/#contact","children":"お問い合わせ"}]]}]]}]]}],["$","div",null,{"className":"flex justify-center gap-[26px] mt-12 text-[15px] text-gray","children":[["$","$L2",null,{"href":"/lp/terms.html","className":"underline","children":"利用規約"}],["$","$L2",null,{"href":"/lp/privacy.html","className":"underline","children":"プライバシーポリシー"}],["$","$L2",null,{"href":"/lp/tokusho.html","className":"underline","children":"特定商取引法に基づく表記"}]]}]]}],["$","div",null,{"className":"bg-green h-[33px] flex items-center justify-center","children":["$","p",null,{"className":"text-white text-sm text-center","children":"2026 © FREECOMPANY All Rights Reserved."}]}]]}]
+e:["$","link","0",{"rel":"stylesheet","href":"/column/_next/static/chunks/014bfu869tfwg.css","precedence":"next"}]
+f:["$","script","script-0",{"src":"/column/_next/static/chunks/0wyj0to5_e~xe.js","async":true}]
+10:["$","$L19",null,{"children":["$","$1a",null,{"name":"Next.MetadataOutlet","children":"$@1b"}]}]
+14:["$","span",null,{"className":"text-white text-[11px] font-bold font-['DM_Sans']","children":4}]
+15:["$","p",null,{"className":"text-base font-bold text-main-black leading-[1.5]","children":"複数案件を同時に回すフリーランスの案件管理術｜抱えすぎてパンクする前に"}]
+16:["$","div",null,{"className":"flex flex-col gap-[22px]","children":[["$","h3",null,{"className":"text-xl font-bold text-main-black","children":"カテゴリ"}],["$","div",null,{"className":"flex flex-col gap-[18px]","children":[[["$","div","タスク管理",{"children":[["$","div",null,{"className":"h-px bg-slightly-gray w-full"}],["$","div",null,{"className":"flex items-center justify-between px-2.5 py-3","children":[["$","span",null,{"className":"text-base font-semibold text-main-black tracking-[-0.32px]","children":"タスク管理"}],["$","svg",null,{"width":"4","height":"8","viewBox":"0 0 4 8","fill":"none","className":"text-main-black","children":["$","path",null,{"d":"M0.5 0.5L3.5 4L0.5 7.5","stroke":"currentColor"}]}]]}]]}],["$","div","案件管理",{"children":[["$","div",null,{"className":"h-px bg-slightly-gray w-full"}],["$","div",null,{"className":"flex items-center justify-between px-2.5 py-3","children":[["$","span",null,{"className":"text-base font-semibold text-main-black tracking-[-0.32px]","children":"案件管理"}],["$","svg",null,{"width":"4","height":"8","viewBox":"0 0 4 8","fill":"none","className":"text-main-black","children":["$","path",null,{"d":"M0.5 0.5L3.5 4L0.5 7.5","stroke":"currentColor"}]}]]}]]}],["$","div","フリーランス",{"children":[["$","div",null,{"className":"h-px bg-slightly-gray w-full"}],["$","div",null,{"className":"flex items-center justify-between px-2.5 py-3","children":[["$","span",null,{"className":"text-base font-semibold text-main-black tracking-[-0.32px]","children":"フリーランス"}],["$","svg",null,{"width":"4","height":"8","viewBox":"0 0 4 8","fill":"none","className":"text-main-black","children":["$","path",null,{"d":"M0.5 0.5L3.5 4L0.5 7.5","stroke":"currentColor"}]}]]}]]}],["$","div","ツール比較",{"children":[["$","div",null,{"className":"h-px bg-slightly-gray w-full"}],["$","div",null,{"className":"flex items-center justify-between px-2.5 py-3","children":[["$","span",null,{"className":"text-base font-semibold text-main-black tracking-[-0.32px]","children":"ツール比較"}],["$","svg",null,{"width":"4","height":"8","viewBox":"0 0 4 8","fill":"none","className":"text-main-black","children":["$","path",null,{"d":"M0.5 0.5L3.5 4L0.5 7.5","stroke":"currentColor"}]}]]}]]}],["$","div","働き方",{"children":[["$","div",null,{"className":"h-px bg-slightly-gray w-full"}],["$","div",null,{"className":"flex items-center justify-between px-2.5 py-3","children":[["$","span",null,{"className":"text-base font-semibold text-main-black tracking-[-0.32px]","children":"働き方"}],["$","svg",null,{"width":"4","height":"8","viewBox":"0 0 4 8","fill":"none","className":"text-main-black","children":["$","path",null,{"d":"M0.5 0.5L3.5 4L0.5 7.5","stroke":"currentColor"}]}]]}]]}]],["$","div",null,{"className":"h-px bg-slightly-gray w-full"}]]}]]}]
+17:["$","div",null,{"className":"bg-white rounded-[5px] h-[126px] w-full flex items-center justify-center","children":["$","div",null,{"className":"flex items-center gap-1.5","children":[["$","div",null,{"className":"border-[4px] border-green rounded-[4px] w-6 h-6"}],["$","span",null,{"className":"font-black text-[30px] tracking-[1.5px] text-black font-['DM_Sans']","children":"TASKUL"}]]}]}]
+18:["$","div",null,{"className":"flex flex-col gap-[22px] sticky top-20","children":[["$","h3",null,{"className":"text-xl font-bold text-main-black font-['DM_Sans']","children":"Index"}],["$","nav",null,{"className":"bg-white rounded-[5px] p-6 flex flex-col gap-3","children":[["$","a","イラストレーターの案件管理が難しい理由",{"href":"#イラストレーターの案件管理が難しい理由","className":"text-sm text-sub-gray hover:text-green transition-colors ","children":"イラストレーターの案件管理が難しい理由"}],["$","a","一般的なイラスト案件の工程",{"href":"#一般的なイラスト案件の工程","className":"text-sm text-sub-gray hover:text-green transition-colors pl-4","children":"一般的なイラスト案件の工程"}],["$","a","イラストレーターが案件管理で失敗する3つのパターン",{"href":"#イラストレーターが案件管理で失敗する3つのパターン","className":"text-sm text-sub-gray hover:text-green transition-colors ","children":"イラストレーターが案件管理で失敗する3つのパターン"}],["$","a","パターン1-確認待ちの案件を忘れる",{"href":"#パターン1-確認待ちの案件を忘れる","className":"text-sm text-sub-gray hover:text-green transition-colors pl-4","children":"パターン1：確認待ちの案件を忘れる"}],["$","a","パターン2-リテイク回数を把握していない",{"href":"#パターン2-リテイク回数を把握していない","className":"text-sm text-sub-gray hover:text-green transition-colors pl-4","children":"パターン2：リテイク回数を把握していない"}],["$","a","パターン3-請求漏れ",{"href":"#パターン3-請求漏れ","className":"text-sm text-sub-gray hover:text-green transition-colors pl-4","children":"パターン3：請求漏れ"}],["$","a","イラストレーターに必要な案件管理の仕組み",{"href":"#イラストレーターに必要な案件管理の仕組み","className":"text-sm text-sub-gray hover:text-green transition-colors ","children":"イラストレーターに必要な案件管理の仕組み"}],["$","a","要素1-工程ごとのステータス管理",{"href":"#要素1-工程ごとのステータス管理","className":"text-sm text-sub-gray hover:text-green transition-colors pl-4","children":"要素1：工程ごとのステータス管理"}],["$","a","要素2-リテイク回数の記録",{"href":"#要素2-リテイク回数の記録","className":"text-sm text-sub-gray hover:text-green transition-colors pl-4","children":"要素2：リテイク回数の記録"}],["$","a","要素3-納品-請求のチェックリスト",{"href":"#要素3-納品-請求のチェックリスト","className":"text-sm text-sub-gray hover:text-green transition-colors pl-4","children":"要素3：納品→請求のチェックリスト"}],["$","a","案件管理ツールの選び方-イラストレーター視点",{"href":"#案件管理ツールの選び方-イラストレーター視点","className":"text-sm text-sub-gray hover:text-green transition-colors ","children":"案件管理ツールの選び方：イラストレーター視点"}],["$","a","ポイント1-工程管理ができるか",{"href":"#ポイント1-工程管理ができるか","className":"text-sm text-sub-gray hover:text-green transition-colors pl-4","children":"ポイント1：工程管理ができるか"}],["$","a","ポイント2-確認待ちを管理できるか",{"href":"#ポイント2-確認待ちを管理できるか","className":"text-sm text-sub-gray hover:text-green transition-colors pl-4","children":"ポイント2：確認待ちを管理できるか"}],["$","a","ポイント3-見積書・請求書との連動",{"href":"#ポイント3-見積書・請求書との連動","className":"text-sm text-sub-gray hover:text-green transition-colors pl-4","children":"ポイント3：見積書・請求書との連動"}],["$","a","おすすめの管理方法",{"href":"#おすすめの管理方法","className":"text-sm text-sub-gray hover:text-green transition-colors ","children":"おすすめの管理方法"}],["$","a","方法1-googleスプレッドシート-無料で始めたい人向け",{"href":"#方法1-googleスプレッドシート-無料で始めたい人向け","className":"text-sm text-sub-gray hover:text-green transition-colors pl-4","children":"方法1：Googleスプレッドシート（無料で始めたい人向け）"}],["$","a","方法2-trello-視覚的に管理したい人向け",{"href":"#方法2-trello-視覚的に管理したい人向け","className":"text-sm text-sub-gray hover:text-green transition-colors pl-4","children":"方法2：Trello（視覚的に管理したい人向け）"}],["$","a","方法3-taskul-aiで自動化したい人向け",{"href":"#方法3-taskul-aiで自動化したい人向け","className":"text-sm text-sub-gray hover:text-green transition-colors pl-4","children":"方法3：TASKUL（AIで自動化したい人向け）"}],["$","a","案件管理を始めるための3ステップ",{"href":"#案件管理を始めるための3ステップ","className":"text-sm text-sub-gray hover:text-green transition-colors ","children":"案件管理を始めるための3ステップ"}],["$","a","ステップ1-今抱えている案件を全部書き出す",{"href":"#ステップ1-今抱えている案件を全部書き出す","className":"text-sm text-sub-gray hover:text-green transition-colors pl-4","children":"ステップ1：今抱えている案件を全部書き出す"}],["$","a","ステップ2-確認待ち-の案件にフラグを立てる",{"href":"#ステップ2-確認待ち-の案件にフラグを立てる","className":"text-sm text-sub-gray hover:text-green transition-colors pl-4","children":"ステップ2：「確認待ち」の案件にフラグを立てる"}],"$L1c","$L1d"]}]]}]
+1b:null
+1c:["$","a","ステップ3-週に1回15分の振り返りをする",{"href":"#ステップ3-週に1回15分の振り返りをする","className":"text-sm text-sub-gray hover:text-green transition-colors pl-4","children":"ステップ3：週に1回15分の振り返りをする"}]
+1d:["$","a","まとめ-イラストレーターの案件管理は-確認待ち-がカギ",{"href":"#まとめ-イラストレーターの案件管理は-確認待ち-がカギ","className":"text-sm text-sub-gray hover:text-green transition-colors ","children":"まとめ：イラストレーターの案件管理は「確認待ち」がカギ"}]
