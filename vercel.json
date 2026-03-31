@@ -1,3 +1,10 @@
 {
-  "cleanUrls": true
+  "cleanUrls": true,
+  "redirects": [
+    { "source": "/column/%E3%82%BF%E3%82%B9%E3%82%AF%E7%AE%A1%E7%90%86", "destination": "/column/task-management", "statusCode": 301 },
+    { "source": "/column/%E6%A1%88%E4%BB%B6%E7%AE%A1%E7%90%86", "destination": "/column/project-management", "statusCode": 301 },
+    { "source": "/column/%E3%83%95%E3%83%AA%E3%83%BC%E3%83%A9%E3%83%B3%E3%82%B9", "destination": "/column/freelance", "statusCode": 301 },
+    { "source": "/column/%E3%83%84%E3%83%BC%E3%83%AB%E6%B4%BB%E7%94%A8", "destination": "/column/tools", "statusCode": 301 },
+    { "source": "/column/%E7%94%9F%E7%94%A3%E6%80%A7%E5%90%91%E4%B8%8A", "destination": "/column/productivity", "statusCode": 301 }
+  ]
 }
