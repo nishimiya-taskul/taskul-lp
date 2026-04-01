@@ -1,3 +1,6 @@
 {
-  "cleanUrls": true
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/column/:path*", "destination": "https://taskul-blog.vercel.app/column/:path*" }
+  ]
 }
