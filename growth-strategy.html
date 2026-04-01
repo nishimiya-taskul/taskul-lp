@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TASKUL AI — ユーザー獲得戦略</title>
+<style>
+  :root {
+    --bg: #f8f9fb;
+    --surface: #ffffff;
+    --surface-2: #f0f1f5;
+    --surface-3: #e8e9ef;
+    --border: #d8dae3;
+    --text: #1a1a2e;
+    --text-dim: #6b6f80;
+    --accent: #2d5be3;
+    --green: #16a34a;
+    --yellow: #ca8a04;
+    --red: #dc2626;
+    --orange: #ea580c;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Helvetica Neue', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', sans-serif;
+    background: var(--bg); color: var(--text); line-height: 1.7; font-size: 15px;
+  }
+  .header {
+    background: linear-gradient(135deg, #eef1f8 0%, #e0ecf8 50%, #eef1f8 100%);
+    border-bottom: 1px solid var(--border); padding: 60px 40px;
+  }
+  .header-inner { max-width: 1100px; margin: 0 auto; }
+  .header-label { font-size: 12px; letter-spacing: 3px; text-transform: uppercase; color: var(--accent); margin-bottom: 12px; }
+  .header h1 { font-size: 32px; font-weight: 700; line-height: 1.3; margin-bottom: 12px; }
+  .header p { color: var(--text-dim); font-size: 14px; max-width: 700px; }
+  .container { max-width: 1100px; margin: 0 auto; padding: 40px; }
+  .toc {
+    position: sticky; top: 0; z-index: 100;
+    background: rgba(248,249,251,0.95); backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border); padding: 12px 40px;
+    overflow-x: auto; white-space: nowrap;
+  }
+  .toc-inner { max-width: 1100px; margin: 0 auto; display: flex; gap: 4px; }
+  .toc a { color: var(--text-dim); text-decoration: none; font-size: 12px; padding: 6px 12px; border-radius: 6px; transition: all 0.2s; flex-shrink: 0; }
+  .toc a:hover { color: var(--text); background: var(--surface-2); }
+  .section { margin-bottom: 64px; }
+  .section-title { font-size: 22px; font-weight: 700; margin-bottom: 8px; padding-bottom: 12px; border-bottom: 2px solid var(--accent); display: inline-block; }
+  .section-desc { color: var(--text-dim); margin-bottom: 32px; font-size: 14px; }
+  h3 { font-size: 17px; font-weight: 600; margin: 28px 0 12px; }
+  .card {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 12px;
+    padding: 28px; margin-bottom: 20px; box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+  }
+  .card:hover { border-color: var(--accent); }
+  .card-header { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; margin-bottom: 16px; flex-wrap: wrap; }
+  .card-title { font-size: 18px; font-weight: 700; }
+  .card-url { font-size: 12px; color: var(--accent); text-decoration: none; }
+  .card-url:hover { text-decoration: underline; }
+  .badge { display: inline-block; padding: 3px 10px; border-radius: 99px; font-size: 11px; font-weight: 600; }
+  .badge-green { background: #dcfce7; color: #15803d; }
+  .badge-yellow { background: #fef9c3; color: #a16207; }
+  .badge-red { background: #fee2e2; color: #b91c1c; }
+  .badge-blue { background: #dbeafe; color: #1d4ed8; }
+  .badge-orange { background: #ffedd5; color: #c2410c; }
+  .tag-row { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 12px; }
+  .meta-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; margin-bottom: 16px; }
+  .meta-item { background: var(--surface-2); border-radius: 8px; padding: 12px 16px; }
+  .meta-label { font-size: 11px; color: var(--text-dim); margin-bottom: 4px; text-transform: uppercase; letter-spacing: 1px; }
+  .meta-value { font-size: 14px; font-weight: 600; }
+  .steps { counter-reset: step; list-style: none; padding: 0; }
+  .steps li { counter-increment: step; position: relative; padding: 12px 0 12px 44px; border-left: 2px solid var(--border); margin-left: 14px; }
+  .steps li:last-child { border-left-color: transparent; }
+  .steps li::before {
+    content: counter(step); position: absolute; left: -13px; top: 12px;
+    width: 24px; height: 24px; background: var(--accent); color: #fff; border-radius: 50%;
+    font-size: 12px; font-weight: 700; display: flex; align-items: center; justify-content: center;
+  }
+  .steps strong { color: var(--accent); }
+  .step-link {
+    display: inline-block; margin-top: 6px; color: var(--accent); text-decoration: none;
+    font-size: 13px; border: 1px solid var(--accent); padding: 4px 12px; border-radius: 6px;
+  }
+  .step-link:hover { background: var(--accent); color: #fff; }
+  .tip { background: #eef2ff; border-left: 3px solid var(--accent); border-radius: 0 8px 8px 0; padding: 16px 20px; margin: 16px 0; font-size: 14px; }
+  .tip-title { font-weight: 700; font-size: 13px; color: var(--accent); margin-bottom: 4px; }
+  .warn { background: #fef2f2; border-left: 3px solid var(--red); border-radius: 0 8px 8px 0; padding: 16px 20px; margin: 16px 0; font-size: 14px; }
+  .warn-title { font-weight: 700; font-size: 13px; color: var(--red); margin-bottom: 4px; }
+  .matrix { width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 13px; }
+  .matrix th { background: var(--surface-2); padding: 10px 14px; text-align: left; font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; color: var(--text-dim); border-bottom: 1px solid var(--border); }
+  .matrix td { padding: 10px 14px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  .matrix tr:hover td { background: var(--surface-2); }
+  .highlight-box { background: linear-gradient(135deg, #eef2ff, #f0fdf4); border: 1px solid var(--border); border-radius: 12px; padding: 24px; margin: 20px 0; }
+  .highlight-box h4 { font-size: 16px; font-weight: 700; margin-bottom: 8px; color: var(--accent); }
+  @media (max-width: 768px) {
+    .header { padding: 40px 20px; }
+    .header h1 { font-size: 24px; }
+    .container { padding: 24px 20px; }
+    .toc { padding: 10px 20px; }
+    .meta-grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<header class="header">
+  <div class="header-inner">
+    <div class="header-label">Growth Strategy</div>
+    <h1>TASKUL AI<br>ユーザー獲得戦略</h1>
+    <p>月額980円のフリーランス向けSaaSがユーザーを増やすための全チャネル調査と戦略。広告費をかけずに口コミとコンテンツで伸ばす。</p>
+    <p style="margin-top: 8px; font-size: 12px; color: #555;">作成日: 2026年4月1日</p>
+  </div>
+</header>
+
+<nav class="toc">
+  <div class="toc-inner">
+    <a href="#constraint">制約条件</a>
+    <a href="#landscape">競合の状況</a>
+    <a href="#plg">PLG戦略</a>
+    <a href="#seo">SEO</a>
+    <a href="#sns">SNS</a>
+    <a href="#listing">比較サイト掲載</a>
+    <a href="#community">コミュニティ</a>
+    <a href="#referral">リファラル</a>
+    <a href="#kpi">KPI</a>
+    <a href="#action">アクション</a>
+  </div>
+</nav>
+
+<div class="container">
+
+<!-- ═══════ 1. 制約条件 ═══════ -->
+<section class="section" id="constraint">
+  <h2 class="section-title">1. 制約条件 — 980円SaaSの現実</h2>
+  <p class="section-desc">月額980円の個人向けSaaSは、BtoBとは全く違うゲーム。使える手段が限られる。</p>
+
+  <div class="meta-grid">
+    <div class="meta-item"><div class="meta-label">メインプラン</div><div class="meta-value">¥980/月（Standard）</div></div>
+    <div class="meta-item"><div class="meta-label">無料プラン</div><div class="meta-value">あり（10PJ、AIクレジット200）</div></div>
+    <div class="meta-item"><div class="meta-label">年間LTV（Standard）</div><div class="meta-value">¥11,760</div></div>
+    <div class="meta-item"><div class="meta-label">ユーザー獲得上限コスト</div><div class="meta-value">〜¥2,000/人</div></div>
+  </div>
+
+  <div class="highlight-box">
+    <h4>なぜ広告やBtoB比較サイトではダメなのか</h4>
+    <table class="matrix">
+      <thead><tr><th>手段</th><th>1件あたりコスト</th><th>判定</th></tr></thead>
+      <tbody>
+        <tr><td>リスティング広告（タスク管理）</td><td>CPC ¥200〜500 × CVR 3% = CPA ¥6,600〜16,600</td><td><span class="badge badge-red">赤字</span></td></tr>
+        <tr><td>BOXIL等の資料請求型</td><td>リード単価 ¥5,000〜15,000</td><td><span class="badge badge-red">赤字</span></td></tr>
+        <tr><td>ASPアフィリエイト</td><td>報酬¥500程度では記事を書くモチベーションなし</td><td><span class="badge badge-yellow">非効率</span></td></tr>
+        <tr><td>SEO記事</td><td>記事制作コストのみ（自社制作なら0円）</td><td><span class="badge badge-green">有効</span></td></tr>
+        <tr><td>SNS（X / note）</td><td>0円</td><td><span class="badge badge-green">最有効</span></td></tr>
+        <tr><td>口コミ / リファラル</td><td>開発工数のみ</td><td><span class="badge badge-green">最有効</span></td></tr>
+        <tr><td>ITreview等レビューサイト（無料）</td><td>0円</td><td><span class="badge badge-green">有効</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="tip">
+    <div class="tip-title">基本方針: PLG（プロダクト主導成長）</div>
+    月額980円のSaaSは営業で売れない。<strong>プロダクト自体が営業する</strong>設計が必要。無料プランで使い始め → 価値を実感 → 自然に課金 → 良かったから人に勧める。この循環を作る。
+  </div>
+</section>
+
+<!-- ═══════ 2. 競合の状況 ═══════ -->
+<section class="section" id="landscape">
+  <h2 class="section-title">2. 競合の状況</h2>
+  <p class="section-desc">タスク管理市場は巨人だらけ。ただし「フリーランス × AI」のポジションはまだ空いている。</p>
+
+  <h3>ITreview タスク管理カテゴリ — 上位製品</h3>
+  <table class="matrix">
+    <thead><tr><th>製品</th><th>レビュー数</th><th>評価</th><th>月額</th><th>備考</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Backlog</strong></td><td>489件</td><td>-</td><td>¥2,970〜</td><td>日本のPM系No.1</td></tr>
+      <tr><td><strong>Trello</strong></td><td>451件</td><td>-</td><td>無料〜</td><td>カンバン型の代名詞</td></tr>
+      <tr><td><strong>Notion</strong></td><td>258件</td><td>-</td><td>無料〜$10</td><td>オールインワン。口コミで成長</td></tr>
+      <tr><td><strong>Microsoft To Do</strong></td><td>107件</td><td>-</td><td>無料</td><td>Microsoft 365に同梱</td></tr>
+      <tr><td><strong>Todoist</strong></td><td>48件</td><td>-</td><td>無料〜¥588</td><td>個人向けタスク管理の定番</td></tr>
+      <tr><td><strong>Jooto</strong></td><td>46件</td><td>-</td><td>無料〜¥980</td><td>PR TIMES運営。日本製</td></tr>
+    </tbody>
+  </table>
+  <p style="font-size: 13px; color: var(--text-dim);">※ITreviewプロジェクト管理カテゴリでは Backlog 742件、Jira 213件、Notion 205件、Redmine 205件が上位。全61製品。</p>
+
+  <h3>TASKULが勝てるポジション</h3>
+  <div class="highlight-box">
+    <h4>「フリーランス専用 × AI」は空白地帯</h4>
+    <p>上記の競合は全て「チーム向け」か「汎用」。<strong>フリーランス・個人事業主に特化し、AIでプロジェクト作成からタスク分解、見積書まで一気通貫で処理するツール</strong>は存在しない。</p>
+    <p style="margin-top: 8px;">「AI タスク管理」で検索しても、AI特化のタスク管理SaaSとして認知されている日本発製品はゼロ。<strong>このポジションを先に取った者が勝つ。</strong></p>
+  </div>
+
+  <h3>競合のユーザー獲得手法</h3>
+  <table class="matrix">
+    <thead><tr><th>製品</th><th>主な獲得手法</th><th>TASKULへの示唆</th></tr></thead>
+    <tbody>
+      <tr>
+        <td><strong>Notion</strong></td>
+        <td>新規の80%が口コミ経由。コミュニティが自然発生→公式が支援。テンプレートが成長エンジン</td>
+        <td>口コミ＋リファラルが最強。テンプレート共有機能の検討</td>
+      </tr>
+      <tr>
+        <td><strong>Canva</strong></td>
+        <td>フリーミアムで裾野拡大。「高機能で高額な既存ツール」に対して「シンプルで安い」で破壊</td>
+        <td>無料プランの存在が武器。「Backlogは高い」層を狙える</td>
+      </tr>
+      <tr>
+        <td><strong>freee</strong></td>
+        <td>「開業freee」でフリーランス開始タイミングを捉える。確定申告時期にSEO集中。自社メディア「経営ハッカー」</td>
+        <td>フリーランス開業タイミングを捉える導線。SEOブログの強化</td>
+      </tr>
+      <tr>
+        <td><strong>Backlog</strong></td>
+        <td>A8.net等のASPアフィリエイト。コンテンツマーケ。BtoB営業</td>
+        <td>ASPは¥980では非効率。SEOは参考になる</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- ═══════ 3. PLG戦略 ═══════ -->
+<section class="section" id="plg">
+  <h2 class="section-title">3. PLG（プロダクト主導成長）</h2>
+  <p class="section-desc">プロダクト自体が営業マンになる設計。無料で始めて、価値を実感して、課金して、人に勧める。</p>
+
+  <div class="card">
+    <div class="card-title">Freeプランの設計が全ての起点</div>
+    <p style="margin-top: 12px;">現在のFreeプラン: 10PJ / AIクレジット200 / ファイル30日保存。基本機能は全て使える。</p>
+
+    <h3>Free → Standard（¥980）への転換を促すトリガー</h3>
+    <table class="matrix">
+      <thead><tr><th>トリガー</th><th>仕組み</th></tr></thead>
+      <tbody>
+        <tr><td>プロジェクト上限到達（10件）</td><td>「案件が増えてきましたね。Standardなら無制限です」と表示</td></tr>
+        <tr><td>AIクレジット枯渇（200）</td><td>AIの便利さを体感した後に制限に当たる設計。「Standardなら月3,000クレジット」</td></tr>
+        <tr><td>ファイル30日消去の予告</td><td>「あと3日でファイルが消えます。Standardなら無期限保存」</td></tr>
+      </tbody>
+    </table>
+
+    <div class="tip">
+      <div class="tip-title">Canvaの教訓</div>
+      Canvaは「無料で十分使える」のに課金率が高い。理由は「もっと便利な機能が有料版にある」と自然に気づく設計。TASKULも「Freeで十分使えるが、AIをもっと使いたくなる」設計が理想。
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ 4. SEO ═══════ -->
+<section class="section" id="seo">
+  <h2 class="section-title">4. SEOコンテンツ — 0円で継続的な流入を作る</h2>
+  <p class="section-desc">既にSEOブログ（taskul-ai.com/column/）が稼働中。ここからのCV導線を強化する。</p>
+
+  <div class="card">
+    <div class="card-title">狙うべきキーワード群</div>
+
+    <h3>Tier 1: 「AI タスク管理」系 — 競合ゼロの空白地帯</h3>
+    <table class="matrix">
+      <thead><tr><th>キーワード</th><th>現状の検索上位</th><th>TASKULのチャンス</th></tr></thead>
+      <tbody>
+        <tr><td><strong>AI タスク管理</strong></td><td>note個人記事、Zenn考察、ライフハッカー体験談</td><td><strong>専用ツールとして1位を取れるポジション。</strong>まだSaaS製品の記事がない</td></tr>
+        <tr><td><strong>AI プロジェクト管理</strong></td><td>Backlog公式ブログ等</td><td>「AIが依頼文からプロジェクトを自動生成」は他にない切り口</td></tr>
+        <tr><td><strong>AI 見積書 自動作成</strong></td><td>freee、マネーフォワード系</td><td>タスクから見積書を自動生成する機能は競合にない</td></tr>
+      </tbody>
+    </table>
+
+    <h3>Tier 2: 「フリーランス × タスク管理」系 — ターゲット直撃</h3>
+    <table class="matrix">
+      <thead><tr><th>キーワード</th><th>現状の検索上位</th><th>TASKULのチャンス</th></tr></thead>
+      <tbody>
+        <tr><td><strong>フリーランス タスク管理</strong></td><td>レバテック（13選記事が1位）</td><td>自社ブログで上位は難しいが、レバテック記事内への掲載を狙う</td></tr>
+        <tr><td><strong>フリーランス 案件管理</strong></td><td>freee、マネーフォワード等</td><td>「案件管理 × タスク管理 × 見積書」の一気通貫はTASKULだけ</td></tr>
+        <tr><td><strong>Web制作 タスク管理</strong></td><td>Backlog系の記事</td><td>Web制作フリーランスに特化した記事で上位を狙える</td></tr>
+      </tbody>
+    </table>
+
+    <h3>Tier 3: 「タスク管理ツール 比較」系 — 長期戦</h3>
+    <p>「タスク管理ツール 比較」は激戦区（BOXIL、ITトレンド、アスピック等が上位）。自社ブログで攻めるより、これらの比較サイトに掲載される方が効率的。</p>
+
+    <div class="tip">
+      <div class="tip-title">SEO戦略の核心</div>
+      「タスク管理 比較」は激戦で勝てない。代わりに<strong>「AI タスク管理」「フリーランス 案件管理」</strong>のように、競合がまだ手薄なキーワードを先に取る。これらのKWで1位を取ってから、徐々に広げる。
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ 5. SNS ═══════ -->
+<section class="section" id="sns">
+  <h2 class="section-title">5. SNS — フリーランスが実際にいる場所</h2>
+  <p class="section-desc">フリーランス（特にWeb制作系）の情報収集はX（Twitter）が主軸。ここでの認知獲得が最重要。</p>
+
+  <div class="card">
+    <div class="card-header">
+      <div><div class="card-title">X（Twitter）</div></div>
+      <span class="badge badge-red">最重要</span>
+    </div>
+    <div class="tag-row">
+      <span class="badge badge-green">0円</span>
+      <span class="badge badge-blue">Build in Public</span>
+    </div>
+
+    <h3>なぜXが最重要か</h3>
+    <p>Web制作系フリーランスはXで情報収集・交流している。ツール紹介系のポストはエンゲージメントが高く、「実際に使ってみた」系が拡散しやすい。</p>
+
+    <h3>運用戦略</h3>
+    <table class="matrix">
+      <thead><tr><th>投稿タイプ</th><th>内容</th><th>頻度</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Build in Public</strong></td><td>開発の裏側、新機能の開発過程、ユーザーの声への対応</td><td>週3〜5回</td></tr>
+        <tr><td><strong>フリーランスTips</strong></td><td>案件管理のコツ、見積書の書き方、タスク整理術</td><td>週2〜3回</td></tr>
+        <tr><td><strong>機能アップデート告知</strong></td><td>新機能リリース時にスクリーンショット付きで投稿</td><td>リリース時</td></tr>
+        <tr><td><strong>ユーザーの声RT</strong></td><td>TASKULを使ってくれているユーザーのポストをRT+コメント</td><td>見つけ次第</td></tr>
+      </tbody>
+    </table>
+
+    <div class="tip">
+      <div class="tip-title">Build in Publicとは</div>
+      開発過程を公開してファンを作る手法。海外では主流だが日本ではまだ実践者が少ない。「今日はこの機能を作った」「ユーザーからこういう要望が来たから対応した」を日常的に投稿する。製品への愛着と透明性がフォロワー=将来のユーザーを作る。
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <div><div class="card-title">note</div></div>
+      <span class="badge badge-orange">有効</span>
+    </div>
+    <div class="tag-row">
+      <span class="badge badge-green">0円</span>
+      <span class="badge badge-blue">SEO効果あり</span>
+    </div>
+
+    <h3>活用方法</h3>
+    <p>noteドメインはSEOが強い。「フリーランスのタスク管理術」「月30案件を回すための仕組み」のようなノウハウ記事を書き、その中でTASKULを自然に紹介する。宣伝色を出さず、本当に役立つノウハウの中に組み込む。</p>
+
+    <h3>記事テーマ案</h3>
+    <ul style="padding-left: 20px; font-size: 14px;">
+      <li>「フリーランス3年目でやっと見つけた案件管理の正解」</li>
+      <li>「依頼メール1通からタスクを自動生成する方法」</li>
+      <li>「見積書を30秒で作れるようになった話」</li>
+      <li>「なぜフリーランス専用のタスク管理ツールを作ったのか」</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <div><div class="card-title">Zenn / Qiita</div></div>
+      <span class="badge badge-orange">有効</span>
+    </div>
+    <div class="tag-row">
+      <span class="badge badge-green">0円</span>
+      <span class="badge badge-blue">エンジニア向け</span>
+    </div>
+
+    <h3>活用方法</h3>
+    <p>技術記事が中心のプラットフォーム。「TASKULのアーキテクチャ」「Next.jsで作ったSaaSの設計」のような技術系記事がバズりやすい。エンジニアフリーランスへのリーチに有効。</p>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <div><div class="card-title">YouTube</div></div>
+      <span class="badge badge-yellow">検討</span>
+    </div>
+
+    <h3>考え方</h3>
+    <p>自前で動画制作するよりも、<strong>フリーランス系YouTuberにレビュー依頼</strong>する方がコスパが良い。「○○を使ってみた」系のレビュー動画は購買意思決定に直結しやすい。ただしユーザー数がある程度増えてからの方が効果的。</p>
+  </div>
+</section>
+
+<!-- ═══════ 6. 比較サイト掲載 ═══════ -->
+<section class="section" id="listing">
+  <h2 class="section-title">6. 比較サイト掲載 — 無料で載れるところだけ</h2>
+  <p class="section-desc">¥980のSaaSに有料掲載は非効率。無料掲載＋成果報酬型のみ攻める。</p>
+
+  <!-- ITreview -->
+  <div class="card">
+    <div class="card-header">
+      <div>
+        <div class="card-title">ITreview</div>
+        <a class="card-url" href="https://www.itreview.jp/categories/task-management" target="_blank">itreview.jp（タスク管理）</a>
+      </div>
+      <span class="badge badge-red">最優先・無料</span>
+    </div>
+    <div class="tag-row">
+      <span class="badge badge-green">無料掲載可</span>
+      <span class="badge badge-blue">タスク管理 61製品</span>
+      <span class="badge badge-blue">PM 67製品</span>
+    </div>
+
+    <h3>競合のレビュー状況</h3>
+    <table class="matrix">
+      <thead><tr><th>製品</th><th>レビュー</th><th>TASKULとの違い</th></tr></thead>
+      <tbody>
+        <tr><td>Backlog</td><td>489件</td><td>チーム向け、月¥2,970〜</td></tr>
+        <tr><td>Trello</td><td>451件</td><td>カンバン特化、AI機能なし</td></tr>
+        <tr><td>Notion</td><td>258件</td><td>汎用。タスク管理専用ではない</td></tr>
+        <tr><td>Todoist</td><td>48件</td><td>個人向けだがAI機能弱い</td></tr>
+        <tr><td>Jooto</td><td>46件</td><td>日本製、月¥980〜。最も近い競合</td></tr>
+      </tbody>
+    </table>
+
+    <div class="tip">
+      <div class="tip-title">掲載の価値</div>
+      「タスク管理」カテゴリに「フリーランス特化 × AI」の製品はまだない。掲載するだけで差別化された製品として目立てる。無料なのでリスクゼロ。
+    </div>
+
+    <h3>登録手順</h3>
+    <ol class="steps">
+      <li>
+        無料掲載プランに申し込み<br>
+        <a class="step-link" href="https://vendor.itreview.jp/free_plan" target="_blank">ITreview 無料掲載プラン</a>
+      </li>
+      <li>カテゴリ「タスク管理」+「プロジェクト管理」の両方に登録</li>
+      <li>製品情報を入力: スクリーンショット、機能一覧、「フリーランス向けAIタスク管理」を打ち出す</li>
+      <li>ユーザーにレビュー依頼。まず10件を目標。Jooto（46件）を超えれば上位に食い込める</li>
+    </ol>
+  </div>
+
+  <!-- ITトレンド -->
+  <div class="card">
+    <div class="card-header">
+      <div>
+        <div class="card-title">ITトレンド</div>
+        <a class="card-url" href="https://it-trend.jp/task_management" target="_blank">it-trend.jp（タスク管理）</a>
+      </div>
+      <span class="badge badge-orange">有効・成果報酬</span>
+    </div>
+    <div class="tag-row">
+      <span class="badge badge-green">初期0円・月額0円</span>
+      <span class="badge badge-yellow">資料DL課金</span>
+    </div>
+
+    <h3>考慮事項</h3>
+    <p>「タスク管理ツール 比較」で検索3位のサイト。成果報酬型で初期リスクゼロ。ただしITトレンド経由のリードはBtoB色が強いため、個人フリーランスがDLするかは要検証。掲載してみて効果測定する価値はある。</p>
+
+    <ol class="steps">
+      <li>
+        掲載問い合わせ<br>
+        <a class="step-link" href="https://service.it-trend.jp/service/it-trend" target="_blank">ITトレンド 掲載のご案内</a>
+      </li>
+    </ol>
+  </div>
+
+  <!-- アスピック -->
+  <div class="card">
+    <div class="card-header">
+      <div>
+        <div class="card-title">アスピック</div>
+        <a class="card-url" href="https://www.aspicjapan.org/asu/" target="_blank">aspicjapan.org</a>
+      </div>
+      <span class="badge badge-orange">有効・成果報酬</span>
+    </div>
+    <div class="tag-row">
+      <span class="badge badge-green">初期0円</span>
+      <span class="badge badge-yellow">リード¥10,000/件</span>
+    </div>
+
+    <h3>考慮事項</h3>
+    <p>「タスク管理ツール 比較」で検索1位のサイト。ただしリード単価¥10,000はTASKULの¥980月額に対して高すぎる。<strong>掲載自体は0円なので、載せておいて「もし来たらラッキー」程度のスタンスで良い。</strong></p>
+
+    <ol class="steps">
+      <li>
+        掲載問い合わせ<br>
+        <a class="step-link" href="https://asu.aspicjapan.org/lp/" target="_blank">アスピック 掲載のご案内</a>
+      </li>
+    </ol>
+  </div>
+
+  <!-- フリーランス系メディア -->
+  <div class="card">
+    <div class="card-header">
+      <div>
+        <div class="card-title">レバテックフリーランス（比較記事への掲載）</div>
+        <a class="card-url" href="https://freelance.levtech.jp/guide/detail/26/" target="_blank">タスク管理ツール13選</a>
+      </div>
+      <span class="badge badge-orange">価値あり</span>
+    </div>
+
+    <h3>なぜ重要か</h3>
+    <p>「フリーランス タスク管理」で検索1位の記事。フリーランスがタスク管理ツールを探す時に最初に見るページ。現在13製品が紹介されているが、TASKULは未掲載。</p>
+
+    <h3>掲載されている競合</h3>
+    <p style="font-size: 14px;">Trello、Todoist、Jooto、Brabio!、Backlog、Asana、Wrike、Chatwork、Stock、Notion 等</p>
+
+    <h3>攻め方</h3>
+    <p>レバテックは記事広告枠がある大手メディア。ただし記事広告は高額のため、まずは<strong>「フリーランス向けAI特化のタスク管理ツール」としてプレスリリースを打ち、記事の次回更新時に自然に追加してもらう</strong>のが理想。PR TIMESでプレスリリースを配信し、メディア側から取り上げてもらう流れ。</p>
+  </div>
+</section>
+
+<!-- ═══════ 7. コミュニティ ═══════ -->
+<section class="section" id="community">
+  <h2 class="section-title">7. フリーランスコミュニティ</h2>
+  <p class="section-desc">フリーランスが集まる場所で自然に知ってもらう。</p>
+
+  <div class="card">
+    <div class="card-header">
+      <div><div class="card-title">フリーランス協会</div>
+      <a class="card-url" href="https://www.freelance-jp.org/" target="_blank">freelance-jp.org</a></div>
+      <span class="badge badge-orange">価値あり</span>
+    </div>
+
+    <h3>提携のメリット</h3>
+    <p>年会費1万円のベネフィットプランに「会員向けツール特典」を提供する枠組みがある。<strong>TASKUL Standard 3ヶ月無料</strong>のような特典を提供すれば、質の高いフリーランス層に直接リーチできる。</p>
+
+    <ol class="steps">
+      <li>フリーランス協会に提携を打診。「会員特典としてTASKUL AI のStandard 3ヶ月無料を提供したい」</li>
+      <li>特典が掲載されれば、協会の会員ページから直接サインアップ導線ができる</li>
+    </ol>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <div><div class="card-title">Web制作系オンラインサロン</div></div>
+      <span class="badge badge-yellow">検討</span>
+    </div>
+
+    <h3>候補</h3>
+    <table class="matrix">
+      <thead><tr><th>サロン</th><th>特徴</th><th>アプローチ</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Shibajuku</strong></td><td>Web制作特化。Web制作フリーランスが多い</td><td>サロン内で「案件管理どうしてますか？」の流れでTASKULを紹介</td></tr>
+        <tr><td><strong>StockSunサロン</strong></td><td>フリーランスのビジネスコミュニティ</td><td>ツール紹介の機会を探る</td></tr>
+        <tr><td><strong>新しい働き方Lab</strong>（ランサーズ運営）</td><td>無料コミュニティ。フリーランス初心者が多い</td><td>初心者フリーランスへのリーチ</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ═══════ 8. リファラル ═══════ -->
+<section class="section" id="referral">
+  <h2 class="section-title">8. リファラルプログラム — 最もROIが高い施策</h2>
+  <p class="section-desc">Notionの新規ユーザーの80%が口コミ経由。¥980のSaaSで最も効果的なのは「ユーザーが人を連れてくる仕組み」。</p>
+
+  <div class="card">
+    <div class="card-title">自社リファラルプログラムの設計</div>
+
+    <h3>Dropboxモデル（双方にインセンティブ）</h3>
+    <table class="matrix">
+      <thead><tr><th>対象</th><th>特典</th></tr></thead>
+      <tbody>
+        <tr><td><strong>紹介した人</strong></td><td>Standard 1ヶ月無料（or AIクレジット1,000追加）</td></tr>
+        <tr><td><strong>紹介された人</strong></td><td>Standard 1ヶ月無料（通常は初月無料トライアルだが、さらに+1ヶ月）</td></tr>
+      </tbody>
+    </table>
+
+    <h3>実装イメージ</h3>
+    <ol class="steps">
+      <li>アプリ内に「友達を招待」ボタン。固有の招待URLを生成</li>
+      <li>招待URLからサインアップした人にStandard 1ヶ月無料を自動付与</li>
+      <li>紹介者にもStandard 1ヶ月無料（or クレジット）を自動付与</li>
+      <li>紹介数のランキングやバッジ（「5人紹介」等）があるとゲーミフィケーション効果</li>
+    </ol>
+
+    <div class="tip">
+      <div class="tip-title">なぜASPアフィリエイトよりリファラルか</div>
+      ASPでは¥980の報酬ではアフィリエイターが動かない。しかし<strong>実際に使っているユーザーなら「これ良いよ」と自然に勧める</strong>。紹介する側も特典がもらえるので、双方にメリットがある。コストは「1ヶ月分の売上（¥980）」だが、LTVが¥11,760なら十分にペイする。
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ 9. KPI ═══════ -->
+<section class="section" id="kpi">
+  <h2 class="section-title">9. KPI設計</h2>
+
+  <table class="matrix">
+    <thead><tr><th>KPI</th><th>測定方法</th><th>目標</th></tr></thead>
+    <tbody>
+      <tr><td><strong>月間サインアップ数（Free）</strong></td><td>Firebase Auth / GA4</td><td>月100→500</td></tr>
+      <tr><td><strong>Free → Standard 転換率</strong></td><td>Stripe + Firebase</td><td>10%</td></tr>
+      <tr><td><strong>月間有料ユーザー増加数</strong></td><td>Stripe</td><td>月10→50人</td></tr>
+      <tr><td><strong>解約率（チャーン）</strong></td><td>Stripe</td><td>月5%以下</td></tr>
+      <tr><td><strong>リファラル経由のサインアップ率</strong></td><td>招待URL経由のトラッキング</td><td>新規の20%</td></tr>
+      <tr><td><strong>SEOブログからのサインアップ</strong></td><td>GA4（UTM）</td><td>月30件</td></tr>
+      <tr><td><strong>ITreview レビュー数</strong></td><td>ITreview</td><td>20件</td></tr>
+      <tr><td><strong>X フォロワー数（@taskul_ai）</strong></td><td>X</td><td>1,000→5,000</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- ═══════ 10. アクション ═══════ -->
+<section class="section" id="action" style="margin-bottom: 0;">
+  <h2 class="section-title">10. アクションリスト</h2>
+
+  <div class="card" style="border-color: var(--red);">
+    <h3 style="margin-top: 0; color: var(--red);">0円でできること（最優先）</h3>
+    <ol class="steps">
+      <li><strong>ITreview に無料掲載</strong>（タスク管理 + プロジェクト管理カテゴリ）<br><a class="step-link" href="https://vendor.itreview.jp/free_plan" target="_blank">ITreview 無料掲載プラン</a></li>
+      <li><strong>X で Build in Public 開始</strong>（@taskul_ai で開発裏側 + フリーランスTips）</li>
+      <li><strong>SEOブログで「AI タスク管理」系記事を3本制作</strong>（競合ゼロの空白地帯を先に取る）</li>
+      <li><strong>note で「フリーランスの案件管理術」記事を公開</strong></li>
+    </ol>
+  </div>
+
+  <div class="card" style="border-color: var(--orange); margin-top: 16px;">
+    <h3 style="margin-top: 0; color: var(--orange);">開発工数で実現（リファラル・PLG）</h3>
+    <ol class="steps">
+      <li><strong>リファラルプログラムの実装</strong>（招待URL生成 + 双方インセンティブ）</li>
+      <li><strong>Free → Standard の転換トリガーをアプリ内に実装</strong>（PJ上限 / クレジット枯渇 / ファイル消去予告）</li>
+      <li><strong>ITトレンド・アスピックに掲載</strong>（成果報酬のみ）<br>
+        <a class="step-link" href="https://service.it-trend.jp/service/it-trend" target="_blank">ITトレンド</a>
+        <a class="step-link" href="https://asu.aspicjapan.org/lp/" target="_blank" style="margin-left: 4px;">アスピック</a>
+      </li>
+    </ol>
+  </div>
+
+  <div class="card" style="border-color: var(--accent); margin-top: 16px;">
+    <h3 style="margin-top: 0; color: var(--accent);">ユーザー数が増えてから</h3>
+    <ol class="steps">
+      <li><strong>フリーランス協会への提携打診</strong>（会員特典としてStandard 3ヶ月無料を提供）<br><a class="step-link" href="https://www.freelance-jp.org/" target="_blank">フリーランス協会</a></li>
+      <li><strong>レバテック記事への掲載</strong>（PR TIMESでプレスリリース → 記事更新時に追加）</li>
+      <li><strong>フリーランス系YouTuberにレビュー依頼</strong></li>
+      <li><strong>Web制作系オンラインサロンでの紹介</strong></li>
+    </ol>
+  </div>
+
+  <div class="highlight-box" style="margin-top: 32px;">
+    <h4>成長の方程式</h4>
+    <p style="font-size: 16px; font-weight: 600; text-align: center; margin: 16px 0;">
+      SEO記事で認知 → 無料プランで体験 → AIの便利さで課金 → リファラルで拡散
+    </p>
+    <p style="text-align: center; color: var(--text-dim);">広告に頼らない。プロダクトの力と口コミで伸ばす。</p>
+  </div>
+
+  <p style="margin-top: 40px; color: var(--text-dim); font-size: 13px; text-align: center;">
+    TASKUL AI — ユーザー獲得戦略 v1.0<br>
+    作成: 2026年4月1日
+  </p>
+</section>
+
+</div>
+</body>
+</html>
