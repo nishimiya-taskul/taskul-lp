@@ -7,4 +7,4 @@
 :HL["/column/images/articles/freelance-task-management/thumbnail.png","image"]
 :HL["/column/images/articles/notion-task-management-alternative/thumbnail.png","image"]
 :HL["/column/images/sidebar-banner.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"category","param":null,"prefetchHints":0,"slots":{"children":{"name":"task-management","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"TvOzeci3WDUS1hwLs-Her"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"category","param":null,"prefetchHints":0,"slots":{"children":{"name":"task-management","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"0ho1QP-LZoh3w5SfEgY6P"}
