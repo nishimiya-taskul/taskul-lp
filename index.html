@@ -525,6 +525,63 @@ a.nav-cta{font-size:.85rem;font-weight:700;color:#fff !important;background:#15c
   .reveal-cols{padding:0 6%}
 }
 </style>
+<!-- FAQPage Schema.org JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "TASKULは無料で使えますか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "全機能14日間無料トライアルをご用意しています。その後はFreeプラン（無料）とStandardプラン（月額980円）からお選びいただけます。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "他のタスク管理ツールとの違いは？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "TASKULはフリーランス・クリエイター専用のタスク管理ツールです。依頼文を貼るだけでAIがタスク・見積書・チェックリストを自動生成します。Notion等の汎用ツールと違い、案件管理に特化しています。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "どんな職種に向いていますか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Webデザイナー、イラストレーター、動画クリエイター、ライター、Webマーケター等のフリーランス・クリエイターに最適です。制作会社やチームでの利用にも対応しています。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "AIはどのように使われていますか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "依頼メールやチャットを貼り付けるだけで、AIがプロジェクト概要・タスク・チェックリスト・見積書を自動生成。3000件以上のWeb制作知識を持つAIディレクターが案件管理をサポートします。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "データのセキュリティは大丈夫ですか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "SSL暗号化通信、Firebase Authenticationによる認証、定期的なセキュリティ監査を実施しています。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "スマホからも使えますか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "はい、レスポンシブ対応でスマートフォン・タブレットからも快適に利用できます。"
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
 
@@ -1215,24 +1272,28 @@ a.nav-cta{font-size:.85rem;font-weight:700;color:#fff !important;background:#15c
     </div>
     <div class="faq-list">
       <div class="faq-item">
-        <button class="faq-q" onclick="this.parentElement.classList.toggle('open')">無料プランでどこまで使えますか？<svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></button>
-        <div class="faq-a"><p>プロジェクト10件まで、AIクレジット200/月でご利用いただけます。タスク管理・カレンダー・見積書・請求書作成・パートナー登録は制限なくお使いいただけます。</p></div>
+        <button class="faq-q" onclick="this.parentElement.classList.toggle('open')">TASKULは無料で使えますか？<svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></button>
+        <div class="faq-a"><p>全機能14日間無料トライアルをご用意しています。その後はFreeプラン（無料）とStandardプラン（月額980円）からお選びいただけます。</p></div>
       </div>
       <div class="faq-item">
-        <button class="faq-q" onclick="this.parentElement.classList.toggle('open')">他のタスク管理ツールからの移行は簡単ですか？<svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></button>
-        <div class="faq-a"><p>はい。TASKULは依頼文をそのまま貼り付けるだけでプロジェクトが作成されるため、面倒な初期設定やデータ移行は不要です。今日からすぐに使い始められます。</p></div>
+        <button class="faq-q" onclick="this.parentElement.classList.toggle('open')">他のタスク管理ツールとの違いは？<svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></button>
+        <div class="faq-a"><p>TASKULはフリーランス・クリエイター専用のタスク管理ツールです。依頼文を貼るだけでAIがタスク・見積書・チェックリストを自動生成します。Notion等の汎用ツールと違い、案件管理に特化しています。</p></div>
       </div>
       <div class="faq-item">
         <button class="faq-q" onclick="this.parentElement.classList.toggle('open')">どんな職種に向いていますか？<svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></button>
-        <div class="faq-a"><p>Webデザイナー、コーダー、動画クリエイター、ライター、ディレクターなど、クライアントワークを行うすべてのクリエイター・フリーランスの方に最適です。</p></div>
+        <div class="faq-a"><p>Webデザイナー、イラストレーター、動画クリエイター、ライター、Webマーケター等のフリーランス・クリエイターに最適です。制作会社やチームでの利用にも対応しています。</p></div>
       </div>
       <div class="faq-item">
-        <button class="faq-q" onclick="this.parentElement.classList.toggle('open')">チームで使えますか？<svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></button>
-        <div class="faq-a"><p>全プランでパートナーの招待やタスク共有が可能です。クライアント情報は非公開のまま、必要なタスクだけを安全に共有できます。</p></div>
+        <button class="faq-q" onclick="this.parentElement.classList.toggle('open')">AIはどのように使われていますか？<svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></button>
+        <div class="faq-a"><p>依頼メールやチャットを貼り付けるだけで、AIがプロジェクト概要・タスク・チェックリスト・見積書を自動生成。3000件以上のWeb制作知識を持つAIディレクターが案件管理をサポートします。</p></div>
       </div>
       <div class="faq-item">
-        <button class="faq-q" onclick="this.parentElement.classList.toggle('open')">いつでもプラン変更・解約できますか？<svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></button>
-        <div class="faq-a"><p>はい。プランのアップグレード・ダウングレード・解約はいつでも可能です。解約後もデータは一定期間保持されます。</p></div>
+        <button class="faq-q" onclick="this.parentElement.classList.toggle('open')">データのセキュリティは大丈夫ですか？<svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></button>
+        <div class="faq-a"><p>SSL暗号化通信、Firebase Authenticationによる認証、定期的なセキュリティ監査を実施しています。</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" onclick="this.parentElement.classList.toggle('open')">スマホからも使えますか？<svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></button>
+        <div class="faq-a"><p>はい、レスポンシブ対応でスマートフォン・タブレットからも快適に利用できます。</p></div>
       </div>
     </div>
   </div>
