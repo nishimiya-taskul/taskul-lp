@@ -7,4 +7,8 @@
 :HL["/column/images/articles/web-production-project-management-template/thumbnail.png","image"]
 :HL["/column/images/sidebar-banner.png","image"]
 :HL["/column/images/articles/slack-task-management-integration/thumbnail.png","image"]
+<<<<<<< HEAD
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"slug","param":{"type":"d","key":"html-2mb-seo-limit","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"-dI1xS8oOnJyaFlV2scDq"}
+=======
 0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"slug","param":{"type":"d","key":"html-2mb-seo-limit","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"qcaoB67UlXXkmm1GvLrJs"}
+>>>>>>> origin/main
