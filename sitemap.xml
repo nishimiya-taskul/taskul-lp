@@ -8,9 +8,27 @@
   </url>
   <url>
     <loc>https://taskul-ai.com/column/</loc>
-    <lastmod>2026-03-31</lastmod>
+    <lastmod>2026-04-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://taskul-ai.com/terms.html</loc>
+    <lastmod>2026-03-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://taskul-ai.com/privacy.html</loc>
+    <lastmod>2026-03-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://taskul-ai.com/column/excel-project-management-limit</loc>
+    <lastmod>2026-03-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://taskul-ai.com/column/freelance-task-management</loc>
@@ -19,8 +37,8 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://taskul-ai.com/column/notion-task-management-alternative</loc>
-    <lastmod>2026-03-28</lastmod>
+    <loc>https://taskul-ai.com/column/html-2mb-seo-limit</loc>
+    <lastmod>2026-04-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -37,8 +55,8 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://taskul-ai.com/column/excel-project-management-limit</loc>
-    <lastmod>2026-03-30</lastmod>
+    <loc>https://taskul-ai.com/column/notion-task-management-alternative</loc>
+    <lastmod>2026-03-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -47,23 +65,5 @@
     <lastmod>2026-03-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://taskul-ai.com/column/html-2mb-seo-limit</loc>
-    <lastmod>2026-04-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://taskul-ai.com/terms.html</loc>
-    <lastmod>2026-03-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://taskul-ai.com/privacy.html</loc>
-    <lastmod>2026-03-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.3</priority>
   </url>
 </urlset>
