@@ -1,4 +1,4 @@
-:HL["/column/_next/static/chunks/0dtnwfgjndook.css","style"]
+:HL["/column/_next/static/chunks/0.jpy~7k1bm0o.css","style"]
 :HL["/column/_next/static/chunks/0iq1gbyxdi0i3.css","style"]
 :HL["https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Noto+Sans+JP:wght@400;500;700;900&display=swap","style"]
 :HL["/column/images/articles/freelance-task-management/thumbnail.png","image"]
@@ -9,4 +9,4 @@
 :HL["/column/images/sidebar-banner.png","image"]
 :HL["/column/images/articles/web-production-project-management-template/thumbnail.png","image"]
 :HL["/column/images/articles/html-2mb-seo-limit/thumbnail.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"slug","param":{"type":"d","key":"freelance-task-management","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"gGALVh0t6pIpNThJmTTyx"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"slug","param":{"type":"d","key":"freelance-task-management","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"msCIO_ng2eASS0o0PGNpD"}
