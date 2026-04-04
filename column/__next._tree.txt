@@ -1,4 +1,4 @@
-:HL["/column/_next/static/chunks/0i6jgpwid2.x8.css","style"]
+:HL["/column/_next/static/chunks/047dyf3g.e2o7.css","style"]
 :HL["https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Noto+Sans+JP:wght@400;500;700;900&display=swap","style"]
 :HL["/column/images/articles/creator-task-management/thumbnail.png","image"]
 :HL["/column/images/articles/freelance-estimate-writing-guide/thumbnail.png","image"]
@@ -12,4 +12,4 @@
 :HL["/column/images/articles/illustrator-project-management/thumbnail.png","image"]
 :HL["/column/images/articles/multiple-projects-management/thumbnail.png","image"]
 :HL["/column/images/sidebar-banner.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"vboAem7gdammf75dZ9D0L"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"XESy0Mce61w9GUU_IRXRU"}
