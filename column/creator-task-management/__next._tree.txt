@@ -8,4 +8,4 @@
 :HL["/column/images/articles/freelance-invoice-missed-prevention/thumbnail.png","image"]
 :HL["/column/images/sidebar-banner.png","image"]
 :HL["/column/images/articles/web-production-project-management-template/thumbnail.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"slug","param":{"type":"d","key":"creator-task-management","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"qWIRYMtIKhUDw8ROMJtAg"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"slug","param":{"type":"d","key":"creator-task-management","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"DwnxVwMj78oaCFavUe8bl"}
