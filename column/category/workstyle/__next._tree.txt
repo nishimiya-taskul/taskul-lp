@@ -7,4 +7,4 @@
 :HL["/column/images/articles/freelance-estimate-writing-guide/thumbnail.png","image"]
 :HL["/column/images/articles/freelance-invoice-missed-prevention/thumbnail.png","image"]
 :HL["/column/images/articles/web-production-project-management-template/thumbnail.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"category","param":null,"prefetchHints":0,"slots":{"children":{"name":"workstyle","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"PSR1Hr4U2lxEfINx-MHrZ"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"category","param":null,"prefetchHints":0,"slots":{"children":{"name":"workstyle","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"qWIRYMtIKhUDw8ROMJtAg"}
