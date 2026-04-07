@@ -57,6 +57,8 @@ a{text-decoration:none;color:inherit}
 .nav-logo-text{font-family:'DM Sans',sans-serif;font-weight:900;font-size:22px;letter-spacing:1px;color:#000}
 .nav-logo-sub{display:none;font-size:10px;font-weight:500;letter-spacing:.5px;color:#767f93}
 @media(min-width:768px){.nav-logo-sub{display:inline}}
+.nav-logo-img{height:22px;width:auto}
+@media(min-width:768px){.nav-logo-img{height:26px}}
 .nav-links{display:none;gap:40px;align-items:center}
 @media(min-width:768px){.nav-links{display:flex}}
 .nav-links a{font-size:1rem;font-weight:600;color:#1a1a2e;transition:opacity .2s}
@@ -67,6 +69,7 @@ a.nav-cta{font-size:.875rem;font-weight:600;color:#fff !important;background:#15
 .nav.dark .nav-logo-icon{border-color:#15cf78}
 .nav.dark .nav-logo-text{color:#fff}
 .nav.dark .nav-logo-sub{color:rgba(255,255,255,.5)}
+.nav.dark .nav-logo-img{filter:brightness(0) invert(1)}
 .nav.dark .nav-links a{color:rgba(255,255,255,.56)}
 .nav.dark .nav-links a:hover{color:#fff}
 .nav.dark .nav-cta{background:#15cf78;color:#fff}
@@ -617,9 +620,7 @@ a.nav-cta{font-size:.875rem;font-weight:600;color:#fff !important;background:#15
 <!-- NAV -->
 <nav class="nav" id="nav">
   <a href="/" class="nav-logo">
-    <div class="nav-logo-icon"></div>
-    <span class="nav-logo-text">TASKUL</span>
-    <span class="nav-logo-sub">タスクをシンプルに</span>
+    <img src="/images/logo-taskul.png" alt="TASKUL - タスクをシンプルに" class="nav-logo-img">
   </a>
   <div class="nav-links">
     <a href="/">TOP</a>
