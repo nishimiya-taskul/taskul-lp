@@ -12,4 +12,4 @@
 :HL["/column/images/articles/freelance-project-management-tools/thumbnail.png","image"]
 :HL["/column/images/articles/freelance-estimate-writing-guide/thumbnail.png","image"]
 :HL["/column/images/articles/freelance-invoice-missed-prevention/thumbnail.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"category","param":null,"prefetchHints":0,"slots":{"children":{"name":"task-management","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"RAFRA8bVA7IWfEH0ZWRyF"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"category","param":null,"prefetchHints":0,"slots":{"children":{"name":"task-management","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"yrF6DY5RrLlQZjU6ZBVzR"}
