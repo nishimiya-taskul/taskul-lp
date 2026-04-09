@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>TASKUL｜フリーランス専用タスク管理AI</title>
+<title>TASKUL｜フリーランス・クリエイター専用タスク管理AI</title>
 <meta name="description" content="依頼文を貼るだけ。AIがプロジェクト・タスク・見積書を自動構造化。フリーランス・クリエイター専用のタスク管理ツール。">
 <meta name="keywords" content="タスク管理,プロジェクト管理,フリーランス,クリエイター,AI,見積書,請求書,TASKUL">
 <meta name="author" content="株式会社フリーカンパニー">
@@ -16,7 +16,7 @@
 <!-- OGP -->
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://taskul-ai.com/">
-<meta property="og:title" content="TASKUL｜フリーランス専用タスク管理AI">
+<meta property="og:title" content="TASKUL｜フリーランス・クリエイター専用タスク管理AI">
 <meta property="og:description" content="依頼文を貼るだけ。AIがプロジェクト・タスク・見積書を自動構造化。フリーランス・クリエイター専用のタスク管理ツール。">
 <meta property="og:image" content="https://taskul-ai.com/images/og-image.png">
 <meta property="og:site_name" content="TASKUL">
@@ -24,7 +24,7 @@
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="TASKUL｜フリーランス専用タスク管理AI">
+<meta name="twitter:title" content="TASKUL｜フリーランス・クリエイター専用タスク管理AI">
 <meta name="twitter:description" content="依頼文を貼るだけ。AIがプロジェクト・タスク・見積書を自動構造化。フリーランス・クリエイター専用のタスク管理ツール。">
 <meta name="twitter:image" content="https://taskul-ai.com/images/og-image.png">
 
@@ -203,9 +203,10 @@ a.nav-cta{font-size:.82rem;font-weight:700;color:#fff !important;background:var(
 /* ===== CONNECT SECTION ===== */
 .connect-blocks{margin-left:calc(-50vw + 50%);margin-right:calc(-50vw + 50%);width:100vw}
 .connect-block{margin:0;border-radius:0;overflow:visible}
-.connect-item{display:flex;align-items:center;gap:60px;padding:100px 120px;max-width:1440px;margin:0 auto}
+.connect-item{display:flex;align-items:center;gap:60px;padding:100px clamp(36px,8vw,120px);max-width:1440px;margin:0 auto;flex-wrap:wrap}
 .connect-item.grid-layout{display:grid;grid-template-columns:1.2fr 1fr;gap:60px;align-items:center}
-.connect-text{position:relative;flex:1;max-width:400px;display:flex;flex-direction:column;gap:15.3px}
+.connect-text{position:relative;flex:1;min-width:280px;max-width:400px;display:flex;flex-direction:column;gap:15.3px}
+.connect-visual{flex:1;min-width:0}
 .connect-num{font-family:'DM Sans',sans-serif;font-size:102px;font-weight:500;color:rgba(21,207,120,.1);line-height:1.3;position:absolute;top:-3px;left:0;transform:translateY(-50%)}
 .connect-title{font-family:'DM Sans','Noto Sans JP',sans-serif;font-size:42px;font-weight:900;color:#15152b;line-height:1.3;margin-bottom:0}
 .connect-desc{font-size:14.4px;color:rgba(21,21,43,.5);line-height:1.8;margin-bottom:0}
@@ -259,6 +260,7 @@ a.nav-cta{font-size:.82rem;font-weight:700;color:#fff !important;background:var(
 .mission-section{position:relative;padding:90px 0;text-align:center;overflow:hidden}
 .mission-blob{position:absolute;width:729px;height:729px;pointer-events:none;z-index:0}
 .mission-blob-tl{left:-199px;top:-373px;animation:blob-drift-tl 12s ease-in-out infinite}
+.mission-blob-center{display:none}
 .mission-blob-br{right:-199px;bottom:-373px;animation:blob-drift-br 14s ease-in-out infinite}
 @keyframes blob-drift-tl{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(30px,20px) scale(1.05)}}
 @keyframes blob-drift-br{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(-25px,-18px) scale(1.04)}}
@@ -488,7 +490,9 @@ a.nav-cta{font-size:.82rem;font-weight:700;color:#fff !important;background:var(
   /* MISSION */
   .mission-title{font-size:22px!important}
   .mission-desc{font-size:13px}
-  .mission-blob{width:400px;height:400px}
+  .mission-blob{width:393px;height:393px}
+  .mission-blob-tl{left:-150px;top:-200px}
+  .mission-blob-br{right:-150px;bottom:-200px}
   /* FLOATING CTA */
   .floating-cta{display:flex}
   footer{padding-bottom:80px!important}
@@ -500,7 +504,10 @@ a.nav-cta{font-size:.82rem;font-weight:700;color:#fff !important;background:var(
 @media(min-width:735px) and (max-width:1068px){
   .v-card{min-width:calc((100% - 40px) / 3)}
   .af-grid{grid-template-columns:repeat(3,1fr)}
-  .connect-item{padding:48px 36px;gap:36px}
+  .connect-item,.connect-item.grid-layout{flex-direction:column!important;padding:48px 36px;gap:36px}
+  .connect-item.grid-layout{display:flex!important;grid-template-columns:none!important}
+  .connect-text{max-width:none;min-width:auto}
+  .connect-visual{max-width:100%}
   .connect-title{font-size:32px!important}
   .finance-block{padding:80px 60px 40px}
   .campaign{padding:60px 40px}
@@ -733,20 +740,20 @@ a.nav-cta{font-size:.82rem;font-weight:700;color:#fff !important;background:var(
       </div>
     </div>
 
-    <!-- 04: 見積書・請求書 -->
+    <!-- 04: スプレッドシート・Notion連携 -->
     <div class="connect-block anim" style="position:relative">
       <div class="connect-item grid-layout">
         <div style="display:flex;flex-direction:column;align-items:center">
-          <img src="/images/spreadsheet-mockup.png" alt="見積書・請求書" style="width:100%;max-width:708px;height:auto;display:block" loading="lazy">
+          <img src="/images/connect-04-mockup.png" alt="スプレッドシート・Notion連携" style="width:100%;max-width:708px;height:auto;display:block" loading="lazy">
         </div>
         <div class="connect-text">
           <div class="connect-num">04</div>
-          <h3 class="connect-title">見積書・請求書も<br>ワンタップで。</h3>
-          <p class="connect-desc">案件情報から見積書・請求書をワンクリックで自動作成。<br>PDF出力や共有リンクにも対応しています。</p>
+          <h3 class="connect-title">スプレッドシート・<br>Notionの情報も<br>AIが一発で反映</h3>
+          <p class="connect-desc">CSVのインポートだけでなく、雑なテキスト貼り付けでも<br>別ツールで管理しているタスク情報を反映。</p>
           <div class="checks connect-checks" style="padding-top:21px;gap:15.5px">
-            <div class="check-item" style="gap:12px;color:rgba(21,21,43,.7)"><span class="check-icon" style="background:rgba(37,99,235,.08)"><svg viewBox="0 0 12 12" fill="none"><path d="M10 3L4.5 8.5L2 6" stroke="#22C55E" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/></svg></span>案件情報から見積書を自動生成</div>
-            <div class="check-item" style="gap:12px;color:rgba(21,21,43,.7)"><span class="check-icon" style="background:rgba(37,99,235,.08)"><svg viewBox="0 0 12 12" fill="none"><path d="M10 3L4.5 8.5L2 6" stroke="#22C55E" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/></svg></span>請求書もワンクリックで発行</div>
-            <div class="check-item" style="gap:12px;color:rgba(21,21,43,.7)"><span class="check-icon" style="background:rgba(37,99,235,.08)"><svg viewBox="0 0 12 12" fill="none"><path d="M10 3L4.5 8.5L2 6" stroke="#22C55E" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/></svg></span>PDF出力・共有リンクに対応</div>
+            <div class="check-item" style="gap:12px;color:rgba(21,21,43,.7)"><span class="check-icon" style="background:rgba(37,99,235,.08)"><svg viewBox="0 0 12 12" fill="none"><path d="M10 3L4.5 8.5L2 6" stroke="#22C55E" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/></svg></span>毎朝、本日納期のタスクを自動通知</div>
+            <div class="check-item" style="gap:12px;color:rgba(21,21,43,.7)"><span class="check-icon" style="background:rgba(37,99,235,.08)"><svg viewBox="0 0 12 12" fill="none"><path d="M10 3L4.5 8.5L2 6" stroke="#22C55E" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/></svg></span>今週納期のタスクも一覧で確認</div>
+            <div class="check-item" style="gap:12px;color:rgba(21,21,43,.7)"><span class="check-icon" style="background:rgba(37,99,235,.08)"><svg viewBox="0 0 12 12" fill="none"><path d="M10 3L4.5 8.5L2 6" stroke="#22C55E" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Standard プラン以上で利用可能</div>
           </div>
         </div>
       </div>
@@ -778,7 +785,7 @@ a.nav-cta{font-size:.82rem;font-weight:700;color:#fff !important;background:var(
 </section>
 
 <!-- ===== PARTNER (RADAR) ===== -->
-<section class="section">
+<section class="section" style="padding-bottom:40px">
   <div class="section-inner">
     <div class="text-center" style="margin-bottom:64px">
       <div class="eyebrow anim" style="justify-content:center"><div class="eyebrow-icon"></div><span class="eyebrow-text">Partner</span></div>
@@ -891,6 +898,7 @@ a.nav-cta{font-size:.82rem;font-weight:700;color:#fff !important;background:var(
 <!-- ===== OUR MISSION ===== -->
 <section class="mission-section" id="mission">
   <img src="/images/blur-blob.svg" alt="" class="mission-blob mission-blob-tl">
+  <img src="/images/blur-blob.svg" alt="" class="mission-blob mission-blob-center">
   <img src="/images/blur-blob.svg" alt="" class="mission-blob mission-blob-br">
   <div class="mission-content">
     <div class="mission-eyebrow anim">
@@ -1111,6 +1119,7 @@ a.nav-cta{font-size:.82rem;font-weight:700;color:#fff !important;background:var(
 <!-- ===== CTA BOTTOM ===== -->
 <section class="cta-bottom">
   <img src="/images/blur-blob.svg" alt="" class="mission-blob mission-blob-tl">
+  <img src="/images/blur-blob.svg" alt="" class="mission-blob mission-blob-center">
   <img src="/images/blur-blob.svg" alt="" class="mission-blob mission-blob-br">
   <h2 class="h-large anim">タスク管理を、<br>もっとシンプルに。</h2>
   <p class="h-desc anim anim-d1" style="margin:0 auto 40px">30秒で登録完了。いつでも解約できます。</p>
