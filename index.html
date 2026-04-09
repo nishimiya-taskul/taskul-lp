@@ -309,7 +309,7 @@ a.nav-cta{font-size:.82rem;font-weight:700;color:#fff !important;background:var(
 .plan-card-cta.gray{color:#374151;background:#f3f4f6}
 .plan-card-cta.gray:hover{background:#e5e7eb}
 @media(max-width:1023px){.plan-cards{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:639px){.plan-cards{grid-template-columns:1fr;max-width:360px}}
+@media(max-width:639px){.plan-cards{display:flex;overflow-x:auto;-webkit-overflow-scrolling:touch;scroll-snap-type:x mandatory;gap:12px;max-width:none;padding:16px 20px 8px;margin-left:-20px;margin-right:-20px}.plan-card{min-width:calc(100vw - 56px);flex-shrink:0;scroll-snap-align:center}}
 .plan-table{width:100%;border-collapse:collapse;font-size:13px}
 .plan-table td,.plan-table th{padding:14px 20px;border-bottom:1px solid #f3f4f6}
 .plan-table th{text-align:left;font-weight:700;color:var(--gray);font-size:.75rem}
@@ -418,13 +418,17 @@ a.nav-cta{font-size:.82rem;font-weight:700;color:#fff !important;background:var(
   .story-preview-3{left:-28px!important;bottom:40px!important}
   /* CONNECT */
   .connect-blocks{margin-left:0;margin-right:0;width:100%}
-  .connect-item{display:flex!important;flex-direction:column!important;gap:16px;padding:60px 20px 32px}
-  .connect-item.grid-layout{display:flex!important;flex-direction:column!important}
-  .connect-text{max-width:100%;position:relative;order:1}
-  .connect-visual{width:100%!important;flex-shrink:0;order:2;text-align:left}
-  .line-visual{max-width:100%;margin:0;order:2}
-  .line-visual-img{margin:0!important}
-  .connect-checks{order:3;padding-top:0!important;margin-top:-8px}
+  .connect-item,.connect-item.grid-layout{display:flex!important;flex-direction:column!important;align-items:stretch!important;gap:24px;padding:40px 20px 32px!important}
+  .connect-item.grid-layout>div:not(.connect-text):not(.connect-checks){order:0;margin-bottom:16px}
+  .connect-header{padding-bottom:40px!important}
+  .connect-text{max-width:100%;position:relative;order:1;width:100%!important}
+  .connect-visual{width:100%!important;flex-shrink:0!important;order:0;text-align:center;margin-bottom:8px}
+  .connect-block:first-child .connect-visual{margin-bottom:24px}
+  .line-visual{max-width:80%;margin:0;order:0}
+  .line-visual-img{margin:0!important;max-width:240px!important}
+  .connect-checks{order:3;padding-top:16px!important;margin-top:0;width:100%}
+  .connect-text,.connect-checks{text-align:left}
+  .connect-visual,.line-visual{text-align:center}
   .connect-num{position:absolute!important;top:-0.35em;left:0;transform:none!important;font-size:80px!important;opacity:.07!important;pointer-events:none;z-index:0;color:#15152b!important;line-height:1}
   .connect-item.dark .connect-num{color:#fff!important}
   .connect-title{font-size:24px!important;position:relative;z-index:1}
@@ -436,12 +440,22 @@ a.nav-cta{font-size:.82rem;font-weight:700;color:#fff !important;background:var(
   .slack-cmd-card{left:0;top:auto;bottom:calc(100% - 60px);font-size:10px;padding:8px 12px}
   .slack-response-card{left:0;bottom:-10px;width:calc(100% - 16px);font-size:9px}
   /* PARTNER RADAR */
-  .partner-radar-img{width:140%!important;max-width:none!important;margin-left:-20%!important}
+  .partner-radar-img{width:100%!important;max-width:100%!important;margin:0 auto!important;display:block}
+  .partner-radar-img-wrap{margin:0 -16px}
   /* FINANCE */
-  .finance-grid{grid-template-columns:1fr}
-  .finance-block{padding:48px 20px 32px}
-  .finance-watermark{font-size:48px}
-  .finance-title{font-size:24px!important}
+  .finance-grid{grid-template-columns:1fr 1fr;margin-top:32px}
+  .finance-block{display:flex;flex-direction:column;padding:46px 10px 40px}
+  .finance-block .finance-title-wrap{order:0}
+  .finance-block .finance-visual{order:1}
+  .finance-block .finance-checks{order:2;margin-bottom:0}
+  .finance-title-wrap{text-align:center}
+  .finance-watermark{font-size:45px;font-weight:600!important;letter-spacing:.05em!important;left:50%!important;transform:translateX(-50%);width:max-content}
+  .finance-title{font-size:32px!important;margin-bottom:0!important;text-align:center}
+  .finance-combo-img{max-width:177px!important}
+  .finance-check{font-size:13px!important;line-height:1.4!important;align-items:flex-start!important}
+  .finance-check .check-icon{width:15px!important;height:15px!important;min-width:15px!important;border-radius:7.5px!important}
+  .finance-checks{gap:6px!important;margin-bottom:0!important}
+  .finance-visual{margin:10px 0 10px}
   /* PRO */
   .pro-section{padding:64px 0}
   .pro-block{grid-template-columns:1fr;gap:24px}
@@ -527,7 +541,7 @@ a.nav-cta{font-size:.82rem;font-weight:700;color:#fff !important;background:var(
 <!-- ===== INTRO TEXT + HERO MOCKUP ===== -->
 <section class="section" id="features" style="padding-bottom:80px">
   <div class="section-inner text-center">
-    <h2 class="h-large anim" style="max-width:720px;margin:0 auto">朝、TASKULを開くだけで<br><span style="display:inline;background:var(--green);color:#fff;padding:2px 10px;border-radius:6px">今日やるべきことが</span><br><span style="display:inline-block;margin-top:8px;background:var(--green);color:#fff;padding:2px 10px;border-radius:6px">すべてわかる。</span></h2>
+    <h2 class="h-large anim" style="max-width:720px;margin:0 auto">朝、TASKULを開くだけで<br><span style="display:inline-block;margin-top:6px;background:var(--green);color:#fff;padding:2px 10px;border-radius:3%">今日やるべきことが</span><br><span style="display:inline-block;margin-top:3px;background:var(--green);color:#fff;padding:2px 10px;border-radius:3%">すべてわかる。</span></h2>
     <p class="h-desc anim anim-d1" style="margin:24px auto 0;max-width:560px">ダッシュボードに今日と今週の納期タスクを自動集約。<br>タスク漏れや納期遅れの不安から解放されます。</p>
     <div class="anim anim-d2" style="margin-top:44px;max-width:896px;margin-left:auto;margin-right:auto">
       <img src="/images/hero-dashboard.png" alt="TASKULダッシュボード" style="width:100%;border-radius:0;box-shadow:none" loading="lazy">
@@ -539,7 +553,7 @@ a.nav-cta{font-size:.82rem;font-weight:700;color:#fff !important;background:var(
 <section class="section" style="padding:120px 0">
   <div class="section-inner text-center">
     <div class="eyebrow anim"><div class="eyebrow-icon"></div><span class="eyebrow-text">Problem</span></div>
-    <h2 class="h-large anim anim-d1">TASKULは、タスク管理の<br><span style="display:inline-flex;align-items:end;gap:3px;flex-wrap:wrap;justify-content:center">こんな悩みを<span style="display:inline-flex;align-items:center;justify-content:center;border:7px solid #15cf78;color:#15152b;padding:4px 14px 0;border-radius:5px">解決</span>します。</span></h2>
+    <h2 class="h-large anim anim-d1" style="line-height:1.45">TASKULは、タスク管理の<br><span style="display:inline;gap:3px;justify-content:center">こんな悩みを<span style="border:3px solid #15cf78;color:#15152b;padding:0 6px;border-radius:4px">解決</span>します。</span></h2>
     <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:56px;max-width:960px;margin-left:auto;margin-right:auto">
       <div class="anim" style="background:#ebeef5;border-radius:16px;padding:32px 24px;text-align:center">
         <div style="width:76px;height:76px;border-radius:50%;margin:0 auto 16px;overflow:hidden"><img src="/images/avatar-pain1.png" alt="フリーランスのタスク管理に悩むクリエイター" width="76" height="76" style="display:block;width:100%;height:100%;object-fit:cover"></div>
@@ -613,10 +627,11 @@ a.nav-cta{font-size:.82rem;font-weight:700;color:#fff !important;background:var(
     </div>
     <div class="voices-track anim">
       <div class="voices-slider">
-        <!-- 10 cards -->
+        <!-- 11 cards -->
         <div class="v-card"><div class="v-stars">★★★★★</div><p class="v-text">「毎日見る画面だからこそ、この視認性の良さは神。朝イチでTASKULを開くだけで今日やるべきことが一瞬でわかる。」</p><div class="v-author"><div class="v-avatar" style="background:#4285f4">N</div><div><div class="v-name">Y Nishimiya</div><div class="v-role">Director</div><div class="v-badge">開発メンバー</div></div></div></div>
         <div class="v-card"><div class="v-stars">★★★★★</div><p class="v-text">「クリエイター専用だけあって、UIが直感的で美しい。触っていて気持ちいいツールは初めて。管理ツールを開くストレスが完全になくなった。」</p><div class="v-author"><div class="v-avatar" style="background:#ef2bbe">M</div><div><div class="v-name">M Yamada</div><div class="v-role">UI/UX Designer</div><div class="v-badge">開発メンバー</div></div></div></div>
         <div class="v-card"><div class="v-stars">★★★★★</div><p class="v-text">「長文チャットをコピペするだけで、プロジェクトが自動で出来上がる。初動のストレスが消えた。これが当たり前になると戻れない。」</p><div class="v-author"><div class="v-avatar" style="background:#f90">T</div><div><div class="v-name">Tomy</div><div class="v-role">Developer</div><div class="v-badge">開発メンバー</div></div></div></div>
+        <div class="v-card"><div class="v-stars">★★★★★</div><p class="v-text">「クライアントとのやり取りや案件の詳細、請求書まで1つにまとまるのが分かりやすくて手間が省けて良い。タスク管理に悩んでたけど、TASKULなら解決できそう。」</p><div class="v-author"><div class="v-avatar" style="background:#3b82f6">Y</div><div><div class="v-name">Y. Itsumoto</div><div class="v-role">Designer</div><div class="v-badge">ベータ版テスター</div></div></div></div>
         <div class="v-card"><div class="v-stars">★★★★★</div><p class="v-text">「UIが良すぎて、タスク管理が楽しくなった。以前は管理ツールを開くのが億劫だったけど、TASKULは真っ先に開きたくなる。」</p><div class="v-author"><div class="v-avatar" style="background:var(--green)">KS</div><div><div class="v-name">K Tanaka</div><div class="v-role">Frontend Developer</div><div class="v-badge">ベータ版テスター</div></div></div></div>
         <div class="v-card"><div class="v-stars">★★★★★</div><p class="v-text">「案件ごとにAIが文脈を記憶してくれるから、途中参加のメンバーにも共有がラク。引き継ぎコストが激減した。」</p><div class="v-author"><div class="v-avatar" style="background:#6366f1">A</div><div><div class="v-name">A Suzuki</div><div class="v-role">Project Manager</div><div class="v-badge">ベータ版テスター</div></div></div></div>
         <div class="v-card"><div class="v-stars">★★★★★</div><p class="v-text">「見積書・請求書まで一元管理できるのが最高。バラバラだったツールがTASKUL一つにまとまって、月末の作業が半分になった。」</p><div class="v-author"><div class="v-avatar" style="background:#ec4899">R</div><div><div class="v-name">R Takahashi</div><div class="v-role">Freelance Designer</div><div class="v-badge">ベータ版テスター</div></div></div></div>
@@ -628,6 +643,7 @@ a.nav-cta{font-size:.82rem;font-weight:700;color:#fff !important;background:var(
         <div class="v-card"><div class="v-stars">★★★★★</div><p class="v-text">「毎日見る画面だからこそ、この視認性の良さは神。朝イチでTASKULを開くだけで今日やるべきことが一瞬でわかる。」</p><div class="v-author"><div class="v-avatar" style="background:#4285f4">N</div><div><div class="v-name">Y Nishimiya</div><div class="v-role">Director</div><div class="v-badge">開発メンバー</div></div></div></div>
         <div class="v-card"><div class="v-stars">★★★★★</div><p class="v-text">「クリエイター専用だけあって、UIが直感的で美しい。触っていて気持ちいいツールは初めて。管理ツールを開くストレスが完全になくなった。」</p><div class="v-author"><div class="v-avatar" style="background:#ef2bbe">M</div><div><div class="v-name">M Yamada</div><div class="v-role">UI/UX Designer</div><div class="v-badge">開発メンバー</div></div></div></div>
         <div class="v-card"><div class="v-stars">★★★★★</div><p class="v-text">「長文チャットをコピペするだけで、プロジェクトが自動で出来上がる。初動のストレスが消えた。これが当たり前になると戻れない。」</p><div class="v-author"><div class="v-avatar" style="background:#f90">T</div><div><div class="v-name">Tomy</div><div class="v-role">Developer</div><div class="v-badge">開発メンバー</div></div></div></div>
+        <div class="v-card"><div class="v-stars">★★★★★</div><p class="v-text">「クライアントとのやり取りや案件の詳細、請求書まで1つにまとまるのが分かりやすくて手間が省けて良い。タスク管理に悩んでたけど、TASKULなら解決できそう。」</p><div class="v-author"><div class="v-avatar" style="background:#3b82f6">Y</div><div><div class="v-name">Y. Itsumoto</div><div class="v-role">Designer</div><div class="v-badge">ベータ版テスター</div></div></div></div>
         <div class="v-card"><div class="v-stars">★★★★★</div><p class="v-text">「UIが良すぎて、タスク管理が楽しくなった。以前は管理ツールを開くのが億劫だったけど、TASKULは真っ先に開きたくなる。」</p><div class="v-author"><div class="v-avatar" style="background:var(--green)">KS</div><div><div class="v-name">K Tanaka</div><div class="v-role">Frontend Developer</div><div class="v-badge">ベータ版テスター</div></div></div></div>
         <div class="v-card"><div class="v-stars">★★★★★</div><p class="v-text">「案件ごとにAIが文脈を記憶してくれるから、途中参加のメンバーにも共有がラク。引き継ぎコストが激減した。」</p><div class="v-author"><div class="v-avatar" style="background:#6366f1">A</div><div><div class="v-name">A Suzuki</div><div class="v-role">Project Manager</div><div class="v-badge">ベータ版テスター</div></div></div></div>
         <div class="v-card"><div class="v-stars">★★★★★</div><p class="v-text">「見積書・請求書まで一元管理できるのが最高。バラバラだったツールがTASKUL一つにまとまって、月末の作業が半分になった。」</p><div class="v-author"><div class="v-avatar" style="background:#ec4899">R</div><div><div class="v-name">R Takahashi</div><div class="v-role">Freelance Designer</div><div class="v-badge">ベータ版テスター</div></div></div></div>
@@ -643,7 +659,7 @@ a.nav-cta{font-size:.82rem;font-weight:700;color:#fff !important;background:var(
 <!-- ===== CONNECT ===== -->
 <section class="section" id="connect">
   <div class="section-inner">
-    <div class="text-center" style="padding-bottom:100px">
+    <div class="text-center connect-header" style="padding-bottom:100px">
       <div class="eyebrow anim" style="justify-content:center"><div class="eyebrow-icon"></div><span class="eyebrow-text">Connect</span></div>
       <h2 class="h-large anim anim-d1">様々なツールとの<br>相性も抜群。</h2>
       <p class="h-desc anim anim-d2" style="margin:0 auto">Googleカレンダー / LINE / Slack<br>普段の業務で使うツールと、シームレスに連携。</p>
@@ -666,7 +682,7 @@ a.nav-cta{font-size:.82rem;font-weight:700;color:#fff !important;background:var(
             <div class="check-item" style="gap:12px;color:rgba(21,21,43,.7)"><span class="check-icon" style="background:rgba(37,99,235,.08)"><svg viewBox="0 0 12 12" fill="none"><path d="M10 3L4.5 8.5L2 6" stroke="#22C55E" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/></svg></span>タスクとMTGを一画面で把握</div>
           </div>
         </div>
-        <div class="connect-visual" style="flex:1">
+        <div class="connect-visual">
           <img src="/images/calendar-visual.png" alt="Googleカレンダー連携" loading="lazy">
         </div>
       </div>
@@ -769,8 +785,11 @@ a.nav-cta{font-size:.82rem;font-weight:700;color:#fff !important;background:var(
       <h2 class="h-large anim anim-d1">パートナーの力を、<br>自分の力に変える。</h2>
       <p class="h-desc anim anim-d2" style="margin:16px auto 0">一緒に仕事をした仲間の情報を蓄積すれば、<br>次の案件でそのまま武器になります。</p>
     </div>
-    <div class="anim">
-      <img src="/images/partner-radar.png" alt="パートナースキルレーダー" class="partner-radar-img" loading="lazy">
+    <div class="anim partner-radar-img-wrap">
+      <picture>
+        <source media="(max-width:734px)" srcset="/images/partner-radar-sp.png">
+        <img src="/images/partner-radar-pc.png" alt="パートナースキルレーダー" class="partner-radar-img" loading="lazy">
+      </picture>
     </div>
   </div>
 </section>
@@ -780,7 +799,7 @@ a.nav-cta{font-size:.82rem;font-weight:700;color:#fff !important;background:var(
   <div class="section-inner">
     <div class="text-center">
       <div class="eyebrow anim" style="justify-content:center"><div class="eyebrow-icon"></div><span class="eyebrow-text">Finance</span></div>
-      <h2 class="h-large anim anim-d1">見積もり・請求<br>ぜんぶ、ここに。</h2>
+      <h2 class="h-large anim anim-d1" style="margin-bottom:4px">見積書・請求書も<br>ワンタップで。</h2>
     </div>
   </div>
   <div class="finance-grid anim">
@@ -796,7 +815,10 @@ a.nav-cta{font-size:.82rem;font-weight:700;color:#fff !important;background:var(
         <div class="finance-check"><span class="check-icon"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></span>ワンクリックでPDF出力</div>
       </div>
       <div class="finance-visual">
-        <img src="/images/finance-estimate-combo.png" alt="見積書" class="finance-combo-img" loading="lazy">
+        <picture>
+          <source media="(max-width:734px)" srcset="/images/finance-estimate-sp.png">
+          <img src="/images/finance-estimate-combo.png" alt="見積書" class="finance-combo-img" loading="lazy">
+        </picture>
       </div>
     </div>
     <!-- Invoice -->
@@ -811,7 +833,10 @@ a.nav-cta{font-size:.82rem;font-weight:700;color:#fff !important;background:var(
         <div class="finance-check"><span class="check-icon"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></span>一括ダウンロード対応</div>
       </div>
       <div class="finance-visual">
-        <img src="/images/finance-invoice-combo.png" alt="請求書" class="finance-combo-img" loading="lazy">
+        <picture>
+          <source media="(max-width:734px)" srcset="/images/finance-invoice-sp.png">
+          <img src="/images/finance-invoice-combo.png" alt="請求書" class="finance-combo-img" loading="lazy">
+        </picture>
       </div>
     </div>
   </div>
@@ -1124,6 +1149,13 @@ document.querySelectorAll('.pricing-toggle-btn').forEach(btn=>{
     });
   });
 });
+
+// ===== Scroll pricing to Standard plan on mobile =====
+if(window.innerWidth<=639){
+  const pc=document.querySelector('.plan-cards');
+  const std=document.querySelector('.plan-card.popular');
+  if(pc&&std){setTimeout(()=>{pc.scrollLeft=std.offsetLeft-20},100)}
+}
 
 // ===== Intersection Observer (scroll animations) =====
 const io=new IntersectionObserver((entries)=>{
