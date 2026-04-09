@@ -9,4 +9,4 @@
 :HL["/column/images/sidebar-banner.png","image"]
 :HL["/column/images/articles/project-management-tools-free/thumbnail.png","image"]
 :HL["/column/images/articles/project-tracking-tools-comparison/thumbnail.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"slug","param":{"type":"d","key":"freelance-task-management","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"rlTPPBETFNFT_W8JAmK6i"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"slug","param":{"type":"d","key":"freelance-task-management","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"s1voCMNBG5lKDlv_YU7Zh"}
