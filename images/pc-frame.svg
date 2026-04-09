@@ -1,0 +1,34 @@
+<svg width="896" height="545" viewBox="0 0 896 545" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer bezel -->
+  <g transform="translate(70 0) scale(0.9999)">
+    <path d="M753.875 510.79H1.955C0.876 510.79 0 509.914 0 508.835V19.396C0 8.684 8.684 0 19.396 0H736.435C747.147 0 755.83 8.684 755.83 19.396V508.833C755.83 509.912 754.954 510.788 753.875 510.788Z" fill="#DADADA"/>
+  </g>
+  <!-- Mid bezel -->
+  <g transform="translate(71.6 1.5) scale(0.9999)">
+    <path d="M748.711 509.342H3.602C1.614 509.342 0 507.73 0 505.742V18.142C0 8.123 8.123 0 18.142 0H734.168C744.188 0 752.311 8.123 752.311 18.142V505.739C752.311 507.728 750.699 509.339 748.709 509.339Z" fill="#E1E1E1"/>
+  </g>
+  <!-- Inner bezel -->
+  <g transform="translate(73.5 3.7) scale(0.9999)">
+    <path d="M743.589 507.063H4.992C2.233 507.063 0 504.828 0 502.071V16.774C0 7.51 7.51 0 16.774 0H731.81C741.073 0 748.584 7.51 748.584 16.774V502.069C748.584 504.828 746.348 507.061 743.592 507.061Z" fill="#F1F1F1"/>
+  </g>
+  <!-- Screen cutout (transparent) - this is where the screenshot shows through -->
+  <rect x="83" y="11" width="731" height="483" rx="8" fill="white"/>
+  <!-- Hinge -->
+  <g transform="translate(74 494)">
+    <path d="M741.75 18.361H6.351C2.844 18.361 0 15.518 0 12.01V0H748.101V12.01C748.101 15.518 745.257 18.361 741.75 18.361Z" fill="#EDEDED"/>
+  </g>
+  <!-- Base -->
+  <rect x="0" y="511" width="896" height="31" rx="2" fill="#CDCDCD"/>
+  <!-- Notch -->
+  <rect x="379" y="511" width="138" height="12" rx="2" fill="#D8D8D8"/>
+  <!-- Left foot -->
+  <g transform="translate(44 542)">
+    <path d="M47.24 3.18H5.18C4.43 3.18 3.71 2.94 3.2 2.54L0 0H52.25L49.26 2.5C48.75 2.93 48.01 3.17 47.24 3.17Z" fill="#CCCCCC"/>
+    <path d="M50.35 1.59L52.25 0H0L2 1.59H50.35Z" fill="#BBBBBB"/>
+  </g>
+  <!-- Right foot -->
+  <g transform="translate(800 542)">
+    <path d="M47.24 3.18H5.18C4.43 3.18 3.71 2.94 3.2 2.54L0 0H52.25L49.26 2.5C48.75 2.93 48.01 3.17 47.24 3.17Z" fill="#CCCCCC"/>
+    <path d="M50.35 1.59L52.25 0H0L2 1.59H50.35Z" fill="#BBBBBB"/>
+  </g>
+</svg>
