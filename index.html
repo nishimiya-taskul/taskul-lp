@@ -31,9 +31,60 @@
 <!-- Canonical -->
 <link rel="canonical" href="https://taskul-ai.com/">
 
+<!-- FAQPage Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "無料プランでどこまで使えますか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "プロジェクト10件まで、AIクレジット200/月でご利用いただけます。タスク管理・カレンダー・見積書・請求書作成・パートナー登録は制限なくお使いいただけます。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "他のタスク管理ツールからの移行は簡単ですか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "はい。TASKULは依頼文をそのまま貼り付けるだけでプロジェクトが作成されるほか、CSVインポートにも対応しているので、既存のスプレッドシートやNotionからかんたんにデータ移行できます。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "どんな職種に向いていますか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Webデザイナー、コーダー、動画クリエイター、ライター、ディレクターなど、クライアントワークを行うすべてのクリエイター・フリーランスの方に最適です。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "チームで使えますか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "全プランでパートナーの招待やタスク共有が可能です。クライアント情報は非公開のまま、必要なタスクだけを安全に共有できます。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "いつでもプラン変更・解約できますか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "はい。プランのアップグレード・ダウングレード・解約はいつでも可能です。解約後もデータは一定期間保持されます。"
+      }
+    }
+  ]
+}
+</script>
+
 <!-- Google Analytics (GA4) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-W694HXC93R"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-W694HXC93R');</script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-W694HXC93R');
+function trackCTA(loc){gtag('event','cta_click',{cta_location:loc});}</script>
 
 <!-- Microsoft Clarity -->
 <script>(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y)})(window,document,"clarity","script","w25jkykpji");</script>
@@ -374,7 +425,7 @@ a.nav-cta{font-size:.82rem;font-weight:700;color:#fff !important;background:var(
       <a href="#pricing">料金</a>
       <a href="#faq">FAQ</a>
       <a href="/column/">コラム</a>
-      <a href="https://app.taskul-ai.com/login?from=lp" class="nav-cta">14日間無料トライアル</a>
+      <a href="https://app.taskul-ai.com/login?from=lp" class="nav-cta" onclick="trackCTA('header')">14日間無料トライアル</a>
     </div>
   </div>
 </nav>
@@ -455,7 +506,7 @@ a.nav-cta{font-size:.82rem;font-weight:700;color:#fff !important;background:var(
     </div>
     <div class="expand-content">
       <div class="anim" style="display:flex;flex-direction:column;align-items:center;gap:2px">
-        <img src="/images/kuroco-icon-white.svg" alt="" style="width:23px;height:23px">
+        <img src="/images/kuroco-icon-white.svg" alt="ディレクターAI" style="width:23px;height:23px">
         <span class="eyebrow-text" style="color:rgba(255,255,255,.7)">AI Memory</span>
       </div>
       <h2 class="h-large anim anim-d1" style="color:#fff;font-size:36px;margin-bottom:12px">案件の文脈を、<br>ディレクターAIがすべて記憶</h2>
@@ -583,7 +634,7 @@ a.nav-cta{font-size:.82rem;font-weight:700;color:#fff !important;background:var(
           </div>
         </div>
       </div>
-      <img src="/images/excel-icon.svg" alt="" class="connect-deco-excel" loading="lazy">
+      <img src="/images/excel-icon.svg" alt="Excelスプレッドシートとの連携" class="connect-deco-excel" loading="lazy">
     </div>
 
   </div>
@@ -786,7 +837,7 @@ a.nav-cta{font-size:.82rem;font-weight:700;color:#fff !important;background:var(
           <div class="plan-card-feat"><svg viewBox="0 0 24 24" fill="none" stroke="#15cf78" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>AIクレジット：200/月</div>
           <div class="plan-card-feat"><svg viewBox="0 0 24 24" fill="none" stroke="#15cf78" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>ファイル保存：30日間</div>
         </div>
-        <a href="https://app.taskul-ai.com/login?from=lp" class="plan-card-cta gray">無料で始める</a>
+        <a href="https://app.taskul-ai.com/login?from=lp" class="plan-card-cta gray" onclick="trackCTA('pricing_free')">無料で始める</a>
       </div>
       <!-- Standard -->
       <div class="plan-card popular card-drop" style="animation-delay:120ms">
@@ -807,7 +858,7 @@ a.nav-cta{font-size:.82rem;font-weight:700;color:#fff !important;background:var(
           <div class="plan-card-feat"><svg viewBox="0 0 24 24" fill="none" stroke="#15cf78" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>LINE通知</div>
           <div class="plan-card-feat"><svg viewBox="0 0 24 24" fill="none" stroke="#15cf78" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Slack連携</div>
         </div>
-        <a href="https://app.taskul-ai.com/login?from=lp" class="plan-card-cta green">14日間無料トライアル</a>
+        <a href="https://app.taskul-ai.com/login?from=lp" class="plan-card-cta green" onclick="trackCTA('pricing_standard')">14日間無料トライアル</a>
       </div>
       <!-- Pro -->
       <div class="plan-card card-drop" style="animation-delay:240ms">
@@ -827,7 +878,7 @@ a.nav-cta{font-size:.82rem;font-weight:700;color:#fff !important;background:var(
           <div class="plan-card-feat"><svg viewBox="0 0 24 24" fill="none" stroke="#15cf78" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>LINE通知</div>
           <div class="plan-card-feat"><svg viewBox="0 0 24 24" fill="none" stroke="#15cf78" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Slack連携</div>
         </div>
-        <a href="https://app.taskul-ai.com/login?from=lp" class="plan-card-cta green">14日間無料トライアル</a>
+        <a href="https://app.taskul-ai.com/login?from=lp" class="plan-card-cta green" onclick="trackCTA('pricing_pro')">14日間無料トライアル</a>
       </div>
       <!-- Full -->
       <div class="plan-card card-drop" style="animation-delay:360ms">
@@ -848,7 +899,7 @@ a.nav-cta{font-size:.82rem;font-weight:700;color:#fff !important;background:var(
           <div class="plan-card-feat"><svg viewBox="0 0 24 24" fill="none" stroke="#15cf78" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Slack連携</div>
           <div class="plan-card-feat"><svg viewBox="0 0 24 24" fill="none" stroke="#15cf78" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>AI優先処理</div>
         </div>
-        <a href="https://app.taskul-ai.com/login?from=lp" class="plan-card-cta green">14日間無料トライアル</a>
+        <a href="https://app.taskul-ai.com/login?from=lp" class="plan-card-cta green" onclick="trackCTA('pricing_full')">14日間無料トライアル</a>
       </div>
     </div>
 
@@ -910,7 +961,7 @@ a.nav-cta{font-size:.82rem;font-weight:700;color:#fff !important;background:var(
       <p class="campaign-date">有効期間：2026年4月30日 23:59まで</p>
     </div>
     <div class="campaign-actions">
-      <a href="https://app.taskul-ai.com/login?from=lp" class="cta-btn" style="width:248px;padding:16px 40px;font-size:16.7px;text-align:center;background:var(--green);color:#fff;box-shadow:0 4px 16px rgba(21,207,120,.3);transition:all .2s" onmouseover="this.style.background='var(--green-hover)';this.style.transform='scale(1.03)'" onmouseout="this.style.background='var(--green)';this.style.transform='scale(1)'">14日間無料トライアル</a>
+      <a href="https://app.taskul-ai.com/login?from=lp" class="cta-btn" style="width:248px;padding:16px 40px;font-size:16.7px;text-align:center;background:var(--green);color:#fff;box-shadow:0 4px 16px rgba(21,207,120,.3);transition:all .2s" onmouseover="this.style.background='var(--green-hover)';this.style.transform='scale(1.03)'" onmouseout="this.style.background='var(--green)';this.style.transform='scale(1)'" onclick="trackCTA('campaign')">14日間無料トライアル</a>
       <div class="campaign-logo"><span style="width:13.75px;height:13.75px;border:2.37px solid var(--green);border-radius:2.37px;display:inline-block"></span>TASKUL</div>
     </div>
   </div>
@@ -940,7 +991,7 @@ a.nav-cta{font-size:.82rem;font-weight:700;color:#fff !important;background:var(
   <h2 class="h-large anim">タスク管理を、<br>もっとシンプルに。</h2>
   <p class="h-desc anim anim-d1" style="margin:0 auto 40px">30秒で登録完了。いつでも解約できます。</p>
   <div class="anim anim-d2">
-    <a href="https://app.taskul-ai.com/login?from=lp" class="cta-btn cta-btn-green">14日間無料トライアル</a>
+    <a href="https://app.taskul-ai.com/login?from=lp" class="cta-btn cta-btn-green" onclick="trackCTA('bottom')">14日間無料トライアル</a>
   </div>
 </section>
 
@@ -999,7 +1050,7 @@ if(expandBg){
 
 <!-- Floating CTA (mobile only) -->
 <div class="floating-cta">
-  <a href="https://app.taskul-ai.com/login?from=lp">14日間無料トライアル</a>
+  <a href="https://app.taskul-ai.com/login?from=lp" onclick="trackCTA('floating_mobile')">14日間無料トライアル</a>
 </div>
 
 </body>
