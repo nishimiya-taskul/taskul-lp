@@ -8,4 +8,4 @@
 :HL["/column/images/articles/ai-task-management-tools/thumbnail.png","image"]
 :HL["/column/images/sidebar-banner.png","image"]
 :HL["/column/images/articles/designer-task-management/thumbnail.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"slug","param":{"type":"d","key":"personal-task-management-method","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"sRlwEypC6pImJ94nFd6mY"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"slug","param":{"type":"d","key":"personal-task-management-method","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"PD2k5l9_hVLjawAsGo2S8"}
