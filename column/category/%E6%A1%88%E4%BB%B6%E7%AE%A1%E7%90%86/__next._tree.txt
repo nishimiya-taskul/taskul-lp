@@ -7,4 +7,4 @@
 :HL["/column/images/articles/ai-task-management-tools/thumbnail.png","image"]
 :HL["/column/images/articles/designer-task-management/thumbnail.png","image"]
 :HL["/column/images/articles/personal-task-management-method/thumbnail.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"category","param":null,"prefetchHints":0,"slots":{"children":{"name":"category","param":{"type":"d","key":"%25E6%25A1%2588%25E4%25BB%25B6%25E7%25AE%25A1%25E7%2590%2586","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"PD2k5l9_hVLjawAsGo2S8"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"category","param":null,"prefetchHints":0,"slots":{"children":{"name":"category","param":{"type":"d","key":"%25E6%25A1%2588%25E4%25BB%25B6%25E7%25AE%25A1%25E7%2590%2586","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"S3Pjfa7uHln3OR59RA17S"}
