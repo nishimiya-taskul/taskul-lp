@@ -8,7 +8,7 @@
   </url>
   <url>
     <loc>https://taskul-ai.com/column/</loc>
-    <lastmod>2026-04-09</lastmod>
+    <lastmod>2026-04-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -116,7 +116,13 @@
   </url>
   <url>
     <loc>https://taskul-ai.com/column/slack-task-management-integration/</loc>
-    <lastmod>2026-03-31</lastmod>
+    <lastmod>2026-04-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://taskul-ai.com/column/slack-task-management-method/</loc>
+    <lastmod>2026-04-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
