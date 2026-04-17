@@ -1,0 +1,11 @@
+:HL["/column/_next/static/chunks/00qvsh210a3_t.css","style"]
+:HL["/column/_next/static/chunks/0iq1gbyxdi0i3.css","style"]
+:HL["https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Noto+Sans+JP:wght@400;500;700;900&display=swap","style"]
+:HL["/column/images/articles/freelance-deadline-management/thumbnail.png","image"]
+:HL["/column/images/sidebar-banner.png","image"]
+:HL["/column/images/articles/taskul-media-coverage-2026-04/thumbnail.png","image"]
+:HL["/column/images/articles/slack-task-management-integration/thumbnail.png","image"]
+:HL["/column/images/articles/slack-task-management-method/thumbnail.png","image"]
+:HL["/column/images/cta-banner.png","image"]
+:HL["/column/images/articles/ai-task-management-tools/thumbnail.png","image"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"slug","param":{"type":"d","key":"freelance-deadline-management","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"jRV8Ifs6g17UuEuYgjANf"}
