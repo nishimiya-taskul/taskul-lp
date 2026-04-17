@@ -9,4 +9,4 @@
 :HL["/column/images/sidebar-banner.png","image"]
 :HL["/column/images/articles/slack-task-management-method/thumbnail.png","image"]
 :HL["/column/images/articles/ai-task-management-tools/thumbnail.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"slug","param":{"type":"d","key":"illustrator-project-management","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"Y6UhKBJMfsUIpJNVH4rIg"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"slug","param":{"type":"d","key":"illustrator-project-management","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"xrCcs5Mg16HRUdNvHUkvv"}
