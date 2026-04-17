@@ -8,4 +8,4 @@
 :HL["/column/images/articles/slack-task-management-integration/thumbnail.png","image"]
 :HL["/column/images/articles/slack-task-management-method/thumbnail.png","image"]
 :HL["/column/images/cta-banner.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"slug","param":{"type":"d","key":"ai-task-management-tools","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"CyTEvfZoqCCPEdtfHuXI4"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"slug","param":{"type":"d","key":"ai-task-management-tools","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"Y6UhKBJMfsUIpJNVH4rIg"}
