@@ -15,4 +15,4 @@
 :HL["/column/images/articles/notion-task-management-alternative/thumbnail.png","image"]
 :HL["/column/images/sidebar-banner.png","image"]
 :HL["/column/images/articles/taskul-media-coverage-2026-04/thumbnail.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"category","param":null,"prefetchHints":0,"slots":{"children":{"name":"task-management","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"q1NlhPfHACZc0zeQ3cEnu"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"category","param":null,"prefetchHints":0,"slots":{"children":{"name":"task-management","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"9k84EaVPa9q4iBB7VrcZF"}
