@@ -8,4 +8,4 @@
 :HL["/column/images/articles/taskul-media-coverage-2026-04/thumbnail.png","image"]
 :HL["/column/images/sidebar-banner.png","image"]
 :HL["/column/images/articles/slack-task-management-method/thumbnail.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"slug","param":{"type":"d","key":"slack-task-management-integration","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"VHXKF-XMcmmNDOL45fYrO"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"slug","param":{"type":"d","key":"slack-task-management-integration","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"1X4VwTMUAe8bFvYoXLLer"}
