@@ -7,4 +7,4 @@
 :HL["/column/images/articles/taskul-media-coverage-2026-04/thumbnail.png","image"]
 :HL["/column/images/articles/slack-task-management-integration/thumbnail.png","image"]
 :HL["/column/images/articles/slack-task-management-method/thumbnail.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"category","param":null,"prefetchHints":0,"slots":{"children":{"name":"category","param":{"type":"d","key":"%25E6%25A1%2588%25E4%25BB%25B6%25E7%25AE%25A1%25E7%2590%2586","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"kFA2in-ZWx3437NzO7tIx"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"category","param":null,"prefetchHints":0,"slots":{"children":{"name":"category","param":{"type":"d","key":"%25E6%25A1%2588%25E4%25BB%25B6%25E7%25AE%25A1%25E7%2590%2586","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"PJpTCFvsHgB1WZdiCWHJL"}
