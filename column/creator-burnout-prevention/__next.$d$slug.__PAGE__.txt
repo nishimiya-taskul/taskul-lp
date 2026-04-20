@@ -1,0 +1,303 @@
+1:"$Sreact.fragment"
+2:I[22016,["/column/_next/static/chunks/01xlw8hd842-c.js","/column/_next/static/chunks/0d3shmwh5_nmn.js","/column/_next/static/chunks/09it85g~6.kww.js"],""]
+1c:I[97367,["/column/_next/static/chunks/01xlw8hd842-c.js","/column/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+1d:"$Sreact.suspense"
+20:I[22432,["/column/_next/static/chunks/01xlw8hd842-c.js","/column/_next/static/chunks/0d3shmwh5_nmn.js","/column/_next/static/chunks/09it85g~6.kww.js"],"default"]
+22:I[71207,["/column/_next/static/chunks/01xlw8hd842-c.js","/column/_next/static/chunks/0d3shmwh5_nmn.js","/column/_next/static/chunks/09it85g~6.kww.js"],"default"]
+23:I[28792,["/column/_next/static/chunks/01xlw8hd842-c.js","/column/_next/static/chunks/0d3shmwh5_nmn.js","/column/_next/static/chunks/09it85g~6.kww.js"],"default"]
+:HL["/column/images/articles/creator-burnout-prevention/thumbnail.png","image"]
+:HL["/column/images/sidebar-banner.png","image"]
+:HL["/column/images/articles/freelance-time-management-tips/thumbnail.png","image"]
+:HL["/column/images/articles/freelance-schedule-management/thumbnail.png","image"]
+:HL["/column/images/articles/freelance-deadline-management/thumbnail.png","image"]
+:HL["/column/_next/static/chunks/0iq1gbyxdi0i3.css","style"]
+:HL["/column/images/cta-banner.png","image"]
+:HL["/column/images/articles/taskul-media-coverage-2026-04/thumbnail.png","image"]
+0:{"rsc":["$","$1","c",{"children":[[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"クリエイターの燃え尽き症候群を防ぐセルフマネジメント術\",\"description\":\"フリーランスクリエイターが燃え尽き症候群に陥る原因と、稼働率の可視化・案件フィルタリング・週次レビューで未然に防ぐ具体的な方法を解説します。\",\"datePublished\":\"2026/04/20\",\"author\":{\"@type\":\"Person\",\"name\":\"TASKUL編集部\",\"description\":\"フリーランス・クリエイター向けの働き方・業務効率化に関する情報を発信しています。現役フリーランスの知見をもとに執筆。\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"TASKUL\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://taskul-ai.com/favicon.svg\"}},\"mainEntityOfPage\":\"https://taskul-ai.com/column/creator-burnout-prevention\"}"}}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"TASKUL\",\"item\":\"https://taskul-ai.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"コラム\",\"item\":\"https://taskul-ai.com/column/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"働き方\",\"item\":\"https://taskul-ai.com/column/category/workstyle\"},{\"@type\":\"ListItem\",\"position\":4,\"name\":\"クリエイターの燃え尽き症候群を防ぐセルフマネジメント術\"}]}"}}],null,["$","header",null,{"className":"fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-5 md:px-10 h-[56px] md:h-auto md:py-2.5 bg-white/96 backdrop-blur-[7px] shadow-[10px_10px_24px_rgba(0,0,0,0.05)]","children":[["$","a",null,{"href":"https://taskul-ai.com/","className":"flex items-center gap-1.5","children":[["$","div",null,{"className":"border-[3px] border-green rounded-[3px] w-[18px] h-[18px]"}],["$","span",null,{"className":"font-black text-[22px] tracking-[1px] text-black font-['DM_Sans']","children":"TASKUL"}],["$","span",null,{"className":"hidden md:inline text-sub-gray text-[10px] font-medium tracking-[0.5px]","children":"タスクをシンプルに"}]]}],["$","nav",null,{"className":"hidden md:flex items-center gap-10","children":[["$","a",null,{"href":"https://taskul-ai.com/","className":"text-main-black text-base font-semibold font-['DM_Sans']","children":"TOP"}],["$","$L2",null,{"href":"/","className":"text-main-black text-base font-semibold","children":"コラム"}],["$","a",null,{"href":"https://free-company.co.jp/","target":"_blank","rel":"noopener noreferrer","className":"text-main-black text-base font-semibold","children":"運営会社"}],["$","a",null,{"href":"https://lin.ee/rSlYN882","target":"_blank","rel":"noopener noreferrer","className":"text-main-black text-base font-semibold","children":"お問い合わせ"}],["$","a",null,{"href":"https://app.taskul-ai.com/login?from=blog","className":"bg-green text-white text-sm font-semibold px-5 py-2 rounded-full hover:opacity-90 transition-opacity","children":"14日間無料トライアル"}]]}]]}],["$","main",null,{"className":"pt-[72px] md:pt-[90px] pb-16 md:pb-32 bg-bg min-h-screen","children":[["$","div",null,{"className":"max-w-[1210px] mx-auto px-4 mb-4 md:mb-10","children":["$","div",null,{"className":"flex items-center gap-[11px] text-[13px] md:text-base text-gray","children":[["$","a",null,{"href":"https://taskul-ai.com/","className":"font-['DM_Sans'] hover:text-green","children":"TASKUL"}],["$","svg",null,{"width":"4","height":"8","viewBox":"0 0 4 8","fill":"none","children":["$","path",null,{"d":"M0.5 0.5L3.5 4L0.5 7.5","stroke":"currentColor"}]}],["$","$L2",null,{"href":"/","className":"hover:text-green","children":"コラム"}],["$","svg",null,{"width":"4","height":"8","viewBox":"0 0 4 8","fill":"none","children":["$","path",null,{"d":"M0.5 0.5L3.5 4L0.5 7.5","stroke":"currentColor"}]}],["$","$L2",null,{"href":"/category/workstyle","className":"hover:text-green","children":"働き方"}],["$","svg",null,{"width":"4","height":"8","viewBox":"0 0 4 8","fill":"none","children":["$","path",null,{"d":"M0.5 0.5L3.5 4L0.5 7.5","stroke":"currentColor"}]}],["$","span",null,{"className":"truncate max-w-[200px] md:max-w-[400px]","children":"クリエイターの燃え尽き症候群を防ぐセルフマネジメント術"}]]}]}],["$","div",null,{"className":"max-w-[1210px] mx-auto px-4 flex flex-col lg:flex-row gap-[70px] items-start","children":["$L3","$L4","$L5"]}]]}],"$L6"],["$L7","$L8"],"$L9"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"ifDVJfLDKpkcqTbOcQs3v"}
+3:["$","article",null,{"className":"w-full lg:w-[800px] shrink-0 flex flex-col gap-[86px]","children":[["$","div",null,{"className":"flex flex-col gap-[30px]","children":[["$","div",null,{"className":"bg-white rounded-[10px] aspect-video md:h-[450px] w-full overflow-hidden","children":["$","img",null,{"src":"/column/images/articles/creator-burnout-prevention/thumbnail.png","alt":"クリエイターの燃え尽き症候群を防ぐセルフマネジメント術","className":"w-full h-full object-cover"}]}],["$","div",null,{"className":"flex flex-col gap-4","children":[["$","h1",null,{"className":"text-[26px] md:text-[38px] font-bold leading-[1.5] text-main-black","children":"クリエイターの燃え尽き症候群を防ぐセルフマネジメント術"}],["$","div",null,{"className":"flex flex-wrap items-center gap-3 md:gap-[26px]","children":[["$","time",null,{"className":"text-sm md:text-base text-gray font-['DM_Sans']","children":"2026/04/20"}],["$","div",null,{"className":"flex flex-wrap gap-2 md:gap-3","children":[["$","span","燃え尽き症候群",{"className":"bg-white rounded-[5px] shadow-[2px_2px_8px_rgba(0,0,0,0.08)] px-[10px] md:px-[13px] py-[3px] h-7 flex items-center gap-[7px] text-xs md:text-sm text-[#161616] whitespace-nowrap","children":[["$","span",null,{"className":"w-[5px] h-[5px] bg-green rounded-full"}],"燃え尽き症候群"]}],["$","span","セルフマネジメント",{"className":"bg-white rounded-[5px] shadow-[2px_2px_8px_rgba(0,0,0,0.08)] px-[10px] md:px-[13px] py-[3px] h-7 flex items-center gap-[7px] text-xs md:text-sm text-[#161616] whitespace-nowrap","children":[["$","span",null,{"className":"w-[5px] h-[5px] bg-green rounded-full"}],"セルフマネジメント"]}],["$","span","フリーランス",{"className":"bg-white rounded-[5px] shadow-[2px_2px_8px_rgba(0,0,0,0.08)] px-[10px] md:px-[13px] py-[3px] h-7 flex items-center gap-[7px] text-xs md:text-sm text-[#161616] whitespace-nowrap","children":[["$","span",null,{"className":"w-[5px] h-[5px] bg-green rounded-full"}],"フリーランス"]}],["$","span","クリエイター",{"className":"bg-white rounded-[5px] shadow-[2px_2px_8px_rgba(0,0,0,0.08)] px-[10px] md:px-[13px] py-[3px] h-7 flex items-center gap-[7px] text-xs md:text-sm text-[#161616] whitespace-nowrap","children":[["$","span",null,{"className":"w-[5px] h-[5px] bg-green rounded-full"}],"クリエイター"]}],["$","span","働き方",{"className":"bg-white rounded-[5px] shadow-[2px_2px_8px_rgba(0,0,0,0.08)] px-[10px] md:px-[13px] py-[3px] h-7 flex items-center gap-[7px] text-xs md:text-sm text-[#161616] whitespace-nowrap","children":[["$","span",null,{"className":"w-[5px] h-[5px] bg-green rounded-full"}],"働き方"]}]]}],["$","div",null,{"className":"flex items-center gap-3","children":[["$","span",null,{"className":"text-xs text-sub-gray font-medium","children":"SHARE"}],["$","a",null,{"href":"https://twitter.com/intent/tweet?url=https%3A%2F%2Ftaskul-ai.com%2Fcolumn%2Fcreator-burnout-prevention&text=%E3%82%AF%E3%83%AA%E3%82%A8%E3%82%A4%E3%82%BF%E3%83%BC%E3%81%AE%E7%87%83%E3%81%88%E5%B0%BD%E3%81%8D%E7%97%87%E5%80%99%E7%BE%A4%E3%82%92%E9%98%B2%E3%81%90%E3%82%BB%E3%83%AB%E3%83%95%E3%83%9E%E3%83%8D%E3%82%B8%E3%83%A1%E3%83%B3%E3%83%88%E8%A1%93","target":"_blank","rel":"noopener noreferrer","className":"w-9 h-9 rounded-full bg-[#15152b] flex items-center justify-center hover:opacity-80 transition-opacity","aria-label":"Xでシェア","children":["$","svg",null,{"width":"16","height":"16","viewBox":"0 0 24 24","fill":"white","children":["$","path",null,{"d":"M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"}]}]}],["$","a",null,{"href":"https://social-plugins.line.me/lineit/share?url=https%3A%2F%2Ftaskul-ai.com%2Fcolumn%2Fcreator-burnout-prevention","target":"_blank","rel":"noopener noreferrer","className":"w-9 h-9 rounded-full bg-[#06C755] flex items-center justify-center hover:opacity-80 transition-opacity","aria-label":"LINEでシェア","children":"$La"}]]}]]}]]}],"$Lb","$Lc","$Ld","$Le","$Lf"]}],"$L10","$L11","$L12","$L13","$L14"]}]
+4:["$","div",null,{"className":"hidden lg:block","children":["$","aside",null,{"className":"w-full lg:w-[340px] shrink-0 flex flex-col gap-14","children":[["$","$L2",null,{"href":"https://app.taskul-ai.com/login?from=blog","className":"block w-full lg:w-[340px] shrink-0","children":["$","img",null,{"src":"/column/images/sidebar-banner.png","alt":"TASKUL - 全機能14日間無料","width":340,"height":340,"className":"w-full h-auto rounded-[10px]"}]}],["$","div",null,{"className":"flex flex-col gap-[22px]","children":[["$","h3",null,{"className":"text-xl font-bold text-main-black","children":"人気記事"}],["$","div",null,{"className":"flex flex-col gap-[23px]","children":[["$","$L2","creator-burnout-prevention",{"href":"/creator-burnout-prevention","className":"flex flex-col gap-[18px]","children":[["$","div",null,{"className":"relative bg-white rounded-[10px] h-[191px] w-full overflow-hidden flex items-center justify-center","children":[["$","img",null,{"src":"/column/images/articles/creator-burnout-prevention/thumbnail.png","alt":"クリエイターの燃え尽き症候群を防ぐセルフマネジメント術","className":"w-full h-full object-cover"}],["$","div",null,{"className":"absolute top-0 left-0 bg-[#cb9d20] rounded-tl-[5px] rounded-br-[5px] w-[46px] h-[46px] flex items-center justify-center","children":["$","span",null,{"className":"text-white text-xl font-bold font-['DM_Sans']","children":1}]}]]}],["$","p",null,{"className":"text-xl font-bold text-main-black leading-[1.5]","children":"クリエイターの燃え尽き症候群を防ぐセルフマネジメント術"}]]}],["$","$L2","freelance-time-management-tips",{"href":"/freelance-time-management-tips","className":"flex gap-2.5","children":[["$","div",null,{"className":"relative bg-white rounded-[5px] w-[180px] h-[101px] shrink-0 overflow-hidden flex items-center justify-center","children":[["$","img",null,{"src":"/column/images/articles/freelance-time-management-tips/thumbnail.png","alt":"フリーランスの時間管理が乱れる原因と、今日から使えるコツ5選","className":"w-full h-full object-cover"}],["$","div",null,{"className":"absolute top-0 left-0 bg-[#8f8f8f] rounded-tl-[2.6px] rounded-br-[2.6px] w-6 h-6 flex items-center justify-center","children":["$","span",null,{"className":"text-white text-[11px] font-bold font-['DM_Sans']","children":2}]}]]}],["$","p",null,{"className":"text-base font-bold text-main-black leading-[1.5]","children":"フリーランスの時間管理が乱れる原因と、今日から使えるコツ5選"}]]}],["$","$L2","freelance-schedule-management",{"href":"/freelance-schedule-management","className":"flex gap-2.5","children":[["$","div",null,{"className":"relative bg-white rounded-[5px] w-[180px] h-[101px] shrink-0 overflow-hidden flex items-center justify-center","children":[["$","img",null,{"src":"/column/images/articles/freelance-schedule-management/thumbnail.png","alt":"フリーランスのスケジュール管理術｜案件を抱えても破綻しない方法","className":"w-full h-full object-cover"}],["$","div",null,{"className":"absolute top-0 left-0 bg-[#ad5a1b] rounded-tl-[2.6px] rounded-br-[2.6px] w-6 h-6 flex items-center justify-center","children":["$","span",null,{"className":"text-white text-[11px] font-bold font-['DM_Sans']","children":3}]}]]}],["$","p",null,{"className":"text-base font-bold text-main-black leading-[1.5]","children":"フリーランスのスケジュール管理術｜案件を抱えても破綻しない方法"}]]}],["$","$L2","freelance-deadline-management",{"href":"/freelance-deadline-management","className":"flex gap-2.5","children":[["$","div",null,{"className":"relative bg-white rounded-[5px] w-[180px] h-[101px] shrink-0 overflow-hidden flex items-center justify-center","children":[["$","img",null,{"src":"/column/images/articles/freelance-deadline-management/thumbnail.png","alt":"フリーランスの納期管理が甘くなる原因と、納期遅れを防ぐ5つの仕組み","className":"w-full h-full object-cover"}],["$","div",null,{"className":"absolute top-0 left-0 bg-[#161616] rounded-tl-[2.6px] rounded-br-[2.6px] w-6 h-6 flex items-center justify-center","children":["$","span",null,{"className":"text-white text-[11px] font-bold font-['DM_Sans']","children":4}]}]]}],["$","p",null,{"className":"text-base font-bold text-main-black leading-[1.5]","children":"フリーランスの納期管理が甘くなる原因と、納期遅れを防ぐ5つの仕組み"}]]}],"$L15"]}]]}],"$L16","$L17","$L18"]}]}]
+5:["$","div",null,{"className":"lg:hidden w-full","children":["$","aside",null,{"className":"w-full lg:w-[340px] shrink-0 flex flex-col gap-14","children":[["$","$L2",null,{"href":"https://app.taskul-ai.com/login?from=blog","className":"block w-full lg:w-[340px] shrink-0","children":["$","img",null,{"src":"/column/images/sidebar-banner.png","alt":"TASKUL - 全機能14日間無料","width":340,"height":340,"className":"w-full h-auto rounded-[10px]"}]}],["$","div",null,{"className":"flex flex-col gap-[22px]","children":[["$","h3",null,{"className":"text-xl font-bold text-main-black","children":"人気記事"}],["$","div",null,{"className":"flex flex-col gap-[23px]","children":[["$","$L2","creator-burnout-prevention",{"href":"/creator-burnout-prevention","className":"flex flex-col gap-[18px]","children":[["$","div",null,{"className":"relative bg-white rounded-[10px] h-[191px] w-full overflow-hidden flex items-center justify-center","children":[["$","img",null,{"src":"/column/images/articles/creator-burnout-prevention/thumbnail.png","alt":"クリエイターの燃え尽き症候群を防ぐセルフマネジメント術","className":"w-full h-full object-cover"}],["$","div",null,{"className":"absolute top-0 left-0 bg-[#cb9d20] rounded-tl-[5px] rounded-br-[5px] w-[46px] h-[46px] flex items-center justify-center","children":["$","span",null,{"className":"text-white text-xl font-bold font-['DM_Sans']","children":1}]}]]}],["$","p",null,{"className":"text-xl font-bold text-main-black leading-[1.5]","children":"クリエイターの燃え尽き症候群を防ぐセルフマネジメント術"}]]}],["$","$L2","freelance-time-management-tips",{"href":"/freelance-time-management-tips","className":"flex gap-2.5","children":[["$","div",null,{"className":"relative bg-white rounded-[5px] w-[180px] h-[101px] shrink-0 overflow-hidden flex items-center justify-center","children":[["$","img",null,{"src":"/column/images/articles/freelance-time-management-tips/thumbnail.png","alt":"フリーランスの時間管理が乱れる原因と、今日から使えるコツ5選","className":"w-full h-full object-cover"}],["$","div",null,{"className":"absolute top-0 left-0 bg-[#8f8f8f] rounded-tl-[2.6px] rounded-br-[2.6px] w-6 h-6 flex items-center justify-center","children":["$","span",null,{"className":"text-white text-[11px] font-bold font-['DM_Sans']","children":2}]}]]}],["$","p",null,{"className":"text-base font-bold text-main-black leading-[1.5]","children":"フリーランスの時間管理が乱れる原因と、今日から使えるコツ5選"}]]}],["$","$L2","freelance-schedule-management",{"href":"/freelance-schedule-management","className":"flex gap-2.5","children":[["$","div",null,{"className":"relative bg-white rounded-[5px] w-[180px] h-[101px] shrink-0 overflow-hidden flex items-center justify-center","children":[["$","img",null,{"src":"/column/images/articles/freelance-schedule-management/thumbnail.png","alt":"フリーランスのスケジュール管理術｜案件を抱えても破綻しない方法","className":"w-full h-full object-cover"}],["$","div",null,{"className":"absolute top-0 left-0 bg-[#ad5a1b] rounded-tl-[2.6px] rounded-br-[2.6px] w-6 h-6 flex items-center justify-center","children":["$","span",null,{"className":"text-white text-[11px] font-bold font-['DM_Sans']","children":3}]}]]}],["$","p",null,{"className":"text-base font-bold text-main-black leading-[1.5]","children":"フリーランスのスケジュール管理術｜案件を抱えても破綻しない方法"}]]}],["$","$L2","freelance-deadline-management",{"href":"/freelance-deadline-management","className":"flex gap-2.5","children":[["$","div",null,{"className":"relative bg-white rounded-[5px] w-[180px] h-[101px] shrink-0 overflow-hidden flex items-center justify-center","children":[["$","img",null,{"src":"/column/images/articles/freelance-deadline-management/thumbnail.png","alt":"フリーランスの納期管理が甘くなる原因と、納期遅れを防ぐ5つの仕組み","className":"w-full h-full object-cover"}],["$","div",null,{"className":"absolute top-0 left-0 bg-[#161616] rounded-tl-[2.6px] rounded-br-[2.6px] w-6 h-6 flex items-center justify-center","children":["$","span",null,{"className":"text-white text-[11px] font-bold font-['DM_Sans']","children":4}]}]]}],["$","p",null,{"className":"text-base font-bold text-main-black leading-[1.5]","children":"フリーランスの納期管理が甘くなる原因と、納期遅れを防ぐ5つの仕組み"}]]}],"$L19"]}]]}],"$L1a","$L1b",false]}]}]
+6:["$","footer",null,{"className":"relative bg-white w-full","children":[["$","div",null,{"className":"max-w-[1440px] mx-auto px-6 md:px-[139px] pt-[50px] md:pt-[61px] pb-[30px] md:pb-[40px]","children":[["$","div",null,{"className":"flex flex-col md:flex-row md:justify-between gap-[34px]","children":[["$","div",null,{"className":"flex flex-col items-start gap-7","children":[["$","div",null,{"className":"flex flex-col items-center","children":[["$","div",null,{"className":"flex items-center gap-1.5","children":[["$","div",null,{"className":"border-[5.5px] md:border-[7px] border-green rounded-[5.5px] md:rounded-[7px] w-8 md:w-10 h-8 md:h-10"}],["$","span",null,{"className":"font-black text-[40px] md:text-[50px] tracking-[2px] md:tracking-[2.5px] text-black font-['DM_Sans']","children":"TASKUL"}]]}],["$","p",null,{"className":"text-sub-gray text-[17px] md:text-[22px] font-medium tracking-[0.9px] md:tracking-[1px]","children":"タスクをシンプルに"}]]}],["$","a",null,{"href":"https://app.taskul-ai.com/login?from=blog","className":"flex items-center justify-center bg-green text-white text-[15px] font-semibold px-[52px] py-4 rounded-full w-full md:w-auto hover:opacity-90 transition-opacity","children":"まずは無料トライアル"}]]}],["$","div",null,{"className":"flex gap-[60px] md:gap-[80px] text-base font-semibold text-main-black","children":[["$","div",null,{"className":"flex flex-col gap-[18px]","children":[["$","a",null,{"href":"https://taskul-ai.com/","className":"font-['DM_Sans'] hover:opacity-70 transition-opacity","children":"TOP"}],["$","a",null,{"href":"https://taskul-ai.com/#service","className":"hover:opacity-70 transition-opacity","children":"サービス"}],["$","$L2",null,{"href":"/","className":"hover:opacity-70 transition-opacity","children":"コラム"}]]}],["$","div",null,{"className":"flex flex-col gap-[18px]","children":[["$","a",null,{"href":"https://kuroco-creation.jp/","target":"_blank","rel":"noopener noreferrer","className":"font-['DM_Sans'] hover:opacity-70 transition-opacity","children":"KUROCO CREATION"}],["$","a",null,{"href":"https://free-company.co.jp/","target":"_blank","rel":"noopener noreferrer","className":"hover:opacity-70 transition-opacity","children":"運営会社"}],["$","a",null,{"href":"https://lin.ee/rSlYN882","target":"_blank","rel":"noopener noreferrer","className":"hover:opacity-70 transition-opacity","children":"お問い合わせ"}]]}]]}]]}],["$","div",null,{"className":"flex flex-col md:flex-row md:justify-center gap-4 md:gap-[26px] mt-8 md:mt-12 text-[14px] md:text-[15px] text-[#868686]","children":[["$","a",null,{"href":"https://taskul-ai.com/terms.html","className":"underline hover:opacity-70 transition-opacity","children":"利用規約"}],["$","a",null,{"href":"https://taskul-ai.com/privacy.html","className":"underline hover:opacity-70 transition-opacity","children":"プライバシーポリシー"}]]}]]}],["$","div",null,{"className":"bg-green h-[33px] flex items-center justify-center","children":["$","p",null,{"className":"text-white text-sm text-center font-['DM_Sans']","children":"2026 © FREECOMPANY All Rights Reserved."}]}]]}]
+7:["$","link","0",{"rel":"stylesheet","href":"/column/_next/static/chunks/0iq1gbyxdi0i3.css","precedence":"next"}]
+8:["$","script","script-0",{"src":"/column/_next/static/chunks/09it85g~6.kww.js","async":true}]
+9:["$","$L1c",null,{"children":["$","$1d",null,{"name":"Next.MetadataOutlet","children":"$@1e"}]}]
+1f:T42c,M19.365 9.863c.349 0 .63.285.63.631 0 .345-.281.63-.63.63H17.61v1.125h1.755c.349 0 .63.283.63.63 0 .344-.281.629-.63.629h-2.386c-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.627-.63h2.386c.349 0 .63.285.63.63 0 .349-.281.63-.63.63H17.61v1.125h1.755zm-3.855 3.016c0 .27-.174.51-.432.596-.064.021-.133.031-.199.031-.211 0-.391-.09-.51-.25l-2.443-3.317v2.94c0 .344-.279.629-.631.629-.346 0-.626-.285-.626-.629V8.108c0-.27.173-.51.43-.595.06-.023.136-.033.194-.033.195 0 .375.104.495.254l2.462 3.33V8.108c0-.345.282-.63.63-.63.345 0 .63.285.63.63v4.771zm-5.741 0c0 .344-.282.629-.631.629-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.627-.63.349 0 .631.285.631.63v4.771zm-2.466.629H4.917c-.345 0-.63-.285-.63-.629V8.108c0-.345.285-.63.63-.63.349 0 .63.285.63.63v4.141h1.756c.348 0 .629.283.629.63 0 .344-.281.629-.629.629M24 10.314C24 4.943 18.615.572 12 .572S0 4.943 0 10.314c0 4.811 4.27 8.842 10.035 9.608.391.082.923.258 1.058.59.12.301.079.766.038 1.08l-.164 1.02c-.045.301-.24 1.186 1.049.645 1.291-.539 6.916-4.078 9.436-6.975C23.176 14.393 24 12.458 24 10.314a:["$","svg",null,{"width":"18","height":"18","viewBox":"0 0 24 24","fill":"white","children":["$","path",null,{"d":"$1f"}]}]
+b:["$","div",null,{"className":"bg-white rounded-[5px] px-2.5 py-5 md:p-3 flex flex-col md:flex-row items-center md:items-start gap-2.5 md:gap-4","children":[["$","div",null,{"className":"flex items-center gap-2.5 md:block w-full md:w-auto","children":[["$","div",null,{"className":"w-[70px] h-[70px] md:w-[84px] md:h-[84px] rounded-full border border-light-gray flex items-center justify-center shrink-0","children":["$","div",null,{"className":"border-[7px] md:border-[8px] border-green rounded-[7px] md:rounded-[8px] w-10 md:w-12 h-10 md:h-12"}]}],["$","div",null,{"className":"flex flex-col gap-1 md:hidden","children":[["$","p",null,{"className":"text-sm font-bold text-main-black","children":"ライター"}],["$","p",null,{"className":"text-xl font-bold text-main-black","children":"TASKUL編集部"}]]}]]}],["$","div",null,{"className":"flex flex-col gap-2 flex-1 w-full","children":[["$","p",null,{"className":"hidden md:block text-sm font-bold text-main-black","children":"ライター"}],["$","p",null,{"className":"hidden md:block text-xl font-bold text-main-black","children":"TASKUL編集部"}],["$","p",null,{"className":"text-sm text-gray","children":"フリーランス・クリエイター向けの働き方・業務効率化に関する情報を発信しています。現役フリーランスの知見をもとに執筆。"}],["$","div",null,{"className":"flex items-center justify-between","children":[["$","a",null,{"href":"https://app.taskul-ai.com/login?from=blog","className":"text-sm font-bold text-main-black","children":"ツールを試してみる"}],["$","svg",null,{"width":"5","height":"10","viewBox":"0 0 5 10","fill":"none","children":["$","path",null,{"d":"M0.5 0.5L4.5 5L0.5 9.5","stroke":"currentColor"}]}]]}]]}]]}]
+c:["$","div",null,{"className":"h-px bg-slightly-gray w-full"}]
+d:["$","nav",null,{"className":"toc","children":[["$","p",null,{"className":"toc-title","children":"この記事の目次"}],["$","ol",null,{"className":"toc-list","children":[["$","li","クリエイターが燃え尽きる本当の原因は-見えない仕事量",{"className":"toc-item toc-h2","children":["$","a",null,{"href":"#クリエイターが燃え尽きる本当の原因は-見えない仕事量","children":[["$","span",null,{"className":"toc-number","children":"01"}],["$","span",null,{"className":"toc-text","children":"クリエイターが燃え尽きる本当の原因は「見えない仕事量」？"}]]}]}],["$","li","制作以外の業務が稼働時間の何割を占めている",{"className":"toc-item toc-h3","children":["$","a",null,{"href":"#制作以外の業務が稼働時間の何割を占めている","children":[["$","span",null,{"className":"toc-dot"}],["$","span",null,{"className":"toc-text","children":"制作以外の業務が稼働時間の何割を占めている？"}]]}]}],["$","li","断れない-心理がキャパオーバーを招く",{"className":"toc-item toc-h3","children":["$","a",null,{"href":"#断れない-心理がキャパオーバーを招く","children":[["$","span",null,{"className":"toc-dot"}],["$","span",null,{"className":"toc-text","children":"「断れない」心理がキャパオーバーを招く？"}]]}]}],["$","li","品質の終わりがない-問題とは",{"className":"toc-item toc-h3","children":["$","a",null,{"href":"#品質の終わりがない-問題とは","children":[["$","span",null,{"className":"toc-dot"}],["$","span",null,{"className":"toc-text","children":"「品質の終わりがない」問題とは？"}]]}]}],["$","li","稼働率を可視化してキャパオーバーを事前に防ぐ方法とは",{"className":"toc-item toc-h2","children":["$","a",null,{"href":"#稼働率を可視化してキャパオーバーを事前に防ぐ方法とは","children":[["$","span",null,{"className":"toc-number","children":"02"}],["$","span",null,{"className":"toc-text","children":"稼働率を可視化してキャパオーバーを事前に防ぐ方法とは？"}]]}]}],["$","li","稼働率の計算方法はどうすればいい",{"className":"toc-item toc-h3","children":["$","a",null,{"href":"#稼働率の計算方法はどうすればいい","children":[["$","span",null,{"className":"toc-dot"}],["$","span",null,{"className":"toc-text","children":"稼働率の計算方法はどうすればいい？"}]]}]}],["$","li","稼働率を自動で把握するにはどうする",{"className":"toc-item toc-h3","children":["$","a",null,{"href":"#稼働率を自動で把握するにはどうする","children":[["$","span",null,{"className":"toc-dot"}],["$","span",null,{"className":"toc-text","children":"稼働率を自動で把握するにはどうする？"}]]}]}],["$","li","断る基準-を決めておく案件フィルタリング術",{"className":"toc-item toc-h2","children":["$","a",null,{"href":"#断る基準-を決めておく案件フィルタリング術","children":[["$","span",null,{"className":"toc-number","children":"03"}],["$","span",null,{"className":"toc-text","children":"「断る基準」を決めておく案件フィルタリング術"}]]}]}],["$","li","案件を受ける・断る基準を4軸で設定するには",{"className":"toc-item toc-h3","children":["$","a",null,{"href":"#案件を受ける・断る基準を4軸で設定するには","children":[["$","span",null,{"className":"toc-dot"}],["$","span",null,{"className":"toc-text","children":"案件を受ける・断る基準を4軸で設定するには？"}]]}]}],["$","li","同時並行の上限本数はどう決める",{"className":"toc-item toc-h3","children":["$","a",null,{"href":"#同時並行の上限本数はどう決める","children":[["$","span",null,{"className":"toc-dot"}],["$","span",null,{"className":"toc-text","children":"同時並行の上限本数はどう決める？"}]]}]}],["$","li","週次レビューで燃え尽きの兆候を早期検知するには",{"className":"toc-item toc-h2","children":["$","a",null,{"href":"#週次レビューで燃え尽きの兆候を早期検知するには","children":[["$","span",null,{"className":"toc-number","children":"04"}],["$","span",null,{"className":"toc-text","children":"週次レビューで燃え尽きの兆候を早期検知するには？"}]]}]}],["$","li","週次レビューでチェックすべき4項目とは",{"className":"toc-item toc-h3","children":["$","a",null,{"href":"#週次レビューでチェックすべき4項目とは","children":[["$","span",null,{"className":"toc-dot"}],["$","span",null,{"className":"toc-text","children":"週次レビューでチェックすべき4項目とは？"}]]}]}],["$","li","燃え尽きの-危険信号-を見逃さないためには",{"className":"toc-item toc-h3","children":["$","a",null,{"href":"#燃え尽きの-危険信号-を見逃さないためには","children":[["$","span",null,{"className":"toc-dot"}],["$","span",null,{"className":"toc-text","children":"燃え尽きの「危険信号」を見逃さないためには？"}]]}]}],["$","li","レビューの記録はどこに残すべき",{"className":"toc-item toc-h3","children":["$","a",null,{"href":"#レビューの記録はどこに残すべき","children":[["$","span",null,{"className":"toc-dot"}],["$","span",null,{"className":"toc-text","children":"レビューの記録はどこに残すべき？"}]]}]}],["$","li","まとめ",{"className":"toc-item toc-h2","children":["$","a",null,{"href":"#まとめ","children":[["$","span",null,{"className":"toc-number","children":"05"}],["$","span",null,{"className":"toc-text","children":"まとめ"}]]}]}]]}]]}]
+21:T48fa,<p><img src="/column/images/articles/creator-burnout-prevention/01.jpg" alt="クリエイターがデスクで休憩しながらタスクを整理している様子"></p>
+<!-- 画像: クリエイターのデスク周り、少し落ち着いた雰囲気の横長写真 -->
+<p>クリエイターの燃え尽き症候群は、才能や根性の問題ではなく**「見えない仕事量」の蓄積**が原因です。稼働率を数値で可視化し、案件の受注基準を事前に決め、週次で自分の状態をモニタリングすれば防げます。この記事では、フリーランスクリエイターが燃え尽きを未然に防ぐための具体的なセルフマネジメント術を解説します。</p>
+<h2 id="クリエイターが燃え尽きる本当の原因は-見えない仕事量">クリエイターが燃え尽きる本当の原因は「見えない仕事量」？</h2>
+<p>「なぜかいつも余裕がない」「休んでも疲れが取れない」と感じているクリエイターは多いです。その原因は、目に見える制作作業の裏に**大量の「見えない仕事」**が隠れていることにあります。</p>
+<h3 id="制作以外の業務が稼働時間の何割を占めている">制作以外の業務が稼働時間の何割を占めている？</h3>
+<p>フリーランスクリエイターの1日を分解すると、純粋な制作作業は意外と少ないことに気づきます。</p>
+<ul>
+<li>クライアントとのメール・チャット対応</li>
+<li>見積もり作成・請求書発行</li>
+<li>素材の調達・選定</li>
+<li>修正指示の確認・対応</li>
+<li>SNSやポートフォリオの更新</li>
+<li>経理・確定申告の準備</li>
+</ul>
+<p>これらを合計すると、**1日の稼働時間の30〜40%**が制作以外の業務に消えているケースは珍しくありません。「今日は8時間働いたのにアウトプットが少ない」という感覚は、この見えない業務に時間を奪われていることが原因です。</p>
+<h3 id="断れない-心理がキャパオーバーを招く">「断れない」心理がキャパオーバーを招く？</h3>
+<p>フリーランスは収入が不安定なため、「来月仕事がなくなるかもしれない」という不安から、来た案件をすべて受けてしまいがちです。</p>
+<p>特にクリエイター職は、以下のような心理が断ることを難しくします。</p>
+<ul>
+<li>「この案件はポートフォリオに使えるかもしれない」</li>
+<li>「紹介してくれた人の顔を潰せない」</li>
+<li>「単価は低いけど、継続案件になれば…」</li>
+</ul>
+<p>こうした判断が積み重なると、気づいたときにはキャパオーバーの状態に陥っています。1つ1つの案件は小さくても、<strong>同時に5〜6本抱えれば誰でも限界を超えます</strong>。</p>
+<blockquote>
+<p>複数案件の管理方法は「<a href="/column/multiple-projects-management">フリーランスの複数案件管理を破綻させない方法</a>」で詳しく解説しています。</p>
+</blockquote>
+<h3 id="品質の終わりがない-問題とは">「品質の終わりがない」問題とは？</h3>
+<p>クリエイティブな仕事には「ここで完成」という明確なゴールがありません。デザインもイラストも動画も、手を入れようと思えばいくらでも改善できます。</p>
+<p>この特性が燃え尽きに直結します。</p>
+<ul>
+<li>納品後に「もっとこうすればよかった」と考え続ける</li>
+<li>他のクリエイターの作品を見て自分のアウトプットに落ち込む</li>
+<li>クライアントの「もう少し良くしてほしい」に際限なく応えてしまう</li>
+</ul>
+<p>完璧を目指すこと自体は悪くありませんが、<strong>すべての案件で100点を目指すと確実に燃え尽きます</strong>。案件の重要度に応じて力の配分を変えることが、長く続けるための技術です。</p>
+<div class="chat-block">
+<div class="chat-human">
+<div class="chat-human-icon"><img src="/column/images/chat-user.png" alt="ユーザー"></div>
+<div class="chat-human-content">
+<span class="chat-name">フリーランスクリエイター</span>
+<div class="chat-bubble">最近、制作作業よりもメール返信や事務処理に追われている気がします。でもどれくらい時間を取られているのか分からなくて…</div>
+</div>
+</div>
+<div class="chat-ai">
+<div class="chat-ai-row">
+<div class="chat-ai-icon"><img src="/column/images/chat-taskul.png" alt="TASKUL AI"></div>
+<div class="chat-ai-content">
+<span class="chat-name">TASKUL AI</span>
+<div class="chat-bubble">まず1週間だけ、作業内容と時間を記録してみてください。制作・事務・連絡の3カテゴリに分けるだけで十分です。数字で見ると「何に時間を奪われているか」がはっきり分かりますよ。</div>
+</div>
+</div>
+</div>
+</div>
+<h2 id="稼働率を可視化してキャパオーバーを事前に防ぐ方法とは">稼働率を可視化してキャパオーバーを事前に防ぐ方法とは？</h2>
+<p><img src="/column/images/articles/creator-burnout-prevention/02.jpg" alt="稼働率をグラフで確認しているクリエイターのイメージ"></p>
+<!-- 画像: PCやタブレットでスケジュール・稼働率を確認しているイメージ -->
+<p>燃え尽きを防ぐ最も確実な方法は、<strong>自分の稼働率を数字で把握すること</strong>です。「なんとなく忙しい」ではなく「今週の稼働率は92%で危険水域」と言える状態を作ります。</p>
+<h3 id="稼働率の計算方法はどうすればいい">稼働率の計算方法はどうすればいい？</h3>
+<p>稼働率の計算はシンプルです。</p>
+<p><strong>稼働率 = 案件に使う時間 ÷ 稼働可能な総時間 × 100</strong></p>
+<p>たとえば、1日8時間×週5日=40時間を稼働可能時間とした場合、案件作業に35時間使っていれば稼働率は87.5%です。</p>
+<p>目安として、以下の基準を持っておくと判断しやすくなります。</p>
+<table>
+<thead>
+<tr>
+<th>稼働率</th>
+<th>状態</th>
+<th>対応</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>〜60%</td>
+<td>余裕あり</td>
+<td>新規案件を受けられる</td>
+</tr>
+<tr>
+<td>60〜80%</td>
+<td>適正</td>
+<td>バッファを確保できている</td>
+</tr>
+<tr>
+<td>80〜90%</td>
+<td>注意</td>
+<td>新規受注は慎重に判断</td>
+</tr>
+<tr>
+<td>90%〜</td>
+<td>危険</td>
+<td>新規案件は断る・納期交渉する</td>
+</tr>
+</tbody>
+</table>
+<p>ポイントは、<strong>修正対応・事務作業・休息の時間も稼働可能時間に含める</strong>ことです。「制作だけに使える時間」で計算すると実態とずれます。</p>
+<h3 id="稼働率を自動で把握するにはどうする">稼働率を自動で把握するにはどうする？</h3>
+<p>手動で毎日時間を記録するのは続きません。できるだけ仕組みで自動化するのが理想です。</p>
+<p>いくつかのアプローチがあります。</p>
+<ul>
+<li><strong>Toggl Track</strong>（無料〜月$9）: タイマー式で作業時間を記録。レポートで案件別の時間配分を可視化</li>
+<li><strong>Googleカレンダー</strong>: 案件ごとに色分けしてブロック。週表示で稼働率を視覚的に確認</li>
+<li><strong>TASKUL</strong>（無料〜月980円）: 案件ごとのタスクと進捗を一覧管理。フリーランス向けに設計されており、案件の稼働状況を把握しやすい</li>
+</ul>
+<p>どのツールを使う場合でも、<strong>「記録する習慣」を1つだけ決める</strong>のが継続のコツです。すべてを細かく記録しようとすると、それ自体が負担になって本末転倒です。</p>
+<blockquote>
+<p>スケジュール管理の全体像は「<a href="/column/freelance-schedule-management">フリーランスのスケジュール管理術</a>」で詳しく解説しています。</p>
+</blockquote>
+<h2 id="断る基準-を決めておく案件フィルタリング術">「断る基準」を決めておく案件フィルタリング術</h2>
+<p><img src="/column/images/articles/creator-burnout-prevention/03.jpg" alt="案件の受注判断をリスト化しているイメージ"></p>
+<!-- 画像: チェックリストやフィルター条件を書いたノート・画面のイメージ -->
+<p>「断るかどうかを毎回悩む」こと自体がエネルギーを消耗します。事前に<strong>数値化した基準</strong>を持っておけば、感情に左右されずに判断できます。</p>
+<h3 id="案件を受ける・断る基準を4軸で設定するには">案件を受ける・断る基準を4軸で設定するには？</h3>
+<p>以下の4つの軸で、自分なりの「最低ライン」を決めておきます。</p>
+<p><strong>1. 単価</strong></p>
+<ul>
+<li>時給換算でいくら以上なら受けるか</li>
+<li>例: 「時給3,000円を下回る案件は受けない」</li>
+</ul>
+<p><strong>2. 納期</strong></p>
+<ul>
+<li>最短何営業日なら対応できるか</li>
+<li>例: 「3営業日以内の急ぎ案件は特急料金がなければ断る」</li>
+</ul>
+<p><strong>3. 制作内容</strong></p>
+<ul>
+<li>自分のスキルセットに合っているか</li>
+<li>例: 「動画編集の案件は受けるが、撮影込みは外注先がいない限り断る」</li>
+</ul>
+<p><strong>4. コミュニケーションコスト</strong></p>
+<ul>
+<li>やり取りの頻度・手間が見合うか</li>
+<li>例: 「修正回数の上限を設定できない案件は受けない」</li>
+</ul>
+<p>この4軸を<strong>紙やメモアプリに書いて見える場所に置いておく</strong>のがポイントです。案件の打診が来たときに基準と照らし合わせるだけで、判断のスピードと精度が上がります。</p>
+<h3 id="同時並行の上限本数はどう決める">同時並行の上限本数はどう決める？</h3>
+<p>案件の規模によって異なりますが、目安として以下の基準が使えます。</p>
+<table>
+<thead>
+<tr>
+<th>案件の規模</th>
+<th>想定作業時間/週</th>
+<th>同時並行の上限目安</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>大型（LP制作、動画シリーズ等）</td>
+<td>15〜20時間</td>
+<td>2本</td>
+</tr>
+<tr>
+<td>中型（バナー5枚、動画1本等）</td>
+<td>5〜10時間</td>
+<td>3〜4本</td>
+</tr>
+<tr>
+<td>小型（ロゴ修正、画像加工等）</td>
+<td>1〜3時間</td>
+<td>5〜6本</td>
+</tr>
+</tbody>
+</table>
+<p>大型2本＋小型2本のように<strong>混在する場合は、すべてを時間に換算して合計</strong>します。合計が週の稼働可能時間の80%を超えたら、新規は受けないと決めておくのが安全です。</p>
+<div class="chat-block">
+<div class="chat-human">
+<div class="chat-human-icon"><img src="/column/images/chat-user.png" alt="ユーザー"></div>
+<div class="chat-human-content">
+<span class="chat-name">フリーランスクリエイター</span>
+<div class="chat-bubble">基準を決めても、既存クライアントからの依頼だと断りにくいんですよね…。関係が壊れそうで怖くて。</div>
+</div>
+</div>
+<div class="chat-ai">
+<div class="chat-ai-row">
+<div class="chat-ai-icon"><img src="/column/images/chat-taskul.png" alt="TASKUL AI"></div>
+<div class="chat-ai-content">
+<span class="chat-name">TASKUL AI</span>
+<div class="chat-bubble">「断る」ではなく「代替案を出す」と考えてみてください。「今週は難しいですが、来週月曜着手なら対応できます」と納期をずらす提案をすれば、信頼関係を保ったまま自分のキャパを守れます。</div>
+</div>
+</div>
+</div>
+</div>
+<h2 id="週次レビューで燃え尽きの兆候を早期検知するには">週次レビューで燃え尽きの兆候を早期検知するには？</h2>
+<p><img src="/column/images/articles/creator-burnout-prevention/04.jpg" alt="週末にノートで振り返りをしているクリエイターのイメージ"></p>
+<!-- 画像: 手帳やPCで1週間を振り返っているイメージ（横長） -->
+<p>燃え尽き症候群は突然起きるのではなく、<strong>数週間かけて徐々に進行</strong>します。週に1回の短い振り返りを習慣にすれば、危険な状態に気づけます。</p>
+<h3 id="週次レビューでチェックすべき4項目とは">週次レビューでチェックすべき4項目とは？</h3>
+<p>毎週金曜日（または週末）に、15〜30分で以下の4項目を確認します。</p>
+<p><strong>1. 稼働時間の合計</strong></p>
+<ul>
+<li>今週は合計何時間働いたか</li>
+<li>制作・事務・連絡の比率はどうだったか</li>
+</ul>
+<p><strong>2. 案件ごとの進捗率</strong></p>
+<ul>
+<li>各案件は予定通り進んでいるか</li>
+<li>遅れている案件はないか</li>
+</ul>
+<p><strong>3. 来週の予定稼働率</strong></p>
+<ul>
+<li>来週の案件スケジュールを確認</li>
+<li>稼働率80%を超えそうなら調整</li>
+</ul>
+<p><strong>4. 体調・モチベーションの自己評価</strong></p>
+<ul>
+<li>5段階で今週の状態を記録（5=絶好調、1=限界）</li>
+<li>3以下が2週連続で続いたら要注意</li>
+</ul>
+<p>この4項目を<strong>テンプレート化して毎週同じフォーマットで記録</strong>するのが継続のコツです。凝った振り返りシートを作る必要はありません。シンプルなほど続きます。</p>
+<blockquote>
+<p>タスク管理の基本的な仕組みづくりは「<a href="/column/freelance-task-management">フリーランスのタスク管理が続かない原因と解決策</a>」も参考にしてください。</p>
+</blockquote>
+<h3 id="燃え尽きの-危険信号-を見逃さないためには">燃え尽きの「危険信号」を見逃さないためには？</h3>
+<p>以下のサインが出ていたら、燃え尽きが進行している可能性があります。</p>
+<ul>
+<li><strong>パフォーマンスの低下</strong>: 以前は2時間で終わっていた作業に4時間かかる</li>
+<li><strong>先延ばしの増加</strong>: 着手するまでにSNSやニュースを見る時間が長くなった</li>
+<li><strong>感情の変化</strong>: クライアントからのメッセージ通知を見るだけで気が重くなる</li>
+<li><strong>身体的な症状</strong>: 頭痛・肩こり・不眠が慢性化している</li>
+<li><strong>達成感の消失</strong>: 納品しても「やっと終わった」としか感じない</li>
+</ul>
+<p>1つでも当てはまる場合は、<strong>来週の稼働率を意図的に60%以下に落とす</strong>ことを検討してください。「休む」ことを予定に入れるのも立派なセルフマネジメントです。</p>
+<h3 id="レビューの記録はどこに残すべき">レビューの記録はどこに残すべき？</h3>
+<p>記録する場所は使い慣れたツールで構いません。重要なのは<strong>毎週同じ場所に記録し、過去の状態と比較できる</strong>ことです。</p>
+<ul>
+<li><strong>Notion</strong>: テンプレートを作れば毎週コピーするだけ</li>
+<li><strong>Googleスプレッドシート</strong>: 数値を蓄積してグラフ化できる</li>
+<li><strong>TASKUL</strong>: 案件の進捗確認と週次レビューを同じ画面で完結できる</li>
+</ul>
+<p>3ヶ月分のデータがたまると、「自分がどの時期に無理をしやすいか」「どんな案件構成のときに調子が悪くなるか」というパターンが見えてきます。このパターン認識が、燃え尽きの予防で最も強力な武器になります。</p>
+<div class="chat-block">
+<div class="chat-human">
+<div class="chat-human-icon"><img src="/column/images/chat-user.png" alt="ユーザー"></div>
+<div class="chat-human-content">
+<span class="chat-name">フリーランスクリエイター</span>
+<div class="chat-bubble">振り返りが大事なのは分かるんですが、忙しいときほど振り返りの時間が取れなくて…。</div>
+</div>
+</div>
+<div class="chat-ai">
+<div class="chat-ai-row">
+<div class="chat-ai-icon"><img src="/column/images/chat-taskul.png" alt="TASKUL AI"></div>
+<div class="chat-ai-content">
+<span class="chat-name">TASKUL AI</span>
+<div class="chat-bubble">忙しくて振り返りができないこと自体が、キャパオーバーのサインです。まずは金曜日の17時に15分だけブロックしてみてください。「稼働時間」と「体調スコア」の2項目だけでも記録する価値があります。</div>
+</div>
+</div>
+</div>
+</div>
+<h2 id="まとめ">まとめ</h2>
+<p>クリエイターの燃え尽き症候群は、「頑張りが足りない」のではなく、<strong>見えない仕事量を管理できていない</strong>ことが根本原因です。</p>
+<p>この記事で紹介した3つのセルフマネジメント術を振り返ります。</p>
+<ol>
+<li><strong>稼働率を数値で可視化する</strong> — 80%を超えたら新規案件は慎重に判断</li>
+<li><strong>案件の受注基準を4軸で事前に決める</strong> — 単価・納期・内容・コミュニケーションコスト</li>
+<li><strong>週次レビューで自分の状態をモニタリングする</strong> — 15分の振り返りで危険信号を早期検知</li>
+</ol>
+<p>どれも特別な技術は必要ありません。<strong>今日からできるのは、今抱えている案件をすべて書き出し、来週の稼働率を計算してみること</strong>です。数字で現状を把握するだけで、漠然とした不安は大きく軽減されます。</p>
+<p>案件の管理や稼働状況の把握にツールを活用するなら、フリーランス向けに設計された<a href="https://app.taskul-ai.com">TASKUL</a>も選択肢の1つです。無料で始められるので、まずは今の案件を登録して全体像を把握するところから試してみてください。</p>
+<blockquote>
+<p>フリーランスのスケジュール管理全般については「<a href="/column/freelance-schedule-management">フリーランスのスケジュール管理術</a>」もあわせてご覧ください。</p>
+</blockquote>
+e:["$","$L20",null,{"contentHtml":"$21"}]
+f:["$","$L22",null,{}]
+10:["$","$L23",null,{"items":[{"question":"クリエイターが燃え尽き症候群になりやすい理由は？","answer":"成果物の品質に終わりがなく『もっと良くできる』と際限なく時間を投下しやすいこと、請求書・営業・事務など制作以外の業務が多いこと、収入が不安定で断れない心理が働くことの3つが重なるためです。"},{"question":"燃え尽き症候群の初期症状にはどんなものがある？","answer":"朝起きても作業を始める気力がない、以前は楽しかった制作作業が義務に感じる、納品後に達成感がなく虚脱感だけが残る、小さなミスや抜け漏れが増える、といった変化が初期症状として現れます。"},{"question":"稼働率は何%以下に抑えるべき？","answer":"フリーランスクリエイターの場合、稼働率は70〜80%を上限の目安にするのが安全です。残り20〜30%を修正対応・営業・スキルアップ・休息に充てることで、突発的な依頼にも対応できます。"},{"question":"案件を断る基準はどう決めればいい？","answer":"納期・単価・制作内容・コミュニケーションコストの4軸で判断するのが基本です。事前に『最低単価ライン』『同時並行の上限本数』『対応できない納期の基準』を数値で決めておくと、感情に左右されずに判断できます。"},{"question":"週次レビューでは何をチェックすればいい？","answer":"稼働時間の合計、案件ごとの進捗率、来週の予定稼働率、体調やモチベーションの自己評価の4つを確認します。15〜30分で終わる軽い振り返りを毎週決まった曜日に行うのがポイントです。"},{"question":"燃え尽きを防ぐために今日からできることは？","answer":"まず今抱えている案件をすべて書き出し、それぞれの残り作業時間を見積もってください。合計が週の稼働可能時間を超えていればキャパオーバーの状態です。超えている分は納期交渉か外注を検討します。"}]}]
+11:["$","a",null,{"href":"https://app.taskul-ai.com/register","className":"block rounded-[10px] overflow-hidden transition-transform hover:translate-y-[-2px] hover:shadow-[0_8px_24px_rgba(0,0,0,0.12)]","children":["$","img",null,{"src":"/column/images/cta-banner.png","alt":"TASKUL - フリーランス向けAIタスク管理ツール 14日間無料","className":"w-full h-auto"}]}]
+12:["$","div",null,{"className":"flex flex-col gap-9","children":[["$","div",null,{"className":"flex flex-col gap-4","children":[["$","div",null,{"className":"flex items-center gap-[13px]","children":[["$","span",null,{"className":"w-[7px] h-[7px] bg-green rounded-[1px]"}],["$","span",null,{"className":"text-lg font-medium text-sub-gray font-['DM_Sans']","children":"Column"}]]}],["$","h2",null,{"className":"text-[38px] md:text-[54px] font-bold text-main-black leading-[1.28]","children":"関連記事"}]]}],["$","div",null,{"className":"grid grid-cols-2 md:grid-cols-3 gap-[20px_10px] md:gap-5","children":[["$","$L2","freelance-time-management-tips",{"href":"/freelance-time-management-tips","className":"flex flex-col gap-[14px] group","children":[["$","div",null,{"className":"bg-white rounded-[5px] md:rounded-[7px] aspect-video w-full overflow-hidden","children":["$","img",null,{"src":"/column/images/articles/freelance-time-management-tips/thumbnail.png","alt":"フリーランスの時間管理が乱れる原因と、今日から使えるコツ5選","className":"w-full h-full object-cover"}]}],["$","div",null,{"className":"flex flex-col gap-1 leading-[1.6]","children":[["$","p",null,{"className":"text-base md:text-lg font-bold text-main-black line-clamp-3 group-hover:text-green transition-colors","children":"フリーランスの時間管理が乱れる原因と、今日から使えるコツ5選"}],["$","p",null,{"className":"hidden md:block text-sm font-medium text-sub-gray","children":"フリーランスの時間管理がうまくいかない原因と、今日から実践できる5つのコツを解説。タイムブロッキング・週次設計・ツール比較まで、案件が増えても崩れない時間管理の仕組みを紹介します。"}]]}]]}],["$","$L2","freelance-schedule-management",{"href":"/freelance-schedule-management","className":"flex flex-col gap-[14px] group","children":[["$","div",null,{"className":"bg-white rounded-[5px] md:rounded-[7px] aspect-video w-full overflow-hidden","children":["$","img",null,{"src":"/column/images/articles/freelance-schedule-management/thumbnail.png","alt":"フリーランスのスケジュール管理術｜案件を抱えても破綻しない方法","className":"w-full h-full object-cover"}]}],["$","div",null,{"className":"flex flex-col gap-1 leading-[1.6]","children":[["$","p",null,{"className":"text-base md:text-lg font-bold text-main-black line-clamp-3 group-hover:text-green transition-colors","children":"フリーランスのスケジュール管理術｜案件を抱えても破綻しない方法"}],["$","p",null,{"className":"hidden md:block text-sm font-medium text-sub-gray","children":"フリーランスのスケジュール管理がうまくいかない原因と、案件が増えても破綻しない5つの管理術を解説。タイムブロッキングやツール比較、今日から始められる3ステップも紹介します。"}]]}]]}],["$","$L2","freelance-deadline-management",{"href":"/freelance-deadline-management","className":"flex flex-col gap-[14px] group","children":[["$","div",null,{"className":"bg-white rounded-[5px] md:rounded-[7px] aspect-video w-full overflow-hidden","children":["$","img",null,{"src":"/column/images/articles/freelance-deadline-management/thumbnail.png","alt":"フリーランスの納期管理が甘くなる原因と、納期遅れを防ぐ5つの仕組み","className":"w-full h-full object-cover"}]}],["$","div",null,{"className":"flex flex-col gap-1 leading-[1.6]","children":[["$","p",null,{"className":"text-base md:text-lg font-bold text-main-black line-clamp-3 group-hover:text-green transition-colors","children":"フリーランスの納期管理が甘くなる原因と、納期遅れを防ぐ5つの仕組み"}],["$","p",null,{"className":"hidden md:block text-sm font-medium text-sub-gray","children":"フリーランスの納期管理がうまくいかない3つの原因と、納期遅れを防ぐ具体的な仕組みを解説。見積もりバッファの取り方やツール比較、遅れそうなときの対応法まで網羅します。"}]]}]]}]]}]]}]
+13:["$","div",null,{"className":"flex gap-4","children":[["$","$L2",null,{"href":"/freelance-time-management-tips","className":"flex-1 bg-white rounded-[10px] p-5 flex flex-col gap-2 group hover:shadow-[0_4px_16px_rgba(0,0,0,0.08)] transition-shadow","children":[["$","span",null,{"className":"text-xs text-sub-gray font-medium","children":"← 前の記事"}],["$","span",null,{"className":"text-sm md:text-base font-bold text-main-black leading-[1.5] group-hover:text-green transition-colors line-clamp-2","children":"フリーランスの時間管理が乱れる原因と、今日から使えるコツ5選"}]]}],["$","div",null,{"className":"flex-1"}]]}]
+14:["$","div",null,{"className":"flex justify-center gap-[18px]","children":[["$","$L2",null,{"href":"/","className":"bg-white rounded-full px-8 py-4 flex items-center gap-2.5","children":[["$","svg",null,{"width":"14","height":"8","viewBox":"0 0 14 8","fill":"none","className":"rotate-180","children":["$","path",null,{"d":"M0.5 0.5L7 7L13.5 0.5","stroke":"currentColor","strokeLinecap":"round"}]}],["$","span",null,{"className":"text-[15px] font-semibold text-main-black","children":"一覧へ戻る"}]]}],["$","a",null,{"href":"https://taskul-ai.com/","className":"bg-white rounded-full px-8 py-4 flex items-center gap-2.5","children":[["$","svg",null,{"width":"14","height":"8","viewBox":"0 0 14 8","fill":"none","className":"rotate-180","children":["$","path",null,{"d":"M0.5 0.5L7 7L13.5 0.5","stroke":"currentColor","strokeLinecap":"round"}]}],["$","span",null,{"className":"text-[15px] font-semibold text-main-black","children":"TOPへ戻る"}]]}]]}]
+15:["$","$L2","taskul-media-coverage-2026-04",{"href":"/taskul-media-coverage-2026-04","className":"flex gap-2.5","children":[["$","div",null,{"className":"relative bg-white rounded-[5px] w-[180px] h-[101px] shrink-0 overflow-hidden flex items-center justify-center","children":[["$","img",null,{"src":"/column/images/articles/taskul-media-coverage-2026-04/thumbnail.png","alt":"【お知らせ】TASKULが楽天インフォシーク・エキサイトなど4媒体に掲載されました","className":"w-full h-full object-cover"}],["$","div",null,{"className":"absolute top-0 left-0 bg-[#161616] rounded-tl-[2.6px] rounded-br-[2.6px] w-6 h-6 flex items-center justify-center","children":["$","span",null,{"className":"text-white text-[11px] font-bold font-['DM_Sans']","children":5}]}]]}],["$","p",null,{"className":"text-base font-bold text-main-black leading-[1.5]","children":"【お知らせ】TASKULが楽天インフォシーク・エキサイトなど4媒体に掲載されました"}]]}]
+16:["$","div",null,{"className":"flex flex-col gap-[22px]","children":[["$","h3",null,{"className":"text-xl font-bold text-main-black","children":"カテゴリ"}],["$","div",null,{"className":"flex flex-col gap-[18px]","children":[[["$","div","タスク管理",{"children":[["$","div",null,{"className":"h-px bg-slightly-gray w-full"}],["$","$L2",null,{"href":"/category/task-management","className":"flex items-center justify-between px-2.5 py-3 hover:bg-bg transition-colors rounded","children":[["$","span",null,{"className":"text-base font-semibold text-main-black tracking-[-0.32px]","children":"タスク管理"}],["$","svg",null,{"width":"4","height":"8","viewBox":"0 0 4 8","fill":"none","className":"text-main-black","children":["$","path",null,{"d":"M0.5 0.5L3.5 4L0.5 7.5","stroke":"currentColor"}]}]]}]]}],["$","div","案件管理",{"children":[["$","div",null,{"className":"h-px bg-slightly-gray w-full"}],["$","$L2",null,{"href":"/category/project-management","className":"flex items-center justify-between px-2.5 py-3 hover:bg-bg transition-colors rounded","children":[["$","span",null,{"className":"text-base font-semibold text-main-black tracking-[-0.32px]","children":"案件管理"}],["$","svg",null,{"width":"4","height":"8","viewBox":"0 0 4 8","fill":"none","className":"text-main-black","children":["$","path",null,{"d":"M0.5 0.5L3.5 4L0.5 7.5","stroke":"currentColor"}]}]]}]]}],["$","div","フリーランス",{"children":[["$","div",null,{"className":"h-px bg-slightly-gray w-full"}],["$","$L2",null,{"href":"/category/freelance","className":"flex items-center justify-between px-2.5 py-3 hover:bg-bg transition-colors rounded","children":[["$","span",null,{"className":"text-base font-semibold text-main-black tracking-[-0.32px]","children":"フリーランス"}],["$","svg",null,{"width":"4","height":"8","viewBox":"0 0 4 8","fill":"none","className":"text-main-black","children":["$","path",null,{"d":"M0.5 0.5L3.5 4L0.5 7.5","stroke":"currentColor"}]}]]}]]}],["$","div","ツール比較",{"children":[["$","div",null,{"className":"h-px bg-slightly-gray w-full"}],["$","$L2",null,{"href":"/category/tool-comparison","className":"flex items-center justify-between px-2.5 py-3 hover:bg-bg transition-colors rounded","children":[["$","span",null,{"className":"text-base font-semibold text-main-black tracking-[-0.32px]","children":"ツール比較"}],["$","svg",null,{"width":"4","height":"8","viewBox":"0 0 4 8","fill":"none","className":"text-main-black","children":["$","path",null,{"d":"M0.5 0.5L3.5 4L0.5 7.5","stroke":"currentColor"}]}]]}]]}],["$","div","働き方",{"children":[["$","div",null,{"className":"h-px bg-slightly-gray w-full"}],["$","$L2",null,{"href":"/category/workstyle","className":"flex items-center justify-between px-2.5 py-3 hover:bg-bg transition-colors rounded","children":[["$","span",null,{"className":"text-base font-semibold text-main-black tracking-[-0.32px]","children":"働き方"}],["$","svg",null,{"width":"4","height":"8","viewBox":"0 0 4 8","fill":"none","className":"text-main-black","children":["$","path",null,{"d":"M0.5 0.5L3.5 4L0.5 7.5","stroke":"currentColor"}]}]]}]]}]],["$","div",null,{"className":"h-px bg-slightly-gray w-full"}]]}]]}]
+17:["$","div",null,{"className":"bg-white rounded-[5px] h-[126px] w-full flex items-center justify-center","children":["$","div",null,{"className":"flex items-center gap-1.5","children":[["$","div",null,{"className":"border-[4px] border-green rounded-[4px] w-6 h-6"}],["$","span",null,{"className":"font-black text-[30px] tracking-[1.5px] text-black font-['DM_Sans']","children":"TASKUL"}]]}]}]
+18:["$","div",null,{"className":"flex flex-col gap-[22px] sticky top-20","children":[["$","h3",null,{"className":"text-xl font-bold text-main-black font-['DM_Sans']","children":"Index"}],["$","nav",null,{"className":"bg-white rounded-[5px] p-6 flex flex-col gap-3","children":[["$","a","クリエイターが燃え尽きる本当の原因は-見えない仕事量",{"href":"#クリエイターが燃え尽きる本当の原因は-見えない仕事量","className":"text-sm text-sub-gray hover:text-green transition-colors ","children":"クリエイターが燃え尽きる本当の原因は「見えない仕事量」？"}],["$","a","制作以外の業務が稼働時間の何割を占めている",{"href":"#制作以外の業務が稼働時間の何割を占めている","className":"text-sm text-sub-gray hover:text-green transition-colors pl-4","children":"制作以外の業務が稼働時間の何割を占めている？"}],["$","a","断れない-心理がキャパオーバーを招く",{"href":"#断れない-心理がキャパオーバーを招く","className":"text-sm text-sub-gray hover:text-green transition-colors pl-4","children":"「断れない」心理がキャパオーバーを招く？"}],["$","a","品質の終わりがない-問題とは",{"href":"#品質の終わりがない-問題とは","className":"text-sm text-sub-gray hover:text-green transition-colors pl-4","children":"「品質の終わりがない」問題とは？"}],["$","a","稼働率を可視化してキャパオーバーを事前に防ぐ方法とは",{"href":"#稼働率を可視化してキャパオーバーを事前に防ぐ方法とは","className":"text-sm text-sub-gray hover:text-green transition-colors ","children":"稼働率を可視化してキャパオーバーを事前に防ぐ方法とは？"}],["$","a","稼働率の計算方法はどうすればいい",{"href":"#稼働率の計算方法はどうすればいい","className":"text-sm text-sub-gray hover:text-green transition-colors pl-4","children":"稼働率の計算方法はどうすればいい？"}],["$","a","稼働率を自動で把握するにはどうする",{"href":"#稼働率を自動で把握するにはどうする","className":"text-sm text-sub-gray hover:text-green transition-colors pl-4","children":"稼働率を自動で把握するにはどうする？"}],["$","a","断る基準-を決めておく案件フィルタリング術",{"href":"#断る基準-を決めておく案件フィルタリング術","className":"text-sm text-sub-gray hover:text-green transition-colors ","children":"「断る基準」を決めておく案件フィルタリング術"}],["$","a","案件を受ける・断る基準を4軸で設定するには",{"href":"#案件を受ける・断る基準を4軸で設定するには","className":"text-sm text-sub-gray hover:text-green transition-colors pl-4","children":"案件を受ける・断る基準を4軸で設定するには？"}],["$","a","同時並行の上限本数はどう決める",{"href":"#同時並行の上限本数はどう決める","className":"text-sm text-sub-gray hover:text-green transition-colors pl-4","children":"同時並行の上限本数はどう決める？"}],["$","a","週次レビューで燃え尽きの兆候を早期検知するには",{"href":"#週次レビューで燃え尽きの兆候を早期検知するには","className":"text-sm text-sub-gray hover:text-green transition-colors ","children":"週次レビューで燃え尽きの兆候を早期検知するには？"}],["$","a","週次レビューでチェックすべき4項目とは",{"href":"#週次レビューでチェックすべき4項目とは","className":"text-sm text-sub-gray hover:text-green transition-colors pl-4","children":"週次レビューでチェックすべき4項目とは？"}],["$","a","燃え尽きの-危険信号-を見逃さないためには",{"href":"#燃え尽きの-危険信号-を見逃さないためには","className":"text-sm text-sub-gray hover:text-green transition-colors pl-4","children":"燃え尽きの「危険信号」を見逃さないためには？"}],["$","a","レビューの記録はどこに残すべき",{"href":"#レビューの記録はどこに残すべき","className":"text-sm text-sub-gray hover:text-green transition-colors pl-4","children":"レビューの記録はどこに残すべき？"}],["$","a","まとめ",{"href":"#まとめ","className":"text-sm text-sub-gray hover:text-green transition-colors ","children":"まとめ"}]]}]]}]
+19:["$","$L2","taskul-media-coverage-2026-04",{"href":"/taskul-media-coverage-2026-04","className":"flex gap-2.5","children":[["$","div",null,{"className":"relative bg-white rounded-[5px] w-[180px] h-[101px] shrink-0 overflow-hidden flex items-center justify-center","children":[["$","img",null,{"src":"/column/images/articles/taskul-media-coverage-2026-04/thumbnail.png","alt":"【お知らせ】TASKULが楽天インフォシーク・エキサイトなど4媒体に掲載されました","className":"w-full h-full object-cover"}],["$","div",null,{"className":"absolute top-0 left-0 bg-[#161616] rounded-tl-[2.6px] rounded-br-[2.6px] w-6 h-6 flex items-center justify-center","children":["$","span",null,{"className":"text-white text-[11px] font-bold font-['DM_Sans']","children":5}]}]]}],["$","p",null,{"className":"text-base font-bold text-main-black leading-[1.5]","children":"【お知らせ】TASKULが楽天インフォシーク・エキサイトなど4媒体に掲載されました"}]]}]
+1a:["$","div",null,{"className":"flex flex-col gap-[22px]","children":[["$","h3",null,{"className":"text-xl font-bold text-main-black","children":"カテゴリ"}],["$","div",null,{"className":"flex flex-col gap-[18px]","children":[[["$","div","タスク管理",{"children":[["$","div",null,{"className":"h-px bg-slightly-gray w-full"}],["$","$L2",null,{"href":"/category/task-management","className":"flex items-center justify-between px-2.5 py-3 hover:bg-bg transition-colors rounded","children":[["$","span",null,{"className":"text-base font-semibold text-main-black tracking-[-0.32px]","children":"タスク管理"}],["$","svg",null,{"width":"4","height":"8","viewBox":"0 0 4 8","fill":"none","className":"text-main-black","children":["$","path",null,{"d":"M0.5 0.5L3.5 4L0.5 7.5","stroke":"currentColor"}]}]]}]]}],["$","div","案件管理",{"children":[["$","div",null,{"className":"h-px bg-slightly-gray w-full"}],["$","$L2",null,{"href":"/category/project-management","className":"flex items-center justify-between px-2.5 py-3 hover:bg-bg transition-colors rounded","children":[["$","span",null,{"className":"text-base font-semibold text-main-black tracking-[-0.32px]","children":"案件管理"}],["$","svg",null,{"width":"4","height":"8","viewBox":"0 0 4 8","fill":"none","className":"text-main-black","children":["$","path",null,{"d":"M0.5 0.5L3.5 4L0.5 7.5","stroke":"currentColor"}]}]]}]]}],["$","div","フリーランス",{"children":[["$","div",null,{"className":"h-px bg-slightly-gray w-full"}],["$","$L2",null,{"href":"/category/freelance","className":"flex items-center justify-between px-2.5 py-3 hover:bg-bg transition-colors rounded","children":[["$","span",null,{"className":"text-base font-semibold text-main-black tracking-[-0.32px]","children":"フリーランス"}],["$","svg",null,{"width":"4","height":"8","viewBox":"0 0 4 8","fill":"none","className":"text-main-black","children":["$","path",null,{"d":"M0.5 0.5L3.5 4L0.5 7.5","stroke":"currentColor"}]}]]}]]}],["$","div","ツール比較",{"children":[["$","div",null,{"className":"h-px bg-slightly-gray w-full"}],["$","$L2",null,{"href":"/category/tool-comparison","className":"flex items-center justify-between px-2.5 py-3 hover:bg-bg transition-colors rounded","children":[["$","span",null,{"className":"text-base font-semibold text-main-black tracking-[-0.32px]","children":"ツール比較"}],["$","svg",null,{"width":"4","height":"8","viewBox":"0 0 4 8","fill":"none","className":"text-main-black","children":["$","path",null,{"d":"M0.5 0.5L3.5 4L0.5 7.5","stroke":"currentColor"}]}]]}]]}],["$","div","働き方",{"children":[["$","div",null,{"className":"h-px bg-slightly-gray w-full"}],["$","$L2",null,{"href":"/category/workstyle","className":"flex items-center justify-between px-2.5 py-3 hover:bg-bg transition-colors rounded","children":[["$","span",null,{"className":"text-base font-semibold text-main-black tracking-[-0.32px]","children":"働き方"}],["$","svg",null,{"width":"4","height":"8","viewBox":"0 0 4 8","fill":"none","className":"text-main-black","children":["$","path",null,{"d":"M0.5 0.5L3.5 4L0.5 7.5","stroke":"currentColor"}]}]]}]]}]],["$","div",null,{"className":"h-px bg-slightly-gray w-full"}]]}]]}]
+1b:["$","div",null,{"className":"bg-white rounded-[5px] h-[126px] w-full flex items-center justify-center","children":["$","div",null,{"className":"flex items-center gap-1.5","children":[["$","div",null,{"className":"border-[4px] border-green rounded-[4px] w-6 h-6"}],["$","span",null,{"className":"font-black text-[30px] tracking-[1.5px] text-black font-['DM_Sans']","children":"TASKUL"}]]}]}]
+1e:null
