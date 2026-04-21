@@ -1,5 +1,6 @@
 :HL["/column/_next/static/chunks/00qvsh210a3_t.css","style"]
 :HL["https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Noto+Sans+JP:wght@400;500;700;900&display=swap","style"]
+:HL["/column/images/articles/marketer-ad-task-management/thumbnail.png","image"]
 :HL["/column/images/articles/creator-burnout-prevention/thumbnail.png","image"]
 :HL["/column/images/articles/freelance-side-job-task-management/thumbnail.png","image"]
 :HL["/column/images/articles/freelance-time-management-tips/thumbnail.png","image"]
@@ -27,4 +28,4 @@
 :HL["/column/images/articles/illustrator-project-management/thumbnail.png","image"]
 :HL["/column/images/articles/multiple-projects-management/thumbnail.png","image"]
 :HL["/column/images/sidebar-banner.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"FINyqQ7pfYUegNCXoT7Y4"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"DJP788GwH2neWETgQkvfU"}
