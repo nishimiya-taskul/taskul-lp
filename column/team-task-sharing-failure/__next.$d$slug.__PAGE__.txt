@@ -1,0 +1,292 @@
+1:"$Sreact.fragment"
+2:I[22016,["/column/_next/static/chunks/01xlw8hd842-c.js","/column/_next/static/chunks/0d3shmwh5_nmn.js","/column/_next/static/chunks/09it85g~6.kww.js"],""]
+1c:I[97367,["/column/_next/static/chunks/01xlw8hd842-c.js","/column/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+1d:"$Sreact.suspense"
+21:I[22432,["/column/_next/static/chunks/01xlw8hd842-c.js","/column/_next/static/chunks/0d3shmwh5_nmn.js","/column/_next/static/chunks/09it85g~6.kww.js"],"default"]
+23:I[71207,["/column/_next/static/chunks/01xlw8hd842-c.js","/column/_next/static/chunks/0d3shmwh5_nmn.js","/column/_next/static/chunks/09it85g~6.kww.js"],"default"]
+24:I[28792,["/column/_next/static/chunks/01xlw8hd842-c.js","/column/_next/static/chunks/0d3shmwh5_nmn.js","/column/_next/static/chunks/09it85g~6.kww.js"],"default"]
+:HL["/column/images/articles/team-task-sharing-failure/thumbnail.png","image"]
+:HL["/column/images/sidebar-banner.png","image"]
+:HL["/column/images/articles/marketer-ad-task-management/thumbnail.png","image"]
+:HL["/column/images/articles/production-team-progress-management/thumbnail.png","image"]
+:HL["/column/images/articles/creator-burnout-prevention/thumbnail.png","image"]
+:HL["/column/_next/static/chunks/0iq1gbyxdi0i3.css","style"]
+:HL["/column/images/cta-banner.png","image"]
+:HL["/column/images/articles/freelance-side-job-task-management/thumbnail.png","image"]
+0:{"rsc":["$","$1","c",{"children":[[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"チームのタスク共有がうまくいかない原因と改善策5選\",\"description\":\"チームでタスク共有がうまくいかない原因を5つに分類し、ツール導入だけでは解決しない本当の理由と、粒度・命名・運用ルールの具体的な改善策を解説します。\",\"datePublished\":\"2026/04/21\",\"author\":{\"@type\":\"Person\",\"name\":\"TASKUL編集部\",\"description\":\"制作会社・広告代理店のチームマネジメントや案件管理に関する情報を発信しています。現役のWebディレクター・PMが実体験をもとに執筆。\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"TASKUL\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://taskul-ai.com/favicon.svg\"}},\"mainEntityOfPage\":\"https://taskul-ai.com/column/team-task-sharing-failure\"}"}}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"TASKUL\",\"item\":\"https://taskul-ai.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"コラム\",\"item\":\"https://taskul-ai.com/column/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"案件管理\",\"item\":\"https://taskul-ai.com/column/category/project-management\"},{\"@type\":\"ListItem\",\"position\":4,\"name\":\"チームのタスク共有がうまくいかない原因と改善策5選\"}]}"}}],null,["$","header",null,{"className":"fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-5 md:px-10 h-[56px] md:h-auto md:py-2.5 bg-white/96 backdrop-blur-[7px] shadow-[10px_10px_24px_rgba(0,0,0,0.05)]","children":[["$","a",null,{"href":"https://taskul-ai.com/","className":"flex items-center gap-1.5","children":[["$","div",null,{"className":"border-[3px] border-green rounded-[3px] w-[18px] h-[18px]"}],["$","span",null,{"className":"font-black text-[22px] tracking-[1px] text-black font-['DM_Sans']","children":"TASKUL"}],["$","span",null,{"className":"hidden md:inline text-sub-gray text-[10px] font-medium tracking-[0.5px]","children":"タスクをシンプルに"}]]}],["$","nav",null,{"className":"hidden md:flex items-center gap-10","children":[["$","a",null,{"href":"https://taskul-ai.com/","className":"text-main-black text-base font-semibold font-['DM_Sans']","children":"TOP"}],["$","$L2",null,{"href":"/","className":"text-main-black text-base font-semibold","children":"コラム"}],["$","a",null,{"href":"https://free-company.co.jp/","target":"_blank","rel":"noopener noreferrer","className":"text-main-black text-base font-semibold","children":"運営会社"}],["$","a",null,{"href":"https://lin.ee/rSlYN882","target":"_blank","rel":"noopener noreferrer","className":"text-main-black text-base font-semibold","children":"お問い合わせ"}],["$","a",null,{"href":"https://app.taskul-ai.com/login?from=blog","className":"bg-green text-white text-sm font-semibold px-5 py-2 rounded-full hover:opacity-90 transition-opacity","children":"14日間無料トライアル"}]]}]]}],["$","main",null,{"className":"pt-[72px] md:pt-[90px] pb-16 md:pb-32 bg-bg min-h-screen","children":[["$","div",null,{"className":"max-w-[1210px] mx-auto px-4 mb-4 md:mb-10","children":["$","div",null,{"className":"flex items-center gap-[11px] text-[13px] md:text-base text-gray","children":[["$","a",null,{"href":"https://taskul-ai.com/","className":"font-['DM_Sans'] hover:text-green","children":"TASKUL"}],["$","svg",null,{"width":"4","height":"8","viewBox":"0 0 4 8","fill":"none","children":["$","path",null,{"d":"M0.5 0.5L3.5 4L0.5 7.5","stroke":"currentColor"}]}],["$","$L2",null,{"href":"/","className":"hover:text-green","children":"コラム"}],["$","svg",null,{"width":"4","height":"8","viewBox":"0 0 4 8","fill":"none","children":["$","path",null,{"d":"M0.5 0.5L3.5 4L0.5 7.5","stroke":"currentColor"}]}],["$","$L2",null,{"href":"/category/project-management","className":"hover:text-green","children":"案件管理"}],["$","svg",null,{"width":"4","height":"8","viewBox":"0 0 4 8","fill":"none","children":["$","path",null,{"d":"M0.5 0.5L3.5 4L0.5 7.5","stroke":"currentColor"}]}],["$","span",null,{"className":"truncate max-w-[200px] md:max-w-[400px]","children":"チームのタスク共有がうまくいかない原因と改善策5選"}]]}]}],["$","div",null,{"className":"max-w-[1210px] mx-auto px-4 flex flex-col lg:flex-row gap-[70px] items-start","children":["$L3","$L4","$L5"]}]]}],"$L6"],["$L7","$L8"],"$L9"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"P3bubKMnxfXEGrQjtpKqF"}
+a:T42c,M19.365 9.863c.349 0 .63.285.63.631 0 .345-.281.63-.63.63H17.61v1.125h1.755c.349 0 .63.283.63.63 0 .344-.281.629-.63.629h-2.386c-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.627-.63h2.386c.349 0 .63.285.63.63 0 .349-.281.63-.63.63H17.61v1.125h1.755zm-3.855 3.016c0 .27-.174.51-.432.596-.064.021-.133.031-.199.031-.211 0-.391-.09-.51-.25l-2.443-3.317v2.94c0 .344-.279.629-.631.629-.346 0-.626-.285-.626-.629V8.108c0-.27.173-.51.43-.595.06-.023.136-.033.194-.033.195 0 .375.104.495.254l2.462 3.33V8.108c0-.345.282-.63.63-.63.345 0 .63.285.63.63v4.771zm-5.741 0c0 .344-.282.629-.631.629-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.627-.63.349 0 .631.285.631.63v4.771zm-2.466.629H4.917c-.345 0-.63-.285-.63-.629V8.108c0-.345.285-.63.63-.63.349 0 .63.285.63.63v4.141h1.756c.348 0 .629.283.629.63 0 .344-.281.629-.629.629M24 10.314C24 4.943 18.615.572 12 .572S0 4.943 0 10.314c0 4.811 4.27 8.842 10.035 9.608.391.082.923.258 1.058.59.12.301.079.766.038 1.08l-.164 1.02c-.045.301-.24 1.186 1.049.645 1.291-.539 6.916-4.078 9.436-6.975C23.176 14.393 24 12.458 24 10.3143:["$","article",null,{"className":"w-full lg:w-[800px] shrink-0 flex flex-col gap-[86px]","children":[["$","div",null,{"className":"flex flex-col gap-[30px]","children":[["$","div",null,{"className":"bg-white rounded-[10px] aspect-video md:h-[450px] w-full overflow-hidden","children":["$","img",null,{"src":"/column/images/articles/team-task-sharing-failure/thumbnail.png","alt":"チームのタスク共有がうまくいかない原因と改善策5選","className":"w-full h-full object-cover"}]}],["$","div",null,{"className":"flex flex-col gap-4","children":[["$","h1",null,{"className":"text-[26px] md:text-[38px] font-bold leading-[1.5] text-main-black","children":"チームのタスク共有がうまくいかない原因と改善策5選"}],["$","div",null,{"className":"flex flex-wrap items-center gap-3 md:gap-[26px]","children":[["$","time",null,{"className":"text-sm md:text-base text-gray font-['DM_Sans']","children":"2026/04/21"}],["$","div",null,{"className":"flex flex-wrap gap-2 md:gap-3","children":[["$","span","タスク共有",{"className":"bg-white rounded-[5px] shadow-[2px_2px_8px_rgba(0,0,0,0.08)] px-[10px] md:px-[13px] py-[3px] h-7 flex items-center gap-[7px] text-xs md:text-sm text-[#161616] whitespace-nowrap","children":[["$","span",null,{"className":"w-[5px] h-[5px] bg-green rounded-full"}],"タスク共有"]}],["$","span","チーム管理",{"className":"bg-white rounded-[5px] shadow-[2px_2px_8px_rgba(0,0,0,0.08)] px-[10px] md:px-[13px] py-[3px] h-7 flex items-center gap-[7px] text-xs md:text-sm text-[#161616] whitespace-nowrap","children":[["$","span",null,{"className":"w-[5px] h-[5px] bg-green rounded-full"}],"チーム管理"]}],["$","span","案件管理",{"className":"bg-white rounded-[5px] shadow-[2px_2px_8px_rgba(0,0,0,0.08)] px-[10px] md:px-[13px] py-[3px] h-7 flex items-center gap-[7px] text-xs md:text-sm text-[#161616] whitespace-nowrap","children":[["$","span",null,{"className":"w-[5px] h-[5px] bg-green rounded-full"}],"案件管理"]}],["$","span","プロジェクト管理",{"className":"bg-white rounded-[5px] shadow-[2px_2px_8px_rgba(0,0,0,0.08)] px-[10px] md:px-[13px] py-[3px] h-7 flex items-center gap-[7px] text-xs md:text-sm text-[#161616] whitespace-nowrap","children":[["$","span",null,{"className":"w-[5px] h-[5px] bg-green rounded-full"}],"プロジェクト管理"]}]]}],["$","div",null,{"className":"flex items-center gap-3","children":[["$","span",null,{"className":"text-xs text-sub-gray font-medium","children":"SHARE"}],["$","a",null,{"href":"https://twitter.com/intent/tweet?url=https%3A%2F%2Ftaskul-ai.com%2Fcolumn%2Fteam-task-sharing-failure&text=%E3%83%81%E3%83%BC%E3%83%A0%E3%81%AE%E3%82%BF%E3%82%B9%E3%82%AF%E5%85%B1%E6%9C%89%E3%81%8C%E3%81%86%E3%81%BE%E3%81%8F%E3%81%84%E3%81%8B%E3%81%AA%E3%81%84%E5%8E%9F%E5%9B%A0%E3%81%A8%E6%94%B9%E5%96%84%E7%AD%965%E9%81%B8","target":"_blank","rel":"noopener noreferrer","className":"w-9 h-9 rounded-full bg-[#15152b] flex items-center justify-center hover:opacity-80 transition-opacity","aria-label":"Xでシェア","children":["$","svg",null,{"width":"16","height":"16","viewBox":"0 0 24 24","fill":"white","children":["$","path",null,{"d":"M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"}]}]}],["$","a",null,{"href":"https://social-plugins.line.me/lineit/share?url=https%3A%2F%2Ftaskul-ai.com%2Fcolumn%2Fteam-task-sharing-failure","target":"_blank","rel":"noopener noreferrer","className":"w-9 h-9 rounded-full bg-[#06C755] flex items-center justify-center hover:opacity-80 transition-opacity","aria-label":"LINEでシェア","children":["$","svg",null,{"width":"18","height":"18","viewBox":"0 0 24 24","fill":"white","children":["$","path",null,{"d":"$a"}]}]}]]}]]}]]}],"$Lb","$Lc","$Ld","$Le","$Lf"]}],"$L10","$L11","$L12","$L13","$L14"]}]
+4:["$","div",null,{"className":"hidden lg:block","children":["$","aside",null,{"className":"w-full lg:w-[340px] shrink-0 flex flex-col gap-14","children":[["$","$L2",null,{"href":"https://app.taskul-ai.com/login?from=blog","className":"block w-full lg:w-[340px] shrink-0","children":["$","img",null,{"src":"/column/images/sidebar-banner.png","alt":"TASKUL - 全機能14日間無料","width":340,"height":340,"className":"w-full h-auto rounded-[10px]"}]}],["$","div",null,{"className":"flex flex-col gap-[22px]","children":[["$","h3",null,{"className":"text-xl font-bold text-main-black","children":"人気記事"}],["$","div",null,{"className":"flex flex-col gap-[23px]","children":[["$","$L2","marketer-ad-task-management",{"href":"/marketer-ad-task-management","className":"flex flex-col gap-[18px]","children":[["$","div",null,{"className":"relative bg-white rounded-[10px] h-[191px] w-full overflow-hidden flex items-center justify-center","children":[["$","img",null,{"src":"/column/images/articles/marketer-ad-task-management/thumbnail.png","alt":"広告運用のタスク管理術｜施策の抜け漏れを防ぐ方法","className":"w-full h-full object-cover"}],["$","div",null,{"className":"absolute top-0 left-0 bg-[#cb9d20] rounded-tl-[5px] rounded-br-[5px] w-[46px] h-[46px] flex items-center justify-center","children":["$","span",null,{"className":"text-white text-xl font-bold font-['DM_Sans']","children":1}]}]]}],["$","p",null,{"className":"text-xl font-bold text-main-black leading-[1.5]","children":"広告運用のタスク管理術｜施策の抜け漏れを防ぐ方法"}]]}],["$","$L2","production-team-progress-management",{"href":"/production-team-progress-management","className":"flex gap-2.5","children":[["$","div",null,{"className":"relative bg-white rounded-[5px] w-[180px] h-[101px] shrink-0 overflow-hidden flex items-center justify-center","children":[["$","img",null,{"src":"/column/images/articles/production-team-progress-management/thumbnail.png","alt":"制作会社の進行管理が属人化する原因と解消する5ステップ","className":"w-full h-full object-cover"}],["$","div",null,{"className":"absolute top-0 left-0 bg-[#8f8f8f] rounded-tl-[2.6px] rounded-br-[2.6px] w-6 h-6 flex items-center justify-center","children":["$","span",null,{"className":"text-white text-[11px] font-bold font-['DM_Sans']","children":2}]}]]}],["$","p",null,{"className":"text-base font-bold text-main-black leading-[1.5]","children":"制作会社の進行管理が属人化する原因と解消する5ステップ"}]]}],["$","$L2","team-task-sharing-failure",{"href":"/team-task-sharing-failure","className":"flex gap-2.5","children":[["$","div",null,{"className":"relative bg-white rounded-[5px] w-[180px] h-[101px] shrink-0 overflow-hidden flex items-center justify-center","children":[["$","img",null,{"src":"/column/images/articles/team-task-sharing-failure/thumbnail.png","alt":"チームのタスク共有がうまくいかない原因と改善策5選","className":"w-full h-full object-cover"}],["$","div",null,{"className":"absolute top-0 left-0 bg-[#ad5a1b] rounded-tl-[2.6px] rounded-br-[2.6px] w-6 h-6 flex items-center justify-center","children":["$","span",null,{"className":"text-white text-[11px] font-bold font-['DM_Sans']","children":3}]}]]}],["$","p",null,{"className":"text-base font-bold text-main-black leading-[1.5]","children":"チームのタスク共有がうまくいかない原因と改善策5選"}]]}],["$","$L2","creator-burnout-prevention",{"href":"/creator-burnout-prevention","className":"flex gap-2.5","children":[["$","div",null,{"className":"relative bg-white rounded-[5px] w-[180px] h-[101px] shrink-0 overflow-hidden flex items-center justify-center","children":[["$","img",null,{"src":"/column/images/articles/creator-burnout-prevention/thumbnail.png","alt":"クリエイターの燃え尽き症候群を防ぐセルフマネジメント術","className":"w-full h-full object-cover"}],["$","div",null,{"className":"absolute top-0 left-0 bg-[#161616] rounded-tl-[2.6px] rounded-br-[2.6px] w-6 h-6 flex items-center justify-center","children":["$","span",null,{"className":"text-white text-[11px] font-bold font-['DM_Sans']","children":4}]}]]}],["$","p",null,{"className":"text-base font-bold text-main-black leading-[1.5]","children":"クリエイターの燃え尽き症候群を防ぐセルフマネジメント術"}]]}],"$L15"]}]]}],"$L16","$L17","$L18"]}]}]
+5:["$","div",null,{"className":"lg:hidden w-full","children":["$","aside",null,{"className":"w-full lg:w-[340px] shrink-0 flex flex-col gap-14","children":[["$","$L2",null,{"href":"https://app.taskul-ai.com/login?from=blog","className":"block w-full lg:w-[340px] shrink-0","children":["$","img",null,{"src":"/column/images/sidebar-banner.png","alt":"TASKUL - 全機能14日間無料","width":340,"height":340,"className":"w-full h-auto rounded-[10px]"}]}],["$","div",null,{"className":"flex flex-col gap-[22px]","children":[["$","h3",null,{"className":"text-xl font-bold text-main-black","children":"人気記事"}],["$","div",null,{"className":"flex flex-col gap-[23px]","children":[["$","$L2","marketer-ad-task-management",{"href":"/marketer-ad-task-management","className":"flex flex-col gap-[18px]","children":[["$","div",null,{"className":"relative bg-white rounded-[10px] h-[191px] w-full overflow-hidden flex items-center justify-center","children":[["$","img",null,{"src":"/column/images/articles/marketer-ad-task-management/thumbnail.png","alt":"広告運用のタスク管理術｜施策の抜け漏れを防ぐ方法","className":"w-full h-full object-cover"}],["$","div",null,{"className":"absolute top-0 left-0 bg-[#cb9d20] rounded-tl-[5px] rounded-br-[5px] w-[46px] h-[46px] flex items-center justify-center","children":["$","span",null,{"className":"text-white text-xl font-bold font-['DM_Sans']","children":1}]}]]}],["$","p",null,{"className":"text-xl font-bold text-main-black leading-[1.5]","children":"広告運用のタスク管理術｜施策の抜け漏れを防ぐ方法"}]]}],["$","$L2","production-team-progress-management",{"href":"/production-team-progress-management","className":"flex gap-2.5","children":[["$","div",null,{"className":"relative bg-white rounded-[5px] w-[180px] h-[101px] shrink-0 overflow-hidden flex items-center justify-center","children":[["$","img",null,{"src":"/column/images/articles/production-team-progress-management/thumbnail.png","alt":"制作会社の進行管理が属人化する原因と解消する5ステップ","className":"w-full h-full object-cover"}],["$","div",null,{"className":"absolute top-0 left-0 bg-[#8f8f8f] rounded-tl-[2.6px] rounded-br-[2.6px] w-6 h-6 flex items-center justify-center","children":["$","span",null,{"className":"text-white text-[11px] font-bold font-['DM_Sans']","children":2}]}]]}],["$","p",null,{"className":"text-base font-bold text-main-black leading-[1.5]","children":"制作会社の進行管理が属人化する原因と解消する5ステップ"}]]}],["$","$L2","team-task-sharing-failure",{"href":"/team-task-sharing-failure","className":"flex gap-2.5","children":[["$","div",null,{"className":"relative bg-white rounded-[5px] w-[180px] h-[101px] shrink-0 overflow-hidden flex items-center justify-center","children":[["$","img",null,{"src":"/column/images/articles/team-task-sharing-failure/thumbnail.png","alt":"チームのタスク共有がうまくいかない原因と改善策5選","className":"w-full h-full object-cover"}],["$","div",null,{"className":"absolute top-0 left-0 bg-[#ad5a1b] rounded-tl-[2.6px] rounded-br-[2.6px] w-6 h-6 flex items-center justify-center","children":["$","span",null,{"className":"text-white text-[11px] font-bold font-['DM_Sans']","children":3}]}]]}],["$","p",null,{"className":"text-base font-bold text-main-black leading-[1.5]","children":"チームのタスク共有がうまくいかない原因と改善策5選"}]]}],["$","$L2","creator-burnout-prevention",{"href":"/creator-burnout-prevention","className":"flex gap-2.5","children":[["$","div",null,{"className":"relative bg-white rounded-[5px] w-[180px] h-[101px] shrink-0 overflow-hidden flex items-center justify-center","children":[["$","img",null,{"src":"/column/images/articles/creator-burnout-prevention/thumbnail.png","alt":"クリエイターの燃え尽き症候群を防ぐセルフマネジメント術","className":"w-full h-full object-cover"}],["$","div",null,{"className":"absolute top-0 left-0 bg-[#161616] rounded-tl-[2.6px] rounded-br-[2.6px] w-6 h-6 flex items-center justify-center","children":["$","span",null,{"className":"text-white text-[11px] font-bold font-['DM_Sans']","children":4}]}]]}],["$","p",null,{"className":"text-base font-bold text-main-black leading-[1.5]","children":"クリエイターの燃え尽き症候群を防ぐセルフマネジメント術"}]]}],"$L19"]}]]}],"$L1a","$L1b",false]}]}]
+6:["$","footer",null,{"className":"relative bg-white w-full","children":[["$","div",null,{"className":"max-w-[1440px] mx-auto px-6 md:px-[139px] pt-[50px] md:pt-[61px] pb-[30px] md:pb-[40px]","children":[["$","div",null,{"className":"flex flex-col md:flex-row md:justify-between gap-[34px]","children":[["$","div",null,{"className":"flex flex-col items-start gap-7","children":[["$","div",null,{"className":"flex flex-col items-center","children":[["$","div",null,{"className":"flex items-center gap-1.5","children":[["$","div",null,{"className":"border-[5.5px] md:border-[7px] border-green rounded-[5.5px] md:rounded-[7px] w-8 md:w-10 h-8 md:h-10"}],["$","span",null,{"className":"font-black text-[40px] md:text-[50px] tracking-[2px] md:tracking-[2.5px] text-black font-['DM_Sans']","children":"TASKUL"}]]}],["$","p",null,{"className":"text-sub-gray text-[17px] md:text-[22px] font-medium tracking-[0.9px] md:tracking-[1px]","children":"タスクをシンプルに"}]]}],["$","a",null,{"href":"https://app.taskul-ai.com/login?from=blog","className":"flex items-center justify-center bg-green text-white text-[15px] font-semibold px-[52px] py-4 rounded-full w-full md:w-auto hover:opacity-90 transition-opacity","children":"まずは無料トライアル"}]]}],["$","div",null,{"className":"flex gap-[60px] md:gap-[80px] text-base font-semibold text-main-black","children":[["$","div",null,{"className":"flex flex-col gap-[18px]","children":[["$","a",null,{"href":"https://taskul-ai.com/","className":"font-['DM_Sans'] hover:opacity-70 transition-opacity","children":"TOP"}],["$","a",null,{"href":"https://taskul-ai.com/#service","className":"hover:opacity-70 transition-opacity","children":"サービス"}],["$","$L2",null,{"href":"/","className":"hover:opacity-70 transition-opacity","children":"コラム"}]]}],["$","div",null,{"className":"flex flex-col gap-[18px]","children":[["$","a",null,{"href":"https://kuroco-creation.jp/","target":"_blank","rel":"noopener noreferrer","className":"font-['DM_Sans'] hover:opacity-70 transition-opacity","children":"KUROCO CREATION"}],["$","a",null,{"href":"https://free-company.co.jp/","target":"_blank","rel":"noopener noreferrer","className":"hover:opacity-70 transition-opacity","children":"運営会社"}],["$","a",null,{"href":"https://lin.ee/rSlYN882","target":"_blank","rel":"noopener noreferrer","className":"hover:opacity-70 transition-opacity","children":"お問い合わせ"}]]}]]}]]}],["$","div",null,{"className":"flex flex-col md:flex-row md:justify-center gap-4 md:gap-[26px] mt-8 md:mt-12 text-[14px] md:text-[15px] text-[#868686]","children":[["$","a",null,{"href":"https://taskul-ai.com/terms.html","className":"underline hover:opacity-70 transition-opacity","children":"利用規約"}],["$","a",null,{"href":"https://taskul-ai.com/privacy.html","className":"underline hover:opacity-70 transition-opacity","children":"プライバシーポリシー"}]]}]]}],["$","div",null,{"className":"bg-green h-[33px] flex items-center justify-center","children":["$","p",null,{"className":"text-white text-sm text-center font-['DM_Sans']","children":"2026 © FREECOMPANY All Rights Reserved."}]}]]}]
+7:["$","link","0",{"rel":"stylesheet","href":"/column/_next/static/chunks/0iq1gbyxdi0i3.css","precedence":"next"}]
+8:["$","script","script-0",{"src":"/column/_next/static/chunks/09it85g~6.kww.js","async":true}]
+9:["$","$L1c",null,{"children":["$","$1d",null,{"name":"Next.MetadataOutlet","children":"$@1e"}]}]
+b:["$","div",null,{"className":"bg-white rounded-[5px] px-2.5 py-5 md:p-3 flex flex-col md:flex-row items-center md:items-start gap-2.5 md:gap-4","children":[["$","div",null,{"className":"flex items-center gap-2.5 md:block w-full md:w-auto","children":[["$","div",null,{"className":"w-[70px] h-[70px] md:w-[84px] md:h-[84px] rounded-full border border-light-gray flex items-center justify-center shrink-0","children":["$","div",null,{"className":"border-[7px] md:border-[8px] border-green rounded-[7px] md:rounded-[8px] w-10 md:w-12 h-10 md:h-12"}]}],["$","div",null,{"className":"flex flex-col gap-1 md:hidden","children":[["$","p",null,{"className":"text-sm font-bold text-main-black","children":"ライター"}],["$","p",null,{"className":"text-xl font-bold text-main-black","children":"TASKUL編集部"}]]}]]}],["$","div",null,{"className":"flex flex-col gap-2 flex-1 w-full","children":[["$","p",null,{"className":"hidden md:block text-sm font-bold text-main-black","children":"ライター"}],["$","p",null,{"className":"hidden md:block text-xl font-bold text-main-black","children":"TASKUL編集部"}],["$","p",null,{"className":"text-sm text-gray","children":"制作会社・広告代理店のチームマネジメントや案件管理に関する情報を発信しています。現役のWebディレクター・PMが実体験をもとに執筆。"}],["$","div",null,{"className":"flex items-center justify-between","children":[["$","a",null,{"href":"https://app.taskul-ai.com/login?from=blog","className":"text-sm font-bold text-main-black","children":"ツールを試してみる"}],["$","svg",null,{"width":"5","height":"10","viewBox":"0 0 5 10","fill":"none","children":["$","path",null,{"d":"M0.5 0.5L4.5 5L0.5 9.5","stroke":"currentColor"}]}]]}]]}]]}]
+c:["$","div",null,{"className":"h-px bg-slightly-gray w-full"}]
+d:["$","nav",null,{"className":"toc","children":[["$","p",null,{"className":"toc-title","children":"この記事の目次"}],["$","ol",null,{"className":"toc-list","children":[["$","li","タスク共有がうまくいかないチームの5つの特徴とは",{"className":"toc-item toc-h2","children":["$","a",null,{"href":"#タスク共有がうまくいかないチームの5つの特徴とは","children":[["$","span",null,{"className":"toc-number","children":"01"}],["$","span",null,{"className":"toc-text","children":"タスク共有がうまくいかないチームの5つの特徴とは？"}]]}]}],["$","li","1-タスクの粒度が人によってバラバラ",{"className":"toc-item toc-h3","children":["$","a",null,{"href":"#1-タスクの粒度が人によってバラバラ","children":[["$","span",null,{"className":"toc-dot"}],["$","span",null,{"className":"toc-text","children":"1. タスクの粒度が人によってバラバラ"}]]}]}],["$","li","2-タスク名から内容が読み取れない",{"className":"toc-item toc-h3","children":["$","a",null,{"href":"#2-タスク名から内容が読み取れない","children":[["$","span",null,{"className":"toc-dot"}],["$","span",null,{"className":"toc-text","children":"2. タスク名から内容が読み取れない"}]]}]}],["$","li","3-ステータスが更新されない",{"className":"toc-item toc-h3","children":["$","a",null,{"href":"#3-ステータスが更新されない","children":[["$","span",null,{"className":"toc-dot"}],["$","span",null,{"className":"toc-text","children":"3. ステータスが更新されない"}]]}]}],["$","li","なぜ担当者が曖昧になるのか",{"className":"toc-item toc-h3","children":["$","a",null,{"href":"#なぜ担当者が曖昧になるのか","children":[["$","span",null,{"className":"toc-dot"}],["$","span",null,{"className":"toc-text","children":"なぜ担当者が曖昧になるのか？"}]]}]}],["$","li","5-完了の定義が共有されていない",{"className":"toc-item toc-h3","children":["$","a",null,{"href":"#5-完了の定義が共有されていない","children":[["$","span",null,{"className":"toc-dot"}],["$","span",null,{"className":"toc-text","children":"5. 完了の定義が共有されていない"}]]}]}],["$","li","ツールを入れても失敗する本当の理由は",{"className":"toc-item toc-h2","children":["$","a",null,{"href":"#ツールを入れても失敗する本当の理由は","children":[["$","span",null,{"className":"toc-number","children":"02"}],["$","span",null,{"className":"toc-text","children":"ツールを入れても失敗する本当の理由は？"}]]}]}],["$","li","ツールは-器-であってルールではない",{"className":"toc-item toc-h3","children":["$","a",null,{"href":"#ツールは-器-であってルールではない","children":[["$","span",null,{"className":"toc-dot"}],["$","span",null,{"className":"toc-text","children":"ツールは「器」であってルールではない"}]]}]}],["$","li","導入-解決-という誤解がチームを疲弊させる",{"className":"toc-item toc-h3","children":["$","a",null,{"href":"#導入-解決-という誤解がチームを疲弊させる","children":[["$","span",null,{"className":"toc-dot"}],["$","span",null,{"className":"toc-text","children":"「導入=解決」という誤解がチームを疲弊させる"}]]}]}],["$","li","運用ルールなしの導入がもたらす3つの害",{"className":"toc-item toc-h3","children":["$","a",null,{"href":"#運用ルールなしの導入がもたらす3つの害","children":[["$","span",null,{"className":"toc-dot"}],["$","span",null,{"className":"toc-text","children":"運用ルールなしの導入がもたらす3つの害"}]]}]}],["$","li","タスクの粒度と命名ルールを統一する方法",{"className":"toc-item toc-h2","children":["$","a",null,{"href":"#タスクの粒度と命名ルールを統一する方法","children":[["$","span",null,{"className":"toc-number","children":"03"}],["$","span",null,{"className":"toc-text","children":"タスクの粒度と命名ルールを統一する方法"}]]}]}],["$","li","タスクの粒度はどう揃えればいい",{"className":"toc-item toc-h3","children":["$","a",null,{"href":"#タスクの粒度はどう揃えればいい","children":[["$","span",null,{"className":"toc-dot"}],["$","span",null,{"className":"toc-text","children":"タスクの粒度はどう揃えればいい？"}]]}]}],["$","li","タスク命名ルールのフォーマット",{"className":"toc-item toc-h3","children":["$","a",null,{"href":"#タスク命名ルールのフォーマット","children":[["$","span",null,{"className":"toc-dot"}],["$","span",null,{"className":"toc-text","children":"タスク命名ルールのフォーマット"}]]}]}],["$","li","命名ルールをチームに浸透させるコツは",{"className":"toc-item toc-h3","children":["$","a",null,{"href":"#命名ルールをチームに浸透させるコツは","children":[["$","span",null,{"className":"toc-dot"}],["$","span",null,{"className":"toc-text","children":"命名ルールをチームに浸透させるコツは？"}]]}]}],["$","li","更新されない問題-を解決する運用ルール設計",{"className":"toc-item toc-h2","children":["$","a",null,{"href":"#更新されない問題-を解決する運用ルール設計","children":[["$","span",null,{"className":"toc-number","children":"04"}],["$","span",null,{"className":"toc-text","children":"「更新されない問題」を解決する運用ルール設計"}]]}]}],["$","li","なぜメンバーはタスクを更新しないのか",{"className":"toc-item toc-h3","children":["$","a",null,{"href":"#なぜメンバーはタスクを更新しないのか","children":[["$","span",null,{"className":"toc-dot"}],["$","span",null,{"className":"toc-text","children":"なぜメンバーはタスクを更新しないのか？"}]]}]}],["$","li","更新を習慣化する3つの仕組み",{"className":"toc-item toc-h3","children":["$","a",null,{"href":"#更新を習慣化する3つの仕組み","children":[["$","span",null,{"className":"toc-dot"}],["$","span",null,{"className":"toc-text","children":"更新を習慣化する3つの仕組み"}]]}]}],null,null,null,["$","li","ステータスの定義を明確にしているか",{"className":"toc-item toc-h3","children":["$","a",null,{"href":"#ステータスの定義を明確にしているか","children":[["$","span",null,{"className":"toc-dot"}],["$","span",null,{"className":"toc-text","children":"ステータスの定義を明確にしているか？"}]]}]}],"$L1f","$L20"]}]]}]
+22:T4a19,<p><img src="/column/images/articles/team-task-sharing-failure/01.jpg" alt="チームでタスクを共有しているミーティングの様子"></p>
+<!-- 画像未設定: チームがホワイトボードやモニターを囲んでタスク確認している様子 -->
+<p>チームのタスク共有がうまくいかない原因は、ツール不足ではなく「運用ルールの欠如」です。タスクの粒度がバラバラ、更新されない、誰が何をやっているか分からない。こうした問題は、ツールを入れ替えても解決しません。この記事では、制作会社・広告代理店のチームリーダー向けに、タスク共有が失敗する5つの特徴と、今日から実践できる具体的な改善策を解説します。</p>
+<h2 id="タスク共有がうまくいかないチームの5つの特徴とは">タスク共有がうまくいかないチームの5つの特徴とは？</h2>
+<p>「ちゃんとタスク管理しているはずなのに、なぜかうまく回らない」。そう感じているなら、以下の5つに心当たりがないか確認してください。</p>
+<h3 id="1-タスクの粒度が人によってバラバラ">1. タスクの粒度が人によってバラバラ</h3>
+<p>最も多い失敗パターンです。</p>
+<ul>
+<li>Aさん：「LP制作」（1つのタスクで全工程をカバー）</li>
+<li>Bさん：「LP｜構成案作成」「LP｜デザインカンプ」「LP｜コーディング」（工程ごとに分割）</li>
+</ul>
+<p>同じプロジェクトなのに、Aさんのタスクは永遠に「進行中」で、Bさんのタスクは次々と「完了」になります。これでは進捗の比較ができません。</p>
+<h3 id="2-タスク名から内容が読み取れない">2. タスク名から内容が読み取れない</h3>
+<p>「デザイン修正」「確認お願いします」「あの件」。こうしたタスク名では、<strong>本人以外が見ても何の作業か分かりません</strong>。タスク一覧を開いても、結局Slackで「これ何の件？」と聞くことになります。</p>
+<h3 id="3-ステータスが更新されない">3. ステータスが更新されない</h3>
+<p>タスクを登録しても、ステータスが「未着手」のまま放置されている。実際には作業が進んでいるのに、ツール上では何も動いていないように見えます。チームリーダーは正確な進捗が把握できず、<strong>確認のための会議が増える悪循環</strong>に陥ります。</p>
+<h3 id="なぜ担当者が曖昧になるのか">なぜ担当者が曖昧になるのか？</h3>
+<p>「チーム全員で対応」「誰かやっておいて」。こうした曖昧なアサインは、結果的に<strong>誰もやらない</strong>状態を生みます。全員が「他の誰かがやるだろう」と思い、納期直前に発覚するパターンです。</p>
+<h3 id="5-完了の定義が共有されていない">5. 完了の定義が共有されていない</h3>
+<p>「デザイン完了」と言っても、人によって意味が違います。</p>
+<ul>
+<li>デザイナー：Figmaでカンプを作成した時点</li>
+<li>ディレクター：クライアントにOKをもらった時点</li>
+<li>コーダー：HTML/CSSに落とし込み終わった時点</li>
+</ul>
+<p>完了の定義がズレていると、「完了したはずなのに終わっていない」という認識ギャップが頻発します。</p>
+<p><img src="/column/images/articles/team-task-sharing-failure/02.jpg" alt="タスク管理ツールでステータスが更新されていない画面のイメージ"></p>
+<!-- 画像未設定: タスク管理ツールの画面でステータスが放置されているイメージ -->
+<div class="chat-block">
+<div class="chat-human">
+<div class="chat-human-icon"><img src="/column/images/chat-user.png" alt="ユーザー"></div>
+<div class="chat-human-content">
+<span class="chat-name">チームリーダー</span>
+<div class="chat-bubble">うちのチーム、ツールは入れてるんですけど結局Slackで進捗確認してます。ツールの意味がないんですよね…</div>
+</div>
+</div>
+<div class="chat-ai">
+<div class="chat-ai-row">
+<div class="chat-ai-icon"><img src="/column/images/chat-taskul.png" alt="TASKUL AI"></div>
+<div class="chat-ai-content">
+<span class="chat-name">TASKUL AI</span>
+<div class="chat-bubble">ツール上の情報が信頼できないから、結局口頭で確認するパターンですね。これはツールの問題ではなく「入力・更新ルール」の問題です。次のセクションで、ツール導入が失敗する本当の理由を掘り下げます。</div>
+</div>
+</div>
+</div>
+</div>
+<h2 id="ツールを入れても失敗する本当の理由は">ツールを入れても失敗する本当の理由は？</h2>
+<p>タスク管理ツールを導入したのに共有がうまくいかない。その原因は、ツールの性能ではなく<strong>運用設計の不在</strong>です。</p>
+<h3 id="ツールは-器-であってルールではない">ツールは「器」であってルールではない</h3>
+<p>Backlog、Asana、Notion、Trello。どれも優秀なツールです。しかし、タスク管理ツールはあくまで<strong>情報を入れる器</strong>にすぎません。</p>
+<p>器に何を入れるか（タスクの粒度）、いつ入れるか（入力タイミング）、誰が確認するか（チェックフロー）。この3つが決まっていなければ、どんなツールを使っても同じ結果になります。</p>
+<h3 id="導入-解決-という誤解がチームを疲弊させる">「導入=解決」という誤解がチームを疲弊させる</h3>
+<p>よくある失敗の流れはこうです。</p>
+<ol>
+<li>チームリーダーが新しいツールを導入する</li>
+<li>最初の1〜2週間は全員が使う</li>
+<li>入力が面倒で一部のメンバーが使わなくなる</li>
+<li>ツール上の情報が不完全になり信頼できなくなる</li>
+<li>全員がツールを見なくなる</li>
+<li>「このツール合わないね」と別のツールに乗り換える</li>
+</ol>
+<p>これを繰り返すと、チームには**「どうせまた変わる」という諦め**が蔓延します。</p>
+<h3 id="運用ルールなしの導入がもたらす3つの害">運用ルールなしの導入がもたらす3つの害</h3>
+<table>
+<thead>
+<tr>
+<th>害</th>
+<th>具体的な症状</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>二重管理</td>
+<td>ツールとSlackの両方でタスクを追いかける羽目になる</td>
+</tr>
+<tr>
+<td>入力負荷</td>
+<td>ルールがないため「念のため詳しく書く人」と「最低限の人」が混在</td>
+</tr>
+<tr>
+<td>信頼喪失</td>
+<td>ツール上の情報が現実と乖離し、誰もツールを参照しなくなる</td>
+</tr>
+</tbody>
+</table>
+<p>**ツールを導入する前に、運用ルールを設計する。**これが鉄則です。ルールが先、ツールは後。この順番を間違えると、何度ツールを変えても同じ失敗を繰り返します。</p>
+<p><a href="/column/web-production-project-management-template">Web制作の案件管理テンプレートの作り方</a>も参考にしてください。テンプレートがあれば、ルール設計のたたき台として活用できます。</p>
+<h2 id="タスクの粒度と命名ルールを統一する方法">タスクの粒度と命名ルールを統一する方法</h2>
+<h3 id="タスクの粒度はどう揃えればいい">タスクの粒度はどう揃えればいい？</h3>
+<p>タスクの粒度を揃える基準は「<strong>1タスク＝1人が1日以内に完了できる作業</strong>」です。</p>
+<p>これより大きいタスク（例：「LP制作」）は分割が必要です。これより小さいタスク（例：「Figmaファイルを開く」）は管理コストのほうが大きくなります。</p>
+<p><strong>粒度の目安チェックリスト：</strong></p>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled> そのタスクは1人で完結するか？</li>
+<li class="task-list-item"><input type="checkbox" disabled> 1日以内に「完了」にできるか？</li>
+<li class="task-list-item"><input type="checkbox" disabled> タスク名を読んだだけで、何をすれば完了か分かるか？</li>
+<li class="task-list-item"><input type="checkbox" disabled> 進捗が「やってる」以外の言葉で説明できるか？</li>
+</ul>
+<p>4つ全てにチェックが入らなければ、タスクの分割か再定義が必要です。</p>
+<h3 id="タスク命名ルールのフォーマット">タスク命名ルールのフォーマット</h3>
+<p>チーム全員が同じ基準でタスク名を付けるために、<strong>フォーマットを1つ決めて統一</strong>します。</p>
+<p><strong>推奨フォーマット：「案件名｜工程｜成果物」</strong></p>
+<table>
+<thead>
+<tr>
+<th>NG例</th>
+<th>OK例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>デザイン修正</td>
+<td>ABC社LP｜ファーストビュー｜デザイン修正対応</td>
+</tr>
+<tr>
+<td>コーディング</td>
+<td>ABC社LP｜下層ページ｜HTML/CSSコーディング</td>
+</tr>
+<tr>
+<td>確認お願いします</td>
+<td>ABC社LP｜デザインカンプ｜クライアント確認依頼</td>
+</tr>
+<tr>
+<td>あの件の対応</td>
+<td>DEF社バナー｜春キャンペーン｜入稿データ作成</td>
+</tr>
+</tbody>
+</table>
+<p>このフォーマットを使えば、タスク一覧を開いたときに<strong>どの案件の、どの工程の、何をするタスクか</strong>が一目で分かります。</p>
+<p><img src="/column/images/articles/team-task-sharing-failure/03.jpg" alt="タスク命名ルールの比較表"></p>
+<!-- 画像未設定: タスク名のNG例とOK例を並べた比較図 -->
+<h3 id="命名ルールをチームに浸透させるコツは">命名ルールをチームに浸透させるコツは？</h3>
+<p>ルールを決めても守られなければ意味がありません。浸透させるポイントは3つです。</p>
+<ol>
+<li><strong>テンプレートを用意する</strong> — タスク作成時にフォーマットが自動入力される仕組みを作る</li>
+<li><strong>最初の2週間はリーダーが全タスクをレビューする</strong> — 形式が違うものはその場で修正依頼</li>
+<li><strong>良い例を共有する</strong> — 「このタスク名、分かりやすいですね」とSlackで紹介する</li>
+</ol>
+<p>叱るのではなく、<strong>正しい例を褒める</strong>ほうが定着します。</p>
+<div class="chat-block">
+<div class="chat-human">
+<div class="chat-human-icon"><img src="/column/images/chat-user.png" alt="ユーザー"></div>
+<div class="chat-human-content">
+<span class="chat-name">チームリーダー</span>
+<div class="chat-bubble">命名ルール決めたいけど、メンバーが「面倒くさい」と言いそうで…。どうやって納得してもらえばいいですか？</div>
+</div>
+</div>
+<div class="chat-ai">
+<div class="chat-ai-row">
+<div class="chat-ai-icon"><img src="/column/images/chat-taskul.png" alt="TASKUL AI"></div>
+<div class="chat-ai-content">
+<span class="chat-name">TASKUL AI</span>
+<div class="chat-bubble">「ルールがないから毎回Slackで確認している時間」を計測して見せるのが効果的です。1回の確認に3分、1日5回で15分、月に5時間。この5時間がタスク名を揃えるだけでゼロになると伝えれば、合理的な人は納得します。</div>
+</div>
+</div>
+</div>
+</div>
+<h2 id="更新されない問題-を解決する運用ルール設計">「更新されない問題」を解決する運用ルール設計</h2>
+<p>タスク共有で最も根深い問題が「登録したのに更新されない」です。これを仕組みで解決します。</p>
+<h3 id="なぜメンバーはタスクを更新しないのか">なぜメンバーはタスクを更新しないのか？</h3>
+<p>更新しない理由は、怠慢ではなく<strong>更新するタイミングが決まっていない</strong>からです。</p>
+<p>作業に集中しているとき、わざわざタスク管理ツールを開いてステータスを変更する行動は、自然には発生しません。<strong>業務フローの中に更新アクションを組み込む</strong>必要があります。</p>
+<h3 id="更新を習慣化する3つの仕組み">更新を習慣化する3つの仕組み</h3>
+<h4 id="仕組み1-朝会で-今日やるタスク-を宣言する">仕組み1：朝会で「今日やるタスク」を宣言する</h4>
+<p>毎朝15分の朝会で、各メンバーが<strong>ツール画面を共有しながら</strong>今日取り組むタスクを宣言します。口頭だけでなくツール上で確認するのがポイントです。「ツール上に存在しないタスクはやらない」というルールにすれば、自然と登録が漏れなくなります。</p>
+<h4 id="仕組み2-退勤前の5分でステータスを更新する">仕組み2：退勤前の5分でステータスを更新する</h4>
+<p>退勤前にタスクのステータスを更新する時間を設けます。完了・進行中・ブロック中の3択で更新するだけなので、5分あれば十分です。</p>
+<h4 id="仕組み3-週1の振り返りで-未更新タスク-を洗い出す">仕組み3：週1の振り返りで「未更新タスク」を洗い出す</h4>
+<p>週に1回、<strong>ステータスが1週間以上変わっていないタスク</strong>を一覧で確認します。未更新のタスクには理由を聞き、完了なら完了に、不要なら削除します。</p>
+<p>この3つを回すだけで、ツール上の情報と現実の乖離は大幅に減ります。</p>
+<h3 id="ステータスの定義を明確にしているか">ステータスの定義を明確にしているか？</h3>
+<p>ステータスの選択肢が多すぎるのも問題です。以下の4つで十分です。</p>
+<table>
+<thead>
+<tr>
+<th>ステータス</th>
+<th>定義</th>
+<th>色</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>未着手</td>
+<td>まだ作業を開始していない</td>
+<td>グレー</td>
+</tr>
+<tr>
+<td>進行中</td>
+<td>自分が今作業している</td>
+<td>青</td>
+</tr>
+<tr>
+<td>確認待ち</td>
+<td>自分の作業は終わり、他者の確認を待っている</td>
+<td>黄</td>
+</tr>
+<tr>
+<td>完了</td>
+<td>全ての確認が終わり、成果物が納品された</td>
+<td>緑</td>
+</tr>
+</tbody>
+</table>
+<p>「レビュー中」「修正中」「承認待ち」など細かく分けたくなりますが、ステータスが6つ以上になると<strong>選択に迷う時間が増え、結果的に更新されなくなります</strong>。</p>
+<p><a href="/column/multiple-projects-management">複数案件を同時に回す案件管理術</a>では、案件単位の管理方法も紹介しています。チームで複数案件を抱えている場合は合わせて参考にしてください。</p>
+<p><img src="/column/images/articles/team-task-sharing-failure/04.jpg" alt="運用ルールを設計するチームミーティングの様子"></p>
+<!-- 画像未設定: チームでルールを話し合っているミーティングの様子 -->
+<h3 id="チームの規模別に気をつけることは">チームの規模別に気をつけることは？</h3>
+<p>チームの人数によって、運用ルールの厳密さは変わります。</p>
+<ul>
+<li><strong>2〜3人</strong>：朝会は不要。Slackで「今日やること」を投稿するだけで十分</li>
+<li><strong>4〜8人</strong>：朝会＋週1振り返りが必要。担当者の明確化が特に重要</li>
+<li><strong>9人以上</strong>：チームを3〜4人のユニットに分け、ユニットごとに管理者を置く</li>
+</ul>
+<p>小さいチームほどルールは緩くてよく、大きいチームほど仕組みで縛る必要があります。</p>
+<p>TASKULなら、依頼文を貼り付けるだけでAIがタスクを自動分解し、担当者・期日の設定まで一気に完了します。入力の手間を減らすことで、更新のハードルも下がります。気になる方は<a href="https://app.taskul-ai.com">無料で試してみてください</a>。</p>
+<div class="chat-block">
+<div class="chat-human">
+<div class="chat-human-icon"><img src="/column/images/chat-user.png" alt="ユーザー"></div>
+<div class="chat-human-content">
+<span class="chat-name">チームリーダー</span>
+<div class="chat-bubble">朝会やってるんですけど、口頭報告だけで終わってツールに反映されないんですよ。</div>
+</div>
+</div>
+<div class="chat-ai">
+<div class="chat-ai-row">
+<div class="chat-ai-icon"><img src="/column/images/chat-taskul.png" alt="TASKUL AI"></div>
+<div class="chat-ai-content">
+<span class="chat-name">TASKUL AI</span>
+<div class="chat-bubble">朝会のルールを「ツール画面を共有しながら話す」に変えるだけで改善します。口頭だけの朝会は、会議室を出た瞬間に忘れられます。画面を見ながら話せば、ステータス更新もその場で完了します。</div>
+</div>
+</div>
+</div>
+</div>
+<h2 id="まとめ">まとめ</h2>
+<p>チームのタスク共有がうまくいかない原因は、ツールの問題ではなく運用ルールの問題です。</p>
+<p><strong>今日から実践できる改善策5つ：</strong></p>
+<ol>
+<li><strong>タスクの粒度を統一する</strong> — 1タスク＝1人が1日以内に完了できる作業</li>
+<li><strong>命名ルールをフォーマット化する</strong> — 「案件名｜工程｜成果物」で統一</li>
+<li><strong>担当者を必ず1人に決める</strong> — 「チーム全員」は誰もやらないのと同じ</li>
+<li><strong>更新タイミングを業務フローに組み込む</strong> — 朝会で宣言、退勤前に更新、週1で振り返り</li>
+<li><strong>完了の定義をチームで共有する</strong> — ステータスは4つに絞る</li>
+</ol>
+<p>ルールは複雑にする必要はありません。シンプルなルールを全員が守る状態を作ることが、タスク共有の成功条件です。</p>
+<p>まずは今週の朝会で、タスクの命名ルールとステータスの定義をチームで話し合うことから始めてみてください。</p>
+<p><a href="/column/freelance-task-management">フリーランスのタスク管理術</a>や<a href="/column/web-production-project-management-template">Web制作の案件管理テンプレート</a>も、運用ルール設計の参考になります。</p>
+e:["$","$L21",null,{"contentHtml":"$22"}]
+f:["$","$L23",null,{}]
+10:["$","$L24",null,{"items":[{"question":"チームのタスク共有がうまくいかない最大の原因は？","answer":"タスクの粒度と命名ルールが統一されていないことです。人によって『デザイン作成』と書く人と『トップページヒーロー画像のFigma作成』と書く人がいると、全員の進捗を正確に把握できません。"},{"question":"タスク管理ツールを導入したのに共有がうまくいかないのはなぜ？","answer":"ツールは器にすぎず、入力ルール・更新タイミング・確認フローの3つが決まっていなければ形骸化します。ツール導入前に運用ルールを設計することが先です。"},{"question":"タスクの命名ルールはどう決めればいい？","answer":"『対象＋作業内容＋成果物』のフォーマットで統一します。例：『LP｜ファーストビュー｜デザインカンプ作成』。誰が見ても何をするか分かる粒度が基準です。"},{"question":"タスクが更新されない問題をどう解決する？","answer":"更新のタイミングを業務フローに組み込みます。朝会で今日やることを確認し、退勤前にステータスを更新する。週1の振り返りで未更新タスクを洗い出すルールが有効です。"},{"question":"タスク共有の改善に使えるツールは？","answer":"Backlog（制作会社に人気、ガントチャート対応）、Asana（タスク依存関係の管理に強い）、TASKUL（AIで依頼文からタスク自動生成、フリーランス〜小規模チーム向け）が代表的です。"},{"question":"少人数チームでもタスク共有は必要？","answer":"2〜3人でも必要です。少人数ほど『あの件どうなった？』の口頭確認が増え、認識のズレが放置されやすくなります。むしろ少人数のうちにルールを作っておくと、チーム拡大時に破綻しません。"}]}]
+11:["$","a",null,{"href":"https://app.taskul-ai.com/register","className":"block rounded-[10px] overflow-hidden transition-transform hover:translate-y-[-2px] hover:shadow-[0_8px_24px_rgba(0,0,0,0.12)]","children":["$","img",null,{"src":"/column/images/cta-banner.png","alt":"TASKUL - フリーランス向けAIタスク管理ツール 14日間無料","className":"w-full h-auto"}]}]
+12:["$","div",null,{"className":"flex flex-col gap-9","children":[["$","div",null,{"className":"flex flex-col gap-4","children":[["$","div",null,{"className":"flex items-center gap-[13px]","children":[["$","span",null,{"className":"w-[7px] h-[7px] bg-green rounded-[1px]"}],["$","span",null,{"className":"text-lg font-medium text-sub-gray font-['DM_Sans']","children":"Column"}]]}],["$","h2",null,{"className":"text-[38px] md:text-[54px] font-bold text-main-black leading-[1.28]","children":"関連記事"}]]}],["$","div",null,{"className":"grid grid-cols-2 md:grid-cols-3 gap-[20px_10px] md:gap-5","children":[["$","$L2","marketer-ad-task-management",{"href":"/marketer-ad-task-management","className":"flex flex-col gap-[14px] group","children":[["$","div",null,{"className":"bg-white rounded-[5px] md:rounded-[7px] aspect-video w-full overflow-hidden","children":["$","img",null,{"src":"/column/images/articles/marketer-ad-task-management/thumbnail.png","alt":"広告運用のタスク管理術｜施策の抜け漏れを防ぐ方法","className":"w-full h-full object-cover"}]}],["$","div",null,{"className":"flex flex-col gap-1 leading-[1.6]","children":[["$","p",null,{"className":"text-base md:text-lg font-bold text-main-black line-clamp-3 group-hover:text-green transition-colors","children":"広告運用のタスク管理術｜施策の抜け漏れを防ぐ方法"}],["$","p",null,{"className":"hidden md:block text-sm font-medium text-sub-gray","children":"広告運用でタスクの抜け漏れが起きる構造的原因と、入稿からレポートまでの施策フロー別チェックリスト・複数媒体×複数クライアントの管理術を解説。おすすめツール比較も紹介します。"}]]}]]}],["$","$L2","production-team-progress-management",{"href":"/production-team-progress-management","className":"flex flex-col gap-[14px] group","children":[["$","div",null,{"className":"bg-white rounded-[5px] md:rounded-[7px] aspect-video w-full overflow-hidden","children":["$","img",null,{"src":"/column/images/articles/production-team-progress-management/thumbnail.png","alt":"制作会社の進行管理が属人化する原因と解消する5ステップ","className":"w-full h-full object-cover"}]}],["$","div",null,{"className":"flex flex-col gap-1 leading-[1.6]","children":[["$","p",null,{"className":"text-base md:text-lg font-bold text-main-black line-clamp-3 group-hover:text-green transition-colors","children":"制作会社の進行管理が属人化する原因と解消する5ステップ"}],["$","p",null,{"className":"hidden md:block text-sm font-medium text-sub-gray","children":"制作会社の進行管理が属人化する3つの典型パターンと、明日から始められる解消5ステップを解説。小規模チームに合うツール選びまで紹介します。"}]]}]]}],["$","$L2","creator-burnout-prevention",{"href":"/creator-burnout-prevention","className":"flex flex-col gap-[14px] group","children":[["$","div",null,{"className":"bg-white rounded-[5px] md:rounded-[7px] aspect-video w-full overflow-hidden","children":["$","img",null,{"src":"/column/images/articles/creator-burnout-prevention/thumbnail.png","alt":"クリエイターの燃え尽き症候群を防ぐセルフマネジメント術","className":"w-full h-full object-cover"}]}],["$","div",null,{"className":"flex flex-col gap-1 leading-[1.6]","children":[["$","p",null,{"className":"text-base md:text-lg font-bold text-main-black line-clamp-3 group-hover:text-green transition-colors","children":"クリエイターの燃え尽き症候群を防ぐセルフマネジメント術"}],["$","p",null,{"className":"hidden md:block text-sm font-medium text-sub-gray","children":"フリーランスクリエイターが燃え尽き症候群に陥る原因と、稼働率の可視化・案件フィルタリング・週次レビューで未然に防ぐ具体的な方法を解説します。"}]]}]]}]]}]]}]
+13:["$","div",null,{"className":"flex gap-4","children":[["$","$L2",null,{"href":"/creator-burnout-prevention","className":"flex-1 bg-white rounded-[10px] p-5 flex flex-col gap-2 group hover:shadow-[0_4px_16px_rgba(0,0,0,0.08)] transition-shadow","children":[["$","span",null,{"className":"text-xs text-sub-gray font-medium","children":"← 前の記事"}],["$","span",null,{"className":"text-sm md:text-base font-bold text-main-black leading-[1.5] group-hover:text-green transition-colors line-clamp-2","children":"クリエイターの燃え尽き症候群を防ぐセルフマネジメント術"}]]}],["$","$L2",null,{"href":"/production-team-progress-management","className":"flex-1 bg-white rounded-[10px] p-5 flex flex-col gap-2 items-end text-right group hover:shadow-[0_4px_16px_rgba(0,0,0,0.08)] transition-shadow","children":[["$","span",null,{"className":"text-xs text-sub-gray font-medium","children":"次の記事 →"}],["$","span",null,{"className":"text-sm md:text-base font-bold text-main-black leading-[1.5] group-hover:text-green transition-colors line-clamp-2","children":"制作会社の進行管理が属人化する原因と解消する5ステップ"}]]}]]}]
+14:["$","div",null,{"className":"flex justify-center gap-[18px]","children":[["$","$L2",null,{"href":"/","className":"bg-white rounded-full px-8 py-4 flex items-center gap-2.5","children":[["$","svg",null,{"width":"14","height":"8","viewBox":"0 0 14 8","fill":"none","className":"rotate-180","children":["$","path",null,{"d":"M0.5 0.5L7 7L13.5 0.5","stroke":"currentColor","strokeLinecap":"round"}]}],["$","span",null,{"className":"text-[15px] font-semibold text-main-black","children":"一覧へ戻る"}]]}],["$","a",null,{"href":"https://taskul-ai.com/","className":"bg-white rounded-full px-8 py-4 flex items-center gap-2.5","children":[["$","svg",null,{"width":"14","height":"8","viewBox":"0 0 14 8","fill":"none","className":"rotate-180","children":["$","path",null,{"d":"M0.5 0.5L7 7L13.5 0.5","stroke":"currentColor","strokeLinecap":"round"}]}],["$","span",null,{"className":"text-[15px] font-semibold text-main-black","children":"TOPへ戻る"}]]}]]}]
+15:["$","$L2","freelance-side-job-task-management",{"href":"/freelance-side-job-task-management","className":"flex gap-2.5","children":[["$","div",null,{"className":"relative bg-white rounded-[5px] w-[180px] h-[101px] shrink-0 overflow-hidden flex items-center justify-center","children":[["$","img",null,{"src":"/column/images/articles/freelance-side-job-task-management/thumbnail.png","alt":"副業フリーランスの時間管理術｜本業と両立する方法","className":"w-full h-full object-cover"}],["$","div",null,{"className":"absolute top-0 left-0 bg-[#161616] rounded-tl-[2.6px] rounded-br-[2.6px] w-6 h-6 flex items-center justify-center","children":["$","span",null,{"className":"text-white text-[11px] font-bold font-['DM_Sans']","children":5}]}]]}],["$","p",null,{"className":"text-base font-bold text-main-black leading-[1.5]","children":"副業フリーランスの時間管理術｜本業と両立する方法"}]]}]
+16:["$","div",null,{"className":"flex flex-col gap-[22px]","children":[["$","h3",null,{"className":"text-xl font-bold text-main-black","children":"カテゴリ"}],["$","div",null,{"className":"flex flex-col gap-[18px]","children":[[["$","div","タスク管理",{"children":[["$","div",null,{"className":"h-px bg-slightly-gray w-full"}],["$","$L2",null,{"href":"/category/task-management","className":"flex items-center justify-between px-2.5 py-3 hover:bg-bg transition-colors rounded","children":[["$","span",null,{"className":"text-base font-semibold text-main-black tracking-[-0.32px]","children":"タスク管理"}],["$","svg",null,{"width":"4","height":"8","viewBox":"0 0 4 8","fill":"none","className":"text-main-black","children":["$","path",null,{"d":"M0.5 0.5L3.5 4L0.5 7.5","stroke":"currentColor"}]}]]}]]}],["$","div","案件管理",{"children":[["$","div",null,{"className":"h-px bg-slightly-gray w-full"}],["$","$L2",null,{"href":"/category/project-management","className":"flex items-center justify-between px-2.5 py-3 hover:bg-bg transition-colors rounded","children":[["$","span",null,{"className":"text-base font-semibold text-main-black tracking-[-0.32px]","children":"案件管理"}],["$","svg",null,{"width":"4","height":"8","viewBox":"0 0 4 8","fill":"none","className":"text-main-black","children":["$","path",null,{"d":"M0.5 0.5L3.5 4L0.5 7.5","stroke":"currentColor"}]}]]}]]}],["$","div","フリーランス",{"children":[["$","div",null,{"className":"h-px bg-slightly-gray w-full"}],["$","$L2",null,{"href":"/category/freelance","className":"flex items-center justify-between px-2.5 py-3 hover:bg-bg transition-colors rounded","children":[["$","span",null,{"className":"text-base font-semibold text-main-black tracking-[-0.32px]","children":"フリーランス"}],["$","svg",null,{"width":"4","height":"8","viewBox":"0 0 4 8","fill":"none","className":"text-main-black","children":["$","path",null,{"d":"M0.5 0.5L3.5 4L0.5 7.5","stroke":"currentColor"}]}]]}]]}],["$","div","ツール比較",{"children":[["$","div",null,{"className":"h-px bg-slightly-gray w-full"}],["$","$L2",null,{"href":"/category/tool-comparison","className":"flex items-center justify-between px-2.5 py-3 hover:bg-bg transition-colors rounded","children":[["$","span",null,{"className":"text-base font-semibold text-main-black tracking-[-0.32px]","children":"ツール比較"}],["$","svg",null,{"width":"4","height":"8","viewBox":"0 0 4 8","fill":"none","className":"text-main-black","children":["$","path",null,{"d":"M0.5 0.5L3.5 4L0.5 7.5","stroke":"currentColor"}]}]]}]]}],["$","div","働き方",{"children":[["$","div",null,{"className":"h-px bg-slightly-gray w-full"}],["$","$L2",null,{"href":"/category/workstyle","className":"flex items-center justify-between px-2.5 py-3 hover:bg-bg transition-colors rounded","children":[["$","span",null,{"className":"text-base font-semibold text-main-black tracking-[-0.32px]","children":"働き方"}],["$","svg",null,{"width":"4","height":"8","viewBox":"0 0 4 8","fill":"none","className":"text-main-black","children":["$","path",null,{"d":"M0.5 0.5L3.5 4L0.5 7.5","stroke":"currentColor"}]}]]}]]}]],["$","div",null,{"className":"h-px bg-slightly-gray w-full"}]]}]]}]
+17:["$","div",null,{"className":"bg-white rounded-[5px] h-[126px] w-full flex items-center justify-center","children":["$","div",null,{"className":"flex items-center gap-1.5","children":[["$","div",null,{"className":"border-[4px] border-green rounded-[4px] w-6 h-6"}],["$","span",null,{"className":"font-black text-[30px] tracking-[1.5px] text-black font-['DM_Sans']","children":"TASKUL"}]]}]}]
+18:["$","div",null,{"className":"flex flex-col gap-[22px] sticky top-20","children":[["$","h3",null,{"className":"text-xl font-bold text-main-black font-['DM_Sans']","children":"Index"}],["$","nav",null,{"className":"bg-white rounded-[5px] p-6 flex flex-col gap-3","children":[["$","a","タスク共有がうまくいかないチームの5つの特徴とは",{"href":"#タスク共有がうまくいかないチームの5つの特徴とは","className":"text-sm text-sub-gray hover:text-green transition-colors ","children":"タスク共有がうまくいかないチームの5つの特徴とは？"}],["$","a","1-タスクの粒度が人によってバラバラ",{"href":"#1-タスクの粒度が人によってバラバラ","className":"text-sm text-sub-gray hover:text-green transition-colors pl-4","children":"1. タスクの粒度が人によってバラバラ"}],["$","a","2-タスク名から内容が読み取れない",{"href":"#2-タスク名から内容が読み取れない","className":"text-sm text-sub-gray hover:text-green transition-colors pl-4","children":"2. タスク名から内容が読み取れない"}],["$","a","3-ステータスが更新されない",{"href":"#3-ステータスが更新されない","className":"text-sm text-sub-gray hover:text-green transition-colors pl-4","children":"3. ステータスが更新されない"}],["$","a","なぜ担当者が曖昧になるのか",{"href":"#なぜ担当者が曖昧になるのか","className":"text-sm text-sub-gray hover:text-green transition-colors pl-4","children":"なぜ担当者が曖昧になるのか？"}],["$","a","5-完了の定義が共有されていない",{"href":"#5-完了の定義が共有されていない","className":"text-sm text-sub-gray hover:text-green transition-colors pl-4","children":"5. 完了の定義が共有されていない"}],["$","a","ツールを入れても失敗する本当の理由は",{"href":"#ツールを入れても失敗する本当の理由は","className":"text-sm text-sub-gray hover:text-green transition-colors ","children":"ツールを入れても失敗する本当の理由は？"}],["$","a","ツールは-器-であってルールではない",{"href":"#ツールは-器-であってルールではない","className":"text-sm text-sub-gray hover:text-green transition-colors pl-4","children":"ツールは「器」であってルールではない"}],["$","a","導入-解決-という誤解がチームを疲弊させる",{"href":"#導入-解決-という誤解がチームを疲弊させる","className":"text-sm text-sub-gray hover:text-green transition-colors pl-4","children":"「導入=解決」という誤解がチームを疲弊させる"}],["$","a","運用ルールなしの導入がもたらす3つの害",{"href":"#運用ルールなしの導入がもたらす3つの害","className":"text-sm text-sub-gray hover:text-green transition-colors pl-4","children":"運用ルールなしの導入がもたらす3つの害"}],["$","a","タスクの粒度と命名ルールを統一する方法",{"href":"#タスクの粒度と命名ルールを統一する方法","className":"text-sm text-sub-gray hover:text-green transition-colors ","children":"タスクの粒度と命名ルールを統一する方法"}],["$","a","タスクの粒度はどう揃えればいい",{"href":"#タスクの粒度はどう揃えればいい","className":"text-sm text-sub-gray hover:text-green transition-colors pl-4","children":"タスクの粒度はどう揃えればいい？"}],["$","a","タスク命名ルールのフォーマット",{"href":"#タスク命名ルールのフォーマット","className":"text-sm text-sub-gray hover:text-green transition-colors pl-4","children":"タスク命名ルールのフォーマット"}],["$","a","命名ルールをチームに浸透させるコツは",{"href":"#命名ルールをチームに浸透させるコツは","className":"text-sm text-sub-gray hover:text-green transition-colors pl-4","children":"命名ルールをチームに浸透させるコツは？"}],["$","a","更新されない問題-を解決する運用ルール設計",{"href":"#更新されない問題-を解決する運用ルール設計","className":"text-sm text-sub-gray hover:text-green transition-colors ","children":"「更新されない問題」を解決する運用ルール設計"}],["$","a","なぜメンバーはタスクを更新しないのか",{"href":"#なぜメンバーはタスクを更新しないのか","className":"text-sm text-sub-gray hover:text-green transition-colors pl-4","children":"なぜメンバーはタスクを更新しないのか？"}],["$","a","更新を習慣化する3つの仕組み",{"href":"#更新を習慣化する3つの仕組み","className":"text-sm text-sub-gray hover:text-green transition-colors pl-4","children":"更新を習慣化する3つの仕組み"}],["$","a","仕組み1-朝会で-今日やるタスク-を宣言する",{"href":"#仕組み1-朝会で-今日やるタスク-を宣言する","className":"text-sm text-sub-gray hover:text-green transition-colors pl-8","children":"仕組み1：朝会で「今日やるタスク」を宣言する"}],["$","a","仕組み2-退勤前の5分でステータスを更新する",{"href":"#仕組み2-退勤前の5分でステータスを更新する","className":"text-sm text-sub-gray hover:text-green transition-colors pl-8","children":"仕組み2：退勤前の5分でステータスを更新する"}],["$","a","仕組み3-週1の振り返りで-未更新タスク-を洗い出す",{"href":"#仕組み3-週1の振り返りで-未更新タスク-を洗い出す","className":"text-sm text-sub-gray hover:text-green transition-colors pl-8","children":"仕組み3：週1の振り返りで「未更新タスク」を洗い出す"}],["$","a","ステータスの定義を明確にしているか",{"href":"#ステータスの定義を明確にしているか","className":"text-sm text-sub-gray hover:text-green transition-colors pl-4","children":"ステータスの定義を明確にしているか？"}],"$L25","$L26"]}]]}]
+19:["$","$L2","freelance-side-job-task-management",{"href":"/freelance-side-job-task-management","className":"flex gap-2.5","children":[["$","div",null,{"className":"relative bg-white rounded-[5px] w-[180px] h-[101px] shrink-0 overflow-hidden flex items-center justify-center","children":[["$","img",null,{"src":"/column/images/articles/freelance-side-job-task-management/thumbnail.png","alt":"副業フリーランスの時間管理術｜本業と両立する方法","className":"w-full h-full object-cover"}],["$","div",null,{"className":"absolute top-0 left-0 bg-[#161616] rounded-tl-[2.6px] rounded-br-[2.6px] w-6 h-6 flex items-center justify-center","children":["$","span",null,{"className":"text-white text-[11px] font-bold font-['DM_Sans']","children":5}]}]]}],["$","p",null,{"className":"text-base font-bold text-main-black leading-[1.5]","children":"副業フリーランスの時間管理術｜本業と両立する方法"}]]}]
+1a:["$","div",null,{"className":"flex flex-col gap-[22px]","children":[["$","h3",null,{"className":"text-xl font-bold text-main-black","children":"カテゴリ"}],["$","div",null,{"className":"flex flex-col gap-[18px]","children":[[["$","div","タスク管理",{"children":[["$","div",null,{"className":"h-px bg-slightly-gray w-full"}],["$","$L2",null,{"href":"/category/task-management","className":"flex items-center justify-between px-2.5 py-3 hover:bg-bg transition-colors rounded","children":[["$","span",null,{"className":"text-base font-semibold text-main-black tracking-[-0.32px]","children":"タスク管理"}],["$","svg",null,{"width":"4","height":"8","viewBox":"0 0 4 8","fill":"none","className":"text-main-black","children":["$","path",null,{"d":"M0.5 0.5L3.5 4L0.5 7.5","stroke":"currentColor"}]}]]}]]}],["$","div","案件管理",{"children":[["$","div",null,{"className":"h-px bg-slightly-gray w-full"}],["$","$L2",null,{"href":"/category/project-management","className":"flex items-center justify-between px-2.5 py-3 hover:bg-bg transition-colors rounded","children":[["$","span",null,{"className":"text-base font-semibold text-main-black tracking-[-0.32px]","children":"案件管理"}],["$","svg",null,{"width":"4","height":"8","viewBox":"0 0 4 8","fill":"none","className":"text-main-black","children":["$","path",null,{"d":"M0.5 0.5L3.5 4L0.5 7.5","stroke":"currentColor"}]}]]}]]}],["$","div","フリーランス",{"children":[["$","div",null,{"className":"h-px bg-slightly-gray w-full"}],["$","$L2",null,{"href":"/category/freelance","className":"flex items-center justify-between px-2.5 py-3 hover:bg-bg transition-colors rounded","children":[["$","span",null,{"className":"text-base font-semibold text-main-black tracking-[-0.32px]","children":"フリーランス"}],["$","svg",null,{"width":"4","height":"8","viewBox":"0 0 4 8","fill":"none","className":"text-main-black","children":["$","path",null,{"d":"M0.5 0.5L3.5 4L0.5 7.5","stroke":"currentColor"}]}]]}]]}],["$","div","ツール比較",{"children":[["$","div",null,{"className":"h-px bg-slightly-gray w-full"}],["$","$L2",null,{"href":"/category/tool-comparison","className":"flex items-center justify-between px-2.5 py-3 hover:bg-bg transition-colors rounded","children":[["$","span",null,{"className":"text-base font-semibold text-main-black tracking-[-0.32px]","children":"ツール比較"}],["$","svg",null,{"width":"4","height":"8","viewBox":"0 0 4 8","fill":"none","className":"text-main-black","children":["$","path",null,{"d":"M0.5 0.5L3.5 4L0.5 7.5","stroke":"currentColor"}]}]]}]]}],["$","div","働き方",{"children":[["$","div",null,{"className":"h-px bg-slightly-gray w-full"}],["$","$L2",null,{"href":"/category/workstyle","className":"flex items-center justify-between px-2.5 py-3 hover:bg-bg transition-colors rounded","children":[["$","span",null,{"className":"text-base font-semibold text-main-black tracking-[-0.32px]","children":"働き方"}],["$","svg",null,{"width":"4","height":"8","viewBox":"0 0 4 8","fill":"none","className":"text-main-black","children":["$","path",null,{"d":"M0.5 0.5L3.5 4L0.5 7.5","stroke":"currentColor"}]}]]}]]}]],["$","div",null,{"className":"h-px bg-slightly-gray w-full"}]]}]]}]
+1b:["$","div",null,{"className":"bg-white rounded-[5px] h-[126px] w-full flex items-center justify-center","children":["$","div",null,{"className":"flex items-center gap-1.5","children":[["$","div",null,{"className":"border-[4px] border-green rounded-[4px] w-6 h-6"}],["$","span",null,{"className":"font-black text-[30px] tracking-[1.5px] text-black font-['DM_Sans']","children":"TASKUL"}]]}]}]
+1e:null
+1f:["$","li","チームの規模別に気をつけることは",{"className":"toc-item toc-h3","children":["$","a",null,{"href":"#チームの規模別に気をつけることは","children":[["$","span",null,{"className":"toc-dot"}],["$","span",null,{"className":"toc-text","children":"チームの規模別に気をつけることは？"}]]}]}]
+20:["$","li","まとめ",{"className":"toc-item toc-h2","children":["$","a",null,{"href":"#まとめ","children":[["$","span",null,{"className":"toc-number","children":"05"}],["$","span",null,{"className":"toc-text","children":"まとめ"}]]}]}]
+25:["$","a","チームの規模別に気をつけることは",{"href":"#チームの規模別に気をつけることは","className":"text-sm text-sub-gray hover:text-green transition-colors pl-4","children":"チームの規模別に気をつけることは？"}]
+26:["$","a","まとめ",{"href":"#まとめ","className":"text-sm text-sub-gray hover:text-green transition-colors ","children":"まとめ"}]
