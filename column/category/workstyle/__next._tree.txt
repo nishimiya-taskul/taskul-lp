@@ -4,7 +4,8 @@
 :HL["/column/images/articles/creator-burnout-prevention/thumbnail.png","image"]
 :HL["/column/images/articles/freelance-side-job-task-management/thumbnail.png","image"]
 :HL["/column/images/sidebar-banner.png","image"]
+:HL["/column/images/articles/video-creator-task-management/thumbnail.png","image"]
 :HL["/column/images/articles/marketer-ad-task-management/thumbnail.png","image"]
 :HL["/column/images/articles/production-team-progress-management/thumbnail.png","image"]
 :HL["/column/images/articles/team-task-sharing-failure/thumbnail.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"category","param":null,"prefetchHints":0,"slots":{"children":{"name":"workstyle","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"vWO_WygiW78vN4b-lGQ59"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"category","param":null,"prefetchHints":0,"slots":{"children":{"name":"workstyle","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"xpud-GCkrf7gAZi2t0tkw"}
