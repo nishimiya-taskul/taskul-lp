@@ -30,4 +30,4 @@
 :HL["/column/images/articles/illustrator-project-management/thumbnail.png","image"]
 :HL["/column/images/articles/multiple-projects-management/thumbnail.png","image"]
 :HL["/column/images/sidebar-banner.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"mAa_tuzMs_QE0CChQpaki"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"GDgvk4ak0WZs0VakP9CYd"}

@@ -7,4 +7,4 @@
 :HL["/column/images/articles/team-task-sharing-failure/thumbnail.png","image"]
 :HL["/column/images/articles/creator-burnout-prevention/thumbnail.png","image"]
 :HL["/column/images/articles/freelance-side-job-task-management/thumbnail.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"category","param":null,"prefetchHints":0,"slots":{"children":{"name":"category","param":{"type":"d","key":"%25E5%2583%258D%25E3%2581%258D%25E6%2596%25B9","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"mAa_tuzMs_QE0CChQpaki"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"category","param":null,"prefetchHints":0,"slots":{"children":{"name":"category","param":{"type":"d","key":"%25E5%2583%258D%25E3%2581%258D%25E6%2596%25B9","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"GDgvk4ak0WZs0VakP9CYd"}
