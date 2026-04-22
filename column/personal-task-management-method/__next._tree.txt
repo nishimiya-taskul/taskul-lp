@@ -9,4 +9,4 @@
 :HL["/column/images/sidebar-banner.png","image"]
 :HL["/column/images/articles/creator-burnout-prevention/thumbnail.png","image"]
 :HL["/column/images/articles/freelance-side-job-task-management/thumbnail.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"slug","param":{"type":"d","key":"personal-task-management-method","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"GDgvk4ak0WZs0VakP9CYd"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"slug","param":{"type":"d","key":"personal-task-management-method","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"vWO_WygiW78vN4b-lGQ59"}
