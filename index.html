@@ -136,6 +136,24 @@ a.nav-cta{font-size:.82rem;font-weight:700;color:#fff !important;background:var(
 .pc-mockup{position:relative;padding:2% 9.3% 7% 9.3%;background:url('/images/pc-frame.svg') center/100% 100% no-repeat}
 .pc-mockup img{width:100%;display:block;border-radius:8px}
 
+/* ===== NEWS / MEDIA ===== */
+.news-section{padding:60px 0;background:#fff;border-bottom:1px solid rgba(0,0,0,.04)}
+.news-inner{max-width:1200px;margin:0 auto;padding:0 24px;display:flex;flex-direction:column;align-items:center;gap:40px}
+.news-label{font-family:'DM Sans',sans-serif;font-size:13px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:rgba(21,21,43,.35)}
+.news-logos{display:flex;align-items:center;justify-content:center;gap:48px;flex-wrap:wrap}
+.news-logos img{height:40px;opacity:.7;transition:opacity .3s}
+.news-logos img:hover{opacity:1}
+.news-card{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center;background:var(--bg-light-gray);border-radius:20px;padding:36px;max-width:760px;width:100%}
+.news-card-text{display:flex;flex-direction:column;gap:12px}
+.news-card-badge{display:inline-flex;align-items:center;gap:6px;font-size:11px;font-weight:700;color:var(--green);background:rgba(21,207,120,.08);padding:4px 12px;border-radius:100px;width:fit-content}
+.news-card-badge::before{content:'';width:6px;height:6px;border-radius:50%;background:var(--green)}
+.news-card-title{font-family:'DM Sans','Noto Sans JP',sans-serif;font-size:20px;font-weight:800;color:var(--black);line-height:1.5}
+.news-card-date{font-size:12px;color:var(--gray);font-weight:500}
+.news-card-desc{font-size:14px;color:var(--gray);line-height:1.8}
+.news-card-img img{width:100%;display:block}
+.news-card-featured{grid-template-columns:1.4fr 1fr}
+.news-card-img-large img{max-height:300px;object-fit:cover;border-radius:10px}
+
 /* ===== SECTION BASE ===== */
 .section{padding:160px 0}
 .section-dark{background:var(--dark);color:#fff}
@@ -287,9 +305,9 @@ a.nav-cta{font-size:.82rem;font-weight:700;color:#fff !important;background:var(
 .pricing-toggle-disc{position:absolute;top:-9px;right:-10px;background:#ef4444;color:#fff;font-size:.5rem;font-weight:700;padding:1px 6px;border-radius:4px;white-space:nowrap}
 .pricing-annual{font-size:.7rem;color:var(--gray);margin-bottom:4px;font-weight:500;min-height:32px}
 /* Plan Cards (matches app registration screen) */
-.plan-cards{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:48px;max-width:1100px;margin-left:auto;margin-right:auto}
-.plan-card{position:relative;padding:24px;border-radius:16px;border:2px solid #ebeef5;background:#fff;text-align:left;transition:all .3s ease-out;display:flex;flex-direction:column}
-.plan-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.07)}
+.plan-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:48px;max-width:900px;margin-left:auto;margin-right:auto}
+.plan-card{position:relative;padding:24px;border-radius:16px;border:2px solid #ebeef5;background:#fff;text-align:left;transition:all .3s ease-out;display:flex;flex-direction:column;overflow:visible}
+.plan-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.07);border-color:transparent}
 .plan-card.popular{border-color:#15cf78;box-shadow:0 4px 16px rgba(21,207,120,.1)}
 .plan-card.popular:hover{box-shadow:0 8px 24px rgba(21,207,120,.15)}
 .plan-card-badge{position:absolute;top:-12px;left:50%;transform:translateX(-50%);padding:4px 16px;background:#15cf78;color:#fff;font-size:10px;font-weight:700;border-radius:980px;letter-spacing:.04em;white-space:nowrap}
@@ -305,11 +323,15 @@ a.nav-cta{font-size:.82rem;font-weight:700;color:#fff !important;background:var(
 .plan-card-features{padding-top:16px;border-top:1px solid #ebeef5;display:flex;flex-direction:column;gap:8px;flex:1}
 .plan-card-feat{display:flex;align-items:center;gap:8px;font-size:12px;color:rgba(44,52,69,.7)}
 .plan-card-feat svg{width:14px;height:14px;flex-shrink:0}
-.plan-card-cta{display:block;text-align:center;font-size:13px;font-weight:700;padding:12px;border-radius:12px;margin-top:16px;transition:all .2s;text-decoration:none}
+.plan-card-cta{display:block;text-align:center;font-size:13px;font-weight:700;padding:14px;border-radius:980px;margin-top:16px;transition:all .2s;text-decoration:none}
 .plan-card-cta.green{color:#fff;background:#15cf78;box-shadow:0 2px 8px rgba(21,207,120,.3)}
 .plan-card-cta.green:hover{background:#11b86a}
 .plan-card-cta.gray{color:#374151;background:#f3f4f6}
 .plan-card-cta.gray:hover{background:#e5e7eb}
+.cta-wrap{position:relative;display:inline-block;transition:transform .2s}
+.cta-wrap:hover{transform:translateY(-4px)}
+.cta-bubble{position:absolute;top:-22px;left:50%;transform:translateX(-50%);background:#fff;color:#767f93;font-family:'DM Sans','Noto Sans JP',sans-serif;font-size:13px;font-weight:700;padding:5px 16px;border-radius:14px;white-space:nowrap;pointer-events:none;z-index:2;box-shadow:0 2px 8px rgba(0,0,0,.06)}
+.cta-bubble::after{content:'';position:absolute;bottom:-5px;left:50%;transform:translateX(-50%);width:0;height:0;border-left:5px solid transparent;border-right:5px solid transparent;border-top:6px solid #fff}
 @media(max-width:1023px){.plan-cards{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:639px){.plan-cards{display:flex;overflow-x:auto;-webkit-overflow-scrolling:touch;scroll-snap-type:x mandatory;gap:12px;max-width:none;padding:16px 20px 8px;margin-left:-20px;margin-right:-20px}.plan-card{min-width:calc(100vw - 56px);flex-shrink:0;scroll-snap-align:center}}
 .plan-table{width:100%;border-collapse:collapse;font-size:13px}
@@ -331,7 +353,7 @@ a.nav-cta{font-size:.82rem;font-weight:700;color:#fff !important;background:var(
 .faq-item.open .faq-a p{opacity:1;transform:translateY(0)}
 
 /* ===== CAMPAIGN ===== */
-.campaign{padding:100px 144px;background:var(--green);display:flex;align-items:center;justify-content:center}
+.campaign{padding:60px 144px;background:var(--green);display:flex;align-items:center;justify-content:center}
 .campaign-card{background:#fff;border-radius:30px;max-width:1200px;width:100%;padding:60px 24px 40px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:30px}
 .campaign-header{display:flex;flex-direction:column;align-items:center;gap:20px}
 .campaign-badge{display:inline-flex;align-items:center;gap:6px;font-size:10.9px;font-weight:700;color:var(--green);background:rgba(21,207,120,.1);padding:5px 14px;border-radius:100px}
@@ -349,8 +371,8 @@ a.nav-cta{font-size:.82rem;font-weight:700;color:#fff !important;background:var(
 .cta-bottom{text-align:center;padding:160px 24px 144px;position:relative;overflow:hidden;background:linear-gradient(to bottom,#f5f5f7,#fff)}
 .cta-bottom>*:not(.mission-blob){position:relative;z-index:1}
 .cta-btn{display:inline-block;font-size:1.05rem;font-weight:700;padding:16px 48px;border-radius:980px;transition:all .2s;text-decoration:none}
-.cta-btn-green{background:#22c55e;color:#fff;box-shadow:0 4px 16px rgba(21,207,120,.3);font-size:16.7px;padding:16px 40px}
-.cta-btn-green:hover{background:#1db954;transform:scale(1.02)}
+.cta-btn-green{background:var(--green);color:#fff;box-shadow:0 4px 16px rgba(21,207,120,.3);font-size:16.7px;padding:16px 40px;width:248px;text-align:center}
+.cta-btn-green:hover{background:var(--green-hover);transform:scale(1.02)}
 .cta-btn-white{background:#fff;color:var(--green);box-shadow:0 4px 16px rgba(0,0,0,.1)}
 .cta-btn-white:hover{transform:scale(1.02)}
 
@@ -377,6 +399,12 @@ a.nav-cta{font-size:.82rem;font-weight:700;color:#fff !important;background:var(
 
 /* ===== RESPONSIVE ===== */
 @media(max-width:734px){
+  .news-section{padding:40px 0}
+  .news-inner{gap:28px}
+  .news-logos{gap:24px}
+  .news-logos img{height:28px}
+  .news-card{grid-template-columns:1fr;gap:24px;padding:28px 24px}
+  .news-card-featured{grid-template-columns:1fr}
   /* NAV */
   .nav-links{display:none}
   .nav-inner{justify-content:center}
@@ -526,7 +554,7 @@ a.nav-cta{font-size:.82rem;font-weight:700;color:#fff !important;background:var(
       <a href="#pricing">料金</a>
       <a href="#faq">FAQ</a>
       <a href="/column/">コラム</a>
-      <a href="https://app.taskul-ai.com/login?from=lp" class="nav-cta" onclick="trackCTA('header')">14日間無料トライアル</a>
+      <div style="display:flex;align-items:center;gap:16px"><a href="https://app.taskul-ai.com/login?from=lp" style="display:flex;align-items:center;gap:4px;background:#15cf78;padding:10px 16px;border-radius:980px;text-decoration:none;transition:background .2s" onmouseover="this.style.background='#11b86a'" onmouseout="this.style.background='#15cf78'" onclick="trackCTA('header')"><span style="display:inline-flex;align-items:center;justify-content:center;background:#fff;border-radius:980px;padding:1px 8px;font-family:'DM Sans','Noto Sans JP',sans-serif;font-size:12px;font-weight:700;color:#15cf78;white-space:nowrap">🎁14日間無料</span><span style="font-family:'DM Sans','Noto Sans JP',sans-serif;font-size:15px;font-weight:700;color:#fff;white-space:nowrap">今すぐはじめる</span></a><a href="https://app.taskul-ai.com/login?from=lp" style="font-family:'DM Sans','Noto Sans JP',sans-serif;font-size:13.6px;font-weight:500;color:#15cf78;text-decoration:none;white-space:nowrap">ログイン</a></div>
     </div>
   </div>
 </nav>
@@ -539,8 +567,41 @@ a.nav-cta{font-size:.82rem;font-weight:700;color:#fff !important;background:var(
   <h1 class="fv-subtitle anim anim-d1">開いて2秒で操れる。<br>フリーランス・クリエイターのためのタスク管理AI</h1>
   <div class="fv-mockup anim anim-d2" style="position:relative">
     <img src="/images/blur-circle.svg" alt="" style="position:absolute;width:900px;height:900px;top:50%;left:55%;transform:translate(-50%,-50%);pointer-events:none;z-index:0">
-    <div style="position:relative;z-index:1;aspect-ratio:896/545;background:url('/images/pc-frame.svg') center/100% 100% no-repeat">
-      <video src="/images/fv-video.mov" autoplay muted loop playsinline style="position:absolute;top:2%;left:50%;transform:translateX(-50%);width:81%;max-height:88.6%;border-radius:8px;object-fit:cover;object-position:top center"></video>
+    <img src="/images/mock_FV.png" alt="TASKULダッシュボード" style="position:relative;z-index:1;width:100%;max-width:900px;display:block;margin:0 auto">
+  </div>
+</section>
+
+<!-- ===== NEWS / MEDIA ===== -->
+<section class="news-section">
+  <div class="news-inner">
+    <p class="news-label">Media</p>
+    <div class="news-logos">
+      <a href="https://news.infoseek.co.jp/article/globalnewsasia_11077/" target="_blank" rel="noopener"><img src="/images/%E6%A5%BD%E5%A4%A9%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9_0%201.png" alt="楽天インフォシーク"></a>
+      <a href="https://www.excite.co.jp/news/article/Global_news_asia_11077/" target="_blank" rel="noopener"><img src="/images/excite%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9_0%201.png" alt="exciteニュース"></a>
+      <a href="https://news.nicovideo.jp/watch/nw19157077?news_ref=media367_media367" target="_blank" rel="noopener"><img src="/images/%E3%83%8B%E3%82%B3%E3%83%8B%E3%82%B3%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9_0%201.png" alt="ニコニコニュース"></a>
+      <a href="https://globalnewsasia.com/article.php?id=11077&&country=1&&p=1#photo" target="_blank" rel="noopener"><img src="/images/%E3%82%B0%E3%83%AD%E3%83%BC%E3%83%90%E3%83%AB%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%A2%E3%82%B8%E3%82%A2_01.png" alt="グローバルニュースアジア"></a>
+    </div>
+    <div class="news-card anim">
+      <div class="news-card-text">
+        <span class="news-card-badge">メディア掲載</span>
+        <p class="news-card-date">2026.04.13</p>
+        <h3 class="news-card-title">クリエイターの複雑なタスク管理を<br>一変させる次世代AIツール</h3>
+        <p class="news-card-desc">楽天インフォシーク、exciteニュース、ニコニコニュース、グローバルニュースアジアなど複数メディアにてTASKULが紹介されました。</p>
+      </div>
+      <div class="news-card-img">
+        <img src="/images/media.png" alt="TASKUL メディア掲載" loading="lazy">
+      </div>
+    </div>
+    <div class="news-card news-card-featured anim">
+      <div class="news-card-img news-card-img-large">
+        <img src="/images/shibuya.png" alt="渋谷センター街 TASKUL CM" loading="lazy">
+      </div>
+      <div class="news-card-text">
+        <span class="news-card-badge">CM放映</span>
+        <p class="news-card-date">2026.04</p>
+        <h3 class="news-card-title">渋谷センター街の<br>大型ビジョンでCM放映</h3>
+        <p class="news-card-desc">渋谷センター街の大型ビジョンにて、TASKULのCMが放映されました。</p>
+      </div>
     </div>
   </div>
 </section>
@@ -612,6 +673,21 @@ a.nav-cta{font-size:.82rem;font-weight:700;color:#fff !important;background:var(
       </div>
       <h2 class="h-large anim anim-d1" style="color:#fff;font-size:36px;margin-bottom:12px">案件の文脈を、<br>ディレクターAIがすべて記憶</h2>
       <p class="h-desc anim anim-d2" style="color:rgba(255,255,255,.7);margin:0 auto;max-width:600px">追加依頼や仕様変更があっても安心。<br><strong style="color:#fff">案件の背景を記憶</strong>したディレクターAIが、<br class="sp-only">変更点を自動検出。<br>タスクや要件も最新の状態に更新します。</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CTA BANNER ===== -->
+<section class="campaign">
+  <div class="campaign-card anim">
+    <div class="campaign-header">
+      <span class="campaign-badge"><span class="campaign-badge-dot"></span>LAUNCH CAMPAIGN</span>
+      <h3 class="campaign-title">今ならリリース記念キャンペーン中🎉</h3>
+      <div class="campaign-big"><span class="txt">全プラン</span><span class="num">14</span><span class="txt-green">日間無料 </span></div>
+      <p class="campaign-date">有効期間：2026年4月30日 23:59まで</p>
+    </div>
+    <div class="campaign-actions">
+      <a href="#pricing" class="cta-btn" style="width:248px;padding:16px 40px;font-size:16.7px;text-align:center;background:var(--green);color:#fff;box-shadow:0 4px 16px rgba(21,207,120,.3);transition:all .2s" onmouseover="this.style.background='var(--green-hover)';this.style.transform='scale(1.03)'" onmouseout="this.style.background='var(--green)';this.style.transform='scale(1)'" onclick="trackCTA('campaign_top')">料金プランをみる</a>
     </div>
   </div>
 </section>
@@ -945,7 +1021,7 @@ a.nav-cta{font-size:.82rem;font-weight:700;color:#fff !important;background:var(
     <div class="text-center">
       <div class="eyebrow anim" style="justify-content:center"><div class="eyebrow-icon"></div><span class="eyebrow-text">Pricing</span></div>
       <h2 class="h-large anim anim-d1">シンプルな料金体系。</h2>
-      <p class="h-desc anim anim-d2" style="margin:0 auto">まずは無料で始めて、必要に応じてアップグレード。</p>
+      <p class="h-desc anim anim-d2" style="margin:0 auto">今なら3つのプランが<strong style="color:var(--green)">14日間無料</strong>で使えます。</p>
       <div class="pricing-toggle anim anim-d2" id="pricingToggle">
         <button class="pricing-toggle-btn" data-plan="monthly">月額</button>
         <button class="pricing-toggle-btn active" data-plan="yearly">年額<span class="pricing-toggle-disc">20% OFF</span></button>
@@ -953,24 +1029,6 @@ a.nav-cta{font-size:.82rem;font-weight:700;color:#fff !important;background:var(
     </div>
     <!-- Plan Cards (matches app registration screen) -->
     <div class="plan-cards">
-      <!-- Free -->
-      <div class="plan-card card-drop" style="animation-delay:0ms">
-        <div class="plan-card-label">Free</div>
-        <div class="plan-card-strikethrough"></div>
-        <div class="plan-card-price"><span class="amount">¥0</span></div>
-        <div style="min-height:28px"></div>
-        <div class="plan-card-target">これから案件を増やしていきたい方</div>
-        <div class="plan-card-features">
-          <div class="plan-card-feat"><svg viewBox="0 0 24 24" fill="none" stroke="#15cf78" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>プロジェクト：10件まで</div>
-          <div class="plan-card-feat"><svg viewBox="0 0 24 24" fill="none" stroke="#15cf78" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>タスク：無制限</div>
-          <div class="plan-card-feat"><svg viewBox="0 0 24 24" fill="none" stroke="#15cf78" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>見積書・請求書</div>
-          <div class="plan-card-feat"><svg viewBox="0 0 24 24" fill="none" stroke="#15cf78" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>クライアント管理</div>
-          <div class="plan-card-feat"><svg viewBox="0 0 24 24" fill="none" stroke="#15cf78" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>チームで利用</div>
-          <div class="plan-card-feat"><svg viewBox="0 0 24 24" fill="none" stroke="#15cf78" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Google カレンダー連携</div>
-          <div class="plan-card-feat"><svg viewBox="0 0 24 24" fill="none" stroke="#15cf78" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>AIクレジット：200/月</div>
-        </div>
-        <a href="https://app.taskul-ai.com/login?from=lp" class="plan-card-cta gray" onclick="trackCTA('pricing_free')">無料で始める</a>
-      </div>
       <!-- Standard -->
       <div class="plan-card popular card-drop" style="animation-delay:120ms">
         <div class="plan-card-badge">POPULAR</div>
@@ -990,7 +1048,7 @@ a.nav-cta{font-size:.82rem;font-weight:700;color:#fff !important;background:var(
           <div class="plan-card-feat"><svg viewBox="0 0 24 24" fill="none" stroke="#15cf78" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>LINE通知</div>
           <div class="plan-card-feat"><svg viewBox="0 0 24 24" fill="none" stroke="#15cf78" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Slack連携</div>
         </div>
-        <a href="https://app.taskul-ai.com/login?from=lp" class="plan-card-cta green" onclick="trackCTA('pricing_standard')">14日間無料トライアル</a>
+        <div class="cta-wrap" style="width:100%;margin-top:24px"><span class="cta-bubble">🎁今なら14日間無料</span><a href="https://app.taskul-ai.com/login?from=lp" class="plan-card-cta green" style="margin-top:0" onclick="trackCTA('pricing_standard')">今すぐはじめる</a></div>
       </div>
       <!-- Pro -->
       <div class="plan-card card-drop" style="animation-delay:240ms">
@@ -1010,7 +1068,7 @@ a.nav-cta{font-size:.82rem;font-weight:700;color:#fff !important;background:var(
           <div class="plan-card-feat"><svg viewBox="0 0 24 24" fill="none" stroke="#15cf78" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>LINE通知</div>
           <div class="plan-card-feat"><svg viewBox="0 0 24 24" fill="none" stroke="#15cf78" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Slack連携</div>
         </div>
-        <a href="https://app.taskul-ai.com/login?from=lp" class="plan-card-cta green" onclick="trackCTA('pricing_pro')">14日間無料トライアル</a>
+        <div class="cta-wrap" style="width:100%;margin-top:24px"><span class="cta-bubble">🎁今なら14日間無料</span><a href="https://app.taskul-ai.com/login?from=lp" class="plan-card-cta green" style="margin-top:0" onclick="trackCTA('pricing_pro')">今すぐはじめる</a></div>
       </div>
       <!-- Full -->
       <div class="plan-card card-drop" style="animation-delay:360ms">
@@ -1031,7 +1089,7 @@ a.nav-cta{font-size:.82rem;font-weight:700;color:#fff !important;background:var(
           <div class="plan-card-feat"><svg viewBox="0 0 24 24" fill="none" stroke="#15cf78" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Slack連携</div>
           <div class="plan-card-feat"><svg viewBox="0 0 24 24" fill="none" stroke="#15cf78" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>AI優先処理</div>
         </div>
-        <a href="https://app.taskul-ai.com/login?from=lp" class="plan-card-cta green" onclick="trackCTA('pricing_full')">14日間無料トライアル</a>
+        <div class="cta-wrap" style="width:100%;margin-top:24px"><span class="cta-bubble">🎁今なら14日間無料</span><a href="https://app.taskul-ai.com/login?from=lp" class="plan-card-cta green" style="margin-top:0" onclick="trackCTA('pricing_full')">今すぐはじめる</a></div>
       </div>
     </div>
 
@@ -1041,36 +1099,35 @@ a.nav-cta{font-size:.82rem;font-weight:700;color:#fff !important;background:var(
         <table class="plan-table" style="width:100%;border-collapse:collapse;min-width:640px">
           <thead>
             <tr style="background:#fff;border-bottom:2px solid #ebeef5">
-              <th style="width:20%;padding:16px 20px;font-size:13px;font-weight:800;color:#1a1a2e;text-align:left">機能比較</th>
-              <th style="width:20%;text-align:center;padding:16px 12px;font-size:13px;font-weight:800;color:#1a1a2e">Free</th>
-              <th style="width:20%;text-align:center;padding:16px 12px;font-size:13px;font-weight:800;color:#15cf78;background:rgba(240,253,244,.5)">Standard</th>
-              <th style="width:20%;text-align:center;padding:16px 12px;font-size:13px;font-weight:800;color:#1a1a2e">Pro</th>
-              <th style="width:20%;text-align:center;padding:16px 12px;font-size:13px;font-weight:800;color:#1a1a2e">Full</th>
+              <th style="width:25%;padding:16px 20px;font-size:13px;font-weight:800;color:#1a1a2e;text-align:left">機能比較</th>
+              <th style="width:25%;text-align:center;padding:16px 12px;font-size:13px;font-weight:800;color:#15cf78;background:rgba(240,253,244,.5)">Standard</th>
+              <th style="width:25%;text-align:center;padding:16px 12px;font-size:13px;font-weight:800;color:#1a1a2e">Pro</th>
+              <th style="width:25%;text-align:center;padding:16px 12px;font-size:13px;font-weight:800;color:#1a1a2e">Full</th>
             </tr>
           </thead>
           <tbody>
-            <tr style="border-bottom:1px solid #f3f4f6"><td style="padding:14px 20px;font-size:13px;color:#374151;font-weight:500;white-space:nowrap">プロジェクト数</td><td style="text-align:center;font-size:13px;color:#2c3445;font-weight:600">10件まで ※</td><td style="text-align:center;font-size:13px;color:#2c3445;font-weight:600;background:rgba(240,253,244,.5)">無制限</td><td style="text-align:center;font-size:13px;color:#2c3445;font-weight:600">無制限</td><td style="text-align:center;font-size:13px;color:#2c3445;font-weight:600">無制限</td></tr>
-            <tr style="border-bottom:1px solid #f3f4f6"><td style="padding:14px 20px;font-size:13px;color:#374151;font-weight:500;white-space:nowrap">タスク管理</td><td style="text-align:center"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#15cf78"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td><td style="text-align:center;background:rgba(240,253,244,.5)"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#15cf78"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td><td style="text-align:center"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#15cf78"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td><td style="text-align:center"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#15cf78"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td></tr>
-            <tr style="border-bottom:1px solid #f3f4f6"><td style="padding:14px 20px;font-size:13px;color:#374151;font-weight:500;white-space:nowrap">カレンダー</td><td style="text-align:center"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#15cf78"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td><td style="text-align:center;background:rgba(240,253,244,.5)"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#15cf78"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td><td style="text-align:center"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#15cf78"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td><td style="text-align:center"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#15cf78"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td></tr>
-            <tr style="border-bottom:1px solid #f3f4f6"><td style="padding:14px 20px;font-size:13px;color:#374151;font-weight:500;white-space:nowrap">見積書・請求書</td><td style="text-align:center"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#15cf78"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td><td style="text-align:center;background:rgba(240,253,244,.5)"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#15cf78"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td><td style="text-align:center"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#15cf78"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td><td style="text-align:center"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#15cf78"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td></tr>
-            <tr style="border-bottom:1px solid #f3f4f6"><td style="padding:14px 20px;font-size:13px;color:#374151;font-weight:500;white-space:nowrap">パートナー管理</td><td style="text-align:center"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#15cf78"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td><td style="text-align:center;background:rgba(240,253,244,.5)"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#15cf78"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td><td style="text-align:center"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#15cf78"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td><td style="text-align:center"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#15cf78"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td></tr>
-            <tr style="border-bottom:1px solid #f3f4f6"><td style="padding:14px 20px;font-size:13px;color:#374151;font-weight:500;white-space:nowrap">チーム招待</td><td style="text-align:center"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#15cf78"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td><td style="text-align:center;background:rgba(240,253,244,.5)"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#15cf78"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td><td style="text-align:center"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#15cf78"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td><td style="text-align:center"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#15cf78"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td></tr>
-            <tr style="border-bottom:1px solid #f3f4f6"><td style="padding:14px 20px;font-size:13px;color:#374151;font-weight:500;white-space:nowrap">AIクレジット</td><td style="text-align:center;font-size:13px;color:#2c3445;font-weight:600">200/月</td><td style="text-align:center;font-size:13px;color:#2c3445;font-weight:600;background:rgba(240,253,244,.5)">2,400/月</td><td style="text-align:center;font-size:13px;color:#2c3445;font-weight:600">10,000/月</td><td style="text-align:center;font-size:13px;color:#2c3445;font-weight:600">30,000/月</td></tr>
+            <tr style="border-bottom:1px solid #f3f4f6"><td style="padding:14px 20px;font-size:13px;color:#374151;font-weight:500;white-space:nowrap">プロジェクト数</td><td style="text-align:center;font-size:13px;color:#2c3445;font-weight:600;background:rgba(240,253,244,.5)">無制限</td><td style="text-align:center;font-size:13px;color:#2c3445;font-weight:600">無制限</td><td style="text-align:center;font-size:13px;color:#2c3445;font-weight:600">無制限</td></tr>
+            <tr style="border-bottom:1px solid #f3f4f6"><td style="padding:14px 20px;font-size:13px;color:#374151;font-weight:500;white-space:nowrap">タスク管理</td><td style="text-align:center;background:rgba(240,253,244,.5)"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#15cf78"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td><td style="text-align:center"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#15cf78"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td><td style="text-align:center"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#15cf78"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td></tr>
+            <tr style="border-bottom:1px solid #f3f4f6"><td style="padding:14px 20px;font-size:13px;color:#374151;font-weight:500;white-space:nowrap">カレンダー</td><td style="text-align:center;background:rgba(240,253,244,.5)"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#15cf78"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td><td style="text-align:center"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#15cf78"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td><td style="text-align:center"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#15cf78"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td></tr>
+            <tr style="border-bottom:1px solid #f3f4f6"><td style="padding:14px 20px;font-size:13px;color:#374151;font-weight:500;white-space:nowrap">見積書・請求書</td><td style="text-align:center;background:rgba(240,253,244,.5)"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#15cf78"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td><td style="text-align:center"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#15cf78"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td><td style="text-align:center"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#15cf78"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td></tr>
+            <tr style="border-bottom:1px solid #f3f4f6"><td style="padding:14px 20px;font-size:13px;color:#374151;font-weight:500;white-space:nowrap">パートナー管理</td><td style="text-align:center;background:rgba(240,253,244,.5)"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#15cf78"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td><td style="text-align:center"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#15cf78"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td><td style="text-align:center"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#15cf78"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td></tr>
+            <tr style="border-bottom:1px solid #f3f4f6"><td style="padding:14px 20px;font-size:13px;color:#374151;font-weight:500;white-space:nowrap">チーム招待</td><td style="text-align:center;background:rgba(240,253,244,.5)"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#15cf78"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td><td style="text-align:center"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#15cf78"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td><td style="text-align:center"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#15cf78"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td></tr>
+            <tr style="border-bottom:1px solid #f3f4f6"><td style="padding:14px 20px;font-size:13px;color:#374151;font-weight:500;white-space:nowrap">AIクレジット</td><td style="text-align:center;font-size:13px;color:#2c3445;font-weight:600;background:rgba(240,253,244,.5)">2,400/月</td><td style="text-align:center;font-size:13px;color:#2c3445;font-weight:600">10,000/月</td><td style="text-align:center;font-size:13px;color:#2c3445;font-weight:600">30,000/月</td></tr>
             <!-- Standard以上 -->
-            <tr><td colspan="5" style="background:#ecfdf5;padding:12px 20px;font-size:13px;font-weight:800;color:#1a1a2e"><svg width="16" height="16" viewBox="0 0 20 20" style="vertical-align:middle;margin-right:6px;flex-shrink:0"><rect x="2" y="2" width="16" height="16" rx="3" fill="#15cf78"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Standard 以上の機能</td></tr>
-            <tr style="border-bottom:1px solid #f3f4f6"><td style="padding:14px 20px;font-size:13px;color:#374151;font-weight:500;white-space:nowrap">LINE通知</td><td style="text-align:center"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#f3f4f6"/><path d="M7 10H13" stroke="#d1d5db" stroke-width="2" stroke-linecap="round"/></svg></td><td style="text-align:center;background:rgba(240,253,244,.5)"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#15cf78"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td><td style="text-align:center"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#15cf78"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td><td style="text-align:center"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#15cf78"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td></tr>
-            <tr style="border-bottom:1px solid #f3f4f6"><td style="padding:14px 20px;font-size:13px;color:#374151;font-weight:500;white-space:nowrap">Slack連携</td><td style="text-align:center"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#f3f4f6"/><path d="M7 10H13" stroke="#d1d5db" stroke-width="2" stroke-linecap="round"/></svg></td><td style="text-align:center;background:rgba(240,253,244,.5)"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#15cf78"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td><td style="text-align:center"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#15cf78"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td><td style="text-align:center"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#15cf78"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td></tr>
+            <tr><td colspan="4" style="background:#ecfdf5;padding:12px 20px;font-size:13px;font-weight:800;color:#1a1a2e"><svg width="16" height="16" viewBox="0 0 20 20" style="vertical-align:middle;margin-right:6px;flex-shrink:0"><rect x="2" y="2" width="16" height="16" rx="3" fill="#15cf78"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Standard 以上の機能</td></tr>
+            <tr style="border-bottom:1px solid #f3f4f6"><td style="padding:14px 20px;font-size:13px;color:#374151;font-weight:500;white-space:nowrap">LINE通知</td><td style="text-align:center;background:rgba(240,253,244,.5)"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#15cf78"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td><td style="text-align:center"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#15cf78"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td><td style="text-align:center"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#15cf78"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td></tr>
+            <tr style="border-bottom:1px solid #f3f4f6"><td style="padding:14px 20px;font-size:13px;color:#374151;font-weight:500;white-space:nowrap">Slack連携</td><td style="text-align:center;background:rgba(240,253,244,.5)"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#15cf78"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td><td style="text-align:center"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#15cf78"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td><td style="text-align:center"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#15cf78"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td></tr>
             <!-- Pro以上 -->
-            <tr><td colspan="5" style="background:#f0f0ff;padding:12px 20px;font-size:13px;font-weight:800;color:#1a1a2e"><svg width="16" height="16" viewBox="0 0 20 20" style="vertical-align:middle;margin-right:6px;flex-shrink:0"><rect x="2" y="2" width="16" height="16" rx="3" fill="#15cf78"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Pro 以上の機能</td></tr>
-            <tr style="border-bottom:1px solid #f3f4f6"><td style="padding:14px 20px;font-size:13px;color:#374151;font-weight:500;white-space:nowrap">徹底分析（市場・競合・戦略）</td><td style="text-align:center"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#f3f4f6"/><path d="M7 10H13" stroke="#d1d5db" stroke-width="2" stroke-linecap="round"/></svg></td><td style="text-align:center;background:rgba(240,253,244,.5)"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#f3f4f6"/><path d="M7 10H13" stroke="#d1d5db" stroke-width="2" stroke-linecap="round"/></svg></td><td style="text-align:center"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#15cf78"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td><td style="text-align:center"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#15cf78"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td></tr>
-            <tr style="border-bottom:1px solid #f3f4f6"><td style="padding:14px 20px;font-size:13px;color:#374151;font-weight:500;white-space:nowrap">LP納品前チェック</td><td style="text-align:center"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#f3f4f6"/><path d="M7 10H13" stroke="#d1d5db" stroke-width="2" stroke-linecap="round"/></svg></td><td style="text-align:center;background:rgba(240,253,244,.5)"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#f3f4f6"/><path d="M7 10H13" stroke="#d1d5db" stroke-width="2" stroke-linecap="round"/></svg></td><td style="text-align:center"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#15cf78"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td><td style="text-align:center"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#15cf78"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td></tr>
-            <tr style="border-bottom:1px solid #f3f4f6"><td style="padding:14px 20px;font-size:13px;color:#374151;font-weight:500;white-space:nowrap">AI優先処理</td><td style="text-align:center"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#f3f4f6"/><path d="M7 10H13" stroke="#d1d5db" stroke-width="2" stroke-linecap="round"/></svg></td><td style="text-align:center;background:rgba(240,253,244,.5)"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#f3f4f6"/><path d="M7 10H13" stroke="#d1d5db" stroke-width="2" stroke-linecap="round"/></svg></td><td style="text-align:center"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#f3f4f6"/><path d="M7 10H13" stroke="#d1d5db" stroke-width="2" stroke-linecap="round"/></svg></td><td style="text-align:center"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#15cf78"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td></tr>
+            <tr><td colspan="4" style="background:#f0f0ff;padding:12px 20px;font-size:13px;font-weight:800;color:#1a1a2e"><svg width="16" height="16" viewBox="0 0 20 20" style="vertical-align:middle;margin-right:6px;flex-shrink:0"><rect x="2" y="2" width="16" height="16" rx="3" fill="#15cf78"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Pro 以上の機能</td></tr>
+            <tr style="border-bottom:1px solid #f3f4f6"><td style="padding:14px 20px;font-size:13px;color:#374151;font-weight:500;white-space:nowrap">徹底分析（市場・競合・戦略）</td><td style="text-align:center;background:rgba(240,253,244,.5)"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#f3f4f6"/><path d="M7 10H13" stroke="#d1d5db" stroke-width="2" stroke-linecap="round"/></svg></td><td style="text-align:center"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#15cf78"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td><td style="text-align:center"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#15cf78"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td></tr>
+            <tr style="border-bottom:1px solid #f3f4f6"><td style="padding:14px 20px;font-size:13px;color:#374151;font-weight:500;white-space:nowrap">LP納品前チェック</td><td style="text-align:center;background:rgba(240,253,244,.5)"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#f3f4f6"/><path d="M7 10H13" stroke="#d1d5db" stroke-width="2" stroke-linecap="round"/></svg></td><td style="text-align:center"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#15cf78"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td><td style="text-align:center"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#15cf78"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td></tr>
+            <tr style="border-bottom:1px solid #f3f4f6"><td style="padding:14px 20px;font-size:13px;color:#374151;font-weight:500;white-space:nowrap">AI優先処理</td><td style="text-align:center;background:rgba(240,253,244,.5)"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#f3f4f6"/><path d="M7 10H13" stroke="#d1d5db" stroke-width="2" stroke-linecap="round"/></svg></td><td style="text-align:center"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#f3f4f6"/><path d="M7 10H13" stroke="#d1d5db" stroke-width="2" stroke-linecap="round"/></svg></td><td style="text-align:center"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="3" fill="#15cf78"/><path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></td></tr>
             <!-- クレジット目安 -->
-            <tr><td colspan="5" style="background:#f9fafb;padding:10px 20px;font-size:12px;font-weight:800;color:#374151;letter-spacing:.5px">クレジット目安（単独利用時）</td></tr>
-            <tr style="border-bottom:1px solid #f3f4f6"><td style="padding:12px 20px;font-size:13px;color:#6b7280">プロジェクト作成</td><td style="text-align:center;font-size:13px;font-weight:500;color:#374151">約1回</td><td style="text-align:center;font-size:13px;font-weight:500;color:#374151;background:rgba(240,253,244,.5)">約16回</td><td style="text-align:center;font-size:13px;font-weight:500;color:#374151">約66回</td><td style="text-align:center;font-size:13px;font-weight:500;color:#374151">約200回</td></tr>
-            <tr style="border-bottom:1px solid #f3f4f6"><td style="padding:12px 20px;font-size:13px;color:#6b7280">タスク分解</td><td style="text-align:center;font-size:13px;font-weight:500;color:#374151">約2回</td><td style="text-align:center;font-size:13px;font-weight:500;color:#374151;background:rgba(240,253,244,.5)">約24回</td><td style="text-align:center;font-size:13px;font-weight:500;color:#374151">約100回</td><td style="text-align:center;font-size:13px;font-weight:500;color:#374151">約300回</td></tr>
-            <tr style="border-bottom:1px solid #f3f4f6"><td style="padding:12px 20px;font-size:13px;color:#6b7280">見積書作成</td><td style="text-align:center;font-size:13px;font-weight:500;color:#374151">約1枚</td><td style="text-align:center;font-size:13px;font-weight:500;color:#374151;background:rgba(240,253,244,.5)">約16枚</td><td style="text-align:center;font-size:13px;font-weight:500;color:#374151">約66枚</td><td style="text-align:center;font-size:13px;font-weight:500;color:#374151">約200枚</td></tr>
-            <tr style="border-bottom:1px solid #f3f4f6"><td style="padding:12px 20px;font-size:13px;color:#6b7280">徹底分析</td><td style="text-align:center;font-size:13px;color:#d1d5db">-</td><td style="text-align:center;font-size:13px;color:#d1d5db;background:rgba(240,253,244,.5)">-</td><td style="text-align:center;font-size:13px;font-weight:500;color:#374151">約25回</td><td style="text-align:center;font-size:13px;font-weight:500;color:#374151">約75回</td></tr>
+            <tr><td colspan="4" style="background:#f9fafb;padding:10px 20px;font-size:12px;font-weight:800;color:#374151;letter-spacing:.5px">クレジット目安（単独利用時）</td></tr>
+            <tr style="border-bottom:1px solid #f3f4f6"><td style="padding:12px 20px;font-size:13px;color:#6b7280">プロジェクト作成</td><td style="text-align:center;font-size:13px;font-weight:500;color:#374151;background:rgba(240,253,244,.5)">約16回</td><td style="text-align:center;font-size:13px;font-weight:500;color:#374151">約66回</td><td style="text-align:center;font-size:13px;font-weight:500;color:#374151">約200回</td></tr>
+            <tr style="border-bottom:1px solid #f3f4f6"><td style="padding:12px 20px;font-size:13px;color:#6b7280">タスク分解</td><td style="text-align:center;font-size:13px;font-weight:500;color:#374151;background:rgba(240,253,244,.5)">約24回</td><td style="text-align:center;font-size:13px;font-weight:500;color:#374151">約100回</td><td style="text-align:center;font-size:13px;font-weight:500;color:#374151">約300回</td></tr>
+            <tr style="border-bottom:1px solid #f3f4f6"><td style="padding:12px 20px;font-size:13px;color:#6b7280">見積書作成</td><td style="text-align:center;font-size:13px;font-weight:500;color:#374151;background:rgba(240,253,244,.5)">約16枚</td><td style="text-align:center;font-size:13px;font-weight:500;color:#374151">約66枚</td><td style="text-align:center;font-size:13px;font-weight:500;color:#374151">約200枚</td></tr>
+            <tr style="border-bottom:1px solid #f3f4f6"><td style="padding:12px 20px;font-size:13px;color:#6b7280">徹底分析</td><td style="text-align:center;font-size:13px;color:#d1d5db;background:rgba(240,253,244,.5)">-</td><td style="text-align:center;font-size:13px;font-weight:500;color:#374151">約25回</td><td style="text-align:center;font-size:13px;font-weight:500;color:#374151">約75回</td></tr>
           </tbody>
         </table>
       </div>
@@ -1078,6 +1135,18 @@ a.nav-cta{font-size:.82rem;font-weight:700;color:#fff !important;background:var(
       <div style="padding:16px 20px;space-y:4px">
         <p style="font-size:11px;color:#9ca3af">※ 有料ユーザーから招待されたプロジェクトは上限に含まれません</p>
         <p style="font-size:11px;color:#9ca3af;margin-top:4px">クレジット目安は各機能を単独で利用した場合の参考値です</p>
+      </div>
+    </div>
+
+    <!-- Free Plan -->
+    <div class="anim" style="margin-top:56px;max-width:600px;margin-left:auto;margin-right:auto;text-align:center">
+      <p style="font-size:14px;color:var(--gray);margin-bottom:16px">トライアル終了後も、無料プランで使い続けられます。</p>
+      <div style="border:1.5px solid #ebeef5;border-radius:16px;padding:24px 32px;background:#fff;display:flex;align-items:center;justify-content:space-between;gap:24px">
+        <div style="text-align:left">
+          <p style="font-size:18px;font-weight:800;color:var(--black)">Free <span style="font-size:24px;margin-left:8px">¥0</span></p>
+          <p style="font-size:12px;color:var(--gray);margin-top:4px">プロジェクト10件まで・AIクレジット200/月</p>
+        </div>
+        <a href="https://app.taskul-ai.com/login?from=lp" style="flex-shrink:0;padding:10px 24px;font-size:13px;font-weight:700;border-radius:10px;background:#f3f4f6;color:#374151;text-decoration:none;transition:background .2s" onclick="trackCTA('pricing_free')">今すぐはじめる</a>
       </div>
     </div>
   </div>
@@ -1093,8 +1162,7 @@ a.nav-cta{font-size:.82rem;font-weight:700;color:#fff !important;background:var(
       <p class="campaign-date">有効期間：2026年4月30日 23:59まで</p>
     </div>
     <div class="campaign-actions">
-      <a href="https://app.taskul-ai.com/login?from=lp" class="cta-btn" style="width:248px;padding:16px 40px;font-size:16.7px;text-align:center;background:var(--green);color:#fff;box-shadow:0 4px 16px rgba(21,207,120,.3);transition:all .2s" onmouseover="this.style.background='var(--green-hover)';this.style.transform='scale(1.03)'" onmouseout="this.style.background='var(--green)';this.style.transform='scale(1)'" onclick="trackCTA('campaign')">14日間無料トライアル</a>
-      <div class="campaign-logo"><span style="width:13.75px;height:13.75px;border:2.37px solid var(--green);border-radius:2.37px;display:inline-block"></span>TASKUL</div>
+      <a href="https://app.taskul-ai.com/login?from=lp" class="cta-btn" style="width:248px;padding:16px 40px;font-size:16.7px;text-align:center;background:var(--green);color:#fff;box-shadow:0 4px 16px rgba(21,207,120,.3);transition:all .2s" onmouseover="this.style.background='var(--green-hover)';this.style.transform='scale(1.03)'" onmouseout="this.style.background='var(--green)';this.style.transform='scale(1)'" onclick="trackCTA('campaign')">今すぐはじめる</a>
     </div>
   </div>
 </section>
@@ -1124,7 +1192,7 @@ a.nav-cta{font-size:.82rem;font-weight:700;color:#fff !important;background:var(
   <h2 class="h-large anim">タスク管理を、<br>もっとシンプルに。</h2>
   <p class="h-desc anim anim-d1" style="margin:0 auto 40px">30秒で登録完了。いつでも解約できます。</p>
   <div class="anim anim-d2">
-    <a href="https://app.taskul-ai.com/login?from=lp" class="cta-btn cta-btn-green" onclick="trackCTA('bottom')">14日間無料トライアル</a>
+    <div class="cta-wrap"><span class="cta-bubble">🎁今なら14日間無料</span><a href="https://app.taskul-ai.com/login?from=lp" style="display:flex;align-items:center;justify-content:center;width:248px;padding:16px 40px;border-radius:980px;background:#15cf78;color:#fff;font-family:'DM Sans','Noto Sans JP',sans-serif;font-size:16.7px;font-weight:700;text-decoration:none;text-align:center;box-shadow:0 4px 16px rgba(21,207,120,.3);transition:all .2s" onmouseover="this.style.background='#11b86a';this.style.transform='scale(1.03)'" onmouseout="this.style.background='#15cf78';this.style.transform='scale(1)'" onclick="trackCTA('bottom')">今すぐはじめる</a></div>
   </div>
 </section>
 
@@ -1190,7 +1258,10 @@ if(expandBg){
 
 <!-- Floating CTA (mobile only) -->
 <div class="floating-cta">
-  <a href="https://app.taskul-ai.com/login?from=lp" onclick="trackCTA('floating_mobile')">14日間無料トライアル</a>
+  <div class="cta-wrap" style="width:100%;display:flex;flex-direction:column;align-items:center">
+    <span class="cta-bubble">🎁今なら14日間無料</span>
+    <a href="https://app.taskul-ai.com/login?from=lp" onclick="trackCTA('floating_mobile')" style="width:100%">今すぐはじめる</a>
+  </div>
 </div>
 
 </body>
