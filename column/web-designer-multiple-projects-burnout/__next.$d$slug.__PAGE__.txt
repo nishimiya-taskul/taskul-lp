@@ -1,0 +1,312 @@
+1:"$Sreact.fragment"
+2:I[22016,["/column/_next/static/chunks/01xlw8hd842-c.js","/column/_next/static/chunks/0d3shmwh5_nmn.js","/column/_next/static/chunks/09it85g~6.kww.js"],""]
+1e:I[97367,["/column/_next/static/chunks/01xlw8hd842-c.js","/column/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+1f:"$Sreact.suspense"
+25:I[22432,["/column/_next/static/chunks/01xlw8hd842-c.js","/column/_next/static/chunks/0d3shmwh5_nmn.js","/column/_next/static/chunks/09it85g~6.kww.js"],"default"]
+27:I[71207,["/column/_next/static/chunks/01xlw8hd842-c.js","/column/_next/static/chunks/0d3shmwh5_nmn.js","/column/_next/static/chunks/09it85g~6.kww.js"],"default"]
+28:I[28792,["/column/_next/static/chunks/01xlw8hd842-c.js","/column/_next/static/chunks/0d3shmwh5_nmn.js","/column/_next/static/chunks/09it85g~6.kww.js"],"default"]
+:HL["/column/images/sidebar-banner.png","image"]
+:HL["/column/images/articles/creator-estimate-work-hours/thumbnail.png","image"]
+:HL["/column/images/articles/freelance-invoice-reminder-system/thumbnail.png","image"]
+:HL["/column/images/articles/video-creator-task-management/thumbnail.png","image"]
+:HL["/column/_next/static/chunks/0iq1gbyxdi0i3.css","style"]
+:HL["/column/images/cta-banner.png","image"]
+:HL["/column/images/articles/web-writer-multiple-projects/thumbnail.png","image"]
+0:{"rsc":["$","$1","c",{"children":[[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"Webデザイナーが案件同時進行でパンクしない3ステップ管理術\",\"description\":\"Webデザイナーが複数案件の同時進行でパンクする原因と、3ステップで解決する実践メソッドを解説。ツール連携で抜け漏れゼロの管理体制を作る方法を紹介します。\",\"datePublished\":\"2026/04/25\",\"author\":{\"@type\":\"Person\",\"name\":\"TASKUL編集部\",\"description\":\"フリーランス・クリエイター向けのタスク管理情報を発信しています。\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"TASKUL\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://taskul-ai.com/favicon.svg\"}},\"mainEntityOfPage\":\"https://taskul-ai.com/column/web-designer-multiple-projects-burnout\"}"}}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"TASKUL\",\"item\":\"https://taskul-ai.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"コラム\",\"item\":\"https://taskul-ai.com/column/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"フリーランス\",\"item\":\"https://taskul-ai.com/column/category/freelance\"},{\"@type\":\"ListItem\",\"position\":4,\"name\":\"Webデザイナーが案件同時進行でパンクしない3ステップ管理術\"}]}"}}],null,["$","header",null,{"className":"fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-5 md:px-10 h-[56px] md:h-auto md:py-2.5 bg-white/96 backdrop-blur-[7px] shadow-[10px_10px_24px_rgba(0,0,0,0.05)]","children":[["$","a",null,{"href":"https://taskul-ai.com/","className":"flex items-center gap-1.5","children":[["$","div",null,{"className":"border-[3px] border-green rounded-[3px] w-[18px] h-[18px]"}],["$","span",null,{"className":"font-black text-[22px] tracking-[1px] text-black font-['DM_Sans']","children":"TASKUL"}],["$","span",null,{"className":"hidden md:inline text-sub-gray text-[10px] font-medium tracking-[0.5px]","children":"タスクをシンプルに"}]]}],["$","nav",null,{"className":"hidden md:flex items-center gap-10","children":[["$","a",null,{"href":"https://taskul-ai.com/","className":"text-main-black text-base font-semibold font-['DM_Sans']","children":"TOP"}],["$","$L2",null,{"href":"/","className":"text-main-black text-base font-semibold","children":"コラム"}],["$","a",null,{"href":"https://free-company.co.jp/","target":"_blank","rel":"noopener noreferrer","className":"text-main-black text-base font-semibold","children":"運営会社"}],["$","a",null,{"href":"https://lin.ee/rSlYN882","target":"_blank","rel":"noopener noreferrer","className":"text-main-black text-base font-semibold","children":"お問い合わせ"}],["$","a",null,{"href":"https://app.taskul-ai.com/login?from=blog","className":"bg-green text-white text-sm font-semibold px-5 py-2 rounded-full hover:opacity-90 transition-opacity","children":"14日間無料トライアル"}]]}]]}],["$","main",null,{"className":"pt-[72px] md:pt-[90px] pb-16 md:pb-32 bg-bg min-h-screen","children":[["$","div",null,{"className":"max-w-[1210px] mx-auto px-4 mb-4 md:mb-10","children":["$","div",null,{"className":"flex items-center gap-[11px] text-[13px] md:text-base text-gray","children":[["$","a",null,{"href":"https://taskul-ai.com/","className":"font-['DM_Sans'] hover:text-green","children":"TASKUL"}],["$","svg",null,{"width":"4","height":"8","viewBox":"0 0 4 8","fill":"none","children":["$","path",null,{"d":"M0.5 0.5L3.5 4L0.5 7.5","stroke":"currentColor"}]}],["$","$L2",null,{"href":"/","className":"hover:text-green","children":"コラム"}],["$","svg",null,{"width":"4","height":"8","viewBox":"0 0 4 8","fill":"none","children":["$","path",null,{"d":"M0.5 0.5L3.5 4L0.5 7.5","stroke":"currentColor"}]}],["$","$L2",null,{"href":"/category/freelance","className":"hover:text-green","children":"フリーランス"}],["$","svg",null,{"width":"4","height":"8","viewBox":"0 0 4 8","fill":"none","children":["$","path",null,{"d":"M0.5 0.5L3.5 4L0.5 7.5","stroke":"currentColor"}]}],["$","span",null,{"className":"truncate max-w-[200px] md:max-w-[400px]","children":"Webデザイナーが案件同時進行でパンクしない3ステップ管理術"}]]}]}],["$","div",null,{"className":"max-w-[1210px] mx-auto px-4 flex flex-col lg:flex-row gap-[70px] items-start","children":["$L3","$L4","$L5"]}]]}],"$L6"],["$L7","$L8"],"$L9"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"nos6kHwuzbPZRHvqlD7o0"}
+3:["$","article",null,{"className":"w-full lg:w-[800px] shrink-0 flex flex-col gap-[86px]","children":[["$","div",null,{"className":"flex flex-col gap-[30px]","children":[["$","div",null,{"className":"bg-white rounded-[10px] aspect-video md:h-[450px] w-full flex items-center justify-center","children":["$","div",null,{"className":"flex items-center gap-2","children":[["$","div",null,{"className":"border-[6px] border-green rounded-[6px] w-9 h-9"}],["$","span",null,{"className":"font-black text-[44px] tracking-[2px] text-black font-['DM_Sans']","children":"TASKUL"}]]}]}],["$","div",null,{"className":"flex flex-col gap-4","children":[["$","h1",null,{"className":"text-[26px] md:text-[38px] font-bold leading-[1.5] text-main-black","children":"Webデザイナーが案件同時進行でパンクしない3ステップ管理術"}],["$","div",null,{"className":"flex flex-wrap items-center gap-3 md:gap-[26px]","children":[["$","time",null,{"className":"text-sm md:text-base text-gray font-['DM_Sans']","children":"2026/04/25"}],["$","div",null,{"className":"flex flex-wrap gap-2 md:gap-3","children":[["$","span","Webデザイナー",{"className":"bg-white rounded-[5px] shadow-[2px_2px_8px_rgba(0,0,0,0.08)] px-[10px] md:px-[13px] py-[3px] h-7 flex items-center gap-[7px] text-xs md:text-sm text-[#161616] whitespace-nowrap","children":[["$","span",null,{"className":"w-[5px] h-[5px] bg-green rounded-full"}],"Webデザイナー"]}],["$","span","案件管理",{"className":"bg-white rounded-[5px] shadow-[2px_2px_8px_rgba(0,0,0,0.08)] px-[10px] md:px-[13px] py-[3px] h-7 flex items-center gap-[7px] text-xs md:text-sm text-[#161616] whitespace-nowrap","children":[["$","span",null,{"className":"w-[5px] h-[5px] bg-green rounded-full"}],"案件管理"]}],["$","span","同時進行",{"className":"bg-white rounded-[5px] shadow-[2px_2px_8px_rgba(0,0,0,0.08)] px-[10px] md:px-[13px] py-[3px] h-7 flex items-center gap-[7px] text-xs md:text-sm text-[#161616] whitespace-nowrap","children":[["$","span",null,{"className":"w-[5px] h-[5px] bg-green rounded-full"}],"同時進行"]}],["$","span","フリーランス",{"className":"bg-white rounded-[5px] shadow-[2px_2px_8px_rgba(0,0,0,0.08)] px-[10px] md:px-[13px] py-[3px] h-7 flex items-center gap-[7px] text-xs md:text-sm text-[#161616] whitespace-nowrap","children":[["$","span",null,{"className":"w-[5px] h-[5px] bg-green rounded-full"}],"フリーランス"]}],["$","span","タスク管理",{"className":"bg-white rounded-[5px] shadow-[2px_2px_8px_rgba(0,0,0,0.08)] px-[10px] md:px-[13px] py-[3px] h-7 flex items-center gap-[7px] text-xs md:text-sm text-[#161616] whitespace-nowrap","children":[["$","span",null,{"className":"w-[5px] h-[5px] bg-green rounded-full"}],"タスク管理"]}]]}],["$","div",null,{"className":"flex items-center gap-3","children":[["$","span",null,{"className":"text-xs text-sub-gray font-medium","children":"SHARE"}],["$","a",null,{"href":"https://twitter.com/intent/tweet?url=https%3A%2F%2Ftaskul-ai.com%2Fcolumn%2Fweb-designer-multiple-projects-burnout&text=Web%E3%83%87%E3%82%B6%E3%82%A4%E3%83%8A%E3%83%BC%E3%81%8C%E6%A1%88%E4%BB%B6%E5%90%8C%E6%99%82%E9%80%B2%E8%A1%8C%E3%81%A7%E3%83%91%E3%83%B3%E3%82%AF%E3%81%97%E3%81%AA%E3%81%843%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%E7%AE%A1%E7%90%86%E8%A1%93","target":"_blank","rel":"noopener noreferrer","className":"w-9 h-9 rounded-full bg-[#15152b] flex items-center justify-center hover:opacity-80 transition-opacity","aria-label":"Xでシェア","children":["$","svg",null,{"width":"16","height":"16","viewBox":"0 0 24 24","fill":"white","children":["$","path",null,{"d":"M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"}]}]}],["$","a",null,{"href":"https://social-plugins.line.me/lineit/share?url=https%3A%2F%2Ftaskul-ai.com%2Fcolumn%2Fweb-designer-multiple-projects-burnout","target":"_blank","rel":"noopener noreferrer","className":"w-9 h-9 rounded-full bg-[#06C755] flex items-center justify-center hover:opacity-80 transition-opacity","aria-label":"LINEでシェア","children":"$La"}]]}]]}]]}],"$Lb","$Lc","$Ld","$Le","$Lf"]}],"$L10","$L11","$L12","$L13","$L14"]}]
+4:["$","div",null,{"className":"hidden lg:block","children":["$","aside",null,{"className":"w-full lg:w-[340px] shrink-0 flex flex-col gap-14","children":[["$","$L2",null,{"href":"https://app.taskul-ai.com/login?from=blog","className":"block w-full lg:w-[340px] shrink-0","children":["$","img",null,{"src":"/column/images/sidebar-banner.png","alt":"TASKUL - 全機能14日間無料","width":340,"height":340,"className":"w-full h-auto rounded-[10px]"}]}],["$","div",null,{"className":"flex flex-col gap-[22px]","children":[["$","h3",null,{"className":"text-xl font-bold text-main-black","children":"人気記事"}],["$","div",null,{"className":"flex flex-col gap-[23px]","children":[["$","$L2","web-designer-multiple-projects-burnout",{"href":"/web-designer-multiple-projects-burnout","className":"flex flex-col gap-[18px]","children":[["$","div",null,{"className":"relative bg-white rounded-[10px] h-[191px] w-full overflow-hidden flex items-center justify-center","children":[["$","div",null,{"className":"flex items-center gap-1","children":[["$","div",null,{"className":"border-[4px] border-green rounded-[4px] w-6 h-6"}],["$","span",null,{"className":"font-black text-[30px] tracking-[1.5px] text-black font-['DM_Sans']","children":"TASKUL"}]]}],["$","div",null,{"className":"absolute top-0 left-0 bg-[#cb9d20] rounded-tl-[5px] rounded-br-[5px] w-[46px] h-[46px] flex items-center justify-center","children":["$","span",null,{"className":"text-white text-xl font-bold font-['DM_Sans']","children":1}]}]]}],["$","p",null,{"className":"text-xl font-bold text-main-black leading-[1.5]","children":"Webデザイナーが案件同時進行でパンクしない3ステップ管理術"}]]}],["$","$L2","creator-estimate-work-hours",{"href":"/creator-estimate-work-hours","className":"flex gap-2.5","children":[["$","div",null,{"className":"relative bg-white rounded-[5px] w-[180px] h-[101px] shrink-0 overflow-hidden flex items-center justify-center","children":[["$","img",null,{"src":"/column/images/articles/creator-estimate-work-hours/thumbnail.png","alt":"クリエイターの工数計算テンプレート｜安請け合いで損しない見積もり術","className":"w-full h-full object-cover"}],["$","div",null,{"className":"absolute top-0 left-0 bg-[#8f8f8f] rounded-tl-[2.6px] rounded-br-[2.6px] w-6 h-6 flex items-center justify-center","children":["$","span",null,{"className":"text-white text-[11px] font-bold font-['DM_Sans']","children":2}]}]]}],["$","p",null,{"className":"text-base font-bold text-main-black leading-[1.5]","children":"クリエイターの工数計算テンプレート｜安請け合いで損しない見積もり術"}]]}],["$","$L2","freelance-invoice-reminder-system",{"href":"/freelance-invoice-reminder-system","className":"flex gap-2.5","children":[["$","div",null,{"className":"relative bg-white rounded-[5px] w-[180px] h-[101px] shrink-0 overflow-hidden flex items-center justify-center","children":[["$","img",null,{"src":"/column/images/articles/freelance-invoice-reminder-system/thumbnail.png","alt":"月末の請求忘れを仕組みで防ぐ｜チェックリスト+自動リマインド設計","className":"w-full h-full object-cover"}],["$","div",null,{"className":"absolute top-0 left-0 bg-[#ad5a1b] rounded-tl-[2.6px] rounded-br-[2.6px] w-6 h-6 flex items-center justify-center","children":["$","span",null,{"className":"text-white text-[11px] font-bold font-['DM_Sans']","children":3}]}]]}],["$","p",null,{"className":"text-base font-bold text-main-black leading-[1.5]","children":"月末の請求忘れを仕組みで防ぐ｜チェックリスト+自動リマインド設計"}]]}],["$","$L2","video-creator-task-management",{"href":"/video-creator-task-management","className":"flex gap-2.5","children":[["$","div",null,{"className":"relative bg-white rounded-[5px] w-[180px] h-[101px] shrink-0 overflow-hidden flex items-center justify-center","children":[["$","img",null,{"src":"/column/images/articles/video-creator-task-management/thumbnail.png","alt":"動画編集者のタスク管理術｜納期と品質を両立する方法","className":"w-full h-full object-cover"}],["$","div",null,{"className":"absolute top-0 left-0 bg-[#161616] rounded-tl-[2.6px] rounded-br-[2.6px] w-6 h-6 flex items-center justify-center","children":["$","span",null,{"className":"text-white text-[11px] font-bold font-['DM_Sans']","children":4}]}]]}],"$L15"]}],"$L16"]}]]}],"$L17","$L18","$L19"]}]}]
+5:["$","div",null,{"className":"lg:hidden w-full","children":["$","aside",null,{"className":"w-full lg:w-[340px] shrink-0 flex flex-col gap-14","children":[["$","$L2",null,{"href":"https://app.taskul-ai.com/login?from=blog","className":"block w-full lg:w-[340px] shrink-0","children":["$","img",null,{"src":"/column/images/sidebar-banner.png","alt":"TASKUL - 全機能14日間無料","width":340,"height":340,"className":"w-full h-auto rounded-[10px]"}]}],["$","div",null,{"className":"flex flex-col gap-[22px]","children":[["$","h3",null,{"className":"text-xl font-bold text-main-black","children":"人気記事"}],["$","div",null,{"className":"flex flex-col gap-[23px]","children":[["$","$L2","web-designer-multiple-projects-burnout",{"href":"/web-designer-multiple-projects-burnout","className":"flex flex-col gap-[18px]","children":[["$","div",null,{"className":"relative bg-white rounded-[10px] h-[191px] w-full overflow-hidden flex items-center justify-center","children":[["$","div",null,{"className":"flex items-center gap-1","children":[["$","div",null,{"className":"border-[4px] border-green rounded-[4px] w-6 h-6"}],["$","span",null,{"className":"font-black text-[30px] tracking-[1.5px] text-black font-['DM_Sans']","children":"TASKUL"}]]}],["$","div",null,{"className":"absolute top-0 left-0 bg-[#cb9d20] rounded-tl-[5px] rounded-br-[5px] w-[46px] h-[46px] flex items-center justify-center","children":["$","span",null,{"className":"text-white text-xl font-bold font-['DM_Sans']","children":1}]}]]}],["$","p",null,{"className":"text-xl font-bold text-main-black leading-[1.5]","children":"Webデザイナーが案件同時進行でパンクしない3ステップ管理術"}]]}],["$","$L2","creator-estimate-work-hours",{"href":"/creator-estimate-work-hours","className":"flex gap-2.5","children":[["$","div",null,{"className":"relative bg-white rounded-[5px] w-[180px] h-[101px] shrink-0 overflow-hidden flex items-center justify-center","children":[["$","img",null,{"src":"/column/images/articles/creator-estimate-work-hours/thumbnail.png","alt":"クリエイターの工数計算テンプレート｜安請け合いで損しない見積もり術","className":"w-full h-full object-cover"}],["$","div",null,{"className":"absolute top-0 left-0 bg-[#8f8f8f] rounded-tl-[2.6px] rounded-br-[2.6px] w-6 h-6 flex items-center justify-center","children":["$","span",null,{"className":"text-white text-[11px] font-bold font-['DM_Sans']","children":2}]}]]}],["$","p",null,{"className":"text-base font-bold text-main-black leading-[1.5]","children":"クリエイターの工数計算テンプレート｜安請け合いで損しない見積もり術"}]]}],["$","$L2","freelance-invoice-reminder-system",{"href":"/freelance-invoice-reminder-system","className":"flex gap-2.5","children":[["$","div",null,{"className":"relative bg-white rounded-[5px] w-[180px] h-[101px] shrink-0 overflow-hidden flex items-center justify-center","children":[["$","img",null,{"src":"/column/images/articles/freelance-invoice-reminder-system/thumbnail.png","alt":"月末の請求忘れを仕組みで防ぐ｜チェックリスト+自動リマインド設計","className":"w-full h-full object-cover"}],["$","div",null,{"className":"absolute top-0 left-0 bg-[#ad5a1b] rounded-tl-[2.6px] rounded-br-[2.6px] w-6 h-6 flex items-center justify-center","children":["$","span",null,{"className":"text-white text-[11px] font-bold font-['DM_Sans']","children":3}]}]]}],["$","p",null,{"className":"text-base font-bold text-main-black leading-[1.5]","children":"月末の請求忘れを仕組みで防ぐ｜チェックリスト+自動リマインド設計"}]]}],["$","$L2","video-creator-task-management",{"href":"/video-creator-task-management","className":"flex gap-2.5","children":[["$","div",null,{"className":"relative bg-white rounded-[5px] w-[180px] h-[101px] shrink-0 overflow-hidden flex items-center justify-center","children":[["$","img",null,{"src":"/column/images/articles/video-creator-task-management/thumbnail.png","alt":"動画編集者のタスク管理術｜納期と品質を両立する方法","className":"w-full h-full object-cover"}],["$","div",null,{"className":"absolute top-0 left-0 bg-[#161616] rounded-tl-[2.6px] rounded-br-[2.6px] w-6 h-6 flex items-center justify-center","children":["$","span",null,{"className":"text-white text-[11px] font-bold font-['DM_Sans']","children":4}]}]]}],"$L1a"]}],"$L1b"]}]]}],"$L1c","$L1d",false]}]}]
+6:["$","footer",null,{"className":"relative bg-white w-full","children":[["$","div",null,{"className":"max-w-[1440px] mx-auto px-6 md:px-[139px] pt-[50px] md:pt-[61px] pb-[30px] md:pb-[40px]","children":[["$","div",null,{"className":"flex flex-col md:flex-row md:justify-between gap-[34px]","children":[["$","div",null,{"className":"flex flex-col items-start gap-7","children":[["$","div",null,{"className":"flex flex-col items-center","children":[["$","div",null,{"className":"flex items-center gap-1.5","children":[["$","div",null,{"className":"border-[5.5px] md:border-[7px] border-green rounded-[5.5px] md:rounded-[7px] w-8 md:w-10 h-8 md:h-10"}],["$","span",null,{"className":"font-black text-[40px] md:text-[50px] tracking-[2px] md:tracking-[2.5px] text-black font-['DM_Sans']","children":"TASKUL"}]]}],["$","p",null,{"className":"text-sub-gray text-[17px] md:text-[22px] font-medium tracking-[0.9px] md:tracking-[1px]","children":"タスクをシンプルに"}]]}],["$","a",null,{"href":"https://app.taskul-ai.com/login?from=blog","className":"flex items-center justify-center bg-green text-white text-[15px] font-semibold px-[52px] py-4 rounded-full w-full md:w-auto hover:opacity-90 transition-opacity","children":"まずは無料トライアル"}]]}],["$","div",null,{"className":"flex gap-[60px] md:gap-[80px] text-base font-semibold text-main-black","children":[["$","div",null,{"className":"flex flex-col gap-[18px]","children":[["$","a",null,{"href":"https://taskul-ai.com/","className":"font-['DM_Sans'] hover:opacity-70 transition-opacity","children":"TOP"}],["$","a",null,{"href":"https://taskul-ai.com/#service","className":"hover:opacity-70 transition-opacity","children":"サービス"}],["$","$L2",null,{"href":"/","className":"hover:opacity-70 transition-opacity","children":"コラム"}]]}],["$","div",null,{"className":"flex flex-col gap-[18px]","children":[["$","a",null,{"href":"https://kuroco-creation.jp/","target":"_blank","rel":"noopener noreferrer","className":"font-['DM_Sans'] hover:opacity-70 transition-opacity","children":"KUROCO CREATION"}],["$","a",null,{"href":"https://free-company.co.jp/","target":"_blank","rel":"noopener noreferrer","className":"hover:opacity-70 transition-opacity","children":"運営会社"}],["$","a",null,{"href":"https://lin.ee/rSlYN882","target":"_blank","rel":"noopener noreferrer","className":"hover:opacity-70 transition-opacity","children":"お問い合わせ"}]]}]]}]]}],["$","div",null,{"className":"flex flex-col md:flex-row md:justify-center gap-4 md:gap-[26px] mt-8 md:mt-12 text-[14px] md:text-[15px] text-[#868686]","children":[["$","a",null,{"href":"https://taskul-ai.com/terms.html","className":"underline hover:opacity-70 transition-opacity","children":"利用規約"}],["$","a",null,{"href":"https://taskul-ai.com/privacy.html","className":"underline hover:opacity-70 transition-opacity","children":"プライバシーポリシー"}]]}]]}],["$","div",null,{"className":"bg-green h-[33px] flex items-center justify-center","children":["$","p",null,{"className":"text-white text-sm text-center font-['DM_Sans']","children":"2026 © FREECOMPANY All Rights Reserved."}]}]]}]
+7:["$","link","0",{"rel":"stylesheet","href":"/column/_next/static/chunks/0iq1gbyxdi0i3.css","precedence":"next"}]
+8:["$","script","script-0",{"src":"/column/_next/static/chunks/09it85g~6.kww.js","async":true}]
+9:["$","$L1e",null,{"children":["$","$1f",null,{"name":"Next.MetadataOutlet","children":"$@20"}]}]
+21:T42c,M19.365 9.863c.349 0 .63.285.63.631 0 .345-.281.63-.63.63H17.61v1.125h1.755c.349 0 .63.283.63.63 0 .344-.281.629-.63.629h-2.386c-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.627-.63h2.386c.349 0 .63.285.63.63 0 .349-.281.63-.63.63H17.61v1.125h1.755zm-3.855 3.016c0 .27-.174.51-.432.596-.064.021-.133.031-.199.031-.211 0-.391-.09-.51-.25l-2.443-3.317v2.94c0 .344-.279.629-.631.629-.346 0-.626-.285-.626-.629V8.108c0-.27.173-.51.43-.595.06-.023.136-.033.194-.033.195 0 .375.104.495.254l2.462 3.33V8.108c0-.345.282-.63.63-.63.345 0 .63.285.63.63v4.771zm-5.741 0c0 .344-.282.629-.631.629-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.627-.63.349 0 .631.285.631.63v4.771zm-2.466.629H4.917c-.345 0-.63-.285-.63-.629V8.108c0-.345.285-.63.63-.63.349 0 .63.285.63.63v4.141h1.756c.348 0 .629.283.629.63 0 .344-.281.629-.629.629M24 10.314C24 4.943 18.615.572 12 .572S0 4.943 0 10.314c0 4.811 4.27 8.842 10.035 9.608.391.082.923.258 1.058.59.12.301.079.766.038 1.08l-.164 1.02c-.045.301-.24 1.186 1.049.645 1.291-.539 6.916-4.078 9.436-6.975C23.176 14.393 24 12.458 24 10.314a:["$","svg",null,{"width":"18","height":"18","viewBox":"0 0 24 24","fill":"white","children":["$","path",null,{"d":"$21"}]}]
+b:["$","div",null,{"className":"bg-white rounded-[5px] px-2.5 py-5 md:p-3 flex flex-col md:flex-row items-center md:items-start gap-2.5 md:gap-4","children":[["$","div",null,{"className":"flex items-center gap-2.5 md:block w-full md:w-auto","children":[["$","div",null,{"className":"w-[70px] h-[70px] md:w-[84px] md:h-[84px] rounded-full border border-light-gray flex items-center justify-center shrink-0","children":["$","div",null,{"className":"border-[7px] md:border-[8px] border-green rounded-[7px] md:rounded-[8px] w-10 md:w-12 h-10 md:h-12"}]}],["$","div",null,{"className":"flex flex-col gap-1 md:hidden","children":[["$","p",null,{"className":"text-sm font-bold text-main-black","children":"ライター"}],["$","p",null,{"className":"text-xl font-bold text-main-black","children":"TASKUL編集部"}]]}]]}],["$","div",null,{"className":"flex flex-col gap-2 flex-1 w-full","children":[["$","p",null,{"className":"hidden md:block text-sm font-bold text-main-black","children":"ライター"}],["$","p",null,{"className":"hidden md:block text-xl font-bold text-main-black","children":"TASKUL編集部"}],["$","p",null,{"className":"text-sm text-gray","children":"フリーランス・クリエイター向けのタスク管理情報を発信しています。"}],["$","div",null,{"className":"flex items-center justify-between","children":[["$","a",null,{"href":"https://app.taskul-ai.com/login?from=blog","className":"text-sm font-bold text-main-black","children":"ツールを試してみる"}],["$","svg",null,{"width":"5","height":"10","viewBox":"0 0 5 10","fill":"none","children":["$","path",null,{"d":"M0.5 0.5L4.5 5L0.5 9.5","stroke":"currentColor"}]}]]}]]}]]}]
+c:["$","div",null,{"className":"h-px bg-slightly-gray w-full"}]
+d:["$","nav",null,{"className":"toc","children":[["$","p",null,{"className":"toc-title","children":"この記事の目次"}],["$","ol",null,{"className":"toc-list","children":[["$","li","webデザイナーが同時進行でパンクする3つの原因とは",{"className":"toc-item toc-h2","children":["$","a",null,{"href":"#webデザイナーが同時進行でパンクする3つの原因とは","children":[["$","span",null,{"className":"toc-number","children":"01"}],["$","span",null,{"className":"toc-text","children":"Webデザイナーが同時進行でパンクする3つの原因とは？"}]]}]}],["$","li","タスクが頭の中にしかない",{"className":"toc-item toc-h3","children":["$","a",null,{"href":"#タスクが頭の中にしかない","children":[["$","span",null,{"className":"toc-dot"}],["$","span",null,{"className":"toc-text","children":"タスクが頭の中にしかない"}]]}]}],["$","li","案件ごとに管理方法がバラバラ",{"className":"toc-item toc-h3","children":["$","a",null,{"href":"#案件ごとに管理方法がバラバラ","children":[["$","span",null,{"className":"toc-dot"}],["$","span",null,{"className":"toc-text","children":"案件ごとに管理方法がバラバラ"}]]}]}],["$","li","確認待ち-の管理ができていない",{"className":"toc-item toc-h3","children":["$","a",null,{"href":"#確認待ち-の管理ができていない","children":[["$","span",null,{"className":"toc-dot"}],["$","span",null,{"className":"toc-text","children":"「確認待ち」の管理ができていない"}]]}]}],["$","li","パンクを防ぐ3ステップ管理メソッドとは",{"className":"toc-item toc-h2","children":["$","a",null,{"href":"#パンクを防ぐ3ステップ管理メソッドとは","children":[["$","span",null,{"className":"toc-number","children":"02"}],["$","span",null,{"className":"toc-text","children":"パンクを防ぐ3ステップ管理メソッドとは？"}]]}]}],["$","li","ステップ1-全案件のタスクを棚卸しする",{"className":"toc-item toc-h3","children":["$","a",null,{"href":"#ステップ1-全案件のタスクを棚卸しする","children":[["$","span",null,{"className":"toc-dot"}],["$","span",null,{"className":"toc-text","children":"ステップ1: 全案件のタスクを棚卸しする"}]]}]}],["$","li","ステップ2-時間ブロックで1日の作業を区切る",{"className":"toc-item toc-h3","children":["$","a",null,{"href":"#ステップ2-時間ブロックで1日の作業を区切る","children":[["$","span",null,{"className":"toc-dot"}],["$","span",null,{"className":"toc-text","children":"ステップ2: 時間ブロックで1日の作業を区切る"}]]}]}],["$","li","ステップ3-ツール連携で抜け漏れを防ぐ",{"className":"toc-item toc-h3","children":["$","a",null,{"href":"#ステップ3-ツール連携で抜け漏れを防ぐ","children":[["$","span",null,{"className":"toc-dot"}],["$","span",null,{"className":"toc-text","children":"ステップ3: ツール連携で抜け漏れを防ぐ"}]]}]}],["$","li","webデザイナーの同時進行に使えるツールはどれ",{"className":"toc-item toc-h2","children":["$","a",null,{"href":"#webデザイナーの同時進行に使えるツールはどれ","children":[["$","span",null,{"className":"toc-number","children":"03"}],["$","span",null,{"className":"toc-text","children":"Webデザイナーの同時進行に使えるツールはどれ？"}]]}]}],["$","li","trelloはカンバン形式で直感的に使える",{"className":"toc-item toc-h3","children":["$","a",null,{"href":"#trelloはカンバン形式で直感的に使える","children":[["$","span",null,{"className":"toc-dot"}],["$","span",null,{"className":"toc-text","children":"Trelloはカンバン形式で直感的に使える？"}]]}]}],["$","li","notionはデータベース型で自由度が高い",{"className":"toc-item toc-h3","children":["$","a",null,{"href":"#notionはデータベース型で自由度が高い","children":[["$","span",null,{"className":"toc-dot"}],["$","span",null,{"className":"toc-text","children":"Notionはデータベース型で自由度が高い？"}]]}]}],["$","li","asanaはプロジェクト管理に強い",{"className":"toc-item toc-h3","children":["$","a",null,{"href":"#asanaはプロジェクト管理に強い","children":[["$","span",null,{"className":"toc-dot"}],["$","span",null,{"className":"toc-text","children":"Asanaはプロジェクト管理に強い？"}]]}]}],["$","li","taskulはフリーランス特化のai管理ツール",{"className":"toc-item toc-h3","children":["$","a",null,{"href":"#taskulはフリーランス特化のai管理ツール","children":[["$","span",null,{"className":"toc-dot"}],["$","span",null,{"className":"toc-text","children":"TASKULはフリーランス特化のAI管理ツール？"}]]}]}],["$","li","ツール比較まとめ",{"className":"toc-item toc-h3","children":["$","a",null,{"href":"#ツール比較まとめ","children":[["$","span",null,{"className":"toc-dot"}],["$","span",null,{"className":"toc-text","children":"ツール比較まとめ"}]]}]}],["$","li","デザインツールとタスク管理を連携させる方法は",{"className":"toc-item toc-h2","children":["$","a",null,{"href":"#デザインツールとタスク管理を連携させる方法は","children":[["$","span",null,{"className":"toc-number","children":"04"}],["$","span",null,{"className":"toc-text","children":"デザインツールとタスク管理を連携させる方法は？"}]]}]}],["$","li","figmaのurlをタスクに紐づける",{"className":"toc-item toc-h3","children":["$","a",null,{"href":"#figmaのurlをタスクに紐づける","children":[["$","span",null,{"className":"toc-dot"}],["$","span",null,{"className":"toc-text","children":"FigmaのURLをタスクに紐づける"}]]}]}],["$","li","slackの修正依頼をタスクに変換する",{"className":"toc-item toc-h3","children":["$","a",null,{"href":"#slackの修正依頼をタスクに変換する","children":[["$","span",null,{"className":"toc-dot"}],["$","span",null,{"className":"toc-text","children":"Slackの修正依頼をタスクに変換する"}]]}]}],["$","li","カレンダー連携で納期を可視化する",{"className":"toc-item toc-h3","children":["$","a",null,{"href":"#カレンダー連携で納期を可視化する","children":[["$","span",null,{"className":"toc-dot"}],"$L22"]}]}],"$L23","$L24"]}]]}]
+26:T44c7,<p><img src="/images/articles/web-designer-multiple-projects-burnout/01.png" alt="Webデザイナーが複数案件を同時進行で管理しているデスクの様子"></p>
+<!-- 画像未設定: Webデザイナーのデスクに複数のモニターやデザインツールが並ぶ横長写真 -->
+<p>Webデザイナーが案件の同時進行でパンクする原因は、タスクの全体像が見えていないことです。「棚卸し→時間ブロック→ツール連携」の3ステップを実践すれば、案件が増えても破綻しません。この記事では、パンクする前に仕組みで防ぐ具体的なメソッドを解説します。</p>
+<h2 id="webデザイナーが同時進行でパンクする3つの原因とは">Webデザイナーが同時進行でパンクする3つの原因とは？</h2>
+<p><img src="/images/articles/web-designer-multiple-projects-burnout/02.png" alt="Webデザイナーが案件の同時進行に追われてパンクしそうな様子"></p>
+<!-- 画像未設定: 複数のタブやデザインファイルが開かれたPC画面のイメージ -->
+<p>「気づいたら全案件が火を噴いていた」。フリーランスWebデザイナーなら、一度は経験があるはずです。パンクの原因は根性や能力の問題ではなく、仕組みの欠如です。</p>
+<h3 id="タスクが頭の中にしかない">タスクが頭の中にしかない</h3>
+<p>最大の原因はこれです。案件ごとのタスクを頭で覚えようとすると、抜け漏れが発生します。特にWebデザイナーは「デザイン制作」以外にも、素材収集・クライアント確認・コーディング指示など細かいタスクが多い職種です。</p>
+<p>書き出さないタスクは、存在しないのと同じです。「あとでやろう」と思った修正依頼が3日後に爆発するのは、書き出していなかったからです。</p>
+<h3 id="案件ごとに管理方法がバラバラ">案件ごとに管理方法がバラバラ</h3>
+<p>A案件はSlackでやり取り、B案件はメール、C案件はChatwork。連絡手段が案件ごとに違うのは仕方ありません。しかし、タスクの管理場所まで分散していると状況は悪化します。</p>
+<p>付箋・メモアプリ・スプレッドシート・メールの下書き。情報が散らばるほど「今日やるべきこと」が見えなくなります。</p>
+<h3 id="確認待ち-の管理ができていない">「確認待ち」の管理ができていない</h3>
+<p>Webデザイナーの仕事は、クライアントからのフィードバック待ちが頻繁に発生します。確認待ちの間に別案件を進め、戻りが来たら切り替える。このスイッチングコストが積み重なると、どの案件がどの状態かわからなくなります。</p>
+<p>確認待ちを「放置」と区別して管理できていないと、催促のタイミングも逃します。</p>
+<div class="chat-block">
+<div class="chat-human">
+<div class="chat-human-icon"><img src="/column/images/chat-user.png" alt="ユーザー"></div>
+<div class="chat-human-content">
+<span class="chat-name">フリーランスWebデザイナー</span>
+<div class="chat-bubble">案件が3つ以上になると、毎回パンクします。自分のキャパが小さいのかなと…。</div>
+</div>
+</div>
+<div class="chat-ai">
+<div class="chat-ai-row">
+<div class="chat-ai-icon"><img src="/column/images/chat-taskul.png" alt="TASKUL AI"></div>
+<div class="chat-ai-content">
+<span class="chat-name">TASKUL AI</span>
+<div class="chat-bubble">キャパの問題ではなく「見える化」の問題です。全タスクを1箇所に書き出すだけで、優先順位が自然と見えてきます。まずは棚卸しから始めましょう。</div>
+</div>
+</div>
+</div>
+</div>
+<h2 id="パンクを防ぐ3ステップ管理メソッドとは">パンクを防ぐ3ステップ管理メソッドとは？</h2>
+<p><img src="/images/articles/web-designer-multiple-projects-burnout/03.png" alt="Webデザイナーの案件同時進行を整理する3ステップのイメージ"></p>
+<!-- 画像未設定: 3ステップのフロー図、または整理されたタスクボードの横長画像 -->
+<p>パンクを防ぐために必要なのは、シンプルな3ステップです。「棚卸し」「時間ブロック」「ツール連携」。この順番が重要です。</p>
+<h3 id="ステップ1-全案件のタスクを棚卸しする">ステップ1: 全案件のタスクを棚卸しする</h3>
+<p>まず、今抱えている案件を全て書き出します。案件名だけではなく、各案件の「残りタスク」を具体的に洗い出してください。</p>
+<p><strong>棚卸しのフォーマット例:</strong></p>
+<table>
+<thead>
+<tr>
+<th>案件名</th>
+<th>残りタスク</th>
+<th>期限</th>
+<th>ステータス</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A社LP</td>
+<td>トップビジュアル修正</td>
+<td>4/25</td>
+<td>作業中</td>
+</tr>
+<tr>
+<td>A社LP</td>
+<td>下層ページデザイン</td>
+<td>4/28</td>
+<td>未着手</td>
+</tr>
+<tr>
+<td>B社コーポレート</td>
+<td>ワイヤー確認待ち</td>
+<td>4/24</td>
+<td>確認待ち</td>
+</tr>
+<tr>
+<td>C社バナー</td>
+<td>初稿提出</td>
+<td>4/23</td>
+<td>作業中</td>
+</tr>
+</tbody>
+</table>
+<p>ポイントは「確認待ち」を独立したステータスにすることです。作業中と確認待ちを区別するだけで、今すぐ手を動かせるタスクが明確になります。</p>
+<h3 id="ステップ2-時間ブロックで1日の作業を区切る">ステップ2: 時間ブロックで1日の作業を区切る</h3>
+<p>タスクの全体像が見えたら、次は1日の作業時間をブロックで区切ります。マルチタスクはやめてください。人間の脳は、タスクの切り替えに平均23分かかるという研究結果があります。</p>
+<p><strong>時間ブロックの例:</strong></p>
+<ul>
+<li>9:00〜12:00: A社LP（トップビジュアル修正）</li>
+<li>13:00〜15:00: C社バナー（初稿制作）</li>
+<li>15:00〜16:00: メール返信・確認待ち案件の催促</li>
+<li>16:00〜17:00: B社コーポレート（戻りがあれば対応）</li>
+</ul>
+<p>1ブロック=1案件が理想です。「午前はA案件、午後はC案件」のように大きく区切ると、切り替えコストが最小限になります。</p>
+<h3 id="ステップ3-ツール連携で抜け漏れを防ぐ">ステップ3: ツール連携で抜け漏れを防ぐ</h3>
+<p>棚卸しと時間ブロックは、最初はスプレッドシートでも機能します。しかし案件が増えると、手動管理では限界が来ます。ここでタスク管理ツールの出番です。</p>
+<p>ツール選びのポイントは3つです。</p>
+<ol>
+<li><strong>全案件を1画面で一覧できること</strong></li>
+<li><strong>ステータス管理ができること</strong>（作業中・確認待ち・完了）</li>
+<li><strong>リマインド機能があること</strong>（催促忘れ防止）</li>
+</ol>
+<p>この3つを満たすツールなら、どれを選んでも効果はあります。次のセクションで具体的なツールを比較します。</p>
+<p><a href="/column/multiple-projects-management">複数案件を同時に回す管理術</a>も参考にしてください。案件管理の全体像をつかめます。</p>
+<div class="chat-block">
+<div class="chat-human">
+<div class="chat-human-icon"><img src="/column/images/chat-user.png" alt="ユーザー"></div>
+<div class="chat-human-content">
+<span class="chat-name">フリーランスWebデザイナー</span>
+<div class="chat-bubble">時間ブロックって、割り込みが入ったら崩壊しませんか？</div>
+</div>
+</div>
+<div class="chat-ai">
+<div class="chat-ai-row">
+<div class="chat-ai-icon"><img src="/column/images/chat-taskul.png" alt="TASKUL AI"></div>
+<div class="chat-ai-content">
+<span class="chat-name">TASKUL AI</span>
+<div class="chat-bubble">1日の最後に30分の「バッファ枠」を入れてください。割り込みはそこで処理します。ブロックの8割を守れていれば十分です。完璧を目指すと続きません。</div>
+</div>
+</div>
+</div>
+</div>
+<h2 id="webデザイナーの同時進行に使えるツールはどれ">Webデザイナーの同時進行に使えるツールはどれ？</h2>
+<p><img src="/images/articles/web-designer-multiple-projects-burnout/04.png" alt="Webデザイナーの案件同時進行に使えるタスク管理ツールの比較"></p>
+<!-- 画像未設定: ツール比較のイメージ、または複数ツールのロゴが並ぶ横長画像 -->
+<p>Webデザイナーが複数案件を管理するとき、どのツールが合うかは「管理スタイル」で変わります。ここでは代表的な4つのツールをフェアに比較します。</p>
+<h3 id="trelloはカンバン形式で直感的に使える">Trelloはカンバン形式で直感的に使える？</h3>
+<p>Trelloは、タスクをカード形式で管理するカンバンツールです。ドラッグ&#x26;ドロップで操作できるため、デザイナーには直感的に使いやすいツールです。</p>
+<p><strong>向いている人:</strong></p>
+<ul>
+<li>シンプルな案件管理がしたい</li>
+<li>ビジュアルでタスクの流れを把握したい</li>
+<li>チームメンバーとボードを共有したい</li>
+</ul>
+<p><strong>注意点:</strong></p>
+<ul>
+<li>案件が5つ以上になるとボードが増えすぎる</li>
+<li>時間管理機能がないため別ツールが必要</li>
+<li>無料プランではPower-Up（拡張機能）に制限あり</li>
+</ul>
+<h3 id="notionはデータベース型で自由度が高い">Notionはデータベース型で自由度が高い？</h3>
+<p>Notionは、タスク管理・ドキュメント・データベースを1つにまとめられるオールインワンツールです。自分好みのテンプレートを作れる自由度が魅力です。</p>
+<p><strong>向いている人:</strong></p>
+<ul>
+<li>案件情報とタスクを1箇所にまとめたい</li>
+<li>テンプレートを自作してカスタマイズしたい</li>
+<li>ナレッジベースとしても活用したい</li>
+</ul>
+<p><strong>注意点:</strong></p>
+<ul>
+<li>設計の自由度が高すぎて、構築に時間がかかる</li>
+<li>「管理ツールを管理する」状態になりやすい</li>
+<li>リマインド機能が弱い</li>
+</ul>
+<h3 id="asanaはプロジェクト管理に強い">Asanaはプロジェクト管理に強い？</h3>
+<p>Asanaは、タスクの依存関係やガントチャートなど、プロジェクト管理に強いツールです。チームでの利用を前提に設計されています。</p>
+<p><strong>向いている人:</strong></p>
+<ul>
+<li>外注パートナーと共同で案件を進めている</li>
+<li>タスクの依存関係（AがBの前にあること）を管理したい</li>
+<li>ガントチャートで進捗を可視化したい</li>
+</ul>
+<p><strong>注意点:</strong></p>
+<ul>
+<li>個人利用には機能が多すぎることがある</li>
+<li>有料プラン（月1,200円〜）でないと主要機能が制限される</li>
+<li>学習コストがやや高い</li>
+</ul>
+<h3 id="taskulはフリーランス特化のai管理ツール">TASKULはフリーランス特化のAI管理ツール？</h3>
+<p>TASKULは、フリーランス・クリエイター向けに設計されたタスク管理ツールです。依頼文をコピペするだけでAIがタスク・工数・チェックリストを自動生成します。</p>
+<p><strong>向いている人:</strong></p>
+<ul>
+<li>タスクの洗い出し自体が面倒</li>
+<li>案件が増えるたびに管理が追いつかなくなる</li>
+<li>Slackやカレンダーと連携して通知を一元化したい</li>
+</ul>
+<p><strong>特徴:</strong></p>
+<ul>
+<li>AIがタスクを自動分解するため、棚卸しの手間が減る</li>
+<li>全案件を1画面で一覧管理できるダッシュボード</li>
+<li>無料プランあり。有料でも月980円から</li>
+</ul>
+<h3 id="ツール比較まとめ">ツール比較まとめ</h3>
+<table>
+<thead>
+<tr>
+<th>ツール</th>
+<th>月額（個人）</th>
+<th>強み</th>
+<th>向いている人</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Trello</td>
+<td>無料〜</td>
+<td>カンバンの直感操作</td>
+<td>シンプルに管理したい人</td>
+</tr>
+<tr>
+<td>Notion</td>
+<td>無料〜</td>
+<td>自由度の高いDB</td>
+<td>カスタマイズ好きな人</td>
+</tr>
+<tr>
+<td>Asana</td>
+<td>無料〜1,200円</td>
+<td>プロジェクト管理機能</td>
+<td>チーム案件が多い人</td>
+</tr>
+<tr>
+<td>TASKUL</td>
+<td>無料〜980円</td>
+<td>AI自動タスク化</td>
+<td>棚卸しが苦手な人</td>
+</tr>
+</tbody>
+</table>
+<p>どのツールを選んでも、「全案件を1箇所で管理する」という原則を守れば効果はあります。まずは1つ試して、1週間続くかどうかで判断してください。</p>
+<h2 id="デザインツールとタスク管理を連携させる方法は">デザインツールとタスク管理を連携させる方法は？</h2>
+<p><img src="/images/articles/web-designer-multiple-projects-burnout/05.png" alt="Webデザイナーがデザインツールとタスク管理を連携させている画面"></p>
+<!-- 画像未設定: FigmaとタスクツールをPC画面で同時に開いている横長イメージ -->
+<p>Webデザイナー特有の課題は、「デザインファイル」と「タスク」が別々に存在することです。修正依頼を受けても、どのFigmaファイルのどのページかがわからなければ、探す時間だけで数十分ロスします。</p>
+<h3 id="figmaのurlをタスクに紐づける">FigmaのURLをタスクに紐づける</h3>
+<p>最もシンプルで効果的な方法です。タスクを作成するとき、対象のFigmaファイルURLを貼り付けるだけ。これだけで「タスクを開く→すぐ作業に入れる」状態が作れます。</p>
+<h3 id="slackの修正依頼をタスクに変換する">Slackの修正依頼をタスクに変換する</h3>
+<p>クライアントからSlackで来た修正依頼を、そのままタスクに変換する運用がおすすめです。TASKULならSlack連携でメッセージをタスク化できます。Trelloも同様の連携が可能です。</p>
+<p>重要なのは、「Slackで見た→あとでやろう→忘れた」のパターンを断ち切ることです。</p>
+<h3 id="カレンダー連携で納期を可視化する">カレンダー連携で納期を可視化する</h3>
+<p>タスク管理ツールの納期をGoogleカレンダーに反映させると、1週間の稼働が視覚的に把握できます。「来週の水曜は2案件の納品が重なっている」と事前に気づければ、前倒しで対応できます。</p>
+<h2 id="今日からできるパンク防止アクション">今日からできるパンク防止アクション</h2>
+<p>最後に、この記事を読んだ今日からできるアクションをまとめます。</p>
+<p><strong>今日やること（15分で終わります）:</strong></p>
+<ol>
+<li>今抱えている案件を全て紙に書き出す</li>
+<li>各案件の「残りタスク」を1つずつ洗い出す</li>
+<li>ステータスを「作業中」「確認待ち」「未着手」に分類する</li>
+</ol>
+<p><strong>今週やること:</strong></p>
+<ul>
+<li>明日の作業を「時間ブロック」で3つに区切ってみる</li>
+<li>タスク管理ツールを1つ選んで無料登録する</li>
+<li>確認待ち案件に「催促予定日」を設定する</li>
+</ul>
+<p>完璧な管理体制は1日では作れません。しかし、「全タスクを1箇所に書き出す」だけで、パンクのリスクは大幅に下がります。</p>
+<div class="chat-block">
+<div class="chat-human">
+<div class="chat-human-icon"><img src="/column/images/chat-user.png" alt="ユーザー"></div>
+<div class="chat-human-content">
+<span class="chat-name">フリーランスWebデザイナー</span>
+<div class="chat-bubble">ツール選びで迷って結局何も始められないパターンが多いんですが…。</div>
+</div>
+</div>
+<div class="chat-ai">
+<div class="chat-ai-row">
+<div class="chat-ai-icon"><img src="/column/images/chat-taskul.png" alt="TASKUL AI"></div>
+<div class="chat-ai-content">
+<span class="chat-name">TASKUL AI</span>
+<div class="chat-bubble">どのツールを使うかより「1箇所にまとめる」ことが大事です。迷ったらまずは無料のものを1つ試して、1週間使ってみてください。合わなければ変えれば済みます。</div>
+</div>
+</div>
+</div>
+</div>
+<h2 id="まとめ">まとめ</h2>
+<p>Webデザイナーが案件の同時進行でパンクする原因は、キャパ不足ではなく「管理の仕組み」の不足です。</p>
+<ul>
+<li><strong>ステップ1</strong>: 全案件のタスクを1箇所に棚卸しする</li>
+<li><strong>ステップ2</strong>: 時間ブロックで1日の作業を区切る</li>
+<li><strong>ステップ3</strong>: ツール連携で抜け漏れを仕組みで防ぐ</li>
+</ul>
+<p>この3ステップを実践すれば、案件が増えても破綻しない管理体制が作れます。まずは今日、15分で棚卸しを始めてみてください。</p>
+e:["$","$L25",null,{"contentHtml":"$26"}]
+f:["$","$L27",null,{}]
+10:["$","$L28",null,{"items":[{"question":"Webデザイナーが同時に抱えられる案件数の目安は？","answer":"稼働時間ベースで判断します。週40時間稼働なら、1案件あたりの平均工数を割り出し、合計が35時間を超えたら受注を止めるのが安全です。LP案件中心なら3〜5件、コーポレートサイトなら2〜3件が現実的な上限です。"},{"question":"案件の同時進行でパンクする一番の原因は？","answer":"全案件のタスクが頭の中だけにある状態です。書き出されていないタスクは優先順位も期限も曖昧になり、『何から手をつければいいかわからない』状態に陥ります。まず全タスクを1箇所に書き出すことが最優先です。"},{"question":"確認待ちの案件が溜まったときの対処法は？","answer":"確認待ちを独立したステータスで管理し、送付日と催促予定日をセットで記録します。3営業日返事がなければ催促するルールを決めておくと、戻りが来ても慌てません。"},{"question":"デザインツールとタスク管理ツールの連携は必要？","answer":"必須ではありませんが、効果は大きいです。FigmaのURLをタスクに貼るだけでも『どのファイルのどの修正か』が一目でわかり、タスクの着手スピードが上がります。"},{"question":"無料で使えるおすすめのタスク管理ツールは？","answer":"Trello（カンバン形式・直感的）、Notion（データベース型・自由度高い）、TASKUL（AI自動タスク化・フリーランス特化）がそれぞれ無料プランを提供しています。まずは1つ試して、1週間続くかどうかで判断してください。"}]}]
+11:["$","a",null,{"href":"https://app.taskul-ai.com/register","className":"block rounded-[10px] overflow-hidden transition-transform hover:translate-y-[-2px] hover:shadow-[0_8px_24px_rgba(0,0,0,0.12)]","children":["$","img",null,{"src":"/column/images/cta-banner.png","alt":"TASKUL - フリーランス向けAIタスク管理ツール 14日間無料","className":"w-full h-auto"}]}]
+12:["$","div",null,{"className":"flex flex-col gap-9","children":[["$","div",null,{"className":"flex flex-col gap-4","children":[["$","div",null,{"className":"flex items-center gap-[13px]","children":[["$","span",null,{"className":"w-[7px] h-[7px] bg-green rounded-[1px]"}],["$","span",null,{"className":"text-lg font-medium text-sub-gray font-['DM_Sans']","children":"Column"}]]}],["$","h2",null,{"className":"text-[38px] md:text-[54px] font-bold text-main-black leading-[1.28]","children":"関連記事"}]]}],["$","div",null,{"className":"grid grid-cols-2 md:grid-cols-3 gap-[20px_10px] md:gap-5","children":[["$","$L2","creator-estimate-work-hours",{"href":"/creator-estimate-work-hours","className":"flex flex-col gap-[14px] group","children":[["$","div",null,{"className":"bg-white rounded-[5px] md:rounded-[7px] aspect-video w-full overflow-hidden","children":["$","img",null,{"src":"/column/images/articles/creator-estimate-work-hours/thumbnail.png","alt":"クリエイターの工数計算テンプレート｜安請け合いで損しない見積もり術","className":"w-full h-full object-cover"}]}],["$","div",null,{"className":"flex flex-col gap-1 leading-[1.6]","children":[["$","p",null,{"className":"text-base md:text-lg font-bold text-main-black line-clamp-3 group-hover:text-green transition-colors","children":"クリエイターの工数計算テンプレート｜安請け合いで損しない見積もり術"}],["$","p",null,{"className":"hidden md:block text-sm font-medium text-sub-gray","children":"デザイナー・動画編集者向けの工数計算テンプレート付き。見積もりで安請け合いして損しないための実践ガイド。時間単価の出し方からバッファの取り方まで解説。"}]]}]]}],["$","$L2","freelance-invoice-reminder-system",{"href":"/freelance-invoice-reminder-system","className":"flex flex-col gap-[14px] group","children":[["$","div",null,{"className":"bg-white rounded-[5px] md:rounded-[7px] aspect-video w-full overflow-hidden","children":["$","img",null,{"src":"/column/images/articles/freelance-invoice-reminder-system/thumbnail.png","alt":"月末の請求忘れを仕組みで防ぐ｜チェックリスト+自動リマインド設計","className":"w-full h-full object-cover"}]}],["$","div",null,{"className":"flex flex-col gap-1 leading-[1.6]","children":[["$","p",null,{"className":"text-base md:text-lg font-bold text-main-black line-clamp-3 group-hover:text-green transition-colors","children":"月末の請求忘れを仕組みで防ぐ｜チェックリスト+自動リマインド設計"}],["$","p",null,{"className":"hidden md:block text-sm font-medium text-sub-gray","children":"フリーランスの月末請求忘れは「意志力」ではなく「仕組み」で解決できます。請求漏れチェックリストと自動リマインドの設計方法を、ツール比較付きで解説。"}]]}]]}],["$","$L2","video-creator-task-management",{"href":"/video-creator-task-management","className":"flex flex-col gap-[14px] group","children":[["$","div",null,{"className":"bg-white rounded-[5px] md:rounded-[7px] aspect-video w-full overflow-hidden","children":["$","img",null,{"src":"/column/images/articles/video-creator-task-management/thumbnail.png","alt":"動画編集者のタスク管理術｜納期と品質を両立する方法","className":"w-full h-full object-cover"}]}],["$","div",null,{"className":"flex flex-col gap-1 leading-[1.6]","children":[["$","p",null,{"className":"text-base md:text-lg font-bold text-main-black line-clamp-3 group-hover:text-green transition-colors","children":"動画編集者のタスク管理術｜納期と品質を両立する方法"}],["$","p",null,{"className":"hidden md:block text-sm font-medium text-sub-gray","children":"動画編集者が抱えるタスク管理の課題と、納期遅れ・品質低下を防ぐ具体的な方法を解説。工程別テンプレート、複数案件の回し方、おすすめツール比較まで網羅します。"}]]}]]}]]}]]}]
+13:["$","div",null,{"className":"flex gap-4","children":[["$","$L2",null,{"href":"/creator-estimate-work-hours","className":"flex-1 bg-white rounded-[10px] p-5 flex flex-col gap-2 group hover:shadow-[0_4px_16px_rgba(0,0,0,0.08)] transition-shadow","children":[["$","span",null,{"className":"text-xs text-sub-gray font-medium","children":"← 前の記事"}],["$","span",null,{"className":"text-sm md:text-base font-bold text-main-black leading-[1.5] group-hover:text-green transition-colors line-clamp-2","children":"クリエイターの工数計算テンプレート｜安請け合いで損しない見積もり術"}]]}],["$","div",null,{"className":"flex-1"}]]}]
+14:["$","div",null,{"className":"flex justify-center gap-[18px]","children":[["$","$L2",null,{"href":"/","className":"bg-white rounded-full px-8 py-4 flex items-center gap-2.5","children":[["$","svg",null,{"width":"14","height":"8","viewBox":"0 0 14 8","fill":"none","className":"rotate-180","children":["$","path",null,{"d":"M0.5 0.5L7 7L13.5 0.5","stroke":"currentColor","strokeLinecap":"round"}]}],["$","span",null,{"className":"text-[15px] font-semibold text-main-black","children":"一覧へ戻る"}]]}],["$","a",null,{"href":"https://taskul-ai.com/","className":"bg-white rounded-full px-8 py-4 flex items-center gap-2.5","children":[["$","svg",null,{"width":"14","height":"8","viewBox":"0 0 14 8","fill":"none","className":"rotate-180","children":["$","path",null,{"d":"M0.5 0.5L7 7L13.5 0.5","stroke":"currentColor","strokeLinecap":"round"}]}],["$","span",null,{"className":"text-[15px] font-semibold text-main-black","children":"TOPへ戻る"}]]}]]}]
+15:["$","p",null,{"className":"text-base font-bold text-main-black leading-[1.5]","children":"動画編集者のタスク管理術｜納期と品質を両立する方法"}]
+16:["$","$L2","web-writer-multiple-projects",{"href":"/web-writer-multiple-projects","className":"flex gap-2.5","children":[["$","div",null,{"className":"relative bg-white rounded-[5px] w-[180px] h-[101px] shrink-0 overflow-hidden flex items-center justify-center","children":[["$","img",null,{"src":"/column/images/articles/web-writer-multiple-projects/thumbnail.png","alt":"Webライターの複数案件管理術｜納期を守る5つの仕組み","className":"w-full h-full object-cover"}],["$","div",null,{"className":"absolute top-0 left-0 bg-[#161616] rounded-tl-[2.6px] rounded-br-[2.6px] w-6 h-6 flex items-center justify-center","children":["$","span",null,{"className":"text-white text-[11px] font-bold font-['DM_Sans']","children":5}]}]]}],["$","p",null,{"className":"text-base font-bold text-main-black leading-[1.5]","children":"Webライターの複数案件管理術｜納期を守る5つの仕組み"}]]}]
+17:["$","div",null,{"className":"flex flex-col gap-[22px]","children":[["$","h3",null,{"className":"text-xl font-bold text-main-black","children":"カテゴリ"}],["$","div",null,{"className":"flex flex-col gap-[18px]","children":[[["$","div","タスク管理",{"children":[["$","div",null,{"className":"h-px bg-slightly-gray w-full"}],["$","$L2",null,{"href":"/category/task-management","className":"flex items-center justify-between px-2.5 py-3 hover:bg-bg transition-colors rounded","children":[["$","span",null,{"className":"text-base font-semibold text-main-black tracking-[-0.32px]","children":"タスク管理"}],["$","svg",null,{"width":"4","height":"8","viewBox":"0 0 4 8","fill":"none","className":"text-main-black","children":["$","path",null,{"d":"M0.5 0.5L3.5 4L0.5 7.5","stroke":"currentColor"}]}]]}]]}],["$","div","案件管理",{"children":[["$","div",null,{"className":"h-px bg-slightly-gray w-full"}],["$","$L2",null,{"href":"/category/project-management","className":"flex items-center justify-between px-2.5 py-3 hover:bg-bg transition-colors rounded","children":[["$","span",null,{"className":"text-base font-semibold text-main-black tracking-[-0.32px]","children":"案件管理"}],["$","svg",null,{"width":"4","height":"8","viewBox":"0 0 4 8","fill":"none","className":"text-main-black","children":["$","path",null,{"d":"M0.5 0.5L3.5 4L0.5 7.5","stroke":"currentColor"}]}]]}]]}],["$","div","フリーランス",{"children":[["$","div",null,{"className":"h-px bg-slightly-gray w-full"}],["$","$L2",null,{"href":"/category/freelance","className":"flex items-center justify-between px-2.5 py-3 hover:bg-bg transition-colors rounded","children":[["$","span",null,{"className":"text-base font-semibold text-main-black tracking-[-0.32px]","children":"フリーランス"}],["$","svg",null,{"width":"4","height":"8","viewBox":"0 0 4 8","fill":"none","className":"text-main-black","children":["$","path",null,{"d":"M0.5 0.5L3.5 4L0.5 7.5","stroke":"currentColor"}]}]]}]]}],["$","div","ツール比較",{"children":[["$","div",null,{"className":"h-px bg-slightly-gray w-full"}],["$","$L2",null,{"href":"/category/tool-comparison","className":"flex items-center justify-between px-2.5 py-3 hover:bg-bg transition-colors rounded","children":[["$","span",null,{"className":"text-base font-semibold text-main-black tracking-[-0.32px]","children":"ツール比較"}],["$","svg",null,{"width":"4","height":"8","viewBox":"0 0 4 8","fill":"none","className":"text-main-black","children":["$","path",null,{"d":"M0.5 0.5L3.5 4L0.5 7.5","stroke":"currentColor"}]}]]}]]}],["$","div","働き方",{"children":[["$","div",null,{"className":"h-px bg-slightly-gray w-full"}],["$","$L2",null,{"href":"/category/workstyle","className":"flex items-center justify-between px-2.5 py-3 hover:bg-bg transition-colors rounded","children":[["$","span",null,{"className":"text-base font-semibold text-main-black tracking-[-0.32px]","children":"働き方"}],["$","svg",null,{"width":"4","height":"8","viewBox":"0 0 4 8","fill":"none","className":"text-main-black","children":["$","path",null,{"d":"M0.5 0.5L3.5 4L0.5 7.5","stroke":"currentColor"}]}]]}]]}]],["$","div",null,{"className":"h-px bg-slightly-gray w-full"}]]}]]}]
+18:["$","div",null,{"className":"bg-white rounded-[5px] h-[126px] w-full flex items-center justify-center","children":["$","div",null,{"className":"flex items-center gap-1.5","children":[["$","div",null,{"className":"border-[4px] border-green rounded-[4px] w-6 h-6"}],["$","span",null,{"className":"font-black text-[30px] tracking-[1.5px] text-black font-['DM_Sans']","children":"TASKUL"}]]}]}]
+19:["$","div",null,{"className":"flex flex-col gap-[22px] sticky top-20","children":[["$","h3",null,{"className":"text-xl font-bold text-main-black font-['DM_Sans']","children":"Index"}],["$","nav",null,{"className":"bg-white rounded-[5px] p-6 flex flex-col gap-3","children":[["$","a","webデザイナーが同時進行でパンクする3つの原因とは",{"href":"#webデザイナーが同時進行でパンクする3つの原因とは","className":"text-sm text-sub-gray hover:text-green transition-colors ","children":"Webデザイナーが同時進行でパンクする3つの原因とは？"}],["$","a","タスクが頭の中にしかない",{"href":"#タスクが頭の中にしかない","className":"text-sm text-sub-gray hover:text-green transition-colors pl-4","children":"タスクが頭の中にしかない"}],["$","a","案件ごとに管理方法がバラバラ",{"href":"#案件ごとに管理方法がバラバラ","className":"text-sm text-sub-gray hover:text-green transition-colors pl-4","children":"案件ごとに管理方法がバラバラ"}],["$","a","確認待ち-の管理ができていない",{"href":"#確認待ち-の管理ができていない","className":"text-sm text-sub-gray hover:text-green transition-colors pl-4","children":"「確認待ち」の管理ができていない"}],["$","a","パンクを防ぐ3ステップ管理メソッドとは",{"href":"#パンクを防ぐ3ステップ管理メソッドとは","className":"text-sm text-sub-gray hover:text-green transition-colors ","children":"パンクを防ぐ3ステップ管理メソッドとは？"}],["$","a","ステップ1-全案件のタスクを棚卸しする",{"href":"#ステップ1-全案件のタスクを棚卸しする","className":"text-sm text-sub-gray hover:text-green transition-colors pl-4","children":"ステップ1: 全案件のタスクを棚卸しする"}],["$","a","ステップ2-時間ブロックで1日の作業を区切る",{"href":"#ステップ2-時間ブロックで1日の作業を区切る","className":"text-sm text-sub-gray hover:text-green transition-colors pl-4","children":"ステップ2: 時間ブロックで1日の作業を区切る"}],["$","a","ステップ3-ツール連携で抜け漏れを防ぐ",{"href":"#ステップ3-ツール連携で抜け漏れを防ぐ","className":"text-sm text-sub-gray hover:text-green transition-colors pl-4","children":"ステップ3: ツール連携で抜け漏れを防ぐ"}],["$","a","webデザイナーの同時進行に使えるツールはどれ",{"href":"#webデザイナーの同時進行に使えるツールはどれ","className":"text-sm text-sub-gray hover:text-green transition-colors ","children":"Webデザイナーの同時進行に使えるツールはどれ？"}],["$","a","trelloはカンバン形式で直感的に使える",{"href":"#trelloはカンバン形式で直感的に使える","className":"text-sm text-sub-gray hover:text-green transition-colors pl-4","children":"Trelloはカンバン形式で直感的に使える？"}],["$","a","notionはデータベース型で自由度が高い",{"href":"#notionはデータベース型で自由度が高い","className":"text-sm text-sub-gray hover:text-green transition-colors pl-4","children":"Notionはデータベース型で自由度が高い？"}],["$","a","asanaはプロジェクト管理に強い",{"href":"#asanaはプロジェクト管理に強い","className":"text-sm text-sub-gray hover:text-green transition-colors pl-4","children":"Asanaはプロジェクト管理に強い？"}],["$","a","taskulはフリーランス特化のai管理ツール",{"href":"#taskulはフリーランス特化のai管理ツール","className":"text-sm text-sub-gray hover:text-green transition-colors pl-4","children":"TASKULはフリーランス特化のAI管理ツール？"}],["$","a","ツール比較まとめ",{"href":"#ツール比較まとめ","className":"text-sm text-sub-gray hover:text-green transition-colors pl-4","children":"ツール比較まとめ"}],["$","a","デザインツールとタスク管理を連携させる方法は",{"href":"#デザインツールとタスク管理を連携させる方法は","className":"text-sm text-sub-gray hover:text-green transition-colors ","children":"デザインツールとタスク管理を連携させる方法は？"}],["$","a","figmaのurlをタスクに紐づける",{"href":"#figmaのurlをタスクに紐づける","className":"text-sm text-sub-gray hover:text-green transition-colors pl-4","children":"FigmaのURLをタスクに紐づける"}],["$","a","slackの修正依頼をタスクに変換する",{"href":"#slackの修正依頼をタスクに変換する","className":"text-sm text-sub-gray hover:text-green transition-colors pl-4","children":"Slackの修正依頼をタスクに変換する"}],["$","a","カレンダー連携で納期を可視化する",{"href":"#カレンダー連携で納期を可視化する","className":"text-sm text-sub-gray hover:text-green transition-colors pl-4","children":"カレンダー連携で納期を可視化する"}],["$","a","今日からできるパンク防止アクション",{"href":"#今日からできるパンク防止アクション","className":"text-sm text-sub-gray hover:text-green transition-colors ","children":"今日からできるパンク防止アクション"}],["$","a","まとめ",{"href":"#まとめ","className":"text-sm text-sub-gray hover:text-green transition-colors ","children":"まとめ"}]]}]]}]
+1a:["$","p",null,{"className":"text-base font-bold text-main-black leading-[1.5]","children":"動画編集者のタスク管理術｜納期と品質を両立する方法"}]
+1b:["$","$L2","web-writer-multiple-projects",{"href":"/web-writer-multiple-projects","className":"flex gap-2.5","children":[["$","div",null,{"className":"relative bg-white rounded-[5px] w-[180px] h-[101px] shrink-0 overflow-hidden flex items-center justify-center","children":[["$","img",null,{"src":"/column/images/articles/web-writer-multiple-projects/thumbnail.png","alt":"Webライターの複数案件管理術｜納期を守る5つの仕組み","className":"w-full h-full object-cover"}],["$","div",null,{"className":"absolute top-0 left-0 bg-[#161616] rounded-tl-[2.6px] rounded-br-[2.6px] w-6 h-6 flex items-center justify-center","children":["$","span",null,{"className":"text-white text-[11px] font-bold font-['DM_Sans']","children":5}]}]]}],["$","p",null,{"className":"text-base font-bold text-main-black leading-[1.5]","children":"Webライターの複数案件管理術｜納期を守る5つの仕組み"}]]}]
+1c:["$","div",null,{"className":"flex flex-col gap-[22px]","children":[["$","h3",null,{"className":"text-xl font-bold text-main-black","children":"カテゴリ"}],["$","div",null,{"className":"flex flex-col gap-[18px]","children":[[["$","div","タスク管理",{"children":[["$","div",null,{"className":"h-px bg-slightly-gray w-full"}],["$","$L2",null,{"href":"/category/task-management","className":"flex items-center justify-between px-2.5 py-3 hover:bg-bg transition-colors rounded","children":[["$","span",null,{"className":"text-base font-semibold text-main-black tracking-[-0.32px]","children":"タスク管理"}],["$","svg",null,{"width":"4","height":"8","viewBox":"0 0 4 8","fill":"none","className":"text-main-black","children":["$","path",null,{"d":"M0.5 0.5L3.5 4L0.5 7.5","stroke":"currentColor"}]}]]}]]}],["$","div","案件管理",{"children":[["$","div",null,{"className":"h-px bg-slightly-gray w-full"}],["$","$L2",null,{"href":"/category/project-management","className":"flex items-center justify-between px-2.5 py-3 hover:bg-bg transition-colors rounded","children":[["$","span",null,{"className":"text-base font-semibold text-main-black tracking-[-0.32px]","children":"案件管理"}],["$","svg",null,{"width":"4","height":"8","viewBox":"0 0 4 8","fill":"none","className":"text-main-black","children":["$","path",null,{"d":"M0.5 0.5L3.5 4L0.5 7.5","stroke":"currentColor"}]}]]}]]}],["$","div","フリーランス",{"children":[["$","div",null,{"className":"h-px bg-slightly-gray w-full"}],["$","$L2",null,{"href":"/category/freelance","className":"flex items-center justify-between px-2.5 py-3 hover:bg-bg transition-colors rounded","children":[["$","span",null,{"className":"text-base font-semibold text-main-black tracking-[-0.32px]","children":"フリーランス"}],["$","svg",null,{"width":"4","height":"8","viewBox":"0 0 4 8","fill":"none","className":"text-main-black","children":["$","path",null,{"d":"M0.5 0.5L3.5 4L0.5 7.5","stroke":"currentColor"}]}]]}]]}],["$","div","ツール比較",{"children":[["$","div",null,{"className":"h-px bg-slightly-gray w-full"}],["$","$L2",null,{"href":"/category/tool-comparison","className":"flex items-center justify-between px-2.5 py-3 hover:bg-bg transition-colors rounded","children":[["$","span",null,{"className":"text-base font-semibold text-main-black tracking-[-0.32px]","children":"ツール比較"}],["$","svg",null,{"width":"4","height":"8","viewBox":"0 0 4 8","fill":"none","className":"text-main-black","children":["$","path",null,{"d":"M0.5 0.5L3.5 4L0.5 7.5","stroke":"currentColor"}]}]]}]]}],["$","div","働き方",{"children":[["$","div",null,{"className":"h-px bg-slightly-gray w-full"}],["$","$L2",null,{"href":"/category/workstyle","className":"flex items-center justify-between px-2.5 py-3 hover:bg-bg transition-colors rounded","children":[["$","span",null,{"className":"text-base font-semibold text-main-black tracking-[-0.32px]","children":"働き方"}],["$","svg",null,{"width":"4","height":"8","viewBox":"0 0 4 8","fill":"none","className":"text-main-black","children":["$","path",null,{"d":"M0.5 0.5L3.5 4L0.5 7.5","stroke":"currentColor"}]}]]}]]}]],["$","div",null,{"className":"h-px bg-slightly-gray w-full"}]]}]]}]
+1d:["$","div",null,{"className":"bg-white rounded-[5px] h-[126px] w-full flex items-center justify-center","children":["$","div",null,{"className":"flex items-center gap-1.5","children":[["$","div",null,{"className":"border-[4px] border-green rounded-[4px] w-6 h-6"}],["$","span",null,{"className":"font-black text-[30px] tracking-[1.5px] text-black font-['DM_Sans']","children":"TASKUL"}]]}]}]
+20:null
+22:["$","span",null,{"className":"toc-text","children":"カレンダー連携で納期を可視化する"}]
+23:["$","li","今日からできるパンク防止アクション",{"className":"toc-item toc-h2","children":["$","a",null,{"href":"#今日からできるパンク防止アクション","children":[["$","span",null,{"className":"toc-number","children":"05"}],["$","span",null,{"className":"toc-text","children":"今日からできるパンク防止アクション"}]]}]}]
+24:["$","li","まとめ",{"className":"toc-item toc-h2","children":["$","a",null,{"href":"#まとめ","children":[["$","span",null,{"className":"toc-number","children":"06"}],["$","span",null,{"className":"toc-text","children":"まとめ"}]]}]}]
