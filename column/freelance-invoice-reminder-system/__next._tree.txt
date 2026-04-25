@@ -8,4 +8,4 @@
 :HL["/column/images/articles/web-writer-multiple-projects/thumbnail.png","image"]
 :HL["/column/images/cta-banner.png","image"]
 :HL["/column/images/articles/marketer-ad-task-management/thumbnail.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"slug","param":{"type":"d","key":"freelance-invoice-reminder-system","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"-Zz4PHWXODY2W0biRcXxr"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"slug","param":{"type":"d","key":"freelance-invoice-reminder-system","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"QxqwuEEHIHMPpSMnhHKul"}
