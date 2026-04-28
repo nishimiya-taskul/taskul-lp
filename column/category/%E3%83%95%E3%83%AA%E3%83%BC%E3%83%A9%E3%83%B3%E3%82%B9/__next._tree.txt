@@ -6,4 +6,4 @@
 :HL["/column/images/articles/freelance-invoice-reminder-system/thumbnail.png","image"]
 :HL["/column/images/articles/video-creator-task-management/thumbnail.png","image"]
 :HL["/column/images/articles/web-writer-multiple-projects/thumbnail.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"category","param":null,"prefetchHints":0,"slots":{"children":{"name":"category","param":{"type":"d","key":"%25E3%2583%2595%25E3%2583%25AA%25E3%2583%25BC%25E3%2583%25A9%25E3%2583%25B3%25E3%2582%25B9","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"G46XFpH7D_FrA7cz0w5s1"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"category","param":null,"prefetchHints":0,"slots":{"children":{"name":"category","param":{"type":"d","key":"%25E3%2583%2595%25E3%2583%25AA%25E3%2583%25BC%25E3%2583%25A9%25E3%2583%25B3%25E3%2582%25B9","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"09wa8YKImrtYdtWeVwGzd"}
