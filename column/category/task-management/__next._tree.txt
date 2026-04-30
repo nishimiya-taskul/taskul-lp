@@ -21,4 +21,4 @@
 :HL["/column/images/sidebar-banner.png","image"]
 :HL["/column/images/articles/creator-estimate-work-hours/thumbnail.png","image"]
 :HL["/column/images/articles/freelance-invoice-reminder-system/thumbnail.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"category","param":null,"prefetchHints":0,"slots":{"children":{"name":"task-management","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"5PYRFNzcid_CtTizcpz_W"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"category","param":null,"prefetchHints":0,"slots":{"children":{"name":"task-management","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"z1jWs4-aXY7oYNVj6qHIY"}
