@@ -8,4 +8,4 @@
 :HL["/column/images/sidebar-banner.png","image"]
 :HL["/column/images/articles/creator-estimate-work-hours/thumbnail.png","image"]
 :HL["/column/images/articles/freelance-invoice-reminder-system/thumbnail.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"slug","param":{"type":"d","key":"notion-task-management-alternative","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"ai_mj9O16mk8ecBHS9Shd"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"slug","param":{"type":"d","key":"notion-task-management-alternative","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"RXUEVaAY9QUTzZqY6MO6o"}
