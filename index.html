@@ -10,8 +10,8 @@
 <meta name="theme-color" content="#15cf78">
 
 <!-- Favicon -->
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<link rel="apple-touch-icon" href="/images/logo-taskul.png">
+<link rel="icon" href="https://taskul-ai.com/wp-content/themes/taskul/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="https://taskul-ai.com/wp-content/themes/taskul/assets/images/logo-taskul.png">
 
 <!-- OGP -->
 <meta property="og:type" content="website">
@@ -37,14 +37,6 @@
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "無料プランでどこまで使えますか？",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "プロジェクト10件まで、AIクレジット200/月でご利用いただけます。タスク管理・カレンダー・見積書・請求書作成・パートナー登録は制限なくお使いいただけます。"
-      }
-    },
     {
       "@type": "Question",
       "name": "他のタスク管理ツールからの移行は簡単ですか？",
@@ -88,551 +80,84 @@ function trackCTA(loc){gtag('event','cta_click',{cta_location:loc});}</script>
 
 <!-- Microsoft Clarity -->
 <script>(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y)})(window,document,"clarity","script","w25jkykpji");</script>
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Noto+Sans+JP:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-<style>
-:root{
-  --green:#15cf78;
-  --green-hover:#11b86a;
-  --black:#15152b;
-  --gray:#767f93;
-  --gray-light:#f5f5f7;
-  --slightly-gray:#ebeef5;
-  --main-black:#15152b;
-  --bg-light-gray:#f8faff;
-  --dark:#1a1d28;
-  --dark-card:#232635;
-}
-*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
-html{font-size:16px;-webkit-text-size-adjust:100%;scroll-behavior:smooth}
-html{overflow-x:hidden}
-body{font-family:'DM Sans','Noto Sans JP',sans-serif;background:#fff;color:var(--black);overflow-x:hidden;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-feature-settings:"halt" 1}
-img{max-width:100%;height:auto;display:block}
-a{text-decoration:none;color:inherit}
-
-/* ===== NAV ===== */
-.nav{position:fixed;top:0;left:0;right:0;z-index:100;height:64px;display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,.92);backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);border-bottom:1px solid rgba(0,0,0,.06)}
-.nav-inner{width:100%;max-width:1200px;padding:0 32px;display:flex;align-items:center;justify-content:space-between}
-.nav-logo{display:flex;align-items:center;gap:10px}
-.nav-logo-img{height:30px;width:auto}
-.nav-tagline{font-size:.72rem;font-weight:500;color:var(--gray);letter-spacing:.02em}
-.nav-links{display:flex;gap:32px;align-items:center}
-.nav-links a{font-size:.85rem;font-weight:500;color:var(--gray);transition:color .2s}
-.nav-links a:hover{color:var(--black)}
-a.nav-cta{font-size:.82rem;font-weight:700;color:#fff !important;background:var(--green);padding:10px 24px;border-radius:980px;transition:all .2s}
-.nav-cta:hover{background:var(--green-hover)}
-
-/* ===== FV (STATIC HERO) ===== */
-.fv{padding:140px 0 0;text-align:center;overflow:hidden;position:relative}
-.fv-logo{display:flex;align-items:center;justify-content:center;gap:16px;margin-bottom:20px}
-.fv-logo-icon{width:72px;height:72px;border-radius:12px;border:12px solid var(--green);flex-shrink:0}
-.fv-logo-text{font-family:'DM Sans','Noto Sans JP',sans-serif;font-size:clamp(4rem,10vw,5.6rem);font-weight:900;color:var(--black);letter-spacing:.05em;line-height:1}
-.fv-subtitle{font-size:clamp(.95rem,2vw,1.1rem);font-weight:500;color:var(--gray);line-height:1.7;margin-bottom:48px}
-.fv-mockup{max-width:900px;margin:0 auto;position:relative;opacity:.6}
-
-/* ===== MACBOOK FRAME ===== */
-.pc-mockup{position:relative;padding:2% 9.3% 7% 9.3%;background:url('/images/pc-frame.svg') center/100% 100% no-repeat}
-.pc-mockup img{width:100%;display:block;border-radius:8px}
-
-/* ===== NEWS / MEDIA ===== */
-.news-section{padding:60px 0;background:#fff;border-bottom:1px solid rgba(0,0,0,.04)}
-.news-inner{max-width:1200px;margin:0 auto;padding:0 24px;display:flex;flex-direction:column;align-items:center;gap:40px}
-.news-label{font-family:'DM Sans',sans-serif;font-size:13px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:rgba(21,21,43,.35)}
-.news-logos{display:flex;align-items:center;justify-content:center;gap:48px;flex-wrap:wrap}
-.news-logos img{height:40px;opacity:1;transition:opacity .3s}
-.news-logos img:hover{opacity:.5}
-.news-slider{position:relative;max-width:760px;width:100%;overflow:hidden}
-.news-slider-track{display:flex;transition:transform .5s cubic-bezier(.22,1,.36,1)}
-.news-slider-track .news-card{flex:0 0 100%;min-width:0}
-.news-dots{display:flex;justify-content:center;gap:8px;margin-top:20px}
-.news-dot{width:10px;height:10px;border-radius:50%;background:rgba(21,21,43,.15);border:none;cursor:pointer;padding:0;transition:background .3s}
-.news-dot.active{background:var(--green)}
-.news-card{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center;background:var(--bg-light-gray);border-radius:20px;padding:36px;max-width:760px;width:100%;box-sizing:border-box}
-.news-card-text{display:flex;flex-direction:column;gap:12px}
-.news-card-badge{display:inline-flex;align-items:center;gap:6px;font-size:11px;font-weight:700;color:var(--green);background:rgba(21,207,120,.08);padding:4px 12px;border-radius:100px;width:fit-content}
-.news-card-badge::before{content:'';width:6px;height:6px;border-radius:50%;background:var(--green)}
-.news-card-title{font-family:'DM Sans','Noto Sans JP',sans-serif;font-size:20px;font-weight:800;color:var(--black);line-height:1.5}
-.news-card-date{font-size:12px;color:var(--gray);font-weight:500}
-.news-card-desc{font-size:14px;color:var(--gray);line-height:1.8}
-.news-card-img img{width:100%;display:block}
-.news-card-featured{grid-template-columns:1.4fr 1fr}
-.news-card-img-large img{max-height:300px;object-fit:cover;border-radius:10px}
-
-/* ===== SECTION BASE ===== */
-.section{padding:160px 0}
-.section-dark{background:var(--dark);color:#fff}
-.section-gray{background:var(--gray-light)}
-.section-inner{max-width:1200px;margin:0 auto;padding:0 24px}
-
-/* ===== EYEBROW ===== */
-.eyebrow{display:inline-flex;align-items:center;gap:6px;margin-bottom:14px}
-.eyebrow-icon{width:16px;height:16px;border-radius:3px;border:2px solid #15cf78;flex-shrink:0;box-sizing:border-box}
-.eyebrow-text{font-family:'DM Sans',sans-serif;font-size:16px;font-weight:700;color:rgba(21,21,43,.4);letter-spacing:.512px}
-.section-dark .eyebrow-text{color:rgba(255,255,255,.4)}
-
-/* ===== UTILITY ===== */
-.sp-only{display:none}
-/* ===== HEADLINE ===== */
-.h-large{font-family:'DM Sans','Noto Sans JP',sans-serif;font-size:clamp(2rem,3.9vw,56px);font-weight:900;color:#1d1d1f;line-height:1.3;margin-bottom:16px}
-.section-dark .h-large{color:#fff}
-.h-medium{font-family:'DM Sans','Noto Sans JP',sans-serif;font-size:clamp(1.5rem,3vw,42px);font-weight:900;color:#15152b;line-height:1.3;margin-bottom:12px}
-.section-dark .h-medium{color:#fff}
-.h-desc{font-size:14.4px;font-weight:400;color:rgba(21,21,43,.5);line-height:1.8;max-width:600px}
-.section-dark .h-desc{color:rgba(255,255,255,.7)}
-.h-desc strong{color:#15152b}
-.text-center{text-align:center}
-.text-center .h-desc{margin-left:auto;margin-right:auto}
-
-/* ===== SPLIT LAYOUT ===== */
-.split{display:grid;grid-template-columns:5fr 7fr;gap:60px;align-items:center}
-.split-reverse{grid-template-columns:7fr 5fr}
-.split-text{max-width:500px}
-.split-text .h-desc{max-width:none}
-
-/* ===== FEATURE CHECKS ===== */
-.checks{margin-top:28px;display:flex;flex-direction:column;gap:14px}
-.check-item{display:flex;align-items:flex-start;gap:10px;font-size:.9rem;color:var(--black);line-height:1.6}
-.section-dark .check-item{color:rgba(255,255,255,.7)}
-.check-icon{width:22px;height:22px;border-radius:50%;background:var(--green);display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:2px}
-.check-icon svg{width:12px;height:12px;stroke:#fff;fill:none;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round}
-
-/* ===== PRO BADGE ===== */
-.badge-pro{display:inline-block;background:rgba(139,92,246,.15);color:#a78bfa;font-size:11.2px;font-weight:700;padding:4px 12px;border-radius:20px;font-family:'DM Sans','Noto Sans JP',sans-serif}
-.badge-pro-blue{display:inline-block;background:rgba(37,99,235,.08);color:#2563eb;font-size:11.2px;font-weight:700;padding:4px 12px;border-radius:20px;font-family:'DM Sans','Noto Sans JP',sans-serif}
-.badge-std{display:inline-block;background:var(--green);color:#fff;font-size:.55rem;font-weight:700;padding:2px 8px;border-radius:10px}
-
-/* ===== EXPANDING BG ===== */
-.expand-section{position:relative;padding:80px 0;margin-top:80px;overflow:visible}
-.expand-bg{position:absolute;inset:0;background:rgba(21,21,43,.84);border-radius:40px;left:50%;transform:translateX(-50%);width:900px;transition:all 1s cubic-bezier(.16,1,.3,1);overflow:hidden;right:auto;margin:0}
-.expand-bg.expanded{width:1200px;border-radius:40px}
-.expand-content{position:relative;z-index:1;color:#fff;text-align:center;max-width:820px;margin:0 auto;padding:12px 24px}
-
-/* ===== VOICES / OUR STORY ===== */
-.voices-track{overflow:hidden;position:relative;margin-left:calc(-50vw + 50%);margin-right:calc(-50vw + 50%);width:100vw;padding:0 40px}
-.voices-slider{display:flex;gap:20px;animation:voices-scroll 60s linear infinite;width:max-content}
-.voices-slider:hover{animation-play-state:paused}
-.v-card{background:#fff;border-radius:15px;padding:20px 28px;box-shadow:0 1px 22px rgba(0,0,0,.1);transition:all .3s;display:flex;flex-direction:column;justify-content:space-between;min-height:277px;width:280px;flex-shrink:0}
-.v-card:hover{box-shadow:0 4px 32px rgba(0,0,0,.14);transform:translateY(-3px)}
-@keyframes voices-scroll{0%{transform:translateX(0)}100%{transform:translateX(calc(-50% - 10px))}}
-.v-stars{color:#fcd34d;font-size:14.4px;line-height:1.8;letter-spacing:2px}
-.v-text{font-size:14.4px;color:rgba(21,21,43,.5);line-height:1.8}
-.v-author{display:flex;align-items:center;gap:10px;padding-top:18px;border-top:1px solid rgba(0,0,0,.06)}
-.v-avatar{width:34px;height:34px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:12px;color:#fff;flex-shrink:0}
-.v-name{font-size:12.5px;font-weight:700;color:#1d1d1f}
-.v-role{font-size:14.4px;color:rgba(21,21,43,.4);line-height:1.8}
-.v-badge{display:inline-flex;font-size:9.6px;font-weight:700;color:var(--gray);background:rgba(37,99,235,.06);padding:4px 8px;border-radius:4px;margin-top:0}
-
-/* ===== CONNECT SECTION ===== */
-.connect-blocks{margin-left:calc(-50vw + 50%);margin-right:calc(-50vw + 50%);width:100vw}
-.connect-block{margin:0;border-radius:0;overflow:visible}
-.connect-item{display:flex;align-items:center;gap:60px;padding:100px clamp(36px,8vw,120px);max-width:1440px;margin:0 auto;flex-wrap:wrap}
-.connect-item.grid-layout{display:grid;grid-template-columns:1.2fr 1fr;gap:60px;align-items:center}
-.connect-text{position:relative;flex:1;min-width:280px;max-width:400px;display:flex;flex-direction:column;gap:15.3px}
-.connect-visual{flex:1;min-width:0}
-.connect-num{font-family:'DM Sans',sans-serif;font-size:102px;font-weight:500;color:rgba(21,207,120,.1);line-height:1.3;position:absolute;top:-3px;left:0;transform:translateY(-50%)}
-.connect-title{font-family:'DM Sans','Noto Sans JP',sans-serif;font-size:42px;font-weight:900;color:#15152b;line-height:1.3;margin-bottom:0}
-.connect-desc{font-size:14.4px;color:rgba(21,21,43,.5);line-height:1.8;margin-bottom:0}
-.connect-item.dark .connect-title{color:#fff}
-.connect-item.dark .connect-desc{color:rgba(255,255,255,.5)}
-.connect-visual img{border-radius:0;box-shadow:none;width:100%}
-.connect-deco-excel{position:absolute;right:80px;bottom:40px;width:159px;height:159px;opacity:.85;pointer-events:none;z-index:2}
-
-/* ===== LINE PHONE MOCKUP ===== */
-.line-visual{width:100%;max-width:622px;display:flex;justify-content:center}
-.line-visual-img{width:422px;height:auto;display:block}
-
-/* ===== SLACK VISUAL ===== */
-.slack-visual{position:relative;width:100%;max-width:621px}
-.slack-bg{width:100%;border-radius:10px;opacity:.7;display:block}
-.slack-cmd-card{position:absolute;left:-75px;top:48%;background:#fff;border-radius:6px;box-shadow:0 1px 22px rgba(0,0,0,.1);padding:10px 16px;font-size:12px;font-weight:400;color:var(--black);white-space:nowrap;z-index:2;border:1px solid #e8e8e8}
-.slack-response-card{position:absolute;left:140px;bottom:-20px;background:#fff;border-radius:6px;box-shadow:0 1px 22px rgba(0,0,0,.1);padding:14px 18px;width:336px;font-size:10px;line-height:1.5;color:var(--black);z-index:2}
-.slack-response-header{display:flex;align-items:center;gap:8px;margin-bottom:8px}
-.slack-response-header strong{font-size:12px}
-.slack-response-icon{width:29px;height:29px;background:#fff;border-radius:6px;display:flex;align-items:center;justify-content:center}
-.slack-response-body p{margin:0;line-height:1.55}
-
-/* ===== TEAM VISUAL ===== */
-.team-visual-img{width:100%;max-width:621px;height:auto;display:block}
-
-/* ===== PARTNER (RADAR) ===== */
-.partner-radar-img{width:100%;max-width:1152px;height:auto;display:block;margin:0 auto}
-
-/* ===== FINANCE ===== */
-.finance-grid{display:grid;grid-template-columns:1fr 1fr;overflow:hidden;margin-top:64px}
-.finance-block{position:relative;padding:131px 143px 62px;overflow:hidden}
-.finance-block.estimate{background:var(--gray);color:#fff}
-.finance-block.invoice{background:var(--bg-light-gray);color:var(--black)}
-.finance-title-wrap{position:relative;z-index:1}
-.finance-watermark{position:absolute;bottom:0;left:-0.5px;font-family:'DM Sans',sans-serif;font-size:102px;font-weight:500;line-height:1.3;color:rgba(255,255,255,.1);letter-spacing:-.02em;pointer-events:none;white-space:nowrap}
-.finance-block.invoice .finance-watermark{color:rgba(21,207,120,.1)}
-.finance-title{font-family:'DM Sans','Noto Sans JP',sans-serif;font-size:41.6px;font-weight:900;line-height:1.3;margin-bottom:24px;position:relative;z-index:1}
-.finance-checks{display:flex;flex-direction:column;gap:15.5px;margin-bottom:14px;position:relative;z-index:1}
-.finance-check{display:flex;align-items:center;gap:12px;font-size:14.4px;line-height:1.8}
-.finance-block.invoice .finance-check{color:rgba(21,21,43,.7)}
-.finance-visual{position:relative;z-index:1;display:flex;align-items:center;justify-content:center}
-.finance-combo-img{width:100%;max-width:435px;display:block}
-
-/* ===== TASKUL PRO ===== */
-.pro-section{background:linear-gradient(95deg,var(--gray) 0%,var(--main-black) 29.53%);color:#fff;padding:100px 0}
-.pro-block{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;overflow:hidden}
-.pro-block+.pro-block{margin-top:0}
-.pro-text .h-desc{color:rgba(255,255,255,.5)}
-
-/* ===== OUR MISSION ===== */
-.mission-section{position:relative;padding:90px 0;text-align:center;overflow:hidden}
-.mission-blob{position:absolute;width:729px;height:729px;pointer-events:none;z-index:0}
-.mission-blob-tl{left:-199px;top:-373px;animation:blob-drift-tl 12s ease-in-out infinite}
-.mission-blob-center{display:none}
-.mission-blob-br{right:-199px;bottom:-373px;animation:blob-drift-br 14s ease-in-out infinite}
-@keyframes blob-drift-tl{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(30px,20px) scale(1.05)}}
-@keyframes blob-drift-br{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(-25px,-18px) scale(1.04)}}
-@media(prefers-reduced-motion:reduce){.mission-blob{animation:none!important}}
-.mission-content{position:relative;z-index:1;max-width:720px;margin:0 auto;padding:0 24px;display:flex;flex-direction:column;align-items:center;gap:12px}
-.mission-eyebrow{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;height:56px}
-.mission-title{font-family:'DM Sans','Noto Sans JP',sans-serif;font-size:32px;font-weight:900;line-height:1.3;color:#1d1d1f}
-.mission-desc{font-size:14.4px;color:rgba(21,21,43,.5);line-height:1.8;max-width:520px;margin:0 auto;padding-top:11px}
-
-/* ===== ALL FEATURES ===== */
-.af-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:48px}
-.af-card{background:#fff;border:1px solid rgba(0,0,0,.06);border-radius:16px;padding:24px 20px;text-align:center;transition:all .3s;position:relative}
-.af-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.07)}
-.af-icon{width:44px;height:44px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:1.2rem;margin:0 auto 12px}
-.af-icon svg{width:22px;height:22px}
-.af-card h4{font-size:14px;font-weight:900;margin-bottom:6px}
-.af-card p{font-size:14.4px;color:rgba(21,21,43,.5);line-height:1.8}
-.af-badge{position:absolute;top:11px;right:12px;font-size:11.2px;font-weight:700;padding:4px 12px;border-radius:20px;font-family:'DM Sans',sans-serif}
-
-/* ===== PRICING ===== */
-.pricing-toggle{display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,.06);border-radius:980px;padding:3px;width:fit-content;margin:28px auto 0}
-.pricing-toggle-btn{padding:8px 22px;border-radius:980px;font-size:.8rem;font-weight:600;color:var(--gray);background:transparent;border:none;cursor:pointer;transition:all .25s;position:relative;font-family:inherit}
-.pricing-toggle-btn.active{background:#fff;color:var(--black);box-shadow:0 1px 3px rgba(0,0,0,.08)}
-.pricing-toggle-disc{position:absolute;top:-9px;right:-10px;background:#ef4444;color:#fff;font-size:.5rem;font-weight:700;padding:1px 6px;border-radius:4px;white-space:nowrap}
-.pricing-annual{font-size:.7rem;color:var(--gray);margin-bottom:4px;font-weight:500;min-height:32px}
-/* Plan Cards (matches app registration screen) */
-.plan-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:48px;max-width:900px;margin-left:auto;margin-right:auto}
-.plan-card{position:relative;padding:24px;border-radius:16px;border:2px solid #ebeef5;background:#fff;text-align:left;transition:all .3s ease-out;display:flex;flex-direction:column;overflow:visible}
-.plan-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.07);border-color:transparent}
-.plan-card.popular{border-color:#15cf78;box-shadow:0 4px 16px rgba(21,207,120,.1)}
-.plan-card.popular:hover{box-shadow:0 8px 24px rgba(21,207,120,.15)}
-.plan-card-badge{position:absolute;top:-12px;left:50%;transform:translateX(-50%);padding:4px 16px;background:#15cf78;color:#fff;font-size:10px;font-weight:700;border-radius:980px;letter-spacing:.04em;white-space:nowrap}
-.plan-card-label{font-size:13px;font-weight:600;color:#767f93;display:flex;align-items:center;gap:8px}
-.plan-card-trial{font-size:10px;font-weight:700;color:#15cf78;background:rgba(21,207,120,.1);padding:2px 8px;border-radius:980px}
-.plan-card-strikethrough{font-size:14px;color:#767f93;text-decoration:line-through;text-decoration-color:#15cf78;margin-top:8px;min-height:21px}
-.plan-card-price{display:flex;align-items:baseline;gap:2px;margin-top:0}
-.plan-card-price .amount{font-size:36px;font-weight:900;color:#2c3445}
-.plan-card-price .suffix{font-size:13px;color:#767f93}
-.plan-card-saving{display:inline-flex;align-items:center;gap:4px;padding:4px 10px;background:rgba(21,207,120,.1);border-radius:980px;font-size:12px;font-weight:700;color:#2c3445;margin-top:4px;min-height:28px}
-.plan-card-saving .green{font-size:14px;color:#15cf78}
-.plan-card-target{font-size:11px;color:#767f93;margin-top:4px;margin-bottom:16px}
-.plan-card-features{padding-top:16px;border-top:1px solid #ebeef5;display:flex;flex-direction:column;gap:8px;flex:1}
-.plan-card-feat{display:flex;align-items:center;gap:8px;font-size:12px;color:rgba(44,52,69,.7)}
-.plan-card-feat svg{width:14px;height:14px;flex-shrink:0}
-.plan-card-cta{display:block;text-align:center;font-size:13px;font-weight:700;padding:14px;border-radius:980px;margin-top:16px;transition:all .2s;text-decoration:none}
-.plan-card-cta.green{color:#fff;background:#15cf78;box-shadow:0 2px 8px rgba(21,207,120,.3)}
-.plan-card-cta.green:hover{background:#11b86a}
-.plan-card-cta.gray{color:#374151;background:#f3f4f6}
-.plan-card-cta.gray:hover{background:#e5e7eb}
-.cta-wrap{position:relative;display:inline-block;transition:transform .2s}
-.cta-wrap:hover{transform:translateY(-4px)}
-.cta-bubble{position:absolute;top:-22px;left:50%;transform:translateX(-50%);background:#fff;color:#767f93;font-family:'DM Sans','Noto Sans JP',sans-serif;font-size:13px;font-weight:700;padding:5px 16px;border-radius:14px;white-space:nowrap;pointer-events:none;z-index:2;box-shadow:0 2px 8px rgba(0,0,0,.06)}
-.cta-bubble::after{content:'';position:absolute;bottom:-5px;left:50%;transform:translateX(-50%);width:0;height:0;border-left:5px solid transparent;border-right:5px solid transparent;border-top:6px solid #fff}
-@media(max-width:1023px){.plan-cards{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:639px){.plan-cards{display:flex;overflow-x:auto;-webkit-overflow-scrolling:touch;scroll-snap-type:x mandatory;gap:12px;max-width:none;padding:16px 20px 8px;margin-left:-20px;margin-right:-20px}.plan-card{min-width:calc(100vw - 56px);flex-shrink:0;scroll-snap-align:center}}
-.plan-table{width:100%;border-collapse:collapse;font-size:13px}
-.plan-table td,.plan-table th{padding:14px 20px;border-bottom:1px solid #f3f4f6}
-.plan-table th{text-align:left;font-weight:700;color:var(--gray);font-size:.75rem}
-.plan-table td:not(:first-child){text-align:center;padding:14px 12px}
-.plan-table tbody tr{transition:background .2s}
-.plan-table tbody tr:hover{background:#fafbfc}
-
-/* ===== FAQ ===== */
-.faq-list{max-width:680px;margin:48px auto 0}
-.faq-item{border-bottom:1px solid rgba(0,0,0,.06)}
-.faq-q{width:100%;display:flex;align-items:center;justify-content:space-between;padding:20px 0;font-size:.95rem;font-weight:600;color:var(--black);background:none;border:none;cursor:pointer;text-align:left;font-family:inherit}
-.faq-q svg{width:16px;height:16px;stroke:var(--black);fill:none;stroke-width:2.5;flex-shrink:0;transition:transform .3s}
-.faq-item.open .faq-q svg{transform:rotate(45deg)}
-.faq-a{max-height:0;overflow:hidden;transition:max-height .4s cubic-bezier(.16,1,.3,1),opacity .3s ease}
-.faq-a p{padding:0 0 20px;font-size:.88rem;color:var(--gray);line-height:1.8;opacity:0;transform:translateY(-8px);transition:opacity .3s ease .1s,transform .3s ease .1s}
-.faq-item.open .faq-a{max-height:400px}
-.faq-item.open .faq-a p{opacity:1;transform:translateY(0)}
-
-/* ===== CAMPAIGN ===== */
-.campaign{padding:60px 144px;background:var(--green);display:flex;align-items:center;justify-content:center}
-.campaign-card{background:#fff;border-radius:30px;max-width:1200px;width:100%;padding:60px 24px 40px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:30px}
-.campaign-header{display:flex;flex-direction:column;align-items:center;gap:20px}
-.campaign-badge{display:inline-flex;align-items:center;gap:6px;font-size:10.9px;font-weight:700;color:var(--green);background:rgba(21,207,120,.1);padding:5px 14px;border-radius:100px}
-.campaign-badge-dot{width:6px;height:6px;border-radius:3px;background:var(--green)}
-.campaign-title{font-family:'DM Sans','Noto Sans JP',sans-serif;font-size:20.8px;font-weight:700;color:var(--main-black);text-align:center}
-.campaign-big{font-family:'DM Sans','Noto Sans JP',sans-serif;font-weight:900;color:var(--main-black);text-align:center;letter-spacing:-1.44px;line-height:62.4px;font-optical-sizing:none}
-.campaign-big span.num{font-family:'DM Sans',sans-serif;font-size:78px;color:var(--green);font-weight:900;font-optical-sizing:none}
-.campaign-big span.txt{font-size:48px}
-.campaign-big span.txt-green{font-size:48px;color:var(--green)}
-.campaign-date{font-family:'DM Sans','Noto Sans JP',sans-serif;font-size:16.4px;font-weight:500;color:var(--gray);text-align:center;line-height:1.8}
-.campaign-actions{display:flex;flex-direction:column;align-items:center;gap:12px}
-.campaign-logo{font-family:'DM Sans',sans-serif;font-size:17px;font-weight:900;color:#000;letter-spacing:.85px;display:flex;align-items:center;gap:4px}
-
-/* ===== CTA BOTTOM ===== */
-.cta-bottom{text-align:center;padding:160px 24px 144px;position:relative;overflow:hidden;background:linear-gradient(to bottom,#f5f5f7,#fff)}
-.cta-bottom>*:not(.mission-blob){position:relative;z-index:1}
-.cta-btn{display:inline-block;font-size:1.05rem;font-weight:700;padding:16px 48px;border-radius:980px;transition:all .2s;text-decoration:none}
-.cta-btn-green{background:var(--green);color:#fff;box-shadow:0 4px 16px rgba(21,207,120,.3);font-size:16.7px;padding:16px 40px;width:248px;text-align:center}
-.cta-btn-green:hover{background:var(--green-hover);transform:scale(1.02)}
-.cta-btn-white{background:#fff;color:var(--green);box-shadow:0 4px 16px rgba(0,0,0,.1)}
-.cta-btn-white:hover{transform:scale(1.02)}
-
-/* ===== FOOTER ===== */
-.footer{text-align:center;padding:32px 24px;border-top:1px solid rgba(0,0,0,.06)}
-.footer p{font-size:.72rem;color:var(--gray)}
-.footer a{color:var(--gray);font-size:.72rem;margin:0 8px}
-
-/* ===== FLOATING CTA ===== */
-.floating-cta{display:none;position:fixed;bottom:0;left:0;right:0;z-index:9999;padding:12px 16px;background:rgba(255,255,255,.95);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-top:1px solid rgba(0,0,0,.06);box-shadow:0 -4px 20px rgba(0,0,0,.06)}
-.floating-cta a{display:block;width:100%;text-align:center;padding:14px;border-radius:12px;background:var(--green);color:#fff;font-size:.95rem;font-weight:700}
-
-/* ===== SCROLL ANIMATIONS ===== */
-.anim{opacity:0;transform:translateY(40px);transition:opacity .8s cubic-bezier(.16,1,.3,1),transform .8s cubic-bezier(.16,1,.3,1)}
-.anim.vis{opacity:1;transform:translateY(0)}
-.anim-d1{transition-delay:.12s}
-.anim-d2{transition-delay:.24s}
-.anim-d3{transition-delay:.36s}
-@keyframes cardDropIn{from{opacity:0;transform:translateY(-24px)}to{opacity:1;transform:translateY(0)}}
-.card-drop{opacity:0}
-.card-drop.vis{animation:cardDropIn .5s cubic-bezier(.22,1,.36,1) forwards}
-.anim-scale{opacity:0;transform:scale(.94);transition:opacity .8s cubic-bezier(.16,1,.3,1),transform .8s cubic-bezier(.16,1,.3,1)}
-.anim-scale.vis{opacity:1;transform:scale(1)}
-
-/* ===== RESPONSIVE ===== */
-@media(max-width:734px){
-  .news-section{padding:40px 0}
-  .news-inner{gap:28px}
-  .news-logos{gap:24px}
-  .news-logos img{height:28px}
-  .news-card{grid-template-columns:1fr;gap:24px;padding:28px 24px}
-  .news-card-featured{grid-template-columns:1fr}
-  /* NAV */
-  .nav-links{display:none}
-  .nav-inner{justify-content:center}
-  .nav-tagline{display:none}
-  /* SECTIONS */
-  .section{padding:64px 0}
-  .section-inner{padding:0 16px}
-  /* FV */
-  .fv{padding:90px 16px 0}
-  #features{padding-bottom:32px!important}
-  #features .anim.anim-d2{margin-top:24px!important}
-  .fv-logo{gap:10px}
-  .fv-logo img{height:clamp(3rem,10vw,4.5rem)!important}
-  .fv-subtitle{font-size:.85rem;margin-bottom:24px;padding:0 8px}
-  .fv-mockup{max-width:100%;padding:0 8px}
-  /* UTILITY */
-  .sp-only{display:inline!important}
-  /* TYPOGRAPHY */
-  .h-large{font-size:clamp(1.4rem,5.5vw,1.8rem)!important;line-height:1.3!important}
-  .h-medium{font-size:clamp(1.2rem,4.5vw,1.5rem)!important}
-  .h-desc{font-size:.82rem!important}
-  .eyebrow-text{font-size:13px}
-  /* SPLIT */
-  .split,.split-reverse{grid-template-columns:1fr;gap:28px}
-  .split-text{max-width:100%}
-  .kuroco-deco{width:120px!important;height:120px!important;right:-10px!important;bottom:auto!important;top:20px!important;opacity:.5}
-  /* PAIN POINTS 3カラム → 1カラム */
-  .section-inner [style*="grid-template-columns:repeat(3"]{grid-template-columns:1fr!important;max-width:400px!important}
-  /* VOICES */
-  .voices-track{padding:0 16px;margin-left:0;margin-right:0;width:100%}
-  .voices-slider{animation:voices-scroll 30s linear infinite}
-  .v-card{width:80vw;min-width:80vw;min-height:auto}
-  #our-story{padding:100px 0!important}
-  .story-blur-circle{width:393px!important;height:393px!important}
-  .story-blur-tr{right:-100px!important;top:-387px!important}
-  .story-blur-l{left:-365px!important;top:-37px!important}
-  .story-blur-br{bottom:127px!important;right:0!important}
-  .story-preview{width:234px!important;height:132px!important;border-radius:17px!important;filter:blur(3.7px)!important}
-  .story-preview-1{left:-73px!important;top:19px!important}
-  .story-preview-2{right:-59px!important;top:250px!important;left:auto!important}
-  .story-preview-3{left:-28px!important;bottom:40px!important}
-  /* CONNECT */
-  .connect-blocks{margin-left:0;margin-right:0;width:100%}
-  .connect-item,.connect-item.grid-layout{display:flex!important;flex-direction:column!important;align-items:stretch!important;gap:24px;padding:40px 20px 32px!important}
-  .connect-item.grid-layout>div:not(.connect-text):not(.connect-checks){order:0;margin-bottom:16px}
-  .connect-header{padding-bottom:40px!important}
-  .connect-text{max-width:100%;position:relative;order:1;width:100%!important}
-  .connect-visual{width:100%!important;flex-shrink:0!important;order:0;text-align:center;margin-bottom:8px}
-  .connect-block:first-child .connect-visual{margin-bottom:24px}
-  .line-visual{max-width:80%;margin:0;order:0}
-  .line-visual-img{margin:0!important;max-width:240px!important}
-  .connect-checks{order:3;padding-top:16px!important;margin-top:0;width:100%}
-  .connect-text,.connect-checks{text-align:left}
-  .connect-visual,.line-visual{text-align:center}
-  .connect-num{position:absolute!important;top:-0.35em;left:0;transform:none!important;font-size:80px!important;opacity:.07!important;pointer-events:none;z-index:0;color:#15152b!important;line-height:1}
-  .connect-item.dark .connect-num{color:#fff!important}
-  .connect-title{font-size:24px!important;position:relative;z-index:1}
-  .connect-desc{position:relative;z-index:1}
-  .connect-deco-excel{width:80px;height:80px;right:-10px;bottom:-20px}
-  .line-visual-img{width:100%;max-width:280px;margin:0 auto}
-  .team-visual-img{max-width:100%;width:100%}
-  .split-text .checks{margin-left:auto;margin-right:auto}
-  .slack-cmd-card{left:0;top:auto;bottom:calc(100% - 60px);font-size:10px;padding:8px 12px}
-  .slack-response-card{left:0;bottom:-10px;width:calc(100% - 16px);font-size:9px}
-  /* PARTNER RADAR */
-  .partner-radar-img{width:100%!important;max-width:100%!important;margin:0 auto!important;display:block}
-  .partner-radar-img-wrap{margin:0 -16px}
-  /* FINANCE */
-  .finance-grid{grid-template-columns:1fr 1fr;margin-top:32px}
-  .finance-block{display:flex;flex-direction:column;padding:46px 10px 40px}
-  .finance-block .finance-title-wrap{order:0}
-  .finance-block .finance-visual{order:1}
-  .finance-block .finance-checks{order:2;margin-bottom:0}
-  .finance-title-wrap{text-align:center}
-  .finance-watermark{font-size:45px;font-weight:600!important;letter-spacing:.05em!important;left:50%!important;transform:translateX(-50%);width:max-content}
-  .finance-title{font-size:32px!important;margin-bottom:0!important;text-align:center}
-  .finance-combo-img{max-width:177px!important}
-  .finance-check{font-size:13px!important;line-height:1.4!important;align-items:flex-start!important}
-  .finance-check .check-icon{width:15px!important;height:15px!important;min-width:15px!important;border-radius:7.5px!important}
-  .finance-checks{gap:6px!important;margin-bottom:0!important}
-  .finance-visual{margin:10px 0 10px}
-  /* PRO */
-  .pro-section{padding:64px 0}
-  .pro-block{grid-template-columns:1fr;gap:24px}
-  /* EXPAND (AI Memory) */
-  .expand-section{padding:32px 0;margin-top:40px}
-  .expand-bg{width:calc(100% - 32px)!important;margin:0 auto;left:0;right:0;transform:none;border-radius:20px}
-  .expand-bg.expanded{width:calc(100% - 32px)!important}
-  .expand-content{padding:12px 16px}
-  .expand-content .h-large{font-size:clamp(1.2rem,5vw,1.5rem)!important}
-  .expand-content .h-desc{max-width:100%!important;padding:0 4px}
-  /* CAMPAIGN */
-  .campaign{padding:40px 16px}
-  .campaign-card{padding:40px 16px 32px;border-radius:20px}
-  .campaign-big span.num{font-size:48px!important}
-  .campaign-big span.txt,.campaign-big span.txt-green{font-size:28px!important}
-  .campaign-big{line-height:1.3!important}
-  .campaign-title{font-size:16px}
-  .campaign-date{font-size:13px}
-  /* ALL FEATURES */
-  .af-grid{grid-template-columns:repeat(2,1fr)!important;gap:10px}
-  .af-card{padding:16px 12px}
-  .af-card h4{font-size:12px}
-  .af-card p{font-size:12px}
-  /* PRICING */
-  .plan-table{font-size:11px}
-  .plan-table td,.plan-table th{padding:10px 8px}
-  /* CTA BOTTOM */
-  .cta-bottom{padding:64px 16px!important}
-  .cta-btn{font-size:.9rem;padding:14px 32px}
-  /* MISSION */
-  .mission-title{font-size:22px!important}
-  .mission-desc{font-size:13px}
-  .mission-blob{width:393px;height:393px}
-  .mission-blob-tl{left:-150px;top:-200px}
-  .mission-blob-br{right:-150px;bottom:-200px}
-  /* FLOATING CTA */
-  .floating-cta{display:flex}
-  footer{padding-bottom:80px!important}
-  /* PC MOCKUP */
-  .pc-mockup img,.pc-mockup video{border-radius:4px}
-  /* 解決ボックス */
-  .h-large span[style*="border:7px"]{border-width:5px!important;padding:2px 10px 0!important}
-}
-@media(min-width:735px) and (max-width:1068px){
-  .v-card{min-width:calc((100% - 40px) / 3)}
-  .af-grid{grid-template-columns:repeat(3,1fr)}
-  .connect-item,.connect-item.grid-layout{flex-direction:column!important;padding:48px 36px;gap:36px}
-  .connect-item.grid-layout{display:flex!important;grid-template-columns:none!important}
-  .connect-text{max-width:none;min-width:auto}
-  .connect-visual{max-width:100%}
-  .connect-title{font-size:32px!important}
-  .finance-block{padding:80px 60px 40px}
-  .campaign{padding:60px 40px}
-  .section-inner [style*="grid-template-columns:repeat(3"]{gap:12px!important}
-}
+<meta name='robots' content='max-image-preview:large' />
+<link rel="icon" href="https://taskul-ai.com/wp-content/themes/taskul/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="https://taskul-ai.com/wp-content/themes/taskul/assets/images/logo-taskul.png">
+<link rel='dns-prefetch' href='//asset.timerex.net' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://taskul-ai.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftaskul-ai.com%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://taskul-ai.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftaskul-ai.com%2F&#038;format=xml" />
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
 </style>
-<!-- Meta Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '958354176932890');
-fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=958354176932890&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Meta Pixel Code -->
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id="wp-block-library-inline-css">
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-color]){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
+</style>
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='contact-form-7-css' href='https://taskul-ai.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.1.6' media='all' />
+<link rel='stylesheet' id='taskul-fonts-css' href='https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&#038;family=Noto+Sans+JP:wght@400;500;600;700;800;900&#038;display=swap' media='all' />
+<link rel='stylesheet' id='taskul-main-css' href='https://taskul-ai.com/wp-content/themes/taskul/assets/css/main.css?ver=1.0.0' media='all' />
+<link rel='stylesheet' id='taskul-pages-css' href='https://taskul-ai.com/wp-content/themes/taskul/assets/css/pages.css?ver=1.0.0' media='all' />
+<link rel="https://api.w.org/" href="https://taskul-ai.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://taskul-ai.com/wp-json/wp/v2/pages/7" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://taskul-ai.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 7.0" />
+<link rel="canonical" href="https://taskul-ai.com/" />
+<link rel='shortlink' href='https://taskul-ai.com/' />
 </head>
-<body>
+<body class="home wp-singular page-template-default page page-id-7 wp-theme-taskul">
 
 <!-- NAV -->
 <nav class="nav" id="nav">
   <div class="nav-inner">
-    <a href="#" class="nav-logo"><img src="/images/logo_taskul.svg" alt="TASKUL" class="nav-logo-img"><span class="nav-tagline">タスクをシンプルに<br>フリーランス専用タスク管理AI</span></a>
+    <a href="#" class="nav-logo"><img src="https://taskul-ai.com/wp-content/themes/taskul/assets/images/logo_taskul.svg" alt="TASKUL" class="nav-logo-img"><span class="nav-tagline">タスクをシンプルに<br>フリーランス専用タスク管理AI</span></a>
     <div class="nav-links">
-      <a href="#features">機能</a>
+      <a href="https://taskul-ai.com/features/">機能</a>
       <a href="#pricing">料金</a>
       <a href="#faq">FAQ</a>
       <a href="/column/">コラム</a>
-      <div style="display:flex;align-items:center;gap:16px"><a href="https://app.taskul-ai.com/login?from=lp" style="display:flex;align-items:center;gap:4px;background:#15cf78;padding:10px 16px;border-radius:980px;text-decoration:none;transition:background .2s" onmouseover="this.style.background='#11b86a'" onmouseout="this.style.background='#15cf78'" onclick="trackCTA('header')"><span style="display:inline-flex;align-items:center;justify-content:center;background:#fff;border-radius:980px;padding:1px 8px;font-family:'DM Sans','Noto Sans JP',sans-serif;font-size:12px;font-weight:700;color:#15cf78;white-space:nowrap">14日間無料</span><span style="font-family:'DM Sans','Noto Sans JP',sans-serif;font-size:15px;font-weight:700;color:#fff;white-space:nowrap">今すぐはじめる</span></a><a href="https://app.taskul-ai.com/login?from=lp" style="font-family:'DM Sans','Noto Sans JP',sans-serif;font-size:13.6px;font-weight:500;color:#15cf78;text-decoration:none;white-space:nowrap">ログイン</a></div>
+      <a href="https://taskul-ai.com/news/">お知らせ</a>
+      <a href="https://app.taskul-ai.com/login?from=lp" class="nav-cta" onclick="trackCTA('header')">14日間無料トライアル</a>
     </div>
   </div>
 </nav>
-
 <!-- ===== FV: STATIC HERO ===== -->
 <section class="fv" id="fv">
   <div class="fv-logo anim">
-    <img src="/images/logo_taskul.svg" alt="TASKUL" style="height:clamp(5rem,12vw,7rem)">
+    <img src="https://taskul-ai.com/wp-content/themes/taskul/assets/images/logo_taskul.svg" alt="TASKUL" style="height:clamp(5rem,12vw,7rem)">
   </div>
   <h1 class="fv-subtitle anim anim-d1">開いて2秒で操れる。<br>フリーランス・クリエイターのためのタスク管理AI</h1>
   <div class="fv-mockup anim anim-d2" style="position:relative">
-    <img src="/images/blur-circle.svg" alt="" style="position:absolute;width:900px;height:900px;top:50%;left:55%;transform:translate(-50%,-50%);pointer-events:none;z-index:0">
-    <img src="/images/mock_FV.png" alt="TASKULダッシュボード" style="position:relative;z-index:1;width:100%;max-width:900px;display:block;margin:0 auto">
-  </div>
-</section>
-
-<!-- ===== NEWS / MEDIA ===== -->
-<section class="news-section">
-  <div class="news-inner">
-    <p class="news-label">Media</p>
-    <div class="news-logos">
-      <a href="https://news.infoseek.co.jp/article/globalnewsasia_11077/" target="_blank" rel="noopener"><img src="/images/%E6%A5%BD%E5%A4%A9%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9_0%201.png" alt="楽天インフォシーク"></a>
-      <a href="https://www.excite.co.jp/news/article/Global_news_asia_11077/" target="_blank" rel="noopener"><img src="/images/excite%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9_0%201.png" alt="exciteニュース"></a>
-      <a href="https://news.nicovideo.jp/watch/nw19157077?news_ref=media367_media367" target="_blank" rel="noopener"><img src="/images/%E3%83%8B%E3%82%B3%E3%83%8B%E3%82%B3%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9_0%201.png" alt="ニコニコニュース"></a>
-      <a href="https://globalnewsasia.com/article.php?id=11077&&country=1&&p=1#photo" target="_blank" rel="noopener"><img src="/images/%E3%82%B0%E3%83%AD%E3%83%BC%E3%83%90%E3%83%AB%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%A2%E3%82%B8%E3%82%A2_01.png" alt="グローバルニュースアジア"></a>
-    </div>
-    <div class="news-slider anim">
-      <div class="news-slider-track" id="newsSliderTrack">
-        <div class="news-card">
-          <div class="news-card-text">
-            <span class="news-card-badge">メディア掲載</span>
-            <p class="news-card-date">2026.04.13</p>
-            <h3 class="news-card-title">クリエイターの複雑なタスク管理を<br>一変させる次世代AIツール</h3>
-            <p class="news-card-desc">楽天インフォシーク、exciteニュース、ニコニコニュース、グローバルニュースアジアなど複数メディアにてTASKULが紹介されました。</p>
-          </div>
-          <div class="news-card-img">
-            <img src="/images/media.png" alt="TASKUL メディア掲載" loading="lazy">
-          </div>
-        </div>
-        <div class="news-card news-card-featured">
-          <div class="news-card-img news-card-img-large">
-            <img src="/images/shibuya.png" alt="渋谷センター街 TASKUL CM" loading="lazy">
-          </div>
-          <div class="news-card-text">
-            <span class="news-card-badge">CM放映</span>
-            <p class="news-card-date">2026.04</p>
-            <h3 class="news-card-title">渋谷センター街の<br>大型ビジョンでCM放映</h3>
-            <p class="news-card-desc">渋谷センター街の大型ビジョンにて、TASKULのCMが放映されました。</p>
-          </div>
-        </div>
-      </div>
-      <div class="news-dots" id="newsDots">
-        <button class="news-dot active" data-slide="0" aria-label="スライド1"></button>
-        <button class="news-dot" data-slide="1" aria-label="スライド2"></button>
-      </div>
+    <img src="https://taskul-ai.com/wp-content/themes/taskul/assets/images/blur-circle.svg" alt="" style="position:absolute;width:900px;height:900px;top:50%;left:55%;transform:translate(-50%,-50%);pointer-events:none;z-index:0">
+    <div style="position:relative;z-index:1;aspect-ratio:896/545;background:url('https://taskul-ai.com/wp-content/themes/taskul/assets/images/pc-frame.svg') center/100% 100% no-repeat">
+      <video src="https://taskul-ai.com/wp-content/themes/taskul/assets/images/fv-video.mov" autoplay muted loop playsinline style="position:absolute;top:2%;left:50%;transform:translateX(-50%);width:81%;max-height:88.6%;border-radius:8px;object-fit:cover;object-position:top center"></video>
     </div>
   </div>
 </section>
@@ -643,7 +168,7 @@ src="https://www.facebook.com/tr?id=958354176932890&ev=PageView&noscript=1"
     <h2 class="h-large anim" style="max-width:720px;margin:0 auto">朝、TASKULを開くだけで<br><span style="display:inline-block;margin-top:6px;background:var(--green);color:#fff;padding:2px 10px;border-radius:3%">今日やるべきことが</span><br><span style="display:inline-block;margin-top:3px;background:var(--green);color:#fff;padding:2px 10px;border-radius:3%">すべてわかる。</span></h2>
     <p class="h-desc anim anim-d1" style="margin:24px auto 0;max-width:560px">ダッシュボードに今日と今週の納期タスクを自動集約。<br>タスク漏れや納期遅れの不安から解放されます。</p>
     <div class="anim anim-d2" style="margin-top:44px;max-width:896px;margin-left:auto;margin-right:auto">
-      <img src="/images/hero-dashboard.png" alt="TASKULダッシュボード" style="width:100%;border-radius:0;box-shadow:none" loading="lazy">
+      <img src="https://taskul-ai.com/wp-content/themes/taskul/assets/images/hero-dashboard.png" alt="TASKULダッシュボード" style="width:100%;border-radius:0;box-shadow:none" loading="lazy">
     </div>
   </div>
 </section>
@@ -655,23 +180,23 @@ src="https://www.facebook.com/tr?id=958354176932890&ev=PageView&noscript=1"
     <h2 class="h-large anim anim-d1" style="line-height:1.45">TASKULは、タスク管理の<br><span style="display:inline;gap:3px;justify-content:center">こんな悩みを<span style="border:3px solid #15cf78;color:#15152b;padding:0 6px;border-radius:4px">解決</span>します。</span></h2>
     <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:56px;max-width:960px;margin-left:auto;margin-right:auto">
       <div class="anim" style="background:#ebeef5;border-radius:16px;padding:32px 24px;text-align:center">
-        <div style="width:76px;height:76px;border-radius:50%;margin:0 auto 16px;overflow:hidden"><img src="/images/avatar-pain1.png" alt="フリーランスのタスク管理に悩むクリエイター" width="76" height="76" style="display:block;width:100%;height:100%;object-fit:cover"></div>
+        <div style="width:76px;height:76px;border-radius:50%;margin:0 auto 16px;overflow:hidden"><img src="https://taskul-ai.com/wp-content/themes/taskul/assets/images/avatar-pain1.png" alt="フリーランスのタスク管理に悩むクリエイター" width="76" height="76" style="display:block;width:100%;height:100%;object-fit:cover"></div>
         <h4 style="font-size:15.2px;font-weight:700;margin-bottom:8px">「あれ、今日納期だっけ…？」</h4>
         <p style="font-size:14px;color:#767f93;line-height:1.8">案件が増えるたびに抜け漏れが増える。<br>夜中にふと思い出して冷や汗をかく。</p>
       </div>
       <div class="anim anim-d1" style="background:#ebeef5;border-radius:16px;padding:32px 24px;text-align:center">
-        <div style="width:76px;height:76px;border-radius:50%;margin:0 auto 16px;overflow:hidden"><img src="/images/avatar-pain2.png" alt="案件情報の管理に困るフリーランス" width="76" height="76" style="display:block;width:100%;height:100%;object-fit:cover"></div>
+        <div style="width:76px;height:76px;border-radius:50%;margin:0 auto 16px;overflow:hidden"><img src="https://taskul-ai.com/wp-content/themes/taskul/assets/images/avatar-pain2.png" alt="案件情報の管理に困るフリーランス" width="76" height="76" style="display:block;width:100%;height:100%;object-fit:cover"></div>
         <h4 style="font-size:15.2px;font-weight:700;margin-bottom:8px">「あの依頼、どこに書いてあった？」</h4>
         <p style="font-size:14px;color:#767f93;line-height:1.8">チャット、メール、ドキュメント…<br>情報がバラバラで、<br>探す時間だけが増えていく。</p>
       </div>
       <div class="anim anim-d2" style="background:#ebeef5;border-radius:16px;padding:32px 24px;text-align:center">
-        <div style="width:76px;height:76px;border-radius:50%;margin:0 auto 16px;overflow:hidden"><img src="/images/avatar-pain3.png" alt="見積・請求管理に悩むフリーランス" width="76" height="76" style="display:block;width:100%;height:100%;object-fit:cover"></div>
+        <div style="width:76px;height:76px;border-radius:50%;margin:0 auto 16px;overflow:hidden"><img src="https://taskul-ai.com/wp-content/themes/taskul/assets/images/avatar-pain3.png" alt="見積・請求管理に悩むフリーランス" width="76" height="76" style="display:block;width:100%;height:100%;object-fit:cover"></div>
         <h4 style="font-size:15.2px;font-weight:700;margin-bottom:8px">「この案件、いくらで受けたっけ…」</h4>
         <p style="font-size:14px;color:#767f93;line-height:1.8">請求書を作るたび、<br>過去のメッセージを漁って金額を確認。<br>毎月この作業がしんどい。</p>
       </div>
     </div>
     <div class="anim" style="margin-top:80px;max-width:960px;margin-left:auto;margin-right:auto">
-      <img src="/images/pain-points-visual.png" alt="TASKULプロジェクト一覧" style="width:100%;border-radius:0;box-shadow:none" loading="lazy">
+      <img src="https://taskul-ai.com/wp-content/themes/taskul/assets/images/pain-points-visual.png" alt="TASKULプロジェクト一覧" style="width:100%;border-radius:0;box-shadow:none" loading="lazy">
     </div>
   </div>
 </section>
@@ -684,22 +209,22 @@ src="https://www.facebook.com/tr?id=958354176932890&ev=PageView&noscript=1"
         <div class="eyebrow"><div class="eyebrow-icon"></div><span class="eyebrow-text">AI Structuring</span></div>
         <h2 class="h-large" style="font-size:46px">貼り付けるだけで、<br>ディレクターAIが<br>要件定義・タスク化。</h2>
         <p class="h-desc">クライアントからの<strong style="color:#15152b">長文チャットや資料を<br>そのまま貼り付けるだけ</strong>。<br>一流ディレクターの知見を持つディレクターAIが、<br>タスク・要件・注意点まで自動で構造化します。</p>
-        <img class="kuroco-deco" src="/images/kuroco-icon.svg" alt="" style="position:absolute;width:150px;height:150px;right:-80px;bottom:-20px" loading="lazy">
+        <img class="kuroco-deco" src="https://taskul-ai.com/wp-content/themes/taskul/assets/images/kuroco-icon.svg" alt="" style="position:absolute;width:150px;height:150px;right:-80px;bottom:-20px" loading="lazy">
       </div>
       <div class="anim anim-d2">
-        <img src="/images/ai-structuring.png" alt="AI構造化" style="width:100%;border-radius:0;box-shadow:none" loading="lazy">
+        <img src="https://taskul-ai.com/wp-content/themes/taskul/assets/images/ai-structuring.png" alt="AI構造化" style="width:100%;border-radius:0;box-shadow:none" loading="lazy">
       </div>
     </div>
   </div>
   <!-- AI MEMORY (inside section-gray) -->
   <div class="expand-section" id="feat-memory">
     <div class="expand-bg" id="expandBg">
-      <img src="/images/blur-circle.svg" alt="" style="position:absolute;width:729px;height:729px;top:-240px;right:-100px;pointer-events:none">
-      <img src="/images/blur-circle.svg" alt="" style="position:absolute;width:729px;height:729px;bottom:-200px;left:-209px;pointer-events:none">
+      <img src="https://taskul-ai.com/wp-content/themes/taskul/assets/images/blur-circle.svg" alt="" style="position:absolute;width:729px;height:729px;top:-240px;right:-100px;pointer-events:none">
+      <img src="https://taskul-ai.com/wp-content/themes/taskul/assets/images/blur-circle.svg" alt="" style="position:absolute;width:729px;height:729px;bottom:-200px;left:-209px;pointer-events:none">
     </div>
     <div class="expand-content">
       <div class="anim" style="display:flex;flex-direction:column;align-items:center;gap:2px">
-        <img src="/images/kuroco-icon-white.svg" alt="ディレクターAI" style="width:23px;height:23px">
+        <img src="https://taskul-ai.com/wp-content/themes/taskul/assets/images/kuroco-icon-white.svg" alt="ディレクターAI" style="width:23px;height:23px">
         <span class="eyebrow-text" style="color:rgba(255,255,255,.7)">AI Memory</span>
       </div>
       <h2 class="h-large anim anim-d1" style="color:#fff;font-size:36px;margin-bottom:12px">案件の文脈を、<br>ディレクターAIがすべて記憶</h2>
@@ -708,63 +233,38 @@ src="https://www.facebook.com/tr?id=958354176932890&ev=PageView&noscript=1"
   </div>
 </section>
 
-<!-- ===== CTA BANNER ===== -->
-<section class="campaign">
-  <div class="campaign-card anim">
-    <div class="campaign-header">
-      <span class="campaign-badge"><span class="campaign-badge-dot"></span>LAUNCH CAMPAIGN</span>
-      <h3 class="campaign-title">今ならリリース記念キャンペーン中🎉</h3>
-      <div class="campaign-big"><span class="txt">全プラン</span><span class="num">14</span><span class="txt-green">日間無料 </span></div>
-      <p class="campaign-date">有効期間：2026年5月15日 23:59まで</p>
-    </div>
-    <div class="campaign-actions">
-      <a href="#pricing" class="cta-btn" style="width:248px;padding:16px 40px;font-size:16.7px;text-align:center;background:var(--green);color:#fff;box-shadow:0 4px 16px rgba(21,207,120,.3);transition:all .2s" onmouseover="this.style.background='var(--green-hover)';this.style.transform='scale(1.03)'" onmouseout="this.style.background='var(--green)';this.style.transform='scale(1)'" onclick="trackCTA('campaign_top')">料金プランをみる</a>
-    </div>
-  </div>
-</section>
-
 <!-- ===== OUR STORY (VOICES) ===== -->
 <section class="section" id="our-story" style="background:var(--bg-light-gray);padding:160px 0;position:relative;overflow:hidden">
   <!-- Decorative blur circles -->
-  <img class="story-blur-circle story-blur-tr" src="/images/blur-circle.svg" alt="" style="position:absolute;width:620px;height:620px;top:-387px;right:-100px;pointer-events:none">
-  <img class="story-blur-circle story-blur-l" src="/images/blur-circle.svg" alt="" style="position:absolute;width:620px;height:620px;top:-37px;left:-365px;pointer-events:none">
-  <img class="story-blur-circle story-blur-br" src="/images/blur-circle.svg" alt="" style="position:absolute;width:620px;height:620px;bottom:-100px;right:0;pointer-events:none">
+  <img class="story-blur-circle story-blur-tr" src="https://taskul-ai.com/wp-content/themes/taskul/assets/images/blur-circle.svg" alt="" style="position:absolute;width:620px;height:620px;top:-387px;right:-100px;pointer-events:none">
+  <img class="story-blur-circle story-blur-l" src="https://taskul-ai.com/wp-content/themes/taskul/assets/images/blur-circle.svg" alt="" style="position:absolute;width:620px;height:620px;top:-37px;left:-365px;pointer-events:none">
+  <img class="story-blur-circle story-blur-br" src="https://taskul-ai.com/wp-content/themes/taskul/assets/images/blur-circle.svg" alt="" style="position:absolute;width:620px;height:620px;bottom:-100px;right:0;pointer-events:none">
   <!-- Decorative blurred previews -->
-  <div class="story-preview story-preview-1" style="position:absolute;width:377px;height:212px;top:21px;left:-40px;opacity:.3;overflow:hidden;border-radius:28px;filter:blur(12px);pointer-events:none"><img src="/images/blur-preview-3.jpg" alt="" style="width:100%;height:100%;object-fit:cover"></div>
-  <div class="story-preview story-preview-2" style="position:absolute;width:377px;height:212px;top:133px;right:-60px;opacity:.3;overflow:hidden;border-radius:28px;filter:blur(12px);pointer-events:none"><img src="/images/blur-preview-2.jpg" alt="" style="width:100%;height:100%;object-fit:cover"></div>
-  <div class="story-preview story-preview-3" style="position:absolute;width:377px;height:212px;bottom:60px;left:195px;opacity:.3;overflow:hidden;border-radius:28px;filter:blur(12px);pointer-events:none"><img src="/images/blur-preview-1.png" alt="" style="width:100%;height:100%;object-fit:cover"></div>
+  <div class="story-preview story-preview-1" style="position:absolute;width:377px;height:212px;top:21px;left:-40px;opacity:.3;overflow:hidden;border-radius:28px;filter:blur(12px);pointer-events:none"><img src="https://taskul-ai.com/wp-content/themes/taskul/assets/images/blur-preview-3.jpg" alt="" style="width:100%;height:100%;object-fit:cover"></div>
+  <div class="story-preview story-preview-2" style="position:absolute;width:377px;height:212px;top:133px;right:-60px;opacity:.3;overflow:hidden;border-radius:28px;filter:blur(12px);pointer-events:none"><img src="https://taskul-ai.com/wp-content/themes/taskul/assets/images/blur-preview-2.jpg" alt="" style="width:100%;height:100%;object-fit:cover"></div>
+  <div class="story-preview story-preview-3" style="position:absolute;width:377px;height:212px;bottom:60px;left:195px;opacity:.3;overflow:hidden;border-radius:28px;filter:blur(12px);pointer-events:none"><img src="https://taskul-ai.com/wp-content/themes/taskul/assets/images/blur-preview-1.png" alt="" style="width:100%;height:100%;object-fit:cover"></div>
   <div class="section-inner" style="position:relative;z-index:1">
     <div class="text-center" style="margin-bottom:60px;display:flex;flex-direction:column;align-items:center;gap:12px">
       <div class="eyebrow anim" style="justify-content:center;margin-bottom:0"><div class="eyebrow-icon"></div><span class="eyebrow-text">Our Story</span></div>
       <h2 class="h-large anim anim-d1" style="margin-bottom:0">現役クリエイターが、<br>自ら開発。</h2>
-      <p class="h-desc anim anim-d2" style="margin:0 auto">過去3,000件以上のWeb制作・開発を手がけてきた、制作現場のクリエイターが開発。<br>さらに150人以上の声を聞き、磨き上げています。</p>
+      <p class="h-desc anim anim-d2" style="margin:0 auto">過去3,000件以上のWeb制作・開発を手がけてきた、制作現場のクリエイターが開発。<br>デザイン・構造・UXにとことんこだわって磨き上げています。</p>
     </div>
     <div class="voices-track anim">
       <div class="voices-slider">
-        <!-- 11 cards -->
-        <div class="v-card"><div class="v-stars">★★★★★</div><p class="v-text">「毎日見る画面だからこそ、この視認性の良さは神。朝イチでTASKULを開くだけで今日やるべきことが一瞬でわかる。」</p><div class="v-author"><div class="v-avatar" style="background:#4285f4">N</div><div><div class="v-name">Y Nishimiya</div><div class="v-role">Director</div><div class="v-badge">開発メンバー</div></div></div></div>
-        <div class="v-card"><div class="v-stars">★★★★★</div><p class="v-text">「クリエイター専用だけあって、UIが直感的で美しい。触っていて気持ちいいツールは初めて。管理ツールを開くストレスが完全になくなった。」</p><div class="v-author"><div class="v-avatar" style="background:#ef2bbe">M</div><div><div class="v-name">M Yamada</div><div class="v-role">UI/UX Designer</div><div class="v-badge">開発メンバー</div></div></div></div>
-        <div class="v-card"><div class="v-stars">★★★★★</div><p class="v-text">「長文チャットをコピペするだけで、プロジェクトが自動で出来上がる。初動のストレスが消えた。これが当たり前になると戻れない。」</p><div class="v-author"><div class="v-avatar" style="background:#f90">T</div><div><div class="v-name">Tomy</div><div class="v-role">Developer</div><div class="v-badge">開発メンバー</div></div></div></div>
-        <div class="v-card"><div class="v-stars">★★★★★</div><p class="v-text">「クライアントとのやり取りや案件の詳細、請求書まで1つにまとまるのが分かりやすくて手間が省けて良い。タスク管理に悩んでたけど、TASKULなら解決できそう。」</p><div class="v-author"><div class="v-avatar" style="background:#3b82f6">Y</div><div><div class="v-name">Y Ishimoto</div><div class="v-role">Designer</div><div class="v-badge">ベータ版テスター</div></div></div></div>
-        <div class="v-card"><div class="v-stars">★★★★★</div><p class="v-text">「UIが良すぎて、タスク管理が楽しくなった。以前は管理ツールを開くのが億劫だったけど、TASKULは真っ先に開きたくなる。」</p><div class="v-author"><div class="v-avatar" style="background:var(--green)">KS</div><div><div class="v-name">K Tanaka</div><div class="v-role">Frontend Developer</div><div class="v-badge">ベータ版テスター</div></div></div></div>
-        <div class="v-card"><div class="v-stars">★★★★★</div><p class="v-text">「案件ごとにAIが文脈を記憶してくれるから、途中参加のメンバーにも共有がラク。引き継ぎコストが激減した。」</p><div class="v-author"><div class="v-avatar" style="background:#6366f1">A</div><div><div class="v-name">A Suzuki</div><div class="v-role">Project Manager</div><div class="v-badge">ベータ版テスター</div></div></div></div>
-        <div class="v-card"><div class="v-stars">★★★★★</div><p class="v-text">「見積書・請求書まで一元管理できるのが最高。バラバラだったツールがTASKUL一つにまとまって、月末の作業が半分になった。」</p><div class="v-author"><div class="v-avatar" style="background:#ec4899">R</div><div><div class="v-name">R Takahashi</div><div class="v-role">Freelance Designer</div><div class="v-badge">ベータ版テスター</div></div></div></div>
-        <div class="v-card"><div class="v-stars">★★★★★</div><p class="v-text">「パートナー共有機能が秀逸。クライアント情報は見せずにタスクだけ共有できるから、外注管理が安心してできる。」</p><div class="v-author"><div class="v-avatar" style="background:#14b8a6">H</div><div><div class="v-name">H Watanabe</div><div class="v-role">Creative Director</div><div class="v-badge">開発メンバー</div></div></div></div>
-        <div class="v-card"><div class="v-stars">★★★★★</div><p class="v-text">「他のツールは多機能すぎて結局使わなくなる。TASKULはシンプルなのに必要な機能が全部ある。このバランスが絶妙。」</p><div class="v-author"><div class="v-avatar" style="background:#f59e0b">S</div><div><div class="v-name">S Kobayashi</div><div class="v-role">Web Developer</div><div class="v-badge">ベータ版テスター</div></div></div></div>
-        <div class="v-card"><div class="v-stars">★★★★★</div><p class="v-text">「ダッシュボードの今日・今週表示が地味に最強。朝イチで開くだけで頭が整理される。もう手放せない。」</p><div class="v-author"><div class="v-avatar" style="background:#8b5cf6">Y</div><div><div class="v-name">Y Ito</div><div class="v-role">Art Director</div><div class="v-badge">ベータ版テスター</div></div></div></div>
-        <div class="v-card"><div class="v-stars">★★★★★</div><p class="v-text">「チェックリスト機能で制作フローがテンプレ化できるのが助かる。新人にもすぐ仕事を任せられるようになった。」</p><div class="v-author"><div class="v-avatar" style="background:#06b6d4">K</div><div><div class="v-name">K Morita</div><div class="v-role">Production Manager</div><div class="v-badge">開発メンバー</div></div></div></div>
+        <!-- 6 philosophy cards -->
+        <div class="v-card"><h3 class="v-title">視認性に妥協しない</h3><p class="v-text">朝イチで必ず開く画面だからこそ、余白・色・情報量を数百回単位で調整。一目で「今日やるべきこと」がわかる設計にしました。</p></div>
+        <div class="v-card"><h3 class="v-title">SaaSっぽい味気なさを排除</h3><p class="v-text">クリエイターが毎日触るなら、UI自体が美しくあるべき。ディレクター・デザイナー・エンジニアが議論を重ね、触っていて気持ちいい画面を追求しました。</p></div>
+        <div class="v-card"><h3 class="v-title">最小クリック主義</h3><p class="v-text">タスク作成は2クリック以内、見積書・請求書もワンタップで生成。「面倒なクリック」を徹底的に削り、思考の速度を落とさない。</p></div>
+        <div class="v-card"><h3 class="v-title">制作現場の実体験から</h3><p class="v-text">過去3,000件以上のWeb制作・開発の実経験から、現場で本当に困ることだけを解決する機能に絞り込みました。</p></div>
+        <div class="v-card"><h3 class="v-title">AIは主役じゃなく黒子</h3><p class="v-text">AIを押し付けず、必要な時だけさりげなく手助けする。主役はあくまで制作者自身の手と判断です。</p></div>
+        <div class="v-card"><h3 class="v-title">フリーランス特化の情報設計</h3><p class="v-text">会社員向けツールには無い「クライアント横断」の視点で情報を再構成。並行案件が増えても、頭の中がぐちゃぐちゃにならない。</p></div>
         <!-- duplicate for infinite scroll -->
-        <div class="v-card"><div class="v-stars">★★★★★</div><p class="v-text">「毎日見る画面だからこそ、この視認性の良さは神。朝イチでTASKULを開くだけで今日やるべきことが一瞬でわかる。」</p><div class="v-author"><div class="v-avatar" style="background:#4285f4">N</div><div><div class="v-name">Y Nishimiya</div><div class="v-role">Director</div><div class="v-badge">開発メンバー</div></div></div></div>
-        <div class="v-card"><div class="v-stars">★★★★★</div><p class="v-text">「クリエイター専用だけあって、UIが直感的で美しい。触っていて気持ちいいツールは初めて。管理ツールを開くストレスが完全になくなった。」</p><div class="v-author"><div class="v-avatar" style="background:#ef2bbe">M</div><div><div class="v-name">M Yamada</div><div class="v-role">UI/UX Designer</div><div class="v-badge">開発メンバー</div></div></div></div>
-        <div class="v-card"><div class="v-stars">★★★★★</div><p class="v-text">「長文チャットをコピペするだけで、プロジェクトが自動で出来上がる。初動のストレスが消えた。これが当たり前になると戻れない。」</p><div class="v-author"><div class="v-avatar" style="background:#f90">T</div><div><div class="v-name">Tomy</div><div class="v-role">Developer</div><div class="v-badge">開発メンバー</div></div></div></div>
-        <div class="v-card"><div class="v-stars">★★★★★</div><p class="v-text">「クライアントとのやり取りや案件の詳細、請求書まで1つにまとまるのが分かりやすくて手間が省けて良い。タスク管理に悩んでたけど、TASKULなら解決できそう。」</p><div class="v-author"><div class="v-avatar" style="background:#3b82f6">Y</div><div><div class="v-name">Y Ishimoto</div><div class="v-role">Designer</div><div class="v-badge">ベータ版テスター</div></div></div></div>
-        <div class="v-card"><div class="v-stars">★★★★★</div><p class="v-text">「UIが良すぎて、タスク管理が楽しくなった。以前は管理ツールを開くのが億劫だったけど、TASKULは真っ先に開きたくなる。」</p><div class="v-author"><div class="v-avatar" style="background:var(--green)">KS</div><div><div class="v-name">K Tanaka</div><div class="v-role">Frontend Developer</div><div class="v-badge">ベータ版テスター</div></div></div></div>
-        <div class="v-card"><div class="v-stars">★★★★★</div><p class="v-text">「案件ごとにAIが文脈を記憶してくれるから、途中参加のメンバーにも共有がラク。引き継ぎコストが激減した。」</p><div class="v-author"><div class="v-avatar" style="background:#6366f1">A</div><div><div class="v-name">A Suzuki</div><div class="v-role">Project Manager</div><div class="v-badge">ベータ版テスター</div></div></div></div>
-        <div class="v-card"><div class="v-stars">★★★★★</div><p class="v-text">「見積書・請求書まで一元管理できるのが最高。バラバラだったツールがTASKUL一つにまとまって、月末の作業が半分になった。」</p><div class="v-author"><div class="v-avatar" style="background:#ec4899">R</div><div><div class="v-name">R Takahashi</div><div class="v-role">Freelance Designer</div><div class="v-badge">ベータ版テスター</div></div></div></div>
-        <div class="v-card"><div class="v-stars">★★★★★</div><p class="v-text">「パートナー共有機能が秀逸。クライアント情報は見せずにタスクだけ共有できるから、外注管理が安心してできる。」</p><div class="v-author"><div class="v-avatar" style="background:#14b8a6">H</div><div><div class="v-name">H Watanabe</div><div class="v-role">Creative Director</div><div class="v-badge">開発メンバー</div></div></div></div>
-        <div class="v-card"><div class="v-stars">★★★★★</div><p class="v-text">「他のツールは多機能すぎて結局使わなくなる。TASKULはシンプルなのに必要な機能が全部ある。このバランスが絶妙。」</p><div class="v-author"><div class="v-avatar" style="background:#f59e0b">S</div><div><div class="v-name">S Kobayashi</div><div class="v-role">Web Developer</div><div class="v-badge">ベータ版テスター</div></div></div></div>
-        <div class="v-card"><div class="v-stars">★★★★★</div><p class="v-text">「ダッシュボードの今日・今週表示が地味に最強。朝イチで開くだけで頭が整理される。もう手放せない。」</p><div class="v-author"><div class="v-avatar" style="background:#8b5cf6">Y</div><div><div class="v-name">Y Ito</div><div class="v-role">Art Director</div><div class="v-badge">ベータ版テスター</div></div></div></div>
-        <div class="v-card"><div class="v-stars">★★★★★</div><p class="v-text">「チェックリスト機能で制作フローがテンプレ化できるのが助かる。新人にもすぐ仕事を任せられるようになった。」</p><div class="v-author"><div class="v-avatar" style="background:#06b6d4">K</div><div><div class="v-name">K Morita</div><div class="v-role">Production Manager</div><div class="v-badge">開発メンバー</div></div></div></div>
+        <div class="v-card"><h3 class="v-title">視認性に妥協しない</h3><p class="v-text">朝イチで必ず開く画面だからこそ、余白・色・情報量を数百回単位で調整。一目で「今日やるべきこと」がわかる設計にしました。</p></div>
+        <div class="v-card"><h3 class="v-title">SaaSっぽい味気なさを排除</h3><p class="v-text">クリエイターが毎日触るなら、UI自体が美しくあるべき。ディレクター・デザイナー・エンジニアが議論を重ね、触っていて気持ちいい画面を追求しました。</p></div>
+        <div class="v-card"><h3 class="v-title">最小クリック主義</h3><p class="v-text">タスク作成は2クリック以内、見積書・請求書もワンタップで生成。「面倒なクリック」を徹底的に削り、思考の速度を落とさない。</p></div>
+        <div class="v-card"><h3 class="v-title">制作現場の実体験から</h3><p class="v-text">過去3,000件以上のWeb制作・開発の実経験から、現場で本当に困ることだけを解決する機能に絞り込みました。</p></div>
+        <div class="v-card"><h3 class="v-title">AIは主役じゃなく黒子</h3><p class="v-text">AIを押し付けず、必要な時だけさりげなく手助けする。主役はあくまで制作者自身の手と判断です。</p></div>
+        <div class="v-card"><h3 class="v-title">フリーランス特化の情報設計</h3><p class="v-text">会社員向けツールには無い「クライアント横断」の視点で情報を再構成。並行案件が増えても、頭の中がぐちゃぐちゃにならない。</p></div>
       </div>
     </div>
   </div>
@@ -796,8 +296,8 @@ src="https://www.facebook.com/tr?id=958354176932890&ev=PageView&noscript=1"
             <div class="check-item" style="gap:12px;color:rgba(21,21,43,.7)"><span class="check-icon" style="background:rgba(37,99,235,.08)"><svg viewBox="0 0 12 12" fill="none"><path d="M10 3L4.5 8.5L2 6" stroke="#22C55E" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/></svg></span>タスクとMTGを一画面で把握</div>
           </div>
         </div>
-        <div class="connect-visual anim anim-d2">
-          <img src="/images/calendar-visual.png" alt="Googleカレンダー連携" loading="lazy">
+        <div class="connect-visual">
+          <img src="https://taskul-ai.com/wp-content/themes/taskul/assets/images/calendar-visual.png" alt="Googleカレンダー連携" loading="lazy">
         </div>
       </div>
     </div>
@@ -805,8 +305,8 @@ src="https://www.facebook.com/tr?id=958354176932890&ev=PageView&noscript=1"
     <!-- 02: LINE -->
     <div class="connect-block anim">
       <div class="connect-item grid-layout">
-        <div class="line-visual anim anim-d2">
-          <img src="/images/line-visual.png" alt="LINE通知画面" class="line-visual-img" loading="lazy">
+        <div class="line-visual">
+          <img src="https://taskul-ai.com/wp-content/themes/taskul/assets/images/line-visual.png" alt="LINE通知画面" class="line-visual-img" loading="lazy">
         </div>
         <div class="connect-text">
           <div class="connect-num">02</div>
@@ -841,8 +341,8 @@ src="https://www.facebook.com/tr?id=958354176932890&ev=PageView&noscript=1"
             <div class="check-item" style="gap:12px;color:rgba(255,255,255,.7)"><span class="check-icon" style="background:rgba(37,99,235,.08)"><svg viewBox="0 0 12 12" fill="none"><path d="M10 3L4.5 8.5L2 6" stroke="#22C55E" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Standardプラン以上で利用可能</div>
           </div>
         </div>
-        <div class="connect-visual anim anim-d2" style="flex-shrink:0;width:716px">
-          <img src="/images/slack-visual.png" alt="Slack連携" loading="lazy">
+        <div class="connect-visual" style="flex-shrink:0;width:716px">
+          <img src="https://taskul-ai.com/wp-content/themes/taskul/assets/images/slack-visual.png" alt="Slack連携" loading="lazy">
         </div>
       </div>
     </div>
@@ -850,8 +350,8 @@ src="https://www.facebook.com/tr?id=958354176932890&ev=PageView&noscript=1"
     <!-- 04: スプレッドシート・Notion連携 -->
     <div class="connect-block anim" style="position:relative">
       <div class="connect-item grid-layout">
-        <div class="anim anim-d2" style="display:flex;flex-direction:column;align-items:center">
-          <img src="/images/connect-04-mockup.png" alt="スプレッドシート・Notion連携" style="width:100%;max-width:708px;height:auto;display:block" loading="lazy">
+        <div style="display:flex;flex-direction:column;align-items:center">
+          <img src="https://taskul-ai.com/wp-content/themes/taskul/assets/images/connect-04-mockup.png" alt="スプレッドシート・Notion連携" style="width:100%;max-width:708px;height:auto;display:block" loading="lazy">
         </div>
         <div class="connect-text">
           <div class="connect-num">04</div>
@@ -864,7 +364,7 @@ src="https://www.facebook.com/tr?id=958354176932890&ev=PageView&noscript=1"
           </div>
         </div>
       </div>
-      <img src="/images/excel-icon.svg" alt="Excelスプレッドシートとの連携" class="connect-deco-excel" loading="lazy">
+      <img src="https://taskul-ai.com/wp-content/themes/taskul/assets/images/excel-icon.svg" alt="Excelスプレッドシートとの連携" class="connect-deco-excel" loading="lazy">
     </div>
 
   </div>
@@ -885,7 +385,7 @@ src="https://www.facebook.com/tr?id=958354176932890&ev=PageView&noscript=1"
         </div>
       </div>
       <div class="anim anim-d2">
-        <img src="/images/team-visual.png" alt="メンバー追加・チーム招待" class="team-visual-img" loading="lazy">
+        <img src="https://taskul-ai.com/wp-content/themes/taskul/assets/images/team-visual.png" alt="メンバー追加・チーム招待" class="team-visual-img" loading="lazy">
       </div>
     </div>
   </div>
@@ -901,8 +401,8 @@ src="https://www.facebook.com/tr?id=958354176932890&ev=PageView&noscript=1"
     </div>
     <div class="anim partner-radar-img-wrap">
       <picture>
-        <source media="(max-width:734px)" srcset="/images/partner-radar-sp.png">
-        <img src="/images/partner-radar-pc.png" alt="パートナースキルレーダー" class="partner-radar-img" loading="lazy">
+        <source media="(max-width:734px)" srcset="https://taskul-ai.com/wp-content/themes/taskul/assets/images/partner-radar-sp.png">
+        <img src="https://taskul-ai.com/wp-content/themes/taskul/assets/images/partner-radar-pc.png" alt="パートナースキルレーダー" class="partner-radar-img" loading="lazy">
       </picture>
     </div>
   </div>
@@ -930,8 +430,8 @@ src="https://www.facebook.com/tr?id=958354176932890&ev=PageView&noscript=1"
       </div>
       <div class="finance-visual">
         <picture>
-          <source media="(max-width:734px)" srcset="/images/finance-estimate-sp.png">
-          <img src="/images/finance-estimate-combo.png" alt="見積書" class="finance-combo-img" loading="lazy">
+          <source media="(max-width:734px)" srcset="https://taskul-ai.com/wp-content/themes/taskul/assets/images/finance-estimate-sp.png">
+          <img src="https://taskul-ai.com/wp-content/themes/taskul/assets/images/finance-estimate-combo.png" alt="見積書" class="finance-combo-img" loading="lazy">
         </picture>
       </div>
     </div>
@@ -948,8 +448,8 @@ src="https://www.facebook.com/tr?id=958354176932890&ev=PageView&noscript=1"
       </div>
       <div class="finance-visual">
         <picture>
-          <source media="(max-width:734px)" srcset="/images/finance-invoice-sp.png">
-          <img src="/images/finance-invoice-combo.png" alt="請求書" class="finance-combo-img" loading="lazy">
+          <source media="(max-width:734px)" srcset="https://taskul-ai.com/wp-content/themes/taskul/assets/images/finance-invoice-sp.png">
+          <img src="https://taskul-ai.com/wp-content/themes/taskul/assets/images/finance-invoice-combo.png" alt="請求書" class="finance-combo-img" loading="lazy">
         </picture>
       </div>
     </div>
@@ -978,14 +478,14 @@ src="https://www.facebook.com/tr?id=958354176932890&ev=PageView&noscript=1"
         </div>
       </div>
       <div>
-        <div class="pc-mockup"><img src="/images/real-deep-analysis.png" alt="徹底分析" loading="lazy"></div>
+        <div class="pc-mockup"><img src="https://taskul-ai.com/wp-content/themes/taskul/assets/images/real-deep-analysis.png" alt="徹底分析" loading="lazy"></div>
       </div>
     </div>
 
     <!-- Delivery Check -->
     <div class="pro-block anim" style="margin-top:100px">
       <div>
-        <div class="pc-mockup"><img src="/images/real-delivery-check.png" alt="納品チェック" loading="lazy"></div>
+        <div class="pc-mockup"><img src="https://taskul-ai.com/wp-content/themes/taskul/assets/images/real-delivery-check.png" alt="納品チェック" loading="lazy"></div>
       </div>
       <div class="pro-text">
         <div class="eyebrow"><div class="eyebrow-icon"></div><span class="eyebrow-text" style="color:rgba(255,255,255,.4)">Delivery Check</span></div>
@@ -1004,9 +504,9 @@ src="https://www.facebook.com/tr?id=958354176932890&ev=PageView&noscript=1"
 
 <!-- ===== OUR MISSION ===== -->
 <section class="mission-section" id="mission">
-  <img src="/images/blur-blob.svg" alt="" class="mission-blob mission-blob-tl">
-  <img src="/images/blur-blob.svg" alt="" class="mission-blob mission-blob-center">
-  <img src="/images/blur-blob.svg" alt="" class="mission-blob mission-blob-br">
+  <img src="https://taskul-ai.com/wp-content/themes/taskul/assets/images/blur-blob.svg" alt="" class="mission-blob mission-blob-tl">
+  <img src="https://taskul-ai.com/wp-content/themes/taskul/assets/images/blur-blob.svg" alt="" class="mission-blob mission-blob-center">
+  <img src="https://taskul-ai.com/wp-content/themes/taskul/assets/images/blur-blob.svg" alt="" class="mission-blob mission-blob-br">
   <div class="mission-content">
     <div class="mission-eyebrow anim">
       <div class="eyebrow-icon"></div>
@@ -1026,21 +526,21 @@ src="https://www.facebook.com/tr?id=958354176932890&ev=PageView&noscript=1"
       <p class="h-desc anim anim-d2" style="margin:0 auto">クリエイターの業務に必要な機能を、すべて搭載。</p>
     </div>
     <div class="af-grid">
-      <div class="af-card anim"><div class="af-icon" style="background:rgba(236,72,153,.08)"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#ec4899" stroke-width="1.8"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg></div><h4>AIタスク生成</h4><p>依頼文やチャットを貼るだけで、タスク・納期を自動生成。</p></div>
+      <div class="af-card anim"><div class="af-icon" style="background:rgba(245,158,11,.08)"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="1.8"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg></div><h4>AIタスク生成</h4><p>依頼文やチャットを貼るだけで、タスク・納期を自動生成。</p></div>
       <div class="af-card anim"><div class="af-icon" style="background:rgba(6,182,212,.08)"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#06b6d4" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M9 9h6M9 13h6M9 17h4"/></svg></div><h4>AI要件定義</h4><p>散らばった情報を要件・注意点・レギュレーションに自動で構造化。</p></div>
       <div class="af-card anim"><div class="af-icon" style="background:rgba(139,92,246,.08)"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#8b5cf6" stroke-width="1.8"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div><h4>ディレクターAIに相談</h4><p>案件の進め方や課題を、いつでもAIに壁打ちできる。</p></div>
       <div class="af-card anim"><div class="af-icon" style="background:rgba(239,68,68,.06)"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#ef4444" stroke-width="1.8"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg></div><h4>商談メモAI分析</h4><p>商談メモを貼るだけで改善点・ネクストアクションを即分析。</p></div>
-      <div class="af-card anim"><div class="af-icon" style="background:rgba(37,99,235,.06)"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="1.8"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg></div><h4>ダッシュボード</h4><p>今日・今週の納期タスクをダッシュボードに自動集約。</p></div>
-      <div class="af-card anim"><div class="af-icon" style="background:rgba(34,197,94,.06)"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="1.8"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></div><h4>全てのタスク一覧</h4><p>全案件の進捗・ステータスをひと目で把握。漏れゼロ。</p></div>
-      <div class="af-card anim"><div class="af-icon" style="background:rgba(34,197,94,.08)"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="1.8"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg></div><h4>クライアントリスト</h4><p>クライアント情報を一元管理。案件・メンバーと自動紐づけ。</p></div>
+      <div class="af-card anim"><div class="af-icon" style="background:rgba(21,207,120,.06)"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--green)" stroke-width="1.8"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg></div><h4>ダッシュボード</h4><p>今日・今週の納期タスクをダッシュボードに自動集約。</p></div>
+      <div class="af-card anim"><div class="af-icon" style="background:rgba(6,182,212,.06)"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#06b6d4" stroke-width="1.8"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></div><h4>全てのタスク一覧</h4><p>全案件の進捗・ステータスをひと目で把握。漏れゼロ。</p></div>
+      <div class="af-card anim"><div class="af-icon" style="background:rgba(245,158,11,.08)"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="1.8"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg></div><h4>クライアントリスト</h4><p>クライアント情報を一元管理。案件・メンバーと自動紐づけ。</p></div>
       <div class="af-card anim"><div class="af-icon" style="background:rgba(37,99,235,.06)"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="1.8"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg></div><h4>プロジェクト管理</h4><p>プロジェクト毎に、要件・見積もり・タスクなどを見やすく管理</p></div>
       <div class="af-card anim"><div class="af-icon" style="background:rgba(37,99,235,.06)"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="1.8"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg></div><h4>Googleカレンダー同期</h4><p>タスクの締め切りとMTGをカレンダーで一括管理。</p></div>
       <div class="af-card anim"><span class="af-badge" style="background:rgba(21,207,120,.15);color:#15cf78">Standard</span><div class="af-icon" style="background:rgba(139,92,246,.06)"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#8b5cf6" stroke-width="1.8"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg></div><h4>LINE通知</h4><p>今日の納期タスクを毎朝LINEにお届け。確認漏れゼロ。</p></div>
-      <div class="af-card anim"><span class="af-badge" style="background:rgba(21,207,120,.15);color:#15cf78">Standard</span><div class="af-icon" style="background:rgba(99,102,241,.06)"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="1.8"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div><h4>Slack連携</h4><p>Slackの会話からプロジェクト・タスクを自動作成。</p></div>
-      <div class="af-card anim"><div class="af-icon" style="background:rgba(34,197,94,.06)"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="1.8"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div><h4>チーム力分析</h4><p>パートナーの情報やスキルをまとめてチーム力をチャートで分析。</p></div>
-      <div class="af-card anim"><div class="af-icon" style="background:rgba(37,99,235,.06)"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="1.8"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></div><h4>ワンクリック見積・請求</h4><p>案件情報から見積書・請求書をワンクリックで自動作成。</p></div>
+      <div class="af-card anim"><span class="af-badge" style="background:rgba(21,207,120,.15);color:#15cf78">Standard</span><div class="af-icon" style="background:rgba(6,182,212,.06)"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#06b6d4" stroke-width="1.8"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div><h4>Slack連携</h4><p>Slackの会話からプロジェクト・タスクを自動作成。</p></div>
+      <div class="af-card anim"><div class="af-icon" style="background:rgba(139,92,246,.06)"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#8b5cf6" stroke-width="1.8"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div><h4>チーム力分析</h4><p>パートナーの情報やスキルをまとめてチーム力をチャートで分析。</p></div>
+      <div class="af-card anim"><div class="af-icon" style="background:rgba(21,207,120,.06)"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--green)" stroke-width="1.8"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></div><h4>ワンクリック見積・請求</h4><p>案件情報から見積書・請求書をワンクリックで自動作成。</p></div>
       <div class="af-card anim"><div class="af-icon" style="background:rgba(21,207,120,.06)"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--green)" stroke-width="1.8"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><h4>安全なチーム共有</h4><p>パートナーにはタスクだけ共有。クライアント情報は自動で非公開。</p></div>
-      <div class="af-card anim"><span class="af-badge" style="background:rgba(139,92,246,.15);color:#a78bfa">Pro</span><div class="af-icon" style="background:rgba(139,92,246,.06)"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#8b5cf6" stroke-width="1.8"><path d="M21 12V7H5a2 2 0 0 1 0-4h14v4"/><path d="M3 5v14a2 2 0 0 0 2 2h16v-5"/><path d="M18 12a2 2 0 0 0 0 4h4v-4z"/></svg></div><h4>案件まるごと徹底分析</h4><p>市場調査・競合分析・戦略立案・アクションプランまでAIが一貫生成。</p></div>
+      <div class="af-card anim"><span class="af-badge" style="background:rgba(139,92,246,.15);color:#a78bfa">Pro</span><div class="af-icon" style="background:rgba(239,68,68,.06)"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#ef4444" stroke-width="1.8"><path d="M21 12V7H5a2 2 0 0 1 0-4h14v4"/><path d="M3 5v14a2 2 0 0 0 2 2h16v-5"/><path d="M18 12a2 2 0 0 0 0 4h4v-4z"/></svg></div><h4>案件まるごと徹底分析</h4><p>市場調査・競合分析・戦略立案・アクションプランまでAIが一貫生成。</p></div>
       <div class="af-card anim"><span class="af-badge" style="background:rgba(139,92,246,.15);color:#a78bfa">Pro</span><div class="af-icon" style="background:rgba(139,92,246,.06)"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#8b5cf6" stroke-width="1.8"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></div><h4>納品前チェック</h4><p>ZIPアップロードでHTML構文・alt属性・OGPまで自動検査。</p></div>
     </div>
   </div>
@@ -1052,13 +552,14 @@ src="https://www.facebook.com/tr?id=958354176932890&ev=PageView&noscript=1"
     <div class="text-center">
       <div class="eyebrow anim" style="justify-content:center"><div class="eyebrow-icon"></div><span class="eyebrow-text">Pricing</span></div>
       <h2 class="h-large anim anim-d1">シンプルな料金体系。</h2>
-      <p class="h-desc anim anim-d2" style="margin:0 auto">今なら3つのプランが<strong style="color:var(--green)">14日間無料</strong>で使えます。</p>
+      <p class="h-desc anim anim-d2" style="margin:0 auto">14日間の無料トライアルで、すべての機能をお試しください。</p>
       <div class="pricing-toggle anim anim-d2" id="pricingToggle">
         <button class="pricing-toggle-btn" data-plan="monthly">月額</button>
         <button class="pricing-toggle-btn active" data-plan="yearly">年額<span class="pricing-toggle-disc">20% OFF</span></button>
       </div>
     </div>
     <!-- Plan Cards (matches app registration screen) -->
+    <style>.plan-cards{grid-template-columns:repeat(3,1fr) !important;max-width:900px !important;margin-left:auto !important;margin-right:auto !important}</style>
     <div class="plan-cards">
       <!-- Standard -->
       <div class="plan-card popular card-drop" style="animation-delay:120ms">
@@ -1079,7 +580,7 @@ src="https://www.facebook.com/tr?id=958354176932890&ev=PageView&noscript=1"
           <div class="plan-card-feat"><svg viewBox="0 0 24 24" fill="none" stroke="#15cf78" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>LINE通知</div>
           <div class="plan-card-feat"><svg viewBox="0 0 24 24" fill="none" stroke="#15cf78" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Slack連携</div>
         </div>
-        <div class="cta-wrap" style="width:100%;margin-top:24px"><span class="cta-bubble">🎁今なら14日間無料</span><a href="https://app.taskul-ai.com/login?from=lp" class="plan-card-cta green" style="margin-top:0" onclick="trackCTA('pricing_standard')">今すぐはじめる</a></div>
+        <a href="https://app.taskul-ai.com/login?from=lp" class="plan-card-cta green" onclick="trackCTA('pricing_standard')">14日間無料トライアル</a>
       </div>
       <!-- Pro -->
       <div class="plan-card card-drop" style="animation-delay:240ms">
@@ -1099,7 +600,7 @@ src="https://www.facebook.com/tr?id=958354176932890&ev=PageView&noscript=1"
           <div class="plan-card-feat"><svg viewBox="0 0 24 24" fill="none" stroke="#15cf78" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>LINE通知</div>
           <div class="plan-card-feat"><svg viewBox="0 0 24 24" fill="none" stroke="#15cf78" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Slack連携</div>
         </div>
-        <div class="cta-wrap" style="width:100%;margin-top:24px"><span class="cta-bubble">🎁今なら14日間無料</span><a href="https://app.taskul-ai.com/login?from=lp" class="plan-card-cta green" style="margin-top:0" onclick="trackCTA('pricing_pro')">今すぐはじめる</a></div>
+        <a href="https://app.taskul-ai.com/login?from=lp" class="plan-card-cta green" onclick="trackCTA('pricing_pro')">14日間無料トライアル</a>
       </div>
       <!-- Full -->
       <div class="plan-card card-drop" style="animation-delay:360ms">
@@ -1120,12 +621,30 @@ src="https://www.facebook.com/tr?id=958354176932890&ev=PageView&noscript=1"
           <div class="plan-card-feat"><svg viewBox="0 0 24 24" fill="none" stroke="#15cf78" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Slack連携</div>
           <div class="plan-card-feat"><svg viewBox="0 0 24 24" fill="none" stroke="#15cf78" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>AI優先処理</div>
         </div>
-        <div class="cta-wrap" style="width:100%;margin-top:24px"><span class="cta-bubble">🎁今なら14日間無料</span><a href="https://app.taskul-ai.com/login?from=lp" class="plan-card-cta green" style="margin-top:0" onclick="trackCTA('pricing_full')">今すぐはじめる</a></div>
+        <a href="https://app.taskul-ai.com/login?from=lp" class="plan-card-cta green" onclick="trackCTA('pricing_full')">14日間無料トライアル</a>
       </div>
     </div>
 
-    <!-- Comparison Table -->
-    <div class="anim" style="margin-top:48px;border:1px solid #ebeef5;border-radius:16px;overflow:hidden">
+    <!-- ===== 企業向けプラン ===== -->
+<div class="plan-enterprise anim">
+  <div class="pe-body">
+    <span class="pe-eyebrow">FOR BUSINESS</span>
+    <h3 class="pe-title">企業向けプラン</h3>
+    <p class="pe-desc">チームでの一括導入、既存ツールとの連携、請求書払いなど、組織での本格運用に合わせて設計します。まずは60分の無料オンライン相談で、課題と要件をお聞かせください。</p>
+    <ul class="pe-feats">
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="#15cf78" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>チーム一括導入・権限管理</li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="#15cf78" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>カスタム要件・各種連携のご相談</li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="#15cf78" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>請求書（銀行振込）でのお支払い</li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="#15cf78" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>導入・運用の専任サポート</li>
+    </ul>
+  </div>
+  <div class="pe-action">
+    <div class="pe-price">料金は<br><strong>ご相談ください</strong></div>
+    <a href="#consult" class="cta-btn cta-btn-green pe-cta" onclick="trackCTA('pricing_enterprise')">60分の無料相談を予約</a>
+  </div>
+</div>
+<!-- Comparison Table -->
+    <div class="anim" style="margin-top:48px;border:1px solid #ebeef5;border-radius:16px;overflow:hidden;max-width:800px;margin-left:auto;margin-right:auto">
       <div style="overflow-x:auto">
         <table class="plan-table" style="width:100%;border-collapse:collapse;min-width:640px">
           <thead>
@@ -1171,13 +690,49 @@ src="https://www.facebook.com/tr?id=958354176932890&ev=PageView&noscript=1"
 
     <!-- Free Plan -->
     <div class="anim" style="margin-top:56px;max-width:600px;margin-left:auto;margin-right:auto;text-align:center">
-      <p style="font-size:14px;color:var(--gray);margin-bottom:16px">トライアル終了後も、無料プランで使い続けられます。</p>
+      <p style="font-size:14px;color:#767f93;margin-bottom:16px">トライアル終了後も、無料プランで使い続けられます。</p>
       <div style="border:1.5px solid #ebeef5;border-radius:16px;padding:24px 32px;background:#fff;display:flex;align-items:center;justify-content:space-between;gap:24px">
         <div style="text-align:left">
-          <p style="font-size:18px;font-weight:800;color:var(--black)">Free <span style="font-size:24px;margin-left:8px">¥0</span></p>
-          <p style="font-size:12px;color:var(--gray);margin-top:4px">プロジェクト10件まで・AIクレジット200/月</p>
+          <p style="font-size:18px;font-weight:800;color:#1a1a2e">Free <span style="font-size:24px;margin-left:8px">¥0</span></p>
+          <p style="font-size:12px;color:#767f93;margin-top:4px">プロジェクト10件まで・AIクレジット200/月</p>
         </div>
         <a href="https://app.taskul-ai.com/login?from=lp" style="flex-shrink:0;padding:10px 24px;font-size:13px;font-weight:700;border-radius:10px;background:#f3f4f6;color:#374151;text-decoration:none;transition:background .2s" onclick="trackCTA('pricing_free')">今すぐはじめる</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ===== 60分無料相談（TimeRex） ===== -->
+<section class="section consult-section" id="consult">
+  <div class="section-inner text-center">
+    <div class="eyebrow" style="justify-content:center"><span class="eyebrow-icon"></span><span class="eyebrow-text">CONSULTATION</span></div>
+    <h2 class="h-large anim">60分の無料オンライン相談</h2>
+    <p class="h-desc anim anim-d1" style="margin:16px auto 0">企業向けの導入・カスタム要件のご相談はこちら。ご都合の良い日時をその場でご予約いただけます。</p>
+    <div class="timerex-embed" style="margin:44px auto 0"><div id="timerex_calendar" data-url="https://timerex.net/s/moeko.yamada45/e9faea2f"></div></div>
+  </div>
+</section>
+
+<!-- ===== VOICES (USER CASE STUDIES) ===== -->
+<section class="section" id="voices" style="padding:140px 0;background:var(--bg-light-gray);position:relative;overflow:hidden">
+  <div class="section-inner">
+    <div class="text-center" style="margin-bottom:60px;display:flex;flex-direction:column;align-items:center;gap:12px">
+      <div class="eyebrow anim" style="justify-content:center;margin-bottom:0"><div class="eyebrow-icon"></div><span class="eyebrow-text">Voices</span></div>
+      <h2 class="h-large anim anim-d1" style="margin-bottom:0">ご利用者の声</h2>
+      <p class="h-desc anim anim-d2" style="margin:0 auto">TASKULを実際に使っているフリーランスの皆さんから届いた、<br>リアルな体験談をご紹介します。</p>
+    </div>
+    <div class="voices-track anim">
+      <div class="voices-slider">
+        <!-- 4 user voice cards -->
+        <div class="v-card"><h3 class="v-title">クライアントからのリマインドが0に</h3><p class="v-text">進捗をTASKULでクライアントに共有できるから、「例の件どうなってます？」の催促が消えた。安心して案件を並行できるようになりました。</p><div class="v-user"><div class="v-user-info"><div class="v-user-name">M. 田中</div><div class="v-user-role">フリーランス ディレクター</div></div></div></div>
+        <div class="v-card"><h3 class="v-title">毎日のタスク管理が楽しくなった</h3><p class="v-text">UIが美しすぎて、朝イチで開きたくなるタスク管理ツール。管理作業自体が苦じゃなくなり、創造の時間が増えました。</p><div class="v-user"><div class="v-user-info"><div class="v-user-name">R. 佐藤</div><div class="v-user-role">フリーランス デザイナー</div></div></div></div>
+        <div class="v-card"><h3 class="v-title">もうスプシには戻れない</h3><p class="v-text">案件・タスク・請求が全部1つに。バラバラだったスプレッドシートの山から完全に解放されて、月末の作業がほぼ半減しました。</p><div class="v-user"><div class="v-user-info"><div class="v-user-name">K. 中村</div><div class="v-user-role">フリーランス 動画クリエイター</div></div></div></div>
+        <div class="v-card"><h3 class="v-title">生成AIとの往復がなくなった</h3><p class="v-text">依頼文を貼るだけで要件定義からタスク分解まで完結。ChatGPTを開いて何度もやり取りする時間が明らかに減りました。</p><div class="v-user"><div class="v-user-info"><div class="v-user-name">S. 鈴木</div><div class="v-user-role">フリーランス フロントエンジニア</div></div></div></div>
+        <!-- duplicate for infinite scroll -->
+        <div class="v-card"><h3 class="v-title">クライアントからのリマインドが0に</h3><p class="v-text">進捗をTASKULでクライアントに共有できるから、「例の件どうなってます？」の催促が消えた。安心して案件を並行できるようになりました。</p><div class="v-user"><div class="v-user-info"><div class="v-user-name">M. 田中</div><div class="v-user-role">フリーランス ディレクター</div></div></div></div>
+        <div class="v-card"><h3 class="v-title">毎日のタスク管理が楽しくなった</h3><p class="v-text">UIが美しすぎて、朝イチで開きたくなるタスク管理ツール。管理作業自体が苦じゃなくなり、創造の時間が増えました。</p><div class="v-user"><div class="v-user-info"><div class="v-user-name">R. 佐藤</div><div class="v-user-role">フリーランス デザイナー</div></div></div></div>
+        <div class="v-card"><h3 class="v-title">もうスプシには戻れない</h3><p class="v-text">案件・タスク・請求が全部1つに。バラバラだったスプレッドシートの山から完全に解放されて、月末の作業がほぼ半減しました。</p><div class="v-user"><div class="v-user-info"><div class="v-user-name">K. 中村</div><div class="v-user-role">フリーランス 動画クリエイター</div></div></div></div>
+        <div class="v-card"><h3 class="v-title">生成AIとの往復がなくなった</h3><p class="v-text">依頼文を貼るだけで要件定義からタスク分解まで完結。ChatGPTを開いて何度もやり取りする時間が明らかに減りました。</p><div class="v-user"><div class="v-user-info"><div class="v-user-name">S. 鈴木</div><div class="v-user-role">フリーランス フロントエンジニア</div></div></div></div>
       </div>
     </div>
   </div>
@@ -1190,10 +745,11 @@ src="https://www.facebook.com/tr?id=958354176932890&ev=PageView&noscript=1"
       <span class="campaign-badge"><span class="campaign-badge-dot"></span>LAUNCH CAMPAIGN</span>
       <h3 class="campaign-title">今ならリリース記念キャンペーン中🎉</h3>
       <div class="campaign-big"><span class="txt">全プラン</span><span class="num">14</span><span class="txt-green">日間無料 </span></div>
-      <p class="campaign-date">有効期間：2026年5月15日 23:59まで</p>
+      <p class="campaign-date">有効期間：2026年4月30日 23:59まで</p>
     </div>
     <div class="campaign-actions">
-      <a href="https://app.taskul-ai.com/login?from=lp" class="cta-btn" style="width:248px;padding:16px 40px;font-size:16.7px;text-align:center;background:var(--green);color:#fff;box-shadow:0 4px 16px rgba(21,207,120,.3);transition:all .2s" onmouseover="this.style.background='var(--green-hover)';this.style.transform='scale(1.03)'" onmouseout="this.style.background='var(--green)';this.style.transform='scale(1)'" onclick="trackCTA('campaign')">今すぐはじめる</a>
+      <a href="https://app.taskul-ai.com/login?from=lp" class="cta-btn" style="width:248px;padding:16px 40px;font-size:16.7px;text-align:center;background:var(--green);color:#fff;box-shadow:0 4px 16px rgba(21,207,120,.3);transition:all .2s" onmouseover="this.style.background='var(--green-hover)';this.style.transform='scale(1.03)'" onmouseout="this.style.background='var(--green)';this.style.transform='scale(1)'" onclick="trackCTA('campaign')">14日間無料トライアル</a>
+      <div class="campaign-logo"><span style="width:13.75px;height:13.75px;border:2.37px solid var(--green);border-radius:2.37px;display:inline-block"></span>TASKUL</div>
     </div>
   </div>
 </section>
@@ -1206,7 +762,6 @@ src="https://www.facebook.com/tr?id=958354176932890&ev=PageView&noscript=1"
       <h2 class="h-large anim anim-d1">よくある質問</h2>
     </div>
     <div class="faq-list">
-      <div class="faq-item"><button class="faq-q" onclick="this.parentElement.classList.toggle('open')">無料プランでどこまで使えますか？<svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></button><div class="faq-a"><p>プロジェクト10件まで、AIクレジット200/月でご利用いただけます。タスク管理・カレンダー・見積書・請求書作成・パートナー登録は制限なくお使いいただけます。</p></div></div>
       <div class="faq-item"><button class="faq-q" onclick="this.parentElement.classList.toggle('open')">他のタスク管理ツールからの移行は簡単ですか？<svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></button><div class="faq-a"><p>はい。TASKULは依頼文をそのまま貼り付けるだけでプロジェクトが作成されるほか、CSVインポートにも対応しているので、既存のスプレッドシートやNotionからかんたんにデータ移行できます。</p></div></div>
       <div class="faq-item"><button class="faq-q" onclick="this.parentElement.classList.toggle('open')">どんな職種に向いていますか？<svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></button><div class="faq-a"><p>Webデザイナー、コーダー、動画クリエイター、ライター、ディレクターなど、クライアントワークを行うすべてのクリエイター・フリーランスの方に最適です。</p></div></div>
       <div class="faq-item"><button class="faq-q" onclick="this.parentElement.classList.toggle('open')">チームで使えますか？<svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></button><div class="faq-a"><p>全プランでパートナーの招待やタスク共有が可能です。クライアント情報は非公開のまま、必要なタスクだけを安全に共有できます。</p></div></div>
@@ -1217,115 +772,82 @@ src="https://www.facebook.com/tr?id=958354176932890&ev=PageView&noscript=1"
 
 <!-- ===== CTA BOTTOM ===== -->
 <section class="cta-bottom">
-  <img src="/images/blur-blob.svg" alt="" class="mission-blob mission-blob-tl">
-  <img src="/images/blur-blob.svg" alt="" class="mission-blob mission-blob-center">
-  <img src="/images/blur-blob.svg" alt="" class="mission-blob mission-blob-br">
+  <img src="https://taskul-ai.com/wp-content/themes/taskul/assets/images/blur-blob.svg" alt="" class="mission-blob mission-blob-tl">
+  <img src="https://taskul-ai.com/wp-content/themes/taskul/assets/images/blur-blob.svg" alt="" class="mission-blob mission-blob-center">
+  <img src="https://taskul-ai.com/wp-content/themes/taskul/assets/images/blur-blob.svg" alt="" class="mission-blob mission-blob-br">
   <h2 class="h-large anim">タスク管理を、<br>もっとシンプルに。</h2>
   <p class="h-desc anim anim-d1" style="margin:0 auto 40px">30秒で登録完了。いつでも解約できます。</p>
   <div class="anim anim-d2">
-    <div class="cta-wrap"><span class="cta-bubble">🎁今なら14日間無料</span><a href="https://app.taskul-ai.com/login?from=lp" style="display:flex;align-items:center;justify-content:center;width:248px;padding:16px 40px;border-radius:980px;background:#15cf78;color:#fff;font-family:'DM Sans','Noto Sans JP',sans-serif;font-size:16.7px;font-weight:700;text-decoration:none;text-align:center;box-shadow:0 4px 16px rgba(21,207,120,.3);transition:all .2s" onmouseover="this.style.background='#11b86a';this.style.transform='scale(1.03)'" onmouseout="this.style.background='#15cf78';this.style.transform='scale(1)'" onclick="trackCTA('bottom')">今すぐはじめる</a></div>
+    <a href="https://app.taskul-ai.com/login?from=lp" class="cta-btn cta-btn-green" onclick="trackCTA('bottom')">14日間無料トライアル</a>
   </div>
 </section>
 
 <!-- ===== FOOTER ===== -->
 <footer class="footer">
-  <p style="margin-bottom:8px"><a href="/terms.html">利用規約</a><a href="/privacy.html">プライバシーポリシー</a></p>
+  <p style="margin-bottom:8px"><a href="/terms.html">利用規約</a><a href="/privacy.html">プライバシーポリシー</a><a href="https://taskul-ai.com/company/">会社概要</a><a href="https://taskul-ai.com/tokushoho/">特定商取引法に基づく表記</a></p>
   <p>&copy; 2026 TASKUL. All rights reserved.</p>
 </footer>
 
-<script>
-// ===== Pricing Toggle =====
-document.querySelectorAll('.pricing-toggle-btn').forEach(btn=>{
-  btn.addEventListener('click',function(){
-    document.querySelectorAll('.pricing-toggle-btn').forEach(b=>b.classList.remove('active'));
-    this.classList.add('active');
-    const isYearly=this.dataset.plan==='yearly';
-    document.querySelectorAll('.pricing-price[data-m]').forEach(el=>{
-      el.textContent='¥'+(isYearly?el.dataset.y:el.dataset.m);
-    });
-    document.querySelectorAll('.pricing-annual').forEach(el=>{
-      el.style.display=isYearly?'':'none';
-    });
-    document.querySelectorAll('.pricing-strike[data-m]').forEach(el=>{
-      el.textContent=isYearly?el.dataset.m:'';
-    });
-    // Re-trigger card drop-in animation
-    document.querySelectorAll('.plan-card.card-drop').forEach(el=>{
-      el.classList.remove('vis');
-      void el.offsetWidth; // force reflow
-      el.classList.add('vis');
-    });
-  });
-});
-
-// ===== Scroll pricing to Standard plan on mobile =====
-if(window.innerWidth<=639){
-  const pc=document.querySelector('.plan-cards');
-  const std=document.querySelector('.plan-card.popular');
-  if(pc&&std){setTimeout(()=>{pc.scrollLeft=std.offsetLeft-20},100)}
-}
-
-// ===== Intersection Observer (scroll animations) =====
-const io=new IntersectionObserver((entries)=>{
-  entries.forEach(e=>{
-    if(e.isIntersecting){e.target.classList.add('vis');io.unobserve(e.target)}
-  });
-},{threshold:0.12,rootMargin:'0px 0px -50px 0px'});
-document.querySelectorAll('.anim,.anim-scale,.card-drop').forEach(el=>io.observe(el));
-
-// ===== News Slider =====
-(function(){
-  const track=document.getElementById('newsSliderTrack');
-  const dots=document.querySelectorAll('#newsDots .news-dot');
-  if(!track||!dots.length)return;
-  let current=0;
-  const total=dots.length;
-  let autoTimer=setInterval(next,5000);
-  function goTo(i){
-    current=i;
-    track.style.transform='translateX(-'+current*100+'%)';
-    dots.forEach((d,idx)=>d.classList.toggle('active',idx===current));
-  }
-  function next(){goTo((current+1)%total)}
-  dots.forEach(d=>d.addEventListener('click',function(){
-    clearInterval(autoTimer);
-    goTo(+this.dataset.slide);
-    autoTimer=setInterval(next,5000);
-  }));
-  // Swipe support
-  let startX=0;
-  track.addEventListener('touchstart',e=>{startX=e.touches[0].clientX},{passive:true});
-  track.addEventListener('touchend',e=>{
-    const diff=startX-e.changedTouches[0].clientX;
-    if(Math.abs(diff)>50){
-      clearInterval(autoTimer);
-      goTo(diff>0?(current+1)%total:(current-1+total)%total);
-      autoTimer=setInterval(next,5000);
-    }
-  });
-})();
-
-// ===== Expanding background =====
-const expandBg=document.getElementById('expandBg');
-if(expandBg){
-  const expandObs=new IntersectionObserver((entries)=>{
-    entries.forEach(e=>{
-      if(e.isIntersecting)expandBg.classList.add('expanded');
-      else expandBg.classList.remove('expanded');
-    });
-  },{threshold:0.3});
-  expandObs.observe(expandBg.parentElement);
-}
-
-</script>
-
+<!-- Floating CTA (mobile only) -->
 <!-- Floating CTA (mobile only) -->
 <div class="floating-cta">
-  <div class="cta-wrap" style="width:100%;display:flex;flex-direction:column;align-items:center">
-    <span class="cta-bubble">🎁今なら14日間無料</span>
-    <a href="https://app.taskul-ai.com/login?from=lp" onclick="trackCTA('floating_mobile')" style="width:100%">今すぐはじめる</a>
-  </div>
+  <a href="https://app.taskul-ai.com/login?from=lp" onclick="trackCTA('floating_mobile')">14日間無料トライアル</a>
 </div>
 
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/taskul/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script id="wp-hooks-js" src="https://taskul-ai.com/wp-includes/js/dist/hooks.min.js?ver=7496969728ca0f95732d"></script>
+<script id="wp-i18n-js" src="https://taskul-ai.com/wp-includes/js/dist/i18n.min.js?ver=781d11515ad3d91786ec"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after
+</script>
+<script id="swv-js" src="https://taskul-ai.com/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.1.6"></script>
+<script id="contact-form-7-js-translations">
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "contact-form-7", {"translation-revision-date":"2025-11-30 08:12:23+0000","generator":"GlotPress\/4.0.3","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=1; plural=0;","lang":"ja_JP"},"This contact form is placed in the wrong place.":["\u3053\u306e\u30b3\u30f3\u30bf\u30af\u30c8\u30d5\u30a9\u30fc\u30e0\u306f\u9593\u9055\u3063\u305f\u4f4d\u7f6e\u306b\u7f6e\u304b\u308c\u3066\u3044\u307e\u3059\u3002"],"Error:":["\u30a8\u30e9\u30fc:"]}},"comment":{"reference":"includes\/js\/index.js"}} );
+//# sourceURL=contact-form-7-js-translations
+</script>
+<script id="contact-form-7-js-before">
+var wpcf7 = {
+    "api": {
+        "root": "https:\/\/taskul-ai.com\/wp-json\/",
+        "namespace": "contact-form-7\/v1"
+    }
+};
+//# sourceURL=contact-form-7-js-before
+</script>
+<script id="contact-form-7-js" src="https://taskul-ai.com/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.1.6"></script>
+<script id="taskul-main-js" src="https://taskul-ai.com/wp-content/themes/taskul/assets/js/main.js?ver=1.0.0"></script>
+<script id="timerex-embed-js" src="https://asset.timerex.net/js/embed.js"></script>
+<script id="timerex-embed-js-after">
+document.addEventListener("DOMContentLoaded",function(){if(typeof TimerexCalendar==="function"){TimerexCalendar();}});
+//# sourceURL=timerex-embed-js-after
+</script>
+<script id="google-recaptcha-js" src="https://www.google.com/recaptcha/api.js?render=6Lc-wxktAAAAAMHdJm-92BIsk9zq7x6Ui-igxmkj&#038;ver=3.0"></script>
+<script id="wp-polyfill-js" src="https://taskul-ai.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0"></script>
+<script id="wpcf7-recaptcha-js-before">
+var wpcf7_recaptcha = {
+    "sitekey": "6Lc-wxktAAAAAMHdJm-92BIsk9zq7x6Ui-igxmkj",
+    "actions": {
+        "homepage": "homepage",
+        "contactform": "contactform"
+    }
+};
+//# sourceURL=wpcf7-recaptcha-js-before
+</script>
+<script id="wpcf7-recaptcha-js" src="https://taskul-ai.com/wp-content/plugins/contact-form-7/modules/recaptcha/index.js?ver=6.1.6"></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://taskul-ai.com/wp-includes/js/wp-emoji-release.min.js?ver=7.0"}}
+</script>
+<script type="module">
+/*! This file is auto-generated */
+const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(window._wpemojiSettings=a,"wpEmojiSettingsSupports"),s=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const a=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===a[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,a){let r;const o=(r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),s=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(e=>{s[e]=t(o,e,n,a)}),s}function r(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}a.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),c.toString(),p.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"});const r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=e=>{i(n=e.data),r.terminate(),t(n)})}catch(e){}i(n=f(s,u,c,p))}t(n)}).then(e=>{for(const n in e)a.supports[n]=e[n],a.supports.everything=a.supports.everything&&a.supports[n],"flag"!==n&&(a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&a.supports[n]);var t;a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&!a.supports.flag,a.supports.everything||((t=a.source||{}).concatemoji?r(t.concatemoji):t.wpemoji&&t.twemoji&&(r(t.twemoji),r(t.wpemoji)))});
+//# sourceURL=https://taskul-ai.com/wp-includes/js/wp-emoji-loader.min.js
+</script>
 </body>
 </html>
