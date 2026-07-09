@@ -162,7 +162,9 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
       -->
       <!-- ===== FV INTERACTIVE DEMO: 本体アプリのデモビルド(/demo/)を1280px仮想幅で埋め込み ===== -->
       <div id="fvDemoWrap" style="position:absolute;top:2%;left:50%;transform:translateX(-50%);width:81%;height:88.6%;border-radius:8px;overflow:hidden;background:#f8f9fa">
-        <iframe id="fvDemo" src="/demo/" title="TASKUL 操作デモ" style="width:1280px;height:800px;border:0;transform-origin:0 0;display:block"></iframe>
+        <iframe id="fvDemo" data-src="/demo/" title="TASKUL 操作デモ" loading="lazy" style="width:1280px;height:800px;border:0;transform-origin:0 0;display:block"></iframe>
+        <!-- デモ(iframe)描画までの静止画。白画面/スケルトンのチラつきを防ぎ「開いた瞬間から動いている画面」に見せる。iframe描画完了でフェードアウト -->
+        <img id="fvPoster" src="images/real-dashboard.png" alt="" aria-hidden="true" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:top left;z-index:5;transition:opacity .45s ease;pointer-events:none">
       </div>
       <script>(function(){
         var w=document.getElementById('fvDemoWrap'),f=document.getElementById('fvDemo');
@@ -170,13 +172,22 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
           f.style.transform='scale('+s+')';f.style.height=(ch/s)+'px';}
         fit();
         if(window.ResizeObserver){new ResizeObserver(fit).observe(w)}else{window.addEventListener('resize',fit)}
+        /* demoビルドは重い。FVの初期描画(poster)をブロックしないよう、次フレームでiframeを遅延ロード開始する */
+        if(f.dataset.src){requestAnimationFrame(function(){setTimeout(function(){f.src=f.dataset.src;fit();},80);});}
         /* 縮小iframe内のフォーカス/scrollIntoViewで祖先要素がスクロールしてズレるのを防止（チェーン全体をロック） */
         var el=w;
         while(el&&el!==document.body){
           (function(n){n.addEventListener('scroll',function(){n.scrollTop=0;n.scrollLeft=0})})(el);
           el=el.parentElement;
         }
+        /* posterはデモ(iframe)からの「描画完了」通知(postMessage)を受けてフェードアウト。iframe内のMutationObserverが#root描画時に送る。保険で最大10秒後に必ず解除しデモを操作可能にする */
+        var pf=document.getElementById('fvPoster');
+        function hidePoster(){if(!pf)return;pf.style.opacity='0';setTimeout(function(){if(pf)pf.style.display='none'},450);pf=null;}
+        window.addEventListener('message',function(e){if(e&&e.data&&e.data.type==='taskul-demo-ready')hidePoster();});
+        setTimeout(hidePoster,10000);
       })()</script>
+      <!-- 埋め込みデモのFirebase App Check(reCAPTCHA)がサイトキー未登録ドメインで出す赤バッジを非表示。badgeは親documentに挿入されるためLP側で隠す。根本対応(デモビルドでApp Check初期化スキップ)は本体リポジトリ側の別PRで対応 -->
+      <style>.grecaptcha-badge{display:none!important}</style>
       <!-- FVデモ用トライアル誘導ポップアップ（AI生成完了 or 90秒操作でデモ内から通知） -->
       <div id="fvCta" style="position:absolute;inset:0;z-index:30;display:none;align-items:center;justify-content:center">
         <div data-fvcta-close style="position:absolute;inset:0;background:rgba(21,25,40,.45);backdrop-filter:blur(2px);cursor:pointer;border-radius:8px"></div>
@@ -795,7 +806,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
       <span class="campaign-badge"><span class="campaign-badge-dot"></span>LAUNCH CAMPAIGN</span>
       <h3 class="campaign-title">今ならリリース記念キャンペーン中🎉</h3>
       <div class="campaign-big"><span class="txt">全プラン</span><span class="num">14</span><span class="txt-green">日間無料 </span></div>
-      <p class="campaign-date">有効期間：2026年4月30日 23:59まで</p>
+      <p class="campaign-date">有効期間：2026年8月30日 23:59まで</p>
     </div>
     <div class="campaign-actions">
       <a href="https://app.taskul-ai.com/login?from=lp" class="cta-btn" style="width:248px;padding:16px 40px;font-size:16.7px;text-align:center;background:var(--green);color:#fff;box-shadow:0 4px 16px rgba(21,207,120,.3);transition:all .2s" onmouseover="this.style.background='var(--green-hover)';this.style.transform='scale(1.03)'" onmouseout="this.style.background='var(--green)';this.style.transform='scale(1)'" onclick="trackCTA('campaign')">14日間無料トライアル</a>

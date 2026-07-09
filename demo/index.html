@@ -2,6 +2,8 @@
 <html lang="ja">
   <head>
 <script>try{localStorage.setItem("taskul:walking-tour-completed","true")}catch(e){};window.addEventListener("scroll",function(){window.scrollTo(0,0)});</script>
+<!-- デモはモック認証。本体アプリのFirebase App Check(reCAPTCHA)が読み込まれても、この埋め込みドメインはサイトキー未登録で「Invalid domain」バッジが出るため非表示にする。根本対応(デモビルドでApp Check初期化スキップ)は本体リポジトリ側の別PRで対応する -->
+<style id="demo-hide-recaptcha">.grecaptcha-badge{visibility:hidden!important;opacity:0!important;pointer-events:none!important}iframe[src*="google.com/recaptcha"],iframe[src*="recaptcha/enterprise"],iframe[title="recaptcha challenge expires in two minutes"]{position:fixed!important;left:-9999px!important;width:0!important;height:0!important;opacity:0!important;pointer-events:none!important}</style>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -89,6 +91,10 @@
     </div>
 
     <div id="root"></div>
+    <!-- デモ描画完了を親LP(FVのposter)へ通知。#rootマウントだけでは早すぎ(内部スケルトン段階)なので、ダッシュボードのテキストが揃うまで待つ。約12秒で強制送信の保険付き。単独表示(iframe外)では送らない -->
+    <script>(function(){if(parent===window)return;var r=document.getElementById('root');function ping(){try{parent.postMessage({type:'taskul-demo-ready'},'*')}catch(e){}}
+      function ready(){return r&&(r.innerText||'').replace(/\s/g,'').length>500;}
+      var t=0,iv=setInterval(function(){if(ready()||++t>30){clearInterval(iv);setTimeout(ping,250);}},400);})();</script>
     <script src="https://mcp.figma.com/mcp/html-to-design/capture.js" async></script>
   </body>
 </html>
