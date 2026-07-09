@@ -172,7 +172,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
         if(window.ResizeObserver){new ResizeObserver(fit).observe(w)}else{window.addEventListener('resize',fit)}
       })()</script>
       <!-- FVデモ用トライアル誘導ポップアップ（AI生成完了 or 90秒操作でデモ内から通知） -->
-      <div id="fvCta" hidden style="position:absolute;inset:0;z-index:30;display:flex;align-items:center;justify-content:center">
+      <div id="fvCta" style="position:absolute;inset:0;z-index:30;display:none;align-items:center;justify-content:center">
         <div data-fvcta-close style="position:absolute;inset:0;background:rgba(21,25,40,.45);backdrop-filter:blur(2px);cursor:pointer;border-radius:8px"></div>
         <div style="position:relative;width:min(400px,88%);background:#fff;border-radius:20px;padding:32px 32px 24px;text-align:center;box-shadow:0 24px 60px -12px rgba(10,15,35,.4)">
           <button type="button" data-fvcta-close aria-label="閉じる" style="position:absolute;top:12px;right:14px;width:32px;height:32px;border:0;background:none;border-radius:50%;font-size:20px;line-height:1;color:#98a0ae;cursor:pointer">×</button>
@@ -185,10 +185,10 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
       </div>
       <script>(function(){
         var cta=document.getElementById('fvCta'),wrap=document.getElementById('fvDemoWrap'),shown=false;
-        function show(reason){if(shown||!cta)return;shown=true;cta.hidden=false;
+        function show(reason){if(shown||!cta)return;shown=true;cta.style.display='flex';
           if(typeof gtag==='function'){try{gtag('event','fv_demo_cta_shown',{trigger:reason})}catch(e){}}}
-        cta.addEventListener('click',function(e){if(e.target.closest('[data-fvcta-close]'))cta.hidden=true});
-        document.addEventListener('keydown',function(e){if(e.key==='Escape')cta.hidden=true});
+        cta.addEventListener('click',function(e){if(e.target.closest('[data-fvcta-close]'))cta.style.display='none'});
+        document.addEventListener('keydown',function(e){if(e.key==='Escape')cta.style.display='none'});
         /* トリガー1: デモ内AI生成完了（postMessage） */
         window.addEventListener('message',function(e){
           if(e.data&&e.data.type==='taskul-demo-cta')show(e.data.reason||'demo')});
