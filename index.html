@@ -170,8 +170,12 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
           f.style.transform='scale('+s+')';f.style.height=(ch/s)+'px';}
         fit();
         if(window.ResizeObserver){new ResizeObserver(fit).observe(w)}else{window.addEventListener('resize',fit)}
-        /* 縮小iframe内のフォーカス/scrollIntoViewでラッパーがスクロールしてズレるのを防止 */
-        w.addEventListener('scroll',function(){w.scrollTop=0;w.scrollLeft=0});
+        /* 縮小iframe内のフォーカス/scrollIntoViewで祖先要素がスクロールしてズレるのを防止（チェーン全体をロック） */
+        var el=w;
+        while(el&&el!==document.body){
+          (function(n){n.addEventListener('scroll',function(){n.scrollTop=0;n.scrollLeft=0})})(el);
+          el=el.parentElement;
+        }
       })()</script>
       <!-- FVデモ用トライアル誘導ポップアップ（AI生成完了 or 90秒操作でデモ内から通知） -->
       <div id="fvCta" style="position:absolute;inset:0;z-index:30;display:none;align-items:center;justify-content:center">
