@@ -184,7 +184,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
         var pf=document.getElementById('fvPoster');
         function hidePoster(){if(!pf)return;pf.style.opacity='0';setTimeout(function(){if(pf)pf.style.display='none'},450);pf=null;}
         /* demoは重く「描画完了」の正確な検知が難しいため、posterは自動では消さず、ユーザーがデモに触れた(カーソルを乗せた/クリック/タップ)時に消す。受動的に見ている間は静止画で覆い、白い読み込みを一切見せない。18秒で自動解除の保険 */
-        ['mouseenter','pointerdown','touchstart'].forEach(function(ev){w.addEventListener(ev,function(){hidePoster();},{once:true,passive:true});});
+        ['pointerdown','touchstart'].forEach(function(ev){w.addEventListener(ev,function(){hidePoster();},{once:true,passive:true});});
         setTimeout(hidePoster,18000);
       })()</script>
       <!-- 埋め込みデモのFirebase App Check(reCAPTCHA)がサイトキー未登録ドメインで出す赤バッジを非表示。badgeは親documentに挿入されるためLP側で隠す。根本対応(デモビルドでApp Check初期化スキップ)は本体リポジトリ側の別PRで対応 -->
