@@ -230,12 +230,14 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
   var BASE=900;
   function targetW(){return Math.min(1140,document.documentElement.clientWidth-32)}
   var ticking=false;
+  var nav=document.querySelector('nav');
   function update(){
     ticking=false;
     var r=m.getBoundingClientRect(),vh=window.innerHeight;
-    /* モック中心が視界下部(90%)に入ったら開始、中央(45%)で最大 */
-    var center=r.top+r.height/2;
-    var p=(vh*0.9-center)/(vh*0.9-vh*0.45);
+    /* モック上端が視界下部(85%)に入ったら開始、ヘッダー下+24pxに達する前に最大化 */
+    var headB=(nav?nav.getBoundingClientRect().bottom:70)+110;
+    var start=vh*0.85;
+    var p=(start-r.top)/(start-headB);
     p=Math.max(0,Math.min(1,p));
     var w=BASE+(targetW()-BASE)*p;
     if(w>BASE){m.style.maxWidth=w+'px'}else{m.style.maxWidth=''}
