@@ -93,8 +93,9 @@
     <div id="root"></div>
     <!-- デモ描画完了を親LP(FVのposter)へ通知。#rootマウントだけでは早すぎ(内部スケルトン段階)なので、ダッシュボードのテキストが揃うまで待つ。約12秒で強制送信の保険付き。単独表示(iframe外)では送らない -->
     <script>(function(){if(parent===window)return;var r=document.getElementById('root');function ping(){try{parent.postMessage({type:'taskul-demo-ready'},'*')}catch(e){}}
-      function ready(){return r&&(r.innerText||'').replace(/\s/g,'').length>500;}
-      var t=0,iv=setInterval(function(){if(ready()||++t>30){clearInterval(iv);setTimeout(ping,250);}},400);})();</script>
+      var last=-1,stable=0;
+      function ready(){if(!r)return false;var len=(r.innerText||'').replace(/\s/g,'').length;if(len>1000&&len===last){stable++;}else{stable=0;}last=len;return len>1000&&stable>=1;}
+      var t=0,iv=setInterval(function(){if(ready()||++t>40){clearInterval(iv);setTimeout(ping,250);}},400);})();</script>
     <script src="https://mcp.figma.com/mcp/html-to-design/capture.js" async></script>
   </body>
 </html>
