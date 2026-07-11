@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+<script>try{localStorage.setItem("taskul:walking-tour-completed","true")}catch(e){};window.addEventListener("scroll",function(){window.scrollTo(0,0)});</script>
+<!-- デモはモック認証。本体アプリのFirebase App Check(reCAPTCHA)が読み込まれても、この埋め込みドメインはサイトキー未登録で「Invalid domain」バッジが出るため非表示にする。根本対応(デモビルドでApp Check初期化スキップ)は本体リポジトリ側の別PRで対応する -->
+<style id="demo-hide-recaptcha">.grecaptcha-badge{visibility:hidden!important;opacity:0!important;pointer-events:none!important}iframe[src*="google.com/recaptcha"],iframe[src*="recaptcha/enterprise"],iframe[title="recaptcha challenge expires in two minutes"]{position:fixed!important;left:-9999px!important;width:0!important;height:0!important;opacity:0!important;pointer-events:none!important}</style>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="依頼文を貼るだけ。AIがプロジェクト・タスク・見積書を自動構造化。フリーランス・クリエイター専用のタスク管理ツール。" />
+    <meta property="og:title" content="TASKUL｜フリーランス専用タスク管理AI" />
+    <meta property="og:description" content="依頼文を貼るだけ。AIがプロジェクト・タスク・見積書を自動構造化。フリーランス・クリエイター専用のタスク管理ツール。" />
+    <meta property="og:image" content="https://app.taskul-ai.com/og-image.png" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="TASKUL｜フリーランス専用タスク管理AI" />
+    <meta name="twitter:description" content="依頼文を貼るだけ。AIがプロジェクト・タスク・見積書を自動構造化。フリーランス・クリエイター専用のタスク管理ツール。" />
+    <meta name="twitter:image" content="https://app.taskul-ai.com/og-image.png" />
+    <title>TASKUL｜フリーランス専用タスク管理AI</title>
+
+    <!-- Google Analytics (GA4) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-W694HXC93R"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-W694HXC93R');
+    </script>
+
+    <!-- Microsoft Clarity -->
+    <script>
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "w25jkykpji");
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet" />
+
+    <!-- Google Identity Services (One Tap / FedCM) -->
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+    <script type="module" crossorigin src="./assets/index-B-45TEFn.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/router-Cm1mRdtZ.js">
+    <link rel="modulepreload" crossorigin href="./assets/ui-DOGx-3gt.js">
+    <link rel="modulepreload" crossorigin href="./assets/firebase-B4h2qYGx.js">
+    <link rel="stylesheet" crossorigin href="./assets/index-7j-KsrTw.css">
+  </head>
+  <body>
+    <!-- Splash Screen -->
+    <div id="splash" style="position:fixed;inset:0;z-index:9999;display:flex;align-items:center;justify-content:center;background:#fff;transition:opacity .4s ease-out,visibility .4s ease-out">
+      <svg width="58" height="58" viewBox="0 0 58 58" fill="none" xmlns="http://www.w3.org/2000/svg"
+        style="animation:spin 2.8s ease-in-out infinite">
+        <rect x="5" y="5" width="48" height="48" rx="5" stroke="#15CF78" stroke-width="10" stroke-linecap="round"
+          style="stroke-dasharray:212;animation:drawLoop 2.8s cubic-bezier(.4,0,.2,1) infinite,fillBox 2.8s cubic-bezier(.4,0,.2,1) infinite" />
+        <path d="M17 29L25 37L41 21" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"
+          style="stroke-dasharray:40;stroke-dashoffset:40;animation:checkLoop 2.8s ease-in-out infinite" />
+      </svg>
+      <style>
+        @keyframes drawLoop {
+          0% { stroke-dashoffset: 212; opacity: 1; }
+          30% { stroke-dashoffset: 0; opacity: 1; }
+          55% { stroke-dashoffset: 0; opacity: 1; }
+          75% { stroke-dashoffset: -212; opacity: .6; }
+          85% { stroke-dashoffset: -212; opacity: 0; }
+          100% { stroke-dashoffset: 212; opacity: 0; }
+        }
+        @keyframes fillBox {
+          0%,28% { fill: transparent; }
+          38% { fill: #15CF78; }
+          55% { fill: #15CF78; }
+          70% { fill: transparent; }
+          100% { fill: transparent; }
+        }
+        @keyframes checkLoop {
+          0%,28% { stroke-dashoffset: 40; opacity: 1; }
+          42% { stroke-dashoffset: 0; opacity: 1; }
+          55% { stroke-dashoffset: 0; opacity: 1; }
+          68% { stroke-dashoffset: 0; opacity: 0; }
+          70% { stroke-dashoffset: 40; opacity: 0; }
+          100% { stroke-dashoffset: 40; opacity: 0; }
+        }
+        @keyframes spin {
+          0%,55% { transform: rotate(0deg); }
+          80% { transform: rotate(360deg); }
+          100% { transform: rotate(360deg); }
+        }
+      </style>
+    </div>
+
+    <div id="root"></div>
+    <!-- デモ描画完了を親LP(FVのposter)へ通知。#rootマウントだけでは早すぎ(内部スケルトン段階)なので、ダッシュボードのテキストが揃うまで待つ。約12秒で強制送信の保険付き。単独表示(iframe外)では送らない -->
+    <script>(function(){if(parent===window)return;var r=document.getElementById('root');function ping(){try{parent.postMessage({type:'taskul-demo-ready'},'*')}catch(e){}}
+      var last=-1,stable=0;
+      function ready(){if(!r)return false;var len=(r.innerText||'').replace(/\s/g,'').length;if(len>1000&&len===last){stable++;}else{stable=0;}last=len;return len>1000&&stable>=1;}
+      var t=0,iv=setInterval(function(){if(ready()||++t>40){clearInterval(iv);setTimeout(ping,250);}},400);})();</script>
+    <script src="https://mcp.figma.com/mcp/html-to-design/capture.js" async></script>
+  </body>
+</html>
