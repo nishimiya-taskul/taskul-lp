@@ -244,18 +244,6 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
       })()</script>
       <!-- 埋め込みデモのFirebase App Check(reCAPTCHA)がサイトキー未登録ドメインで出す赤バッジを非表示。badgeは親documentに挿入されるためLP側で隠す。根本対応(デモビルドでApp Check初期化スキップ)は本体リポジトリ側の別PRで対応 -->
       <style>.grecaptcha-badge{display:none!important}</style>
-      <!-- FVデモ用トライアル誘導ポップアップ（AI生成完了 or 90秒操作でデモ内から通知） -->
-      <div id="fvCta" style="position:absolute;inset:0;z-index:30;display:none;align-items:center;justify-content:center">
-        <div data-fvcta-close style="position:absolute;inset:0;background:rgba(21,25,40,.45);backdrop-filter:blur(2px);cursor:pointer;border-radius:8px"></div>
-        <div style="position:relative;width:min(400px,88%);background:#fff;border-radius:20px;padding:32px 32px 24px;text-align:center;box-shadow:0 24px 60px -12px rgba(10,15,35,.4)">
-          <button type="button" data-fvcta-close aria-label="閉じる" style="position:absolute;top:12px;right:14px;width:32px;height:32px;border:0;background:none;border-radius:50%;font-size:20px;line-height:1;color:#98a0ae;cursor:pointer">×</button>
-          <span style="display:inline-flex;width:64px;height:64px;border-radius:50%;background:#15cf78;align-items:center;justify-content:center;margin-bottom:14px;box-shadow:0 8px 24px rgba(21,207,120,.4)"><svg viewBox="0 0 120 120" fill="none" style="width:38px;height:38px"><path d="M51.9473 15.7312C68.4603 15.8529 80.924 22.6863 88.6748 32.8542C89.9655 30.4779 91.7298 28.058 94.1279 26.1062C101.508 20.0996 112.085 20.7937 112.085 20.7937C112.075 20.8664 110.805 30.238 104.369 36.3054C112.575 35.6101 119.955 39.8049 120 39.8308C119.969 39.877 114.102 48.5938 104.833 50.7526C102.092 51.3914 99.3595 51.381 96.8691 51.0544C97.5464 54.3202 97.8936 57.6888 97.8936 61.1042C97.8935 84.7919 80.452 101.784 51.9473 101.962C23.4424 101.789 6.00003 84.797 6 61.1042C6 37.4114 22.565 15.9476 51.9473 15.7312ZM51.9473 44.3981C35.5759 44.4178 20.1013 48.7176 18.4111 61.1052C17.2764 69.4439 22.9967 82.6576 45.0674 77.5661C49.5728 76.5281 54.2817 76.5328 58.7822 77.6003C80.9372 82.8641 86.6181 69.4489 85.4834 61.1003V61.1052C83.7982 48.7177 68.3186 44.4228 51.9473 44.3981ZM32.7461 56.8698C34.213 56.2501 35.9079 56.2161 37.3848 56.8259C39.9818 57.8984 41.083 60.3434 41.083 63.5017V63.6101C41.0829 66.7879 39.8882 69.14 37.2861 70.2419C35.8191 70.8617 34.1234 70.8958 32.6465 70.2858C30.0496 69.2134 28.9493 66.7681 28.9492 63.6101V63.5017C28.9493 60.3238 30.1441 57.9718 32.7461 56.8698ZM66.502 56.8259C67.979 56.2159 69.6745 56.25 71.1416 56.8698C73.7436 57.9718 74.9384 60.3238 74.9385 63.5017V63.6101C74.9384 66.7682 73.8373 69.2134 71.2402 70.2858C69.7634 70.8956 68.0684 70.8615 66.6016 70.2419C63.9995 69.14 62.8048 66.7879 62.8047 63.6101V63.5017C62.8047 60.3435 63.9051 57.8984 66.502 56.8259Z" fill="#FFFFFF"/></svg></span>
-          <h3 style="font-size:19px;font-weight:800;color:#2c3445;margin:0 0 8px">つづきは、ホンモノのTASKULで！</h3>
-          <span style="display:inline-block;font-size:12.5px;font-weight:800;color:#0e9f63;background:#e8f9f0;border-radius:999px;padding:6px 14px;margin-bottom:14px">14日間無料トライアル中🎉</span>
-          <a href="https://app.taskul-ai.com/login?from=lp" onclick="if(typeof trackCTA==='function')trackCTA('fv_demo')" style="display:block;width:100%;padding:13px;background:#15cf78;color:#fff;border-radius:10px;font-size:14.5px;font-weight:800;text-decoration:none;box-shadow:0 4px 16px rgba(21,207,120,.3)">今すぐ体験してみる</a>
-          <button type="button" data-fvcta-close style="margin-top:10px;border:0;background:none;font-size:12px;font-weight:500;color:#98a0ae;cursor:pointer">デモに戻る</button>
-        </div>
-      </div>
       <script>(function(){
         var cta=document.getElementById('fvCta'),wrap=document.getElementById('fvDemoWrap'),shown=false;
         function show(reason){if(shown||!cta)return;shown=true;cta.style.display='flex';
@@ -353,7 +341,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 <section class="section" style="padding:120px 0">
   <div class="section-inner text-center">
     <div class="eyebrow anim"><div class="eyebrow-icon"></div><span class="eyebrow-text">Problem</span></div>
-    <h2 class="h-large anim anim-d1" style="line-height:1.45">TASKULは、タスク管理の<br><span style="display:inline;gap:3px;justify-content:center">こんな悩みを<span style="border:5px solid #15cf78;color:#15152b;padding:0 6px;border-radius:4px">解決</span>します。</span></h2>
+    <h2 class="h-large anim anim-d1" style="line-height:1.45">TASKULは、タスク管理の<br><span style="display:inline;gap:3px;justify-content:center">こんな悩みを<span style="border:.12em solid #15cf78;color:#15152b;padding:0 .15em;border-radius:4px">解決</span>します。</span></h2>
     <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:56px;max-width:960px;margin-left:auto;margin-right:auto">
       <div class="anim" style="background:#ebeef5;border-radius:16px;padding:32px 24px;text-align:center">
         <div style="width:76px;height:76px;border-radius:50%;margin:0 auto 16px;overflow:hidden"><img src="https://taskul-ai.com/wp-content/themes/taskul/assets/images/avatar-pain1.png" alt="フリーランスのタスク管理に悩むクリエイター" width="76" height="76" style="display:block;width:100%;height:100%;object-fit:cover"></div>
@@ -417,7 +405,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
     <div class="split">
       <div class="split-text anim" style="position:relative">
         <div class="eyebrow"><div class="eyebrow-icon"></div><span class="eyebrow-text">AI Structuring</span></div>
-        <h2 class="h-large" style="font-size:46px;max-width:none"><span style="font-size:28px;display:block">あなたは、スクショを<br>貼り付けるだけ。</span><span style="white-space:nowrap">あとは、AIがタスク化。</span></h2>
+        <h2 class="h-large" style="font-size:46px;max-width:none"><span style="font-size:.62em;display:block">あなたは、スクショを<br>貼り付けるだけ。</span><span style="white-space:nowrap">あとは、AIがタスク化。</span></h2>
         <p class="h-desc">クライアントからの<strong style="color:#15152b">長文チャットや議事録を<br>そのまま貼り付けるだけ</strong>。<br>あなた専用のAIが、内容を整理して<br>タスク化・要件整理まで代わりにやってくれる。</p>
         <img class="kuroco-deco" src="https://taskul-ai.com/wp-content/themes/taskul/assets/images/kuroco-icon.svg" alt="" style="position:absolute;width:150px;height:150px;right:-80px;bottom:-20px" loading="lazy">
       </div>
@@ -956,6 +944,19 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 </section>
 
 <!-- ===== FOOTER ===== -->
+      <!-- FVデモ用トライアル誘導ポップアップ（AI生成完了 or 90秒操作でデモ内から通知） -->
+      <div id="fvCta" style="position:fixed;inset:0;z-index:9999;display:none;align-items:center;justify-content:center">
+        <div data-fvcta-close style="position:absolute;inset:0;background:rgba(21,25,40,.45);backdrop-filter:blur(2px);cursor:pointer"></div>
+        <div style="position:relative;width:min(400px,88%);background:#fff;border-radius:20px;padding:32px 32px 24px;text-align:center;box-shadow:0 24px 60px -12px rgba(10,15,35,.4)">
+          <button type="button" data-fvcta-close aria-label="閉じる" style="position:absolute;top:12px;right:14px;width:32px;height:32px;border:0;background:none;border-radius:50%;font-size:20px;line-height:1;color:#98a0ae;cursor:pointer">×</button>
+          <span style="display:inline-flex;width:64px;height:64px;border-radius:50%;background:#15cf78;align-items:center;justify-content:center;margin-bottom:14px;box-shadow:0 8px 24px rgba(21,207,120,.4)"><svg viewBox="0 0 120 120" fill="none" style="width:38px;height:38px"><path d="M51.9473 15.7312C68.4603 15.8529 80.924 22.6863 88.6748 32.8542C89.9655 30.4779 91.7298 28.058 94.1279 26.1062C101.508 20.0996 112.085 20.7937 112.085 20.7937C112.075 20.8664 110.805 30.238 104.369 36.3054C112.575 35.6101 119.955 39.8049 120 39.8308C119.969 39.877 114.102 48.5938 104.833 50.7526C102.092 51.3914 99.3595 51.381 96.8691 51.0544C97.5464 54.3202 97.8936 57.6888 97.8936 61.1042C97.8935 84.7919 80.452 101.784 51.9473 101.962C23.4424 101.789 6.00003 84.797 6 61.1042C6 37.4114 22.565 15.9476 51.9473 15.7312ZM51.9473 44.3981C35.5759 44.4178 20.1013 48.7176 18.4111 61.1052C17.2764 69.4439 22.9967 82.6576 45.0674 77.5661C49.5728 76.5281 54.2817 76.5328 58.7822 77.6003C80.9372 82.8641 86.6181 69.4489 85.4834 61.1003V61.1052C83.7982 48.7177 68.3186 44.4228 51.9473 44.3981ZM32.7461 56.8698C34.213 56.2501 35.9079 56.2161 37.3848 56.8259C39.9818 57.8984 41.083 60.3434 41.083 63.5017V63.6101C41.0829 66.7879 39.8882 69.14 37.2861 70.2419C35.8191 70.8617 34.1234 70.8958 32.6465 70.2858C30.0496 69.2134 28.9493 66.7681 28.9492 63.6101V63.5017C28.9493 60.3238 30.1441 57.9718 32.7461 56.8698ZM66.502 56.8259C67.979 56.2159 69.6745 56.25 71.1416 56.8698C73.7436 57.9718 74.9384 60.3238 74.9385 63.5017V63.6101C74.9384 66.7682 73.8373 69.2134 71.2402 70.2858C69.7634 70.8956 68.0684 70.8615 66.6016 70.2419C63.9995 69.14 62.8048 66.7879 62.8047 63.6101V63.5017C62.8047 60.3435 63.9051 57.8984 66.502 56.8259Z" fill="#FFFFFF"/></svg></span>
+          <h3 style="font-size:19px;font-weight:800;color:#2c3445;margin:0 0 8px">つづきは、ホンモノのTASKULで！</h3>
+          <span style="display:inline-block;font-size:12.5px;font-weight:800;color:#0e9f63;background:#e8f9f0;border-radius:999px;padding:6px 14px;margin-bottom:14px">14日間無料トライアル中🎉</span>
+          <a href="https://app.taskul-ai.com/login?from=lp" onclick="if(typeof trackCTA==='function')trackCTA('fv_demo')" style="display:block;width:100%;padding:13px;background:#15cf78;color:#fff;border-radius:10px;font-size:14.5px;font-weight:800;text-decoration:none;box-shadow:0 4px 16px rgba(21,207,120,.3)">今すぐ体験してみる</a>
+          <button type="button" data-fvcta-close style="margin-top:10px;border:0;background:none;font-size:12px;font-weight:500;color:#98a0ae;cursor:pointer">デモに戻る</button>
+        </div>
+      </div>
+<style>.voices-track{position:relative;z-index:2}.story-preview{z-index:0}</style>
 <footer class="footer">
   <p style="margin-bottom:8px"><a href="/terms.html">利用規約</a><a href="/privacy.html">プライバシーポリシー</a><a href="https://taskul-ai.com/company/">会社概要</a><a href="https://taskul-ai.com/tokushoho/">特定商取引法に基づく表記</a></p>
   <p>&copy; 2026 TASKUL. All rights reserved.</p>
