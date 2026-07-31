@@ -10,4 +10,4 @@
 :HL["/column/images/articles/html-2mb-seo-limit/thumbnail.png","image"]
 :HL["/column/images/articles/notion-task-management-alternative/thumbnail.png","image"]
 :HL["/column/images/articles/excel-project-management-limit/thumbnail.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"category","param":null,"prefetchHints":0,"slots":{"children":{"name":"workstyle","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"hwaY1Bw77m-Re3O4THo4h"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"category","param":null,"prefetchHints":0,"slots":{"children":{"name":"workstyle","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"S_bfxKH7g8IPFl3sV0YKv"}
