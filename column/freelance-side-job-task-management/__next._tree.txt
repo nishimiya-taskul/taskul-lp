@@ -9,4 +9,4 @@
 :HL["/column/images/sidebar-banner.png","image"]
 :HL["/column/images/articles/task-management-tools-recommended/thumbnail.png","image"]
 :HL["/column/images/articles/html-2mb-seo-limit/thumbnail.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"slug","param":{"type":"d","key":"freelance-side-job-task-management","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"NVKXZ7vdmrV8XYK6O8M3X"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"slug","param":{"type":"d","key":"freelance-side-job-task-management","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"pI3RBY7aSp6eSYRVmoDKv"}
