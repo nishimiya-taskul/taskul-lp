@@ -12,4 +12,4 @@
 :HL["/column/images/articles/html-2mb-seo-limit/thumbnail.png","image"]
 :HL["/column/images/articles/creator-task-management/thumbnail.png","image"]
 :HL["/column/images/articles/multiple-projects-management/thumbnail.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"category","param":null,"prefetchHints":0,"slots":{"children":{"name":"tool-comparison","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"Nnkd5ahK9X8YR2UbjHWgt"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"category","param":null,"prefetchHints":0,"slots":{"children":{"name":"tool-comparison","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"wTuoQWA6ljIZVg7ckV_Zs"}
