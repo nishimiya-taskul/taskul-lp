@@ -22,4 +22,4 @@
 :HL["/column/images/articles/task-management-apps-free/thumbnail.png","image"]
 :HL["/column/images/articles/ai-task-management-tools/thumbnail.png","image"]
 :HL["/column/images/articles/task-management-tools-recommended/thumbnail.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"category","param":null,"prefetchHints":0,"slots":{"children":{"name":"project-management","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"dm027lOkYjd5MqwTA9USK"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"category","param":null,"prefetchHints":0,"slots":{"children":{"name":"project-management","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"3glv7zbMPqiDm6HHRMM7V"}
